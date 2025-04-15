@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Core
+  commentId: N:cfEngine.Core
+  id: cfEngine.Core
+  children:
+  - cfEngine.Core.Game
+  - cfEngine.Core.GameExtension
+  - cfEngine.Core.IRuntimeSavable
+  - cfEngine.Core.ServiceName
+  - cfEngine.Core.UserDataKey
+  - cfEngine.Core.UserDataManager
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.Core
+  nameWithType: cfEngine.Core
+  fullName: cfEngine.Core
+  type: Namespace
+references:
+- uid: cfEngine.Core.ServiceName
+  commentId: T:cfEngine.Core.ServiceName
+  href: cfEngine.Core.ServiceName.html
+  name: ServiceName
+  nameWithType: ServiceName
+  fullName: cfEngine.Core.ServiceName
+- uid: cfEngine.Core.GameExtension
+  commentId: T:cfEngine.Core.GameExtension
+  parent: cfEngine.Core
+  href: cfEngine.Core.GameExtension.html
+  name: GameExtension
+  nameWithType: GameExtension
+  fullName: cfEngine.Core.GameExtension
+- uid: cfEngine.Core.UserDataKey
+  commentId: T:cfEngine.Core.UserDataKey
+  href: cfEngine.Core.UserDataKey.html
+  name: UserDataKey
+  nameWithType: UserDataKey
+  fullName: cfEngine.Core.UserDataKey
+- uid: cfEngine.Core.IRuntimeSavable
+  commentId: T:cfEngine.Core.IRuntimeSavable
+  parent: cfEngine.Core
+  href: cfEngine.Core.IRuntimeSavable.html
+  name: IRuntimeSavable
+  nameWithType: IRuntimeSavable
+  fullName: cfEngine.Core.IRuntimeSavable
+- uid: cfEngine.Core.UserDataManager
+  commentId: T:cfEngine.Core.UserDataManager
+  parent: cfEngine.Core
+  href: cfEngine.Core.UserDataManager.html
+  name: UserDataManager
+  nameWithType: UserDataManager
+  fullName: cfEngine.Core.UserDataManager
+- uid: cfEngine.Core.Game
+  commentId: T:cfEngine.Core.Game
+  parent: cfEngine.Core
+  href: cfEngine.Core.Game.html
+  name: Game
+  nameWithType: Game
+  fullName: cfEngine.Core.Game
+- uid: cfEngine.Core
+  commentId: N:cfEngine.Core
+  href: cfEngine.html
+  name: cfEngine.Core
+  nameWithType: cfEngine.Core
+  fullName: cfEngine.Core
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Core
+    name: Core
+    href: cfEngine.Core.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Core
+    name: Core
+    href: cfEngine.Core.html

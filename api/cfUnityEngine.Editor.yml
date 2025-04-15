@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.Editor
+  commentId: N:cfUnityEngine.Editor
+  id: cfUnityEngine.Editor
+  children:
+  - cfUnityEngine.Editor.AssetPathAttribute
+  - cfUnityEngine.Editor.MethodButtonAttribute
+  - cfUnityEngine.Editor.ReadOnlyAttribute
+  langs:
+  - csharp
+  - vb
+  name: cfUnityEngine.Editor
+  nameWithType: cfUnityEngine.Editor
+  fullName: cfUnityEngine.Editor
+  type: Namespace
+references:
+- uid: cfUnityEngine.Editor.AssetPathAttribute
+  commentId: T:cfUnityEngine.Editor.AssetPathAttribute
+  href: cfUnityEngine.Editor.AssetPathAttribute.html
+  name: AssetPathAttribute
+  nameWithType: AssetPathAttribute
+  fullName: cfUnityEngine.Editor.AssetPathAttribute
+- uid: cfUnityEngine.Editor.MethodButtonAttribute
+  commentId: T:cfUnityEngine.Editor.MethodButtonAttribute
+  parent: cfUnityEngine.Editor
+  href: cfUnityEngine.Editor.MethodButtonAttribute.html
+  name: MethodButtonAttribute
+  nameWithType: MethodButtonAttribute
+  fullName: cfUnityEngine.Editor.MethodButtonAttribute
+- uid: cfUnityEngine.Editor.ReadOnlyAttribute
+  commentId: T:cfUnityEngine.Editor.ReadOnlyAttribute
+  href: cfUnityEngine.Editor.ReadOnlyAttribute.html
+  name: ReadOnlyAttribute
+  nameWithType: ReadOnlyAttribute
+  fullName: cfUnityEngine.Editor.ReadOnlyAttribute
+- uid: cfUnityEngine.Editor
+  commentId: N:cfUnityEngine.Editor
+  href: cfUnityEngine.html
+  name: cfUnityEngine.Editor
+  nameWithType: cfUnityEngine.Editor
+  fullName: cfUnityEngine.Editor
+  spec.csharp:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.Editor
+    name: Editor
+    href: cfUnityEngine.Editor.html
+  spec.vb:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.Editor
+    name: Editor
+    href: cfUnityEngine.Editor.html

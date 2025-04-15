@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.GoogleDrive
+  commentId: N:cfUnityEngine.GoogleDrive
+  id: cfUnityEngine.GoogleDrive
+  children:
+  - cfUnityEngine.GoogleDrive.GDriveMirror
+  langs:
+  - csharp
+  - vb
+  name: cfUnityEngine.GoogleDrive
+  nameWithType: cfUnityEngine.GoogleDrive
+  fullName: cfUnityEngine.GoogleDrive
+  type: Namespace
+references:
+- uid: cfUnityEngine.GoogleDrive.GDriveMirror
+  commentId: T:cfUnityEngine.GoogleDrive.GDriveMirror
+  parent: cfUnityEngine.GoogleDrive
+  href: cfUnityEngine.GoogleDrive.GDriveMirror.html
+  name: GDriveMirror
+  nameWithType: GDriveMirror
+  fullName: cfUnityEngine.GoogleDrive.GDriveMirror
+- uid: cfUnityEngine.GoogleDrive
+  commentId: N:cfUnityEngine.GoogleDrive
+  href: cfUnityEngine.html
+  name: cfUnityEngine.GoogleDrive
+  nameWithType: cfUnityEngine.GoogleDrive
+  fullName: cfUnityEngine.GoogleDrive
+  spec.csharp:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.GoogleDrive
+    name: GoogleDrive
+    href: cfUnityEngine.GoogleDrive.html
+  spec.vb:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.GoogleDrive
+    name: GoogleDrive
+    href: cfUnityEngine.GoogleDrive.html

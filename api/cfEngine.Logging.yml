@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Logging
+  commentId: N:cfEngine.Logging
+  id: cfEngine.Logging
+  children:
+  - cfEngine.Logging.ILogger
+  - cfEngine.Logging.Log
+  - cfEngine.Logging.LogLevel
+  - cfEngine.Logging.LogType
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.Logging
+  nameWithType: cfEngine.Logging
+  fullName: cfEngine.Logging
+  type: Namespace
+references:
+- uid: cfEngine.Logging.LogType
+  commentId: T:cfEngine.Logging.LogType
+  parent: cfEngine.Logging
+  href: cfEngine.Logging.LogType.html
+  name: LogType
+  nameWithType: LogType
+  fullName: cfEngine.Logging.LogType
+- uid: cfEngine.Logging.LogLevel
+  commentId: T:cfEngine.Logging.LogLevel
+  parent: cfEngine.Logging
+  href: cfEngine.Logging.LogLevel.html
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: cfEngine.Logging.LogLevel
+- uid: cfEngine.Logging.ILogger
+  commentId: T:cfEngine.Logging.ILogger
+  parent: cfEngine.Logging
+  href: cfEngine.Logging.ILogger.html
+  name: ILogger
+  nameWithType: ILogger
+  fullName: cfEngine.Logging.ILogger
+- uid: cfEngine.Logging.Log
+  commentId: T:cfEngine.Logging.Log
+  href: cfEngine.Logging.Log.html
+  name: Log
+  nameWithType: Log
+  fullName: cfEngine.Logging.Log
+- uid: cfEngine.Logging
+  commentId: N:cfEngine.Logging
+  href: cfEngine.html
+  name: cfEngine.Logging
+  nameWithType: cfEngine.Logging
+  fullName: cfEngine.Logging
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Logging
+    name: Logging
+    href: cfEngine.Logging.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Logging
+    name: Logging
+    href: cfEngine.Logging.html

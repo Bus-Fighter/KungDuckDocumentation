@@ -1,0 +1,837 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Rx
+  commentId: N:cfEngine.Rx
+  id: cfEngine.Rx
+  children:
+  - cfEngine.Rx.CollectionEventExtension
+  - cfEngine.Rx.CollectionEvents`1
+  - cfEngine.Rx.ICollectionEvents`1
+  - cfEngine.Rx.IRelay`1
+  - cfEngine.Rx.Linq
+  - cfEngine.Rx.Relay
+  - cfEngine.Rx.RelayBase`1
+  - cfEngine.Rx.Relay`1
+  - cfEngine.Rx.Relay`2
+  - cfEngine.Rx.RtCollection`1
+  - cfEngine.Rx.RtCount`1
+  - cfEngine.Rx.RtDictionary`2
+  - cfEngine.Rx.RtFilteredDictionary`2
+  - cfEngine.Rx.RtGroup`2
+  - cfEngine.Rx.RtList`1
+  - cfEngine.Rx.RtMutatedDictionaryBase`4
+  - cfEngine.Rx.RtMutatedListBase`2
+  - cfEngine.Rx.RtMutatedLocalListBase`2
+  - cfEngine.Rx.RtMutatedSingleBase`2
+  - cfEngine.Rx.RtObserverList`1
+  - cfEngine.Rx.RtReadOnlyDictionary`2
+  - cfEngine.Rx.RtReadOnlyList`1
+  - cfEngine.Rx.RtSelectKeyDictionary`3
+  - cfEngine.Rx.RtSelectList`2
+  - cfEngine.Rx.RtSelectLocalList`2
+  - cfEngine.Rx.RtSelectValueDictionary`3
+  - cfEngine.Rx.Rt`1
+  - cfEngine.Rx.Subscription
+  - cfEngine.Rx.SubscriptionBinding`1
+  - cfEngine.Rx.SubscriptionGroup
+  - cfEngine.Rx.SubscriptionHandleExtension
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.Rx
+  nameWithType: cfEngine.Rx
+  fullName: cfEngine.Rx
+  type: Namespace
+references:
+- uid: cfEngine.Rx.CollectionEventExtension
+  commentId: T:cfEngine.Rx.CollectionEventExtension
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.CollectionEventExtension.html
+  name: CollectionEventExtension
+  nameWithType: CollectionEventExtension
+  fullName: cfEngine.Rx.CollectionEventExtension
+- uid: cfEngine.Rx.ICollectionEvents`1
+  commentId: T:cfEngine.Rx.ICollectionEvents`1
+  href: cfEngine.Rx.ICollectionEvents-1.html
+  name: ICollectionEvents<T>
+  nameWithType: ICollectionEvents<T>
+  fullName: cfEngine.Rx.ICollectionEvents<T>
+  nameWithType.vb: ICollectionEvents(Of T)
+  fullName.vb: cfEngine.Rx.ICollectionEvents(Of T)
+  name.vb: ICollectionEvents(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.CollectionEvents`1
+  commentId: T:cfEngine.Rx.CollectionEvents`1
+  href: cfEngine.Rx.CollectionEvents-1.html
+  name: CollectionEvents<T>
+  nameWithType: CollectionEvents<T>
+  fullName: cfEngine.Rx.CollectionEvents<T>
+  nameWithType.vb: CollectionEvents(Of T)
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T)
+  name.vb: CollectionEvents(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.CollectionEvents`1
+    name: CollectionEvents
+    href: cfEngine.Rx.CollectionEvents-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.CollectionEvents`1
+    name: CollectionEvents
+    href: cfEngine.Rx.CollectionEvents-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.Linq
+  commentId: T:cfEngine.Rx.Linq
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.Linq.html
+  name: Linq
+  nameWithType: Linq
+  fullName: cfEngine.Rx.Linq
+- uid: cfEngine.Rx.Rt`1
+  commentId: T:cfEngine.Rx.Rt`1
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.Rt-1.html
+  name: Rt<T>
+  nameWithType: Rt<T>
+  fullName: cfEngine.Rx.Rt<T>
+  nameWithType.vb: Rt(Of T)
+  fullName.vb: cfEngine.Rx.Rt(Of T)
+  name.vb: Rt(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.Rt`1
+    name: Rt
+    href: cfEngine.Rx.Rt-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.Rt`1
+    name: Rt
+    href: cfEngine.Rx.Rt-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.RtCollection`1
+  commentId: T:cfEngine.Rx.RtCollection`1
+  href: cfEngine.Rx.RtCollection-1.html
+  name: RtCollection<TEventArgs>
+  nameWithType: RtCollection<TEventArgs>
+  fullName: cfEngine.Rx.RtCollection<TEventArgs>
+  nameWithType.vb: RtCollection(Of TEventArgs)
+  fullName.vb: cfEngine.Rx.RtCollection(Of TEventArgs)
+  name.vb: RtCollection(Of TEventArgs)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtCollection`1
+    name: RtCollection
+    href: cfEngine.Rx.RtCollection-1.html
+  - name: <
+  - name: TEventArgs
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtCollection`1
+    name: RtCollection
+    href: cfEngine.Rx.RtCollection-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventArgs
+  - name: )
+- uid: cfEngine.Rx.RtCount`1
+  commentId: T:cfEngine.Rx.RtCount`1
+  href: cfEngine.Rx.RtCount-1.html
+  name: RtCount<T>
+  nameWithType: RtCount<T>
+  fullName: cfEngine.Rx.RtCount<T>
+  nameWithType.vb: RtCount(Of T)
+  fullName.vb: cfEngine.Rx.RtCount(Of T)
+  name.vb: RtCount(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtCount`1
+    name: RtCount
+    href: cfEngine.Rx.RtCount-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtCount`1
+    name: RtCount
+    href: cfEngine.Rx.RtCount-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.RtDictionary`2
+  commentId: T:cfEngine.Rx.RtDictionary`2
+  href: cfEngine.Rx.RtDictionary-2.html
+  name: RtDictionary<TKey, TValue>
+  nameWithType: RtDictionary<TKey, TValue>
+  fullName: cfEngine.Rx.RtDictionary<TKey, TValue>
+  nameWithType.vb: RtDictionary(Of TKey, TValue)
+  fullName.vb: cfEngine.Rx.RtDictionary(Of TKey, TValue)
+  name.vb: RtDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtDictionary`2
+    name: RtDictionary
+    href: cfEngine.Rx.RtDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtDictionary`2
+    name: RtDictionary
+    href: cfEngine.Rx.RtDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: cfEngine.Rx.RtFilteredDictionary`2
+  commentId: T:cfEngine.Rx.RtFilteredDictionary`2
+  href: cfEngine.Rx.RtFilteredDictionary-2.html
+  name: RtFilteredDictionary<TKey, TValue>
+  nameWithType: RtFilteredDictionary<TKey, TValue>
+  fullName: cfEngine.Rx.RtFilteredDictionary<TKey, TValue>
+  nameWithType.vb: RtFilteredDictionary(Of TKey, TValue)
+  fullName.vb: cfEngine.Rx.RtFilteredDictionary(Of TKey, TValue)
+  name.vb: RtFilteredDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtFilteredDictionary`2
+    name: RtFilteredDictionary
+    href: cfEngine.Rx.RtFilteredDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtFilteredDictionary`2
+    name: RtFilteredDictionary
+    href: cfEngine.Rx.RtFilteredDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: cfEngine.Rx.RtMutatedDictionaryBase`4
+  commentId: T:cfEngine.Rx.RtMutatedDictionaryBase`4
+  href: cfEngine.Rx.RtMutatedDictionaryBase-4.html
+  name: RtMutatedDictionaryBase<TSourceKey, TSourceValue, TKey, TValue>
+  nameWithType: RtMutatedDictionaryBase<TSourceKey, TSourceValue, TKey, TValue>
+  fullName: cfEngine.Rx.RtMutatedDictionaryBase<TSourceKey, TSourceValue, TKey, TValue>
+  nameWithType.vb: RtMutatedDictionaryBase(Of TSourceKey, TSourceValue, TKey, TValue)
+  fullName.vb: cfEngine.Rx.RtMutatedDictionaryBase(Of TSourceKey, TSourceValue, TKey, TValue)
+  name.vb: RtMutatedDictionaryBase(Of TSourceKey, TSourceValue, TKey, TValue)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtMutatedDictionaryBase`4
+    name: RtMutatedDictionaryBase
+    href: cfEngine.Rx.RtMutatedDictionaryBase-4.html
+  - name: <
+  - name: TSourceKey
+  - name: ','
+  - name: " "
+  - name: TSourceValue
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtMutatedDictionaryBase`4
+    name: RtMutatedDictionaryBase
+    href: cfEngine.Rx.RtMutatedDictionaryBase-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSourceKey
+  - name: ','
+  - name: " "
+  - name: TSourceValue
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyDictionary`2
+  commentId: T:cfEngine.Rx.RtReadOnlyDictionary`2
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  name: RtReadOnlyDictionary<TKey, TValue>
+  nameWithType: RtReadOnlyDictionary<TKey, TValue>
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, TValue)
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue)
+  name.vb: RtReadOnlyDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: cfEngine.Rx.RtSelectKeyDictionary`3
+  commentId: T:cfEngine.Rx.RtSelectKeyDictionary`3
+  href: cfEngine.Rx.RtSelectKeyDictionary-3.html
+  name: RtSelectKeyDictionary<TOrigKey, TSelectKey, TValue>
+  nameWithType: RtSelectKeyDictionary<TOrigKey, TSelectKey, TValue>
+  fullName: cfEngine.Rx.RtSelectKeyDictionary<TOrigKey, TSelectKey, TValue>
+  nameWithType.vb: RtSelectKeyDictionary(Of TOrigKey, TSelectKey, TValue)
+  fullName.vb: cfEngine.Rx.RtSelectKeyDictionary(Of TOrigKey, TSelectKey, TValue)
+  name.vb: RtSelectKeyDictionary(Of TOrigKey, TSelectKey, TValue)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtSelectKeyDictionary`3
+    name: RtSelectKeyDictionary
+    href: cfEngine.Rx.RtSelectKeyDictionary-3.html
+  - name: <
+  - name: TOrigKey
+  - name: ','
+  - name: " "
+  - name: TSelectKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtSelectKeyDictionary`3
+    name: RtSelectKeyDictionary
+    href: cfEngine.Rx.RtSelectKeyDictionary-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOrigKey
+  - name: ','
+  - name: " "
+  - name: TSelectKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: cfEngine.Rx.RtSelectValueDictionary`3
+  commentId: T:cfEngine.Rx.RtSelectValueDictionary`3
+  href: cfEngine.Rx.RtSelectValueDictionary-3.html
+  name: RtSelectValueDictionary<TKey, TOrigValue, TValue>
+  nameWithType: RtSelectValueDictionary<TKey, TOrigValue, TValue>
+  fullName: cfEngine.Rx.RtSelectValueDictionary<TKey, TOrigValue, TValue>
+  nameWithType.vb: RtSelectValueDictionary(Of TKey, TOrigValue, TValue)
+  fullName.vb: cfEngine.Rx.RtSelectValueDictionary(Of TKey, TOrigValue, TValue)
+  name.vb: RtSelectValueDictionary(Of TKey, TOrigValue, TValue)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtSelectValueDictionary`3
+    name: RtSelectValueDictionary
+    href: cfEngine.Rx.RtSelectValueDictionary-3.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TOrigValue
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtSelectValueDictionary`3
+    name: RtSelectValueDictionary
+    href: cfEngine.Rx.RtSelectValueDictionary-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TOrigValue
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: cfEngine.Rx.RtGroup`2
+  commentId: T:cfEngine.Rx.RtGroup`2
+  href: cfEngine.Rx.RtGroup-2.html
+  name: RtGroup<TKey, TValue>
+  nameWithType: RtGroup<TKey, TValue>
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>
+  nameWithType.vb: RtGroup(Of TKey, TValue)
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue)
+  name.vb: RtGroup(Of TKey, TValue)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtGroup`2
+    name: RtGroup
+    href: cfEngine.Rx.RtGroup-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtGroup`2
+    name: RtGroup
+    href: cfEngine.Rx.RtGroup-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: cfEngine.Rx.RtList`1
+  commentId: T:cfEngine.Rx.RtList`1
+  href: cfEngine.Rx.RtList-1.html
+  name: RtList<T>
+  nameWithType: RtList<T>
+  fullName: cfEngine.Rx.RtList<T>
+  nameWithType.vb: RtList(Of T)
+  fullName.vb: cfEngine.Rx.RtList(Of T)
+  name.vb: RtList(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1
+    name: RtList
+    href: cfEngine.Rx.RtList-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1
+    name: RtList
+    href: cfEngine.Rx.RtList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.RtMutatedLocalListBase`2
+  commentId: T:cfEngine.Rx.RtMutatedLocalListBase`2
+  href: cfEngine.Rx.RtMutatedLocalListBase-2.html
+  name: RtMutatedLocalListBase<TOrig, TNew>
+  nameWithType: RtMutatedLocalListBase<TOrig, TNew>
+  fullName: cfEngine.Rx.RtMutatedLocalListBase<TOrig, TNew>
+  nameWithType.vb: RtMutatedLocalListBase(Of TOrig, TNew)
+  fullName.vb: cfEngine.Rx.RtMutatedLocalListBase(Of TOrig, TNew)
+  name.vb: RtMutatedLocalListBase(Of TOrig, TNew)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtMutatedLocalListBase`2
+    name: RtMutatedLocalListBase
+    href: cfEngine.Rx.RtMutatedLocalListBase-2.html
+  - name: <
+  - name: TOrig
+  - name: ','
+  - name: " "
+  - name: TNew
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtMutatedLocalListBase`2
+    name: RtMutatedLocalListBase
+    href: cfEngine.Rx.RtMutatedLocalListBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOrig
+  - name: ','
+  - name: " "
+  - name: TNew
+  - name: )
+- uid: cfEngine.Rx.RtMutatedListBase`2
+  commentId: T:cfEngine.Rx.RtMutatedListBase`2
+  href: cfEngine.Rx.RtMutatedListBase-2.html
+  name: RtMutatedListBase<TOrig, TNew>
+  nameWithType: RtMutatedListBase<TOrig, TNew>
+  fullName: cfEngine.Rx.RtMutatedListBase<TOrig, TNew>
+  nameWithType.vb: RtMutatedListBase(Of TOrig, TNew)
+  fullName.vb: cfEngine.Rx.RtMutatedListBase(Of TOrig, TNew)
+  name.vb: RtMutatedListBase(Of TOrig, TNew)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtMutatedListBase`2
+    name: RtMutatedListBase
+    href: cfEngine.Rx.RtMutatedListBase-2.html
+  - name: <
+  - name: TOrig
+  - name: ','
+  - name: " "
+  - name: TNew
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtMutatedListBase`2
+    name: RtMutatedListBase
+    href: cfEngine.Rx.RtMutatedListBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOrig
+  - name: ','
+  - name: " "
+  - name: TNew
+  - name: )
+- uid: cfEngine.Rx.RtMutatedSingleBase`2
+  commentId: T:cfEngine.Rx.RtMutatedSingleBase`2
+  href: cfEngine.Rx.RtMutatedSingleBase-2.html
+  name: RtMutatedSingleBase<TOrig, TNew>
+  nameWithType: RtMutatedSingleBase<TOrig, TNew>
+  fullName: cfEngine.Rx.RtMutatedSingleBase<TOrig, TNew>
+  nameWithType.vb: RtMutatedSingleBase(Of TOrig, TNew)
+  fullName.vb: cfEngine.Rx.RtMutatedSingleBase(Of TOrig, TNew)
+  name.vb: RtMutatedSingleBase(Of TOrig, TNew)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtMutatedSingleBase`2
+    name: RtMutatedSingleBase
+    href: cfEngine.Rx.RtMutatedSingleBase-2.html
+  - name: <
+  - name: TOrig
+  - name: ','
+  - name: " "
+  - name: TNew
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtMutatedSingleBase`2
+    name: RtMutatedSingleBase
+    href: cfEngine.Rx.RtMutatedSingleBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOrig
+  - name: ','
+  - name: " "
+  - name: TNew
+  - name: )
+- uid: cfEngine.Rx.RtObserverList`1
+  commentId: T:cfEngine.Rx.RtObserverList`1
+  href: cfEngine.Rx.RtObserverList-1.html
+  name: RtObserverList<T>
+  nameWithType: RtObserverList<T>
+  fullName: cfEngine.Rx.RtObserverList<T>
+  nameWithType.vb: RtObserverList(Of T)
+  fullName.vb: cfEngine.Rx.RtObserverList(Of T)
+  name.vb: RtObserverList(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtObserverList`1
+    name: RtObserverList
+    href: cfEngine.Rx.RtObserverList-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtObserverList`1
+    name: RtObserverList
+    href: cfEngine.Rx.RtObserverList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyList`1
+  commentId: T:cfEngine.Rx.RtReadOnlyList`1
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.RtReadOnlyList-1.html
+  name: RtReadOnlyList<T>
+  nameWithType: RtReadOnlyList<T>
+  fullName: cfEngine.Rx.RtReadOnlyList<T>
+  nameWithType.vb: RtReadOnlyList(Of T)
+  fullName.vb: cfEngine.Rx.RtReadOnlyList(Of T)
+  name.vb: RtReadOnlyList(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.RtSelectList`2
+  commentId: T:cfEngine.Rx.RtSelectList`2
+  href: cfEngine.Rx.RtSelectList-2.html
+  name: RtSelectList<TOrig, TNew>
+  nameWithType: RtSelectList<TOrig, TNew>
+  fullName: cfEngine.Rx.RtSelectList<TOrig, TNew>
+  nameWithType.vb: RtSelectList(Of TOrig, TNew)
+  fullName.vb: cfEngine.Rx.RtSelectList(Of TOrig, TNew)
+  name.vb: RtSelectList(Of TOrig, TNew)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtSelectList`2
+    name: RtSelectList
+    href: cfEngine.Rx.RtSelectList-2.html
+  - name: <
+  - name: TOrig
+  - name: ','
+  - name: " "
+  - name: TNew
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtSelectList`2
+    name: RtSelectList
+    href: cfEngine.Rx.RtSelectList-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOrig
+  - name: ','
+  - name: " "
+  - name: TNew
+  - name: )
+- uid: cfEngine.Rx.RtSelectLocalList`2
+  commentId: T:cfEngine.Rx.RtSelectLocalList`2
+  href: cfEngine.Rx.RtSelectLocalList-2.html
+  name: RtSelectLocalList<T, TSelect>
+  nameWithType: RtSelectLocalList<T, TSelect>
+  fullName: cfEngine.Rx.RtSelectLocalList<T, TSelect>
+  nameWithType.vb: RtSelectLocalList(Of T, TSelect)
+  fullName.vb: cfEngine.Rx.RtSelectLocalList(Of T, TSelect)
+  name.vb: RtSelectLocalList(Of T, TSelect)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtSelectLocalList`2
+    name: RtSelectLocalList
+    href: cfEngine.Rx.RtSelectLocalList-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtSelectLocalList`2
+    name: RtSelectLocalList
+    href: cfEngine.Rx.RtSelectLocalList-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: )
+- uid: cfEngine.Rx.Subscription
+  commentId: T:cfEngine.Rx.Subscription
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.Subscription.html
+  name: Subscription
+  nameWithType: Subscription
+  fullName: cfEngine.Rx.Subscription
+- uid: cfEngine.Rx.SubscriptionGroup
+  commentId: T:cfEngine.Rx.SubscriptionGroup
+  href: cfEngine.Rx.SubscriptionGroup.html
+  name: SubscriptionGroup
+  nameWithType: SubscriptionGroup
+  fullName: cfEngine.Rx.SubscriptionGroup
+- uid: cfEngine.Rx.SubscriptionBinding`1
+  commentId: T:cfEngine.Rx.SubscriptionBinding`1
+  href: cfEngine.Rx.SubscriptionBinding-1.html
+  name: SubscriptionBinding<TDelegate>
+  nameWithType: SubscriptionBinding<TDelegate>
+  fullName: cfEngine.Rx.SubscriptionBinding<TDelegate>
+  nameWithType.vb: SubscriptionBinding(Of TDelegate)
+  fullName.vb: cfEngine.Rx.SubscriptionBinding(Of TDelegate)
+  name.vb: SubscriptionBinding(Of TDelegate)
+  spec.csharp:
+  - uid: cfEngine.Rx.SubscriptionBinding`1
+    name: SubscriptionBinding
+    href: cfEngine.Rx.SubscriptionBinding-1.html
+  - name: <
+  - name: TDelegate
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.SubscriptionBinding`1
+    name: SubscriptionBinding
+    href: cfEngine.Rx.SubscriptionBinding-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
+  - name: )
+- uid: cfEngine.Rx.SubscriptionHandleExtension
+  commentId: T:cfEngine.Rx.SubscriptionHandleExtension
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.SubscriptionHandleExtension.html
+  name: SubscriptionHandleExtension
+  nameWithType: SubscriptionHandleExtension
+  fullName: cfEngine.Rx.SubscriptionHandleExtension
+- uid: cfEngine.Rx.IRelay`1
+  commentId: T:cfEngine.Rx.IRelay`1
+  href: cfEngine.Rx.IRelay-1.html
+  name: IRelay<TDelegate>
+  nameWithType: IRelay<TDelegate>
+  fullName: cfEngine.Rx.IRelay<TDelegate>
+  nameWithType.vb: IRelay(Of TDelegate)
+  fullName.vb: cfEngine.Rx.IRelay(Of TDelegate)
+  name.vb: IRelay(Of TDelegate)
+  spec.csharp:
+  - uid: cfEngine.Rx.IRelay`1
+    name: IRelay
+    href: cfEngine.Rx.IRelay-1.html
+  - name: <
+  - name: TDelegate
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.IRelay`1
+    name: IRelay
+    href: cfEngine.Rx.IRelay-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
+  - name: )
+- uid: cfEngine.Rx.RelayBase`1
+  commentId: T:cfEngine.Rx.RelayBase`1
+  href: cfEngine.Rx.RelayBase-1.html
+  name: RelayBase<TDelegate>
+  nameWithType: RelayBase<TDelegate>
+  fullName: cfEngine.Rx.RelayBase<TDelegate>
+  nameWithType.vb: RelayBase(Of TDelegate)
+  fullName.vb: cfEngine.Rx.RelayBase(Of TDelegate)
+  name.vb: RelayBase(Of TDelegate)
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase`1
+    name: RelayBase
+    href: cfEngine.Rx.RelayBase-1.html
+  - name: <
+  - name: TDelegate
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase`1
+    name: RelayBase
+    href: cfEngine.Rx.RelayBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
+  - name: )
+- uid: cfEngine.Rx.Relay
+  commentId: T:cfEngine.Rx.Relay
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.Relay.html
+  name: Relay
+  nameWithType: Relay
+  fullName: cfEngine.Rx.Relay
+- uid: cfEngine.Rx.Relay`1
+  commentId: T:cfEngine.Rx.Relay`1
+  href: cfEngine.Rx.Relay-1.html
+  name: Relay<T>
+  nameWithType: Relay<T>
+  fullName: cfEngine.Rx.Relay<T>
+  nameWithType.vb: Relay(Of T)
+  fullName.vb: cfEngine.Rx.Relay(Of T)
+  name.vb: Relay(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.Relay`1
+    name: Relay
+    href: cfEngine.Rx.Relay-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.Relay`1
+    name: Relay
+    href: cfEngine.Rx.Relay-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.Relay`2
+  commentId: T:cfEngine.Rx.Relay`2
+  href: cfEngine.Rx.Relay-2.html
+  name: Relay<T1, T2>
+  nameWithType: Relay<T1, T2>
+  fullName: cfEngine.Rx.Relay<T1, T2>
+  nameWithType.vb: Relay(Of T1, T2)
+  fullName.vb: cfEngine.Rx.Relay(Of T1, T2)
+  name.vb: Relay(Of T1, T2)
+  spec.csharp:
+  - uid: cfEngine.Rx.Relay`2
+    name: Relay
+    href: cfEngine.Rx.Relay-2.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.Relay`2
+    name: Relay
+    href: cfEngine.Rx.Relay-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: cfEngine.Rx
+  commentId: N:cfEngine.Rx
+  href: cfEngine.html
+  name: cfEngine.Rx
+  nameWithType: cfEngine.Rx
+  fullName: cfEngine.Rx
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html

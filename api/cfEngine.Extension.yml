@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Extension
+  commentId: N:cfEngine.Extension
+  id: cfEngine.Extension
+  children:
+  - cfEngine.Extension.EnumExtension
+  - cfEngine.Extension.ListExtension
+  - cfEngine.Extension.TaskExtension
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.Extension
+  nameWithType: cfEngine.Extension
+  fullName: cfEngine.Extension
+  type: Namespace
+references:
+- uid: cfEngine.Extension.EnumExtension
+  commentId: T:cfEngine.Extension.EnumExtension
+  parent: cfEngine.Extension
+  href: cfEngine.Extension.EnumExtension.html
+  name: EnumExtension
+  nameWithType: EnumExtension
+  fullName: cfEngine.Extension.EnumExtension
+- uid: cfEngine.Extension.ListExtension
+  commentId: T:cfEngine.Extension.ListExtension
+  parent: cfEngine.Extension
+  href: cfEngine.Extension.ListExtension.html
+  name: ListExtension
+  nameWithType: ListExtension
+  fullName: cfEngine.Extension.ListExtension
+- uid: cfEngine.Extension.TaskExtension
+  commentId: T:cfEngine.Extension.TaskExtension
+  href: cfEngine.Extension.TaskExtension.html
+  name: TaskExtension
+  nameWithType: TaskExtension
+  fullName: cfEngine.Extension.TaskExtension
+- uid: cfEngine.Extension
+  commentId: N:cfEngine.Extension
+  href: cfEngine.html
+  name: cfEngine.Extension
+  nameWithType: cfEngine.Extension
+  fullName: cfEngine.Extension
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Extension
+    name: Extension
+    href: cfEngine.Extension.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Extension
+    name: Extension
+    href: cfEngine.Extension.html

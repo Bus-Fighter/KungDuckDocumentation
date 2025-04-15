@@ -1,0 +1,430 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Service.Auth.AuthService.Builder
+  commentId: T:cfEngine.Service.Auth.AuthService.Builder
+  id: AuthService.Builder
+  parent: cfEngine.Service.Auth
+  children:
+  - cfEngine.Service.Auth.AuthService.Builder.Build
+  - cfEngine.Service.Auth.AuthService.Builder.RegisterPlatform(cfEngine.Service.Auth.PlatformAuth)
+  - cfEngine.Service.Auth.AuthService.Builder.SetService(cfEngine.Service.Auth.IAuthService)
+  langs:
+  - csharp
+  - vb
+  name: AuthService.Builder
+  nameWithType: AuthService.Builder
+  fullName: cfEngine.Service.Auth.AuthService.Builder
+  type: Class
+  source:
+    id: Builder
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.Builder.cs
+    startLine: 6
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: public class AuthService.Builder
+    content.vb: Public Class AuthService.Builder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: cfEngine.Service.Auth.AuthService.Builder.SetService(cfEngine.Service.Auth.IAuthService)
+  commentId: M:cfEngine.Service.Auth.AuthService.Builder.SetService(cfEngine.Service.Auth.IAuthService)
+  id: SetService(cfEngine.Service.Auth.IAuthService)
+  parent: cfEngine.Service.Auth.AuthService.Builder
+  langs:
+  - csharp
+  - vb
+  name: SetService(IAuthService)
+  nameWithType: AuthService.Builder.SetService(IAuthService)
+  fullName: cfEngine.Service.Auth.AuthService.Builder.SetService(cfEngine.Service.Auth.IAuthService)
+  type: Method
+  source:
+    id: SetService
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.Builder.cs
+    startLine: 10
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: public AuthService.Builder SetService(IAuthService authService)
+    parameters:
+    - id: authService
+      type: cfEngine.Service.Auth.IAuthService
+    return:
+      type: cfEngine.Service.Auth.AuthService.Builder
+    content.vb: Public Function SetService(authService As IAuthService) As AuthService.Builder
+  overload: cfEngine.Service.Auth.AuthService.Builder.SetService*
+- uid: cfEngine.Service.Auth.AuthService.Builder.RegisterPlatform(cfEngine.Service.Auth.PlatformAuth)
+  commentId: M:cfEngine.Service.Auth.AuthService.Builder.RegisterPlatform(cfEngine.Service.Auth.PlatformAuth)
+  id: RegisterPlatform(cfEngine.Service.Auth.PlatformAuth)
+  parent: cfEngine.Service.Auth.AuthService.Builder
+  langs:
+  - csharp
+  - vb
+  name: RegisterPlatform(PlatformAuth)
+  nameWithType: AuthService.Builder.RegisterPlatform(PlatformAuth)
+  fullName: cfEngine.Service.Auth.AuthService.Builder.RegisterPlatform(cfEngine.Service.Auth.PlatformAuth)
+  type: Method
+  source:
+    id: RegisterPlatform
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.Builder.cs
+    startLine: 16
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: public AuthService.Builder RegisterPlatform(PlatformAuth platform)
+    parameters:
+    - id: platform
+      type: cfEngine.Service.Auth.PlatformAuth
+    return:
+      type: cfEngine.Service.Auth.AuthService.Builder
+    content.vb: Public Function RegisterPlatform(platform As PlatformAuth) As AuthService.Builder
+  overload: cfEngine.Service.Auth.AuthService.Builder.RegisterPlatform*
+- uid: cfEngine.Service.Auth.AuthService.Builder.Build
+  commentId: M:cfEngine.Service.Auth.AuthService.Builder.Build
+  id: Build
+  parent: cfEngine.Service.Auth.AuthService.Builder
+  langs:
+  - csharp
+  - vb
+  name: Build()
+  nameWithType: AuthService.Builder.Build()
+  fullName: cfEngine.Service.Auth.AuthService.Builder.Build()
+  type: Method
+  source:
+    id: Build
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.Builder.cs
+    startLine: 23
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: public IAuthService Build()
+    return:
+      type: cfEngine.Service.Auth.IAuthService
+    content.vb: Public Function Build() As IAuthService
+  overload: cfEngine.Service.Auth.AuthService.Builder.Build*
+references:
+- uid: cfEngine.Service.Auth
+  commentId: N:cfEngine.Service.Auth
+  href: cfEngine.html
+  name: cfEngine.Service.Auth
+  nameWithType: cfEngine.Service.Auth
+  fullName: cfEngine.Service.Auth
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Auth
+    name: Auth
+    href: cfEngine.Service.Auth.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Auth
+    name: Auth
+    href: cfEngine.Service.Auth.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Service.Auth.AuthService.Builder.SetService*
+  commentId: Overload:cfEngine.Service.Auth.AuthService.Builder.SetService
+  href: cfEngine.Service.Auth.AuthService.Builder.html#cfEngine_Service_Auth_AuthService_Builder_SetService_cfEngine_Service_Auth_IAuthService_
+  name: SetService
+  nameWithType: AuthService.Builder.SetService
+  fullName: cfEngine.Service.Auth.AuthService.Builder.SetService
+- uid: cfEngine.Service.Auth.IAuthService
+  commentId: T:cfEngine.Service.Auth.IAuthService
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.IAuthService.html
+  name: IAuthService
+  nameWithType: IAuthService
+  fullName: cfEngine.Service.Auth.IAuthService
+- uid: cfEngine.Service.Auth.AuthService.Builder
+  commentId: T:cfEngine.Service.Auth.AuthService.Builder
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.AuthService.html
+  name: AuthService.Builder
+  nameWithType: AuthService.Builder
+  fullName: cfEngine.Service.Auth.AuthService.Builder
+  spec.csharp:
+  - uid: cfEngine.Service.Auth.AuthService
+    name: AuthService
+    href: cfEngine.Service.Auth.AuthService.html
+  - name: .
+  - uid: cfEngine.Service.Auth.AuthService.Builder
+    name: Builder
+    href: cfEngine.Service.Auth.AuthService.Builder.html
+  spec.vb:
+  - uid: cfEngine.Service.Auth.AuthService
+    name: AuthService
+    href: cfEngine.Service.Auth.AuthService.html
+  - name: .
+  - uid: cfEngine.Service.Auth.AuthService.Builder
+    name: Builder
+    href: cfEngine.Service.Auth.AuthService.Builder.html
+- uid: cfEngine.Service.Auth.AuthService.Builder.RegisterPlatform*
+  commentId: Overload:cfEngine.Service.Auth.AuthService.Builder.RegisterPlatform
+  href: cfEngine.Service.Auth.AuthService.Builder.html#cfEngine_Service_Auth_AuthService_Builder_RegisterPlatform_cfEngine_Service_Auth_PlatformAuth_
+  name: RegisterPlatform
+  nameWithType: AuthService.Builder.RegisterPlatform
+  fullName: cfEngine.Service.Auth.AuthService.Builder.RegisterPlatform
+- uid: cfEngine.Service.Auth.PlatformAuth
+  commentId: T:cfEngine.Service.Auth.PlatformAuth
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.PlatformAuth.html
+  name: PlatformAuth
+  nameWithType: PlatformAuth
+  fullName: cfEngine.Service.Auth.PlatformAuth
+- uid: cfEngine.Service.Auth.AuthService.Builder.Build*
+  commentId: Overload:cfEngine.Service.Auth.AuthService.Builder.Build
+  href: cfEngine.Service.Auth.AuthService.Builder.html#cfEngine_Service_Auth_AuthService_Builder_Build
+  name: Build
+  nameWithType: AuthService.Builder.Build
+  fullName: cfEngine.Service.Auth.AuthService.Builder.Build

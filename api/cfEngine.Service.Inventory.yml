@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Service.Inventory
+  commentId: N:cfEngine.Service.Inventory
+  id: cfEngine.Service.Inventory
+  children:
+  - cfEngine.Service.Inventory.IInventoryService
+  - cfEngine.Service.Inventory.InventoryService
+  - cfEngine.Service.Inventory.InventoryService.PageRecord
+  - cfEngine.Service.Inventory.InventoryService.StackRecord
+  - cfEngine.Service.Inventory.InventoryService.UpdateRequest
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.Service.Inventory
+  nameWithType: cfEngine.Service.Inventory
+  fullName: cfEngine.Service.Inventory
+  type: Namespace
+references:
+- uid: cfEngine.Service.Inventory.IInventoryService
+  commentId: T:cfEngine.Service.Inventory.IInventoryService
+  parent: cfEngine.Service.Inventory
+  href: cfEngine.Service.Inventory.IInventoryService.html
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: cfEngine.Service.Inventory.IInventoryService
+- uid: cfEngine.Service.Inventory.InventoryService
+  commentId: T:cfEngine.Service.Inventory.InventoryService
+  parent: cfEngine.Service.Inventory
+  href: cfEngine.Service.Inventory.InventoryService.html
+  name: InventoryService
+  nameWithType: InventoryService
+  fullName: cfEngine.Service.Inventory.InventoryService
+- uid: cfEngine.Service.Inventory.InventoryService.UpdateRequest
+  commentId: T:cfEngine.Service.Inventory.InventoryService.UpdateRequest
+  parent: cfEngine.Service.Inventory
+  href: cfEngine.Service.Inventory.InventoryService.html
+  name: InventoryService.UpdateRequest
+  nameWithType: InventoryService.UpdateRequest
+  fullName: cfEngine.Service.Inventory.InventoryService.UpdateRequest
+  spec.csharp:
+  - uid: cfEngine.Service.Inventory.InventoryService
+    name: InventoryService
+    href: cfEngine.Service.Inventory.InventoryService.html
+  - name: .
+  - uid: cfEngine.Service.Inventory.InventoryService.UpdateRequest
+    name: UpdateRequest
+    href: cfEngine.Service.Inventory.InventoryService.UpdateRequest.html
+  spec.vb:
+  - uid: cfEngine.Service.Inventory.InventoryService
+    name: InventoryService
+    href: cfEngine.Service.Inventory.InventoryService.html
+  - name: .
+  - uid: cfEngine.Service.Inventory.InventoryService.UpdateRequest
+    name: UpdateRequest
+    href: cfEngine.Service.Inventory.InventoryService.UpdateRequest.html
+- uid: cfEngine.Service.Inventory.InventoryService.StackRecord
+  commentId: T:cfEngine.Service.Inventory.InventoryService.StackRecord
+  parent: cfEngine.Service.Inventory
+  href: cfEngine.Service.Inventory.InventoryService.html
+  name: InventoryService.StackRecord
+  nameWithType: InventoryService.StackRecord
+  fullName: cfEngine.Service.Inventory.InventoryService.StackRecord
+  spec.csharp:
+  - uid: cfEngine.Service.Inventory.InventoryService
+    name: InventoryService
+    href: cfEngine.Service.Inventory.InventoryService.html
+  - name: .
+  - uid: cfEngine.Service.Inventory.InventoryService.StackRecord
+    name: StackRecord
+    href: cfEngine.Service.Inventory.InventoryService.StackRecord.html
+  spec.vb:
+  - uid: cfEngine.Service.Inventory.InventoryService
+    name: InventoryService
+    href: cfEngine.Service.Inventory.InventoryService.html
+  - name: .
+  - uid: cfEngine.Service.Inventory.InventoryService.StackRecord
+    name: StackRecord
+    href: cfEngine.Service.Inventory.InventoryService.StackRecord.html
+- uid: cfEngine.Service.Inventory.InventoryService.PageRecord
+  commentId: T:cfEngine.Service.Inventory.InventoryService.PageRecord
+  parent: cfEngine.Service.Inventory
+  href: cfEngine.Service.Inventory.InventoryService.html
+  name: InventoryService.PageRecord
+  nameWithType: InventoryService.PageRecord
+  fullName: cfEngine.Service.Inventory.InventoryService.PageRecord
+  spec.csharp:
+  - uid: cfEngine.Service.Inventory.InventoryService
+    name: InventoryService
+    href: cfEngine.Service.Inventory.InventoryService.html
+  - name: .
+  - uid: cfEngine.Service.Inventory.InventoryService.PageRecord
+    name: PageRecord
+    href: cfEngine.Service.Inventory.InventoryService.PageRecord.html
+  spec.vb:
+  - uid: cfEngine.Service.Inventory.InventoryService
+    name: InventoryService
+    href: cfEngine.Service.Inventory.InventoryService.html
+  - name: .
+  - uid: cfEngine.Service.Inventory.InventoryService.PageRecord
+    name: PageRecord
+    href: cfEngine.Service.Inventory.InventoryService.PageRecord.html
+- uid: cfEngine.Service.Inventory
+  commentId: N:cfEngine.Service.Inventory
+  href: cfEngine.html
+  name: cfEngine.Service.Inventory
+  nameWithType: cfEngine.Service.Inventory
+  fullName: cfEngine.Service.Inventory
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Inventory
+    name: Inventory
+    href: cfEngine.Service.Inventory.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Inventory
+    name: Inventory
+    href: cfEngine.Service.Inventory.html

@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.UI
+  commentId: N:cfUnityEngine.UI
+  id: cfUnityEngine.UI
+  children:
+  - cfUnityEngine.UI.IUIPanel
+  - cfUnityEngine.UI.IUIRoot
+  - cfUnityEngine.UI.UIRoot
+  langs:
+  - csharp
+  - vb
+  name: cfUnityEngine.UI
+  nameWithType: cfUnityEngine.UI
+  fullName: cfUnityEngine.UI
+  type: Namespace
+references:
+- uid: cfUnityEngine.UI.IUIPanel
+  commentId: T:cfUnityEngine.UI.IUIPanel
+  parent: cfUnityEngine.UI
+  href: cfUnityEngine.UI.IUIPanel.html
+  name: IUIPanel
+  nameWithType: IUIPanel
+  fullName: cfUnityEngine.UI.IUIPanel
+- uid: cfUnityEngine.UI.IUIRoot
+  commentId: T:cfUnityEngine.UI.IUIRoot
+  parent: cfUnityEngine.UI
+  href: cfUnityEngine.UI.IUIRoot.html
+  name: IUIRoot
+  nameWithType: IUIRoot
+  fullName: cfUnityEngine.UI.IUIRoot
+- uid: cfUnityEngine.UI.UIRoot
+  commentId: T:cfUnityEngine.UI.UIRoot
+  href: cfUnityEngine.UI.UIRoot.html
+  name: UIRoot
+  nameWithType: UIRoot
+  fullName: cfUnityEngine.UI.UIRoot
+- uid: cfUnityEngine.UI
+  commentId: N:cfUnityEngine.UI
+  href: cfUnityEngine.html
+  name: cfUnityEngine.UI
+  nameWithType: cfUnityEngine.UI
+  fullName: cfUnityEngine.UI
+  spec.csharp:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+  spec.vb:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html

@@ -1,0 +1,728 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.UI.UGUI.UIPanel
+  commentId: T:cfUnityEngine.UI.UGUI.UIPanel
+  id: UIPanel
+  parent: cfUnityEngine.UI.UGUI
+  children:
+  - cfUnityEngine.UI.UGUI.UIPanel.Bind(cfUnityEngine.INamespaceScope)
+  - cfUnityEngine.UI.UGUI.UIPanel.BindSubscope(cfUnityEngine.INamespaceScope,System.String,cfUnityEngine.IPropertySource)
+  - cfUnityEngine.UI.UGUI.UIPanel.Hide
+  - cfUnityEngine.UI.UGUI.UIPanel.Show
+  - cfUnityEngine.UI.UGUI.UIPanel.id
+  langs:
+  - csharp
+  - vb
+  name: UIPanel
+  nameWithType: UIPanel
+  fullName: cfUnityEngine.UI.UGUI.UIPanel
+  type: Class
+  source:
+    id: UIPanel
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/core/UIPanel.cs
+    startLine: 2
+  namespace: cfUnityEngine.UI.UGUI
+  syntax:
+    content: 'public abstract class UIPanel : PropertySource, IPropertySource, IUIPanel'
+    content.vb: Public MustInherit Class UIPanel Inherits PropertySource Implements IPropertySource, IUIPanel
+  inheritance:
+  - System.Object
+  - cfUnityEngine.PropertySource
+  implements:
+  - cfUnityEngine.IPropertySource
+  - cfUnityEngine.UI.IUIPanel
+  inheritedMembers:
+  - cfUnityEngine.PropertySource.onPropertyChanged
+  - cfUnityEngine.PropertySource.onPropertyIntChanged
+  - cfUnityEngine.PropertySource.onPropertyFloatChanged
+  - cfUnityEngine.PropertySource.onPropertyBoolChanged
+  - cfUnityEngine.PropertySource.OnPropertyChanged``1(System.String,{T})
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: cfUnityEngine.UI.UGUI.UIPanel.id
+  commentId: P:cfUnityEngine.UI.UGUI.UIPanel.id
+  id: id
+  parent: cfUnityEngine.UI.UGUI.UIPanel
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: UIPanel.id
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.id
+  type: Property
+  source:
+    id: id
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/core/UIPanel.cs
+    startLine: 4
+  namespace: cfUnityEngine.UI.UGUI
+  example: []
+  syntax:
+    content: public abstract string id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property id As String
+  overload: cfUnityEngine.UI.UGUI.UIPanel.id*
+  implements:
+  - cfUnityEngine.UI.IUIPanel.id
+- uid: cfUnityEngine.UI.UGUI.UIPanel.Show
+  commentId: M:cfUnityEngine.UI.UGUI.UIPanel.Show
+  id: Show
+  parent: cfUnityEngine.UI.UGUI.UIPanel
+  langs:
+  - csharp
+  - vb
+  name: Show()
+  nameWithType: UIPanel.Show()
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.Show()
+  type: Method
+  source:
+    id: Show
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/core/UIPanel.cs
+    startLine: 8
+  namespace: cfUnityEngine.UI.UGUI
+  example: []
+  syntax:
+    content: public virtual void Show()
+    content.vb: Public Overridable Sub Show()
+  overload: cfUnityEngine.UI.UGUI.UIPanel.Show*
+  implements:
+  - cfUnityEngine.UI.IUIPanel.Show
+- uid: cfUnityEngine.UI.UGUI.UIPanel.Hide
+  commentId: M:cfUnityEngine.UI.UGUI.UIPanel.Hide
+  id: Hide
+  parent: cfUnityEngine.UI.UGUI.UIPanel
+  langs:
+  - csharp
+  - vb
+  name: Hide()
+  nameWithType: UIPanel.Hide()
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.Hide()
+  type: Method
+  source:
+    id: Hide
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/core/UIPanel.cs
+    startLine: 14
+  namespace: cfUnityEngine.UI.UGUI
+  example: []
+  syntax:
+    content: public virtual void Hide()
+    content.vb: Public Overridable Sub Hide()
+  overload: cfUnityEngine.UI.UGUI.UIPanel.Hide*
+  implements:
+  - cfUnityEngine.UI.IUIPanel.Hide
+- uid: cfUnityEngine.UI.UGUI.UIPanel.Bind(cfUnityEngine.INamespaceScope)
+  commentId: M:cfUnityEngine.UI.UGUI.UIPanel.Bind(cfUnityEngine.INamespaceScope)
+  id: Bind(cfUnityEngine.INamespaceScope)
+  parent: cfUnityEngine.UI.UGUI.UIPanel
+  langs:
+  - csharp
+  - vb
+  name: Bind(INamespaceScope)
+  nameWithType: UIPanel.Bind(INamespaceScope)
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.Bind(cfUnityEngine.INamespaceScope)
+  type: Method
+  source:
+    id: Bind
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/core/UIPanel.cs
+    startLine: 20
+  namespace: cfUnityEngine.UI.UGUI
+  example: []
+  syntax:
+    content: public virtual void Bind(INamespaceScope scope)
+    parameters:
+    - id: scope
+      type: cfUnityEngine.INamespaceScope
+    content.vb: Public Overridable Sub Bind(scope As INamespaceScope)
+  overload: cfUnityEngine.UI.UGUI.UIPanel.Bind*
+  implements:
+  - cfUnityEngine.UI.IUIPanel.Bind(cfUnityEngine.INamespaceScope)
+- uid: cfUnityEngine.UI.UGUI.UIPanel.BindSubscope(cfUnityEngine.INamespaceScope,System.String,cfUnityEngine.IPropertySource)
+  commentId: M:cfUnityEngine.UI.UGUI.UIPanel.BindSubscope(cfUnityEngine.INamespaceScope,System.String,cfUnityEngine.IPropertySource)
+  id: BindSubscope(cfUnityEngine.INamespaceScope,System.String,cfUnityEngine.IPropertySource)
+  parent: cfUnityEngine.UI.UGUI.UIPanel
+  langs:
+  - csharp
+  - vb
+  name: BindSubscope(INamespaceScope, string, IPropertySource)
+  nameWithType: UIPanel.BindSubscope(INamespaceScope, string, IPropertySource)
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.BindSubscope(cfUnityEngine.INamespaceScope, string, cfUnityEngine.IPropertySource)
+  type: Method
+  source:
+    id: BindSubscope
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/core/UIPanel.cs
+    startLine: 25
+  namespace: cfUnityEngine.UI.UGUI
+  syntax:
+    content: protected INamespaceScope BindSubscope(INamespaceScope scope, string childName, IPropertySource source)
+    parameters:
+    - id: scope
+      type: cfUnityEngine.INamespaceScope
+    - id: childName
+      type: System.String
+    - id: source
+      type: cfUnityEngine.IPropertySource
+    return:
+      type: cfUnityEngine.INamespaceScope
+    content.vb: Protected Function BindSubscope(scope As INamespaceScope, childName As String, source As IPropertySource) As INamespaceScope
+  overload: cfUnityEngine.UI.UGUI.UIPanel.BindSubscope*
+  nameWithType.vb: UIPanel.BindSubscope(INamespaceScope, String, IPropertySource)
+  fullName.vb: cfUnityEngine.UI.UGUI.UIPanel.BindSubscope(cfUnityEngine.INamespaceScope, String, cfUnityEngine.IPropertySource)
+  name.vb: BindSubscope(INamespaceScope, String, IPropertySource)
+references:
+- uid: cfUnityEngine.UI.UGUI
+  commentId: N:cfUnityEngine.UI.UGUI
+  href: cfUnityEngine.html
+  name: cfUnityEngine.UI.UGUI
+  nameWithType: cfUnityEngine.UI.UGUI
+  fullName: cfUnityEngine.UI.UGUI
+  spec.csharp:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI
+    name: UGUI
+    href: cfUnityEngine.UI.UGUI.html
+  spec.vb:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI
+    name: UGUI
+    href: cfUnityEngine.UI.UGUI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: cfUnityEngine.PropertySource
+  commentId: T:cfUnityEngine.PropertySource
+  parent: cfUnityEngine
+  href: cfUnityEngine.PropertySource.html
+  name: PropertySource
+  nameWithType: PropertySource
+  fullName: cfUnityEngine.PropertySource
+- uid: cfUnityEngine.IPropertySource
+  commentId: T:cfUnityEngine.IPropertySource
+  parent: cfUnityEngine
+  href: cfUnityEngine.IPropertySource.html
+  name: IPropertySource
+  nameWithType: IPropertySource
+  fullName: cfUnityEngine.IPropertySource
+- uid: cfUnityEngine.UI.IUIPanel
+  commentId: T:cfUnityEngine.UI.IUIPanel
+  parent: cfUnityEngine.UI
+  href: cfUnityEngine.UI.IUIPanel.html
+  name: IUIPanel
+  nameWithType: IUIPanel
+  fullName: cfUnityEngine.UI.IUIPanel
+- uid: cfUnityEngine.PropertySource.onPropertyChanged
+  commentId: E:cfUnityEngine.PropertySource.onPropertyChanged
+  parent: cfUnityEngine.PropertySource
+  href: cfUnityEngine.PropertySource.html#cfUnityEngine_PropertySource_onPropertyChanged
+  name: onPropertyChanged
+  nameWithType: PropertySource.onPropertyChanged
+  fullName: cfUnityEngine.PropertySource.onPropertyChanged
+- uid: cfUnityEngine.PropertySource.onPropertyIntChanged
+  commentId: E:cfUnityEngine.PropertySource.onPropertyIntChanged
+  parent: cfUnityEngine.PropertySource
+  href: cfUnityEngine.PropertySource.html#cfUnityEngine_PropertySource_onPropertyIntChanged
+  name: onPropertyIntChanged
+  nameWithType: PropertySource.onPropertyIntChanged
+  fullName: cfUnityEngine.PropertySource.onPropertyIntChanged
+- uid: cfUnityEngine.PropertySource.onPropertyFloatChanged
+  commentId: E:cfUnityEngine.PropertySource.onPropertyFloatChanged
+  parent: cfUnityEngine.PropertySource
+  href: cfUnityEngine.PropertySource.html#cfUnityEngine_PropertySource_onPropertyFloatChanged
+  name: onPropertyFloatChanged
+  nameWithType: PropertySource.onPropertyFloatChanged
+  fullName: cfUnityEngine.PropertySource.onPropertyFloatChanged
+- uid: cfUnityEngine.PropertySource.onPropertyBoolChanged
+  commentId: E:cfUnityEngine.PropertySource.onPropertyBoolChanged
+  parent: cfUnityEngine.PropertySource
+  href: cfUnityEngine.PropertySource.html#cfUnityEngine_PropertySource_onPropertyBoolChanged
+  name: onPropertyBoolChanged
+  nameWithType: PropertySource.onPropertyBoolChanged
+  fullName: cfUnityEngine.PropertySource.onPropertyBoolChanged
+- uid: cfUnityEngine.PropertySource.OnPropertyChanged``1(System.String,{T})
+  commentId: M:cfUnityEngine.PropertySource.OnPropertyChanged``1(System.String,``0)
+  parent: cfUnityEngine.PropertySource
+  definition: cfUnityEngine.PropertySource.OnPropertyChanged``1(System.String,``0)
+  href: cfUnityEngine.PropertySource.html#cfUnityEngine_PropertySource_OnPropertyChanged__1_System_String___0_
+  name: OnPropertyChanged<T>(string, T)
+  nameWithType: PropertySource.OnPropertyChanged<T>(string, T)
+  fullName: cfUnityEngine.PropertySource.OnPropertyChanged<T>(string, T)
+  nameWithType.vb: PropertySource.OnPropertyChanged(Of T)(String, T)
+  fullName.vb: cfUnityEngine.PropertySource.OnPropertyChanged(Of T)(String, T)
+  name.vb: OnPropertyChanged(Of T)(String, T)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertySource.OnPropertyChanged``1(System.String,``0)
+    name: OnPropertyChanged
+    href: cfUnityEngine.PropertySource.html#cfUnityEngine_PropertySource_OnPropertyChanged__1_System_String___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertySource.OnPropertyChanged``1(System.String,``0)
+    name: OnPropertyChanged
+    href: cfUnityEngine.PropertySource.html#cfUnityEngine_PropertySource_OnPropertyChanged__1_System_String___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfUnityEngine
+  commentId: N:cfUnityEngine
+  href: cfUnityEngine.html
+  name: cfUnityEngine
+  nameWithType: cfUnityEngine
+  fullName: cfUnityEngine
+- uid: cfUnityEngine.UI
+  commentId: N:cfUnityEngine.UI
+  href: cfUnityEngine.html
+  name: cfUnityEngine.UI
+  nameWithType: cfUnityEngine.UI
+  fullName: cfUnityEngine.UI
+  spec.csharp:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+  spec.vb:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+- uid: cfUnityEngine.PropertySource.OnPropertyChanged``1(System.String,``0)
+  commentId: M:cfUnityEngine.PropertySource.OnPropertyChanged``1(System.String,``0)
+  isExternal: true
+  href: cfUnityEngine.PropertySource.html#cfUnityEngine_PropertySource_OnPropertyChanged__1_System_String___0_
+  name: OnPropertyChanged<T>(string, T)
+  nameWithType: PropertySource.OnPropertyChanged<T>(string, T)
+  fullName: cfUnityEngine.PropertySource.OnPropertyChanged<T>(string, T)
+  nameWithType.vb: PropertySource.OnPropertyChanged(Of T)(String, T)
+  fullName.vb: cfUnityEngine.PropertySource.OnPropertyChanged(Of T)(String, T)
+  name.vb: OnPropertyChanged(Of T)(String, T)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertySource.OnPropertyChanged``1(System.String,``0)
+    name: OnPropertyChanged
+    href: cfUnityEngine.PropertySource.html#cfUnityEngine_PropertySource_OnPropertyChanged__1_System_String___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertySource.OnPropertyChanged``1(System.String,``0)
+    name: OnPropertyChanged
+    href: cfUnityEngine.PropertySource.html#cfUnityEngine_PropertySource_OnPropertyChanged__1_System_String___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfUnityEngine.UI.UGUI.UIPanel.id*
+  commentId: Overload:cfUnityEngine.UI.UGUI.UIPanel.id
+  href: cfUnityEngine.UI.UGUI.UIPanel.html#cfUnityEngine_UI_UGUI_UIPanel_id
+  name: id
+  nameWithType: UIPanel.id
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.id
+- uid: cfUnityEngine.UI.IUIPanel.id
+  commentId: P:cfUnityEngine.UI.IUIPanel.id
+  parent: cfUnityEngine.UI.IUIPanel
+  href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_id
+  name: id
+  nameWithType: IUIPanel.id
+  fullName: cfUnityEngine.UI.IUIPanel.id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: cfUnityEngine.UI.UGUI.UIPanel.Show*
+  commentId: Overload:cfUnityEngine.UI.UGUI.UIPanel.Show
+  href: cfUnityEngine.UI.UGUI.UIPanel.html#cfUnityEngine_UI_UGUI_UIPanel_Show
+  name: Show
+  nameWithType: UIPanel.Show
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.Show
+- uid: cfUnityEngine.UI.IUIPanel.Show
+  commentId: M:cfUnityEngine.UI.IUIPanel.Show
+  parent: cfUnityEngine.UI.IUIPanel
+  href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_Show
+  name: Show()
+  nameWithType: IUIPanel.Show()
+  fullName: cfUnityEngine.UI.IUIPanel.Show()
+  spec.csharp:
+  - uid: cfUnityEngine.UI.IUIPanel.Show
+    name: Show
+    href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_Show
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.UI.IUIPanel.Show
+    name: Show
+    href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_Show
+  - name: (
+  - name: )
+- uid: cfUnityEngine.UI.UGUI.UIPanel.Hide*
+  commentId: Overload:cfUnityEngine.UI.UGUI.UIPanel.Hide
+  href: cfUnityEngine.UI.UGUI.UIPanel.html#cfUnityEngine_UI_UGUI_UIPanel_Hide
+  name: Hide
+  nameWithType: UIPanel.Hide
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.Hide
+- uid: cfUnityEngine.UI.IUIPanel.Hide
+  commentId: M:cfUnityEngine.UI.IUIPanel.Hide
+  parent: cfUnityEngine.UI.IUIPanel
+  href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_Hide
+  name: Hide()
+  nameWithType: IUIPanel.Hide()
+  fullName: cfUnityEngine.UI.IUIPanel.Hide()
+  spec.csharp:
+  - uid: cfUnityEngine.UI.IUIPanel.Hide
+    name: Hide
+    href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_Hide
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.UI.IUIPanel.Hide
+    name: Hide
+    href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_Hide
+  - name: (
+  - name: )
+- uid: cfUnityEngine.UI.UGUI.UIPanel.Bind*
+  commentId: Overload:cfUnityEngine.UI.UGUI.UIPanel.Bind
+  href: cfUnityEngine.UI.UGUI.UIPanel.html#cfUnityEngine_UI_UGUI_UIPanel_Bind_cfUnityEngine_INamespaceScope_
+  name: Bind
+  nameWithType: UIPanel.Bind
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.Bind
+- uid: cfUnityEngine.UI.IUIPanel.Bind(cfUnityEngine.INamespaceScope)
+  commentId: M:cfUnityEngine.UI.IUIPanel.Bind(cfUnityEngine.INamespaceScope)
+  parent: cfUnityEngine.UI.IUIPanel
+  href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_Bind_cfUnityEngine_INamespaceScope_
+  name: Bind(INamespaceScope)
+  nameWithType: IUIPanel.Bind(INamespaceScope)
+  fullName: cfUnityEngine.UI.IUIPanel.Bind(cfUnityEngine.INamespaceScope)
+  spec.csharp:
+  - uid: cfUnityEngine.UI.IUIPanel.Bind(cfUnityEngine.INamespaceScope)
+    name: Bind
+    href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_Bind_cfUnityEngine_INamespaceScope_
+  - name: (
+  - uid: cfUnityEngine.INamespaceScope
+    name: INamespaceScope
+    href: cfUnityEngine.INamespaceScope.html
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.UI.IUIPanel.Bind(cfUnityEngine.INamespaceScope)
+    name: Bind
+    href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_Bind_cfUnityEngine_INamespaceScope_
+  - name: (
+  - uid: cfUnityEngine.INamespaceScope
+    name: INamespaceScope
+    href: cfUnityEngine.INamespaceScope.html
+  - name: )
+- uid: cfUnityEngine.INamespaceScope
+  commentId: T:cfUnityEngine.INamespaceScope
+  parent: cfUnityEngine
+  href: cfUnityEngine.INamespaceScope.html
+  name: INamespaceScope
+  nameWithType: INamespaceScope
+  fullName: cfUnityEngine.INamespaceScope
+- uid: cfUnityEngine.UI.UGUI.UIPanel.BindSubscope*
+  commentId: Overload:cfUnityEngine.UI.UGUI.UIPanel.BindSubscope
+  href: cfUnityEngine.UI.UGUI.UIPanel.html#cfUnityEngine_UI_UGUI_UIPanel_BindSubscope_cfUnityEngine_INamespaceScope_System_String_cfUnityEngine_IPropertySource_
+  name: BindSubscope
+  nameWithType: UIPanel.BindSubscope
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.BindSubscope

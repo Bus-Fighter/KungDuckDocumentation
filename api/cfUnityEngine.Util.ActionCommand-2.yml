@@ -1,0 +1,501 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.Util.ActionCommand`2
+  commentId: T:cfUnityEngine.Util.ActionCommand`2
+  id: ActionCommand`2
+  parent: cfUnityEngine.Util
+  children:
+  - cfUnityEngine.Util.ActionCommand`2.Context
+  - cfUnityEngine.Util.ActionCommand`2.TryExecute(cfUnityEngine.Util.ActionCommand{`0,`1}.ExecutionContext@)
+  - cfUnityEngine.Util.ActionCommand`2._Execute(cfUnityEngine.Util.ActionCommand{`0,`1}.ExecutionContext@)
+  - cfUnityEngine.Util.ActionCommand`2.type
+  langs:
+  - csharp
+  - vb
+  name: ActionCommand<TCommandType, TCommand>
+  nameWithType: ActionCommand<TCommandType, TCommand>
+  fullName: cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>
+  type: Class
+  source:
+    id: ActionCommand
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/command/ActionCommand.cs
+    startLine: 4
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: 'public abstract class ActionCommand<TCommandType, TCommand> where TCommand : ActionCommand<TCommandType, TCommand>'
+    typeParameters:
+    - id: TCommandType
+    - id: TCommand
+    content.vb: Public MustInherit Class ActionCommand(Of TCommandType, TCommand As ActionCommand(Of TCommandType, TCommand))
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: ActionCommand(Of TCommandType, TCommand)
+  fullName.vb: cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand)
+  name.vb: ActionCommand(Of TCommandType, TCommand)
+- uid: cfUnityEngine.Util.ActionCommand`2.type
+  commentId: P:cfUnityEngine.Util.ActionCommand`2.type
+  id: type
+  parent: cfUnityEngine.Util.ActionCommand`2
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: ActionCommand<TCommandType, TCommand>.type
+  fullName: cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>.type
+  type: Property
+  source:
+    id: type
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/command/ActionCommand.cs
+    startLine: 6
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: public abstract TCommandType type { get; }
+    parameters: []
+    return:
+      type: '{TCommandType}'
+    content.vb: Public MustOverride ReadOnly Property type As TCommandType
+  overload: cfUnityEngine.Util.ActionCommand`2.type*
+  nameWithType.vb: ActionCommand(Of TCommandType, TCommand).type
+  fullName.vb: cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand).type
+- uid: cfUnityEngine.Util.ActionCommand`2.Context
+  commentId: P:cfUnityEngine.Util.ActionCommand`2.Context
+  id: Context
+  parent: cfUnityEngine.Util.ActionCommand`2
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: ActionCommand<TCommandType, TCommand>.Context
+  fullName: cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>.Context
+  type: Property
+  source:
+    id: Context
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/command/ActionCommand.cs
+    startLine: 8
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: public ActionCommand<TCommandType, TCommand>.ExecutionContext Context { get; }
+    parameters: []
+    return:
+      type: cfUnityEngine.Util.ActionCommand`2.ExecutionContext
+    content.vb: Public ReadOnly Property Context As ActionCommand(Of TCommandType, TCommand).ExecutionContext
+  overload: cfUnityEngine.Util.ActionCommand`2.Context*
+  nameWithType.vb: ActionCommand(Of TCommandType, TCommand).Context
+  fullName.vb: cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand).Context
+- uid: cfUnityEngine.Util.ActionCommand`2.TryExecute(cfUnityEngine.Util.ActionCommand{`0,`1}.ExecutionContext@)
+  commentId: M:cfUnityEngine.Util.ActionCommand`2.TryExecute(cfUnityEngine.Util.ActionCommand{`0,`1}.ExecutionContext@)
+  id: TryExecute(cfUnityEngine.Util.ActionCommand{`0,`1}.ExecutionContext@)
+  parent: cfUnityEngine.Util.ActionCommand`2
+  langs:
+  - csharp
+  - vb
+  name: TryExecute(in ExecutionContext)
+  nameWithType: ActionCommand<TCommandType, TCommand>.TryExecute(in ActionCommand<TCommandType, TCommand>.ExecutionContext)
+  fullName: cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>.TryExecute(in cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>.ExecutionContext)
+  type: Method
+  source:
+    id: TryExecute
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/command/ActionCommand.cs
+    startLine: 17
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: public bool TryExecute(in ActionCommand<TCommandType, TCommand>.ExecutionContext context)
+    parameters:
+    - id: context
+      type: cfUnityEngine.Util.ActionCommand`2.ExecutionContext
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryExecute(context As ActionCommand(Of TCommandType, TCommand).ExecutionContext) As Boolean
+  overload: cfUnityEngine.Util.ActionCommand`2.TryExecute*
+  nameWithType.vb: ActionCommand(Of TCommandType, TCommand).TryExecute(ActionCommand(Of TCommandType, TCommand).ExecutionContext)
+  fullName.vb: cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand).TryExecute(cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand).ExecutionContext)
+  name.vb: TryExecute(ExecutionContext)
+- uid: cfUnityEngine.Util.ActionCommand`2._Execute(cfUnityEngine.Util.ActionCommand{`0,`1}.ExecutionContext@)
+  commentId: M:cfUnityEngine.Util.ActionCommand`2._Execute(cfUnityEngine.Util.ActionCommand{`0,`1}.ExecutionContext@)
+  id: _Execute(cfUnityEngine.Util.ActionCommand{`0,`1}.ExecutionContext@)
+  parent: cfUnityEngine.Util.ActionCommand`2
+  langs:
+  - csharp
+  - vb
+  name: _Execute(in ExecutionContext)
+  nameWithType: ActionCommand<TCommandType, TCommand>._Execute(in ActionCommand<TCommandType, TCommand>.ExecutionContext)
+  fullName: cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>._Execute(in cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>.ExecutionContext)
+  type: Method
+  source:
+    id: _Execute
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/command/ActionCommand.cs
+    startLine: 23
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: protected abstract bool _Execute(in ActionCommand<TCommandType, TCommand>.ExecutionContext context)
+    parameters:
+    - id: context
+      type: cfUnityEngine.Util.ActionCommand`2.ExecutionContext
+    return:
+      type: System.Boolean
+    content.vb: Protected MustOverride Function _Execute(context As ActionCommand(Of TCommandType, TCommand).ExecutionContext) As Boolean
+  overload: cfUnityEngine.Util.ActionCommand`2._Execute*
+  nameWithType.vb: ActionCommand(Of TCommandType, TCommand)._Execute(ActionCommand(Of TCommandType, TCommand).ExecutionContext)
+  fullName.vb: cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand)._Execute(cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand).ExecutionContext)
+  name.vb: _Execute(ExecutionContext)
+references:
+- uid: cfUnityEngine.Util
+  commentId: N:cfUnityEngine.Util
+  href: cfUnityEngine.html
+  name: cfUnityEngine.Util
+  nameWithType: cfUnityEngine.Util
+  fullName: cfUnityEngine.Util
+  spec.csharp:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.Util
+    name: Util
+    href: cfUnityEngine.Util.html
+  spec.vb:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.Util
+    name: Util
+    href: cfUnityEngine.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfUnityEngine.Util.ActionCommand`2.type*
+  commentId: Overload:cfUnityEngine.Util.ActionCommand`2.type
+  href: cfUnityEngine.Util.ActionCommand-2.html#cfUnityEngine_Util_ActionCommand_2_type
+  name: type
+  nameWithType: ActionCommand<TCommandType, TCommand>.type
+  fullName: cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>.type
+  nameWithType.vb: ActionCommand(Of TCommandType, TCommand).type
+  fullName.vb: cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand).type
+- uid: '{TCommandType}'
+  commentId: '!:TCommandType'
+  definition: TCommandType
+  name: TCommandType
+  nameWithType: TCommandType
+  fullName: TCommandType
+- uid: TCommandType
+  name: TCommandType
+  nameWithType: TCommandType
+  fullName: TCommandType
+- uid: cfUnityEngine.Util.ActionCommand`2.Context*
+  commentId: Overload:cfUnityEngine.Util.ActionCommand`2.Context
+  href: cfUnityEngine.Util.ActionCommand-2.html#cfUnityEngine_Util_ActionCommand_2_Context
+  name: Context
+  nameWithType: ActionCommand<TCommandType, TCommand>.Context
+  fullName: cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>.Context
+  nameWithType.vb: ActionCommand(Of TCommandType, TCommand).Context
+  fullName.vb: cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand).Context
+- uid: cfUnityEngine.Util.ActionCommand`2.ExecutionContext
+  commentId: T:cfUnityEngine.Util.ActionCommand`2.ExecutionContext
+  parent: cfUnityEngine.Util
+  href: cfUnityEngine.Util.ActionCommand-2.html
+  name: ActionCommand<TCommandType, TCommand>.ExecutionContext
+  nameWithType: ActionCommand<TCommandType, TCommand>.ExecutionContext
+  fullName: cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>.ExecutionContext
+  nameWithType.vb: ActionCommand(Of TCommandType, TCommand).ExecutionContext
+  fullName.vb: cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand).ExecutionContext
+  name.vb: ActionCommand(Of TCommandType, TCommand).ExecutionContext
+  spec.csharp:
+  - uid: cfUnityEngine.Util.ActionCommand`2
+    name: ActionCommand
+    href: cfUnityEngine.Util.ActionCommand-2.html
+  - name: <
+  - name: TCommandType
+  - name: ','
+  - name: " "
+  - name: TCommand
+  - name: '>'
+  - name: .
+  - uid: cfUnityEngine.Util.ActionCommand`2.ExecutionContext
+    name: ExecutionContext
+    href: cfUnityEngine.Util.ActionCommand-2.ExecutionContext.html
+  spec.vb:
+  - uid: cfUnityEngine.Util.ActionCommand`2
+    name: ActionCommand
+    href: cfUnityEngine.Util.ActionCommand-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCommandType
+  - name: ','
+  - name: " "
+  - name: TCommand
+  - name: )
+  - name: .
+  - uid: cfUnityEngine.Util.ActionCommand`2.ExecutionContext
+    name: ExecutionContext
+    href: cfUnityEngine.Util.ActionCommand-2.ExecutionContext.html
+- uid: cfUnityEngine.Util.ActionCommand`2.TryExecute*
+  commentId: Overload:cfUnityEngine.Util.ActionCommand`2.TryExecute
+  href: cfUnityEngine.Util.ActionCommand-2.html#cfUnityEngine_Util_ActionCommand_2_TryExecute_cfUnityEngine_Util_ActionCommand__0__1__ExecutionContext__
+  name: TryExecute
+  nameWithType: ActionCommand<TCommandType, TCommand>.TryExecute
+  fullName: cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>.TryExecute
+  nameWithType.vb: ActionCommand(Of TCommandType, TCommand).TryExecute
+  fullName.vb: cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand).TryExecute
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: cfUnityEngine.Util.ActionCommand`2._Execute*
+  commentId: Overload:cfUnityEngine.Util.ActionCommand`2._Execute
+  href: cfUnityEngine.Util.ActionCommand-2.html#cfUnityEngine_Util_ActionCommand_2__Execute_cfUnityEngine_Util_ActionCommand__0__1__ExecutionContext__
+  name: _Execute
+  nameWithType: ActionCommand<TCommandType, TCommand>._Execute
+  fullName: cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>._Execute
+  nameWithType.vb: ActionCommand(Of TCommandType, TCommand)._Execute
+  fullName.vb: cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand)._Execute

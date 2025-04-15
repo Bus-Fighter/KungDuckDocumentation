@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Service
+  commentId: N:cfEngine.Service
+  id: cfEngine.Service
+  children:
+  - cfEngine.Service.IService
+  - cfEngine.Service.IServiceLocator
+  - cfEngine.Service.InventoryInfo
+  - cfEngine.Service.InventoryInfoManager
+  - cfEngine.Service.ServiceLocator
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.Service
+  nameWithType: cfEngine.Service
+  fullName: cfEngine.Service
+  type: Namespace
+references:
+- uid: cfEngine.Service.IService
+  commentId: T:cfEngine.Service.IService
+  parent: cfEngine.Service
+  href: cfEngine.Service.IService.html
+  name: IService
+  nameWithType: IService
+  fullName: cfEngine.Service.IService
+- uid: cfEngine.Service.IServiceLocator
+  commentId: T:cfEngine.Service.IServiceLocator
+  parent: cfEngine.Service
+  href: cfEngine.Service.IServiceLocator.html
+  name: IServiceLocator
+  nameWithType: IServiceLocator
+  fullName: cfEngine.Service.IServiceLocator
+- uid: cfEngine.Service.ServiceLocator
+  commentId: T:cfEngine.Service.ServiceLocator
+  parent: cfEngine.Service
+  href: cfEngine.Service.ServiceLocator.html
+  name: ServiceLocator
+  nameWithType: ServiceLocator
+  fullName: cfEngine.Service.ServiceLocator
+- uid: cfEngine.Service.InventoryInfoManager
+  commentId: T:cfEngine.Service.InventoryInfoManager
+  href: cfEngine.Service.InventoryInfoManager.html
+  name: InventoryInfoManager
+  nameWithType: InventoryInfoManager
+  fullName: cfEngine.Service.InventoryInfoManager
+- uid: cfEngine.Service.InventoryInfo
+  commentId: T:cfEngine.Service.InventoryInfo
+  parent: cfEngine.Service
+  href: cfEngine.Service.InventoryInfo.html
+  name: InventoryInfo
+  nameWithType: InventoryInfo
+  fullName: cfEngine.Service.InventoryInfo
+- uid: cfEngine.Service
+  commentId: N:cfEngine.Service
+  href: cfEngine.html
+  name: cfEngine.Service
+  nameWithType: cfEngine.Service
+  fullName: cfEngine.Service
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html

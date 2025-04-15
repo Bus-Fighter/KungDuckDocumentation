@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.Util
+  commentId: N:cfUnityEngine.Util
+  id: cfUnityEngine.Util
+  children:
+  - cfUnityEngine.Util.ActionCommandController`2
+  - cfUnityEngine.Util.ActionCommand`2
+  - cfUnityEngine.Util.ActionCommand`2.ExecutionContext
+  - cfUnityEngine.Util.CommandPattern`1
+  - cfUnityEngine.Util.EditorSetting`1
+  - cfUnityEngine.Util.FilePathAttribute
+  - cfUnityEngine.Util.GameObjectUtil
+  - cfUnityEngine.Util.MonoStateMachine`3
+  - cfUnityEngine.Util.MonoState`3
+  - cfUnityEngine.Util.StateExecutionException`1
+  langs:
+  - csharp
+  - vb
+  name: cfUnityEngine.Util
+  nameWithType: cfUnityEngine.Util
+  fullName: cfUnityEngine.Util
+  type: Namespace
+references:
+- uid: cfUnityEngine.Util.FilePathAttribute
+  commentId: T:cfUnityEngine.Util.FilePathAttribute
+  href: cfUnityEngine.Util.FilePathAttribute.html
+  name: FilePathAttribute
+  nameWithType: FilePathAttribute
+  fullName: cfUnityEngine.Util.FilePathAttribute
+- uid: cfUnityEngine.Util.EditorSetting`1
+  commentId: T:cfUnityEngine.Util.EditorSetting`1
+  href: cfUnityEngine.Util.EditorSetting-1.html
+  name: EditorSetting<T>
+  nameWithType: EditorSetting<T>
+  fullName: cfUnityEngine.Util.EditorSetting<T>
+  nameWithType.vb: EditorSetting(Of T)
+  fullName.vb: cfUnityEngine.Util.EditorSetting(Of T)
+  name.vb: EditorSetting(Of T)
+  spec.csharp:
+  - uid: cfUnityEngine.Util.EditorSetting`1
+    name: EditorSetting
+    href: cfUnityEngine.Util.EditorSetting-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.Util.EditorSetting`1
+    name: EditorSetting
+    href: cfUnityEngine.Util.EditorSetting-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfUnityEngine.Util.GameObjectUtil
+  commentId: T:cfUnityEngine.Util.GameObjectUtil
+  href: cfUnityEngine.Util.GameObjectUtil.html
+  name: GameObjectUtil
+  nameWithType: GameObjectUtil
+  fullName: cfUnityEngine.Util.GameObjectUtil
+- uid: cfUnityEngine.Util.ActionCommand`2
+  commentId: T:cfUnityEngine.Util.ActionCommand`2
+  href: cfUnityEngine.Util.ActionCommand-2.html
+  name: ActionCommand<TCommandType, TCommand>
+  nameWithType: ActionCommand<TCommandType, TCommand>
+  fullName: cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>
+  nameWithType.vb: ActionCommand(Of TCommandType, TCommand)
+  fullName.vb: cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand)
+  name.vb: ActionCommand(Of TCommandType, TCommand)
+  spec.csharp:
+  - uid: cfUnityEngine.Util.ActionCommand`2
+    name: ActionCommand
+    href: cfUnityEngine.Util.ActionCommand-2.html
+  - name: <
+  - name: TCommandType
+  - name: ','
+  - name: " "
+  - name: TCommand
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.Util.ActionCommand`2
+    name: ActionCommand
+    href: cfUnityEngine.Util.ActionCommand-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCommandType
+  - name: ','
+  - name: " "
+  - name: TCommand
+  - name: )
+- uid: cfUnityEngine.Util.ActionCommand`2.ExecutionContext
+  commentId: T:cfUnityEngine.Util.ActionCommand`2.ExecutionContext
+  parent: cfUnityEngine.Util
+  href: cfUnityEngine.Util.ActionCommand-2.html
+  name: ActionCommand<TCommandType, TCommand>.ExecutionContext
+  nameWithType: ActionCommand<TCommandType, TCommand>.ExecutionContext
+  fullName: cfUnityEngine.Util.ActionCommand<TCommandType, TCommand>.ExecutionContext
+  nameWithType.vb: ActionCommand(Of TCommandType, TCommand).ExecutionContext
+  fullName.vb: cfUnityEngine.Util.ActionCommand(Of TCommandType, TCommand).ExecutionContext
+  name.vb: ActionCommand(Of TCommandType, TCommand).ExecutionContext
+  spec.csharp:
+  - uid: cfUnityEngine.Util.ActionCommand`2
+    name: ActionCommand
+    href: cfUnityEngine.Util.ActionCommand-2.html
+  - name: <
+  - name: TCommandType
+  - name: ','
+  - name: " "
+  - name: TCommand
+  - name: '>'
+  - name: .
+  - uid: cfUnityEngine.Util.ActionCommand`2.ExecutionContext
+    name: ExecutionContext
+    href: cfUnityEngine.Util.ActionCommand-2.ExecutionContext.html
+  spec.vb:
+  - uid: cfUnityEngine.Util.ActionCommand`2
+    name: ActionCommand
+    href: cfUnityEngine.Util.ActionCommand-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCommandType
+  - name: ','
+  - name: " "
+  - name: TCommand
+  - name: )
+  - name: .
+  - uid: cfUnityEngine.Util.ActionCommand`2.ExecutionContext
+    name: ExecutionContext
+    href: cfUnityEngine.Util.ActionCommand-2.ExecutionContext.html
+- uid: cfUnityEngine.Util.ActionCommandController`2
+  commentId: T:cfUnityEngine.Util.ActionCommandController`2
+  href: cfUnityEngine.Util.ActionCommandController-2.html
+  name: ActionCommandController<TCommandType, TCommand>
+  nameWithType: ActionCommandController<TCommandType, TCommand>
+  fullName: cfUnityEngine.Util.ActionCommandController<TCommandType, TCommand>
+  nameWithType.vb: ActionCommandController(Of TCommandType, TCommand)
+  fullName.vb: cfUnityEngine.Util.ActionCommandController(Of TCommandType, TCommand)
+  name.vb: ActionCommandController(Of TCommandType, TCommand)
+  spec.csharp:
+  - uid: cfUnityEngine.Util.ActionCommandController`2
+    name: ActionCommandController
+    href: cfUnityEngine.Util.ActionCommandController-2.html
+  - name: <
+  - name: TCommandType
+  - name: ','
+  - name: " "
+  - name: TCommand
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.Util.ActionCommandController`2
+    name: ActionCommandController
+    href: cfUnityEngine.Util.ActionCommandController-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCommandType
+  - name: ','
+  - name: " "
+  - name: TCommand
+  - name: )
+- uid: cfUnityEngine.Util.CommandPattern`1
+  commentId: T:cfUnityEngine.Util.CommandPattern`1
+  href: cfUnityEngine.Util.CommandPattern-1.html
+  name: CommandPattern<TCommandType>
+  nameWithType: CommandPattern<TCommandType>
+  fullName: cfUnityEngine.Util.CommandPattern<TCommandType>
+  nameWithType.vb: CommandPattern(Of TCommandType)
+  fullName.vb: cfUnityEngine.Util.CommandPattern(Of TCommandType)
+  name.vb: CommandPattern(Of TCommandType)
+  spec.csharp:
+  - uid: cfUnityEngine.Util.CommandPattern`1
+    name: CommandPattern
+    href: cfUnityEngine.Util.CommandPattern-1.html
+  - name: <
+  - name: TCommandType
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.Util.CommandPattern`1
+    name: CommandPattern
+    href: cfUnityEngine.Util.CommandPattern-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCommandType
+  - name: )
+- uid: cfUnityEngine.Util.MonoState`3
+  commentId: T:cfUnityEngine.Util.MonoState`3
+  href: cfUnityEngine.Util.MonoState-3.html
+  name: MonoState<TStateId, TState, TStateMachine>
+  nameWithType: MonoState<TStateId, TState, TStateMachine>
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine)
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine)
+  name.vb: MonoState(Of TStateId, TState, TStateMachine)
+  spec.csharp:
+  - uid: cfUnityEngine.Util.MonoState`3
+    name: MonoState
+    href: cfUnityEngine.Util.MonoState-3.html
+  - name: <
+  - name: TStateId
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: ','
+  - name: " "
+  - name: TStateMachine
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.Util.MonoState`3
+    name: MonoState
+    href: cfUnityEngine.Util.MonoState-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TStateId
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: ','
+  - name: " "
+  - name: TStateMachine
+  - name: )
+- uid: cfUnityEngine.Util.MonoStateMachine`3
+  commentId: T:cfUnityEngine.Util.MonoStateMachine`3
+  href: cfUnityEngine.Util.MonoStateMachine-3.html
+  name: MonoStateMachine<TStateId, TState, TStateMachine>
+  nameWithType: MonoStateMachine<TStateId, TState, TStateMachine>
+  fullName: cfUnityEngine.Util.MonoStateMachine<TStateId, TState, TStateMachine>
+  nameWithType.vb: MonoStateMachine(Of TStateId, TState, TStateMachine)
+  fullName.vb: cfUnityEngine.Util.MonoStateMachine(Of TStateId, TState, TStateMachine)
+  name.vb: MonoStateMachine(Of TStateId, TState, TStateMachine)
+  spec.csharp:
+  - uid: cfUnityEngine.Util.MonoStateMachine`3
+    name: MonoStateMachine
+    href: cfUnityEngine.Util.MonoStateMachine-3.html
+  - name: <
+  - name: TStateId
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: ','
+  - name: " "
+  - name: TStateMachine
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.Util.MonoStateMachine`3
+    name: MonoStateMachine
+    href: cfUnityEngine.Util.MonoStateMachine-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TStateId
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: ','
+  - name: " "
+  - name: TStateMachine
+  - name: )
+- uid: cfUnityEngine.Util.StateExecutionException`1
+  commentId: T:cfUnityEngine.Util.StateExecutionException`1
+  href: cfUnityEngine.Util.StateExecutionException-1.html
+  name: StateExecutionException<TStateId>
+  nameWithType: StateExecutionException<TStateId>
+  fullName: cfUnityEngine.Util.StateExecutionException<TStateId>
+  nameWithType.vb: StateExecutionException(Of TStateId)
+  fullName.vb: cfUnityEngine.Util.StateExecutionException(Of TStateId)
+  name.vb: StateExecutionException(Of TStateId)
+  spec.csharp:
+  - uid: cfUnityEngine.Util.StateExecutionException`1
+    name: StateExecutionException
+    href: cfUnityEngine.Util.StateExecutionException-1.html
+  - name: <
+  - name: TStateId
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.Util.StateExecutionException`1
+    name: StateExecutionException
+    href: cfUnityEngine.Util.StateExecutionException-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TStateId
+  - name: )
+- uid: cfUnityEngine.Util
+  commentId: N:cfUnityEngine.Util
+  href: cfUnityEngine.html
+  name: cfUnityEngine.Util
+  nameWithType: cfUnityEngine.Util
+  fullName: cfUnityEngine.Util
+  spec.csharp:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.Util
+    name: Util
+    href: cfUnityEngine.Util.html
+  spec.vb:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.Util
+    name: Util
+    href: cfUnityEngine.Util.html

@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Info
+  commentId: N:cfEngine.Info
+  id: cfEngine.Info
+  children:
+  - cfEngine.Info.ConfigInfoManager`2
+  - cfEngine.Info.ExcelByteLoader`1
+  - cfEngine.Info.IInfoManager
+  - cfEngine.Info.IValueLoader`1
+  - cfEngine.Info.InfoLayer
+  - cfEngine.Info.InfoManager
+  - cfEngine.Info.SerializationLoader`1
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.Info
+  nameWithType: cfEngine.Info
+  fullName: cfEngine.Info
+  type: Namespace
+references:
+- uid: cfEngine.Info.ConfigInfoManager`2
+  commentId: T:cfEngine.Info.ConfigInfoManager`2
+  href: cfEngine.Info.ConfigInfoManager-2.html
+  name: ConfigInfoManager<TKey, TInfo>
+  nameWithType: ConfigInfoManager<TKey, TInfo>
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo)
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo)
+  name.vb: ConfigInfoManager(Of TKey, TInfo)
+  spec.csharp:
+  - uid: cfEngine.Info.ConfigInfoManager`2
+    name: ConfigInfoManager
+    href: cfEngine.Info.ConfigInfoManager-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TInfo
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Info.ConfigInfoManager`2
+    name: ConfigInfoManager
+    href: cfEngine.Info.ConfigInfoManager-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TInfo
+  - name: )
+- uid: cfEngine.Info.InfoLayer
+  commentId: T:cfEngine.Info.InfoLayer
+  parent: cfEngine.Info
+  href: cfEngine.Info.InfoLayer.html
+  name: InfoLayer
+  nameWithType: InfoLayer
+  fullName: cfEngine.Info.InfoLayer
+- uid: cfEngine.Info.IInfoManager
+  commentId: T:cfEngine.Info.IInfoManager
+  parent: cfEngine.Info
+  href: cfEngine.Info.IInfoManager.html
+  name: IInfoManager
+  nameWithType: IInfoManager
+  fullName: cfEngine.Info.IInfoManager
+- uid: cfEngine.Info.InfoManager
+  commentId: T:cfEngine.Info.InfoManager
+  parent: cfEngine.Info
+  href: cfEngine.Info.InfoManager.html
+  name: InfoManager
+  nameWithType: InfoManager
+  fullName: cfEngine.Info.InfoManager
+- uid: cfEngine.Info.IValueLoader`1
+  commentId: T:cfEngine.Info.IValueLoader`1
+  href: cfEngine.Info.IValueLoader-1.html
+  name: IValueLoader<TInfo>
+  nameWithType: IValueLoader<TInfo>
+  fullName: cfEngine.Info.IValueLoader<TInfo>
+  nameWithType.vb: IValueLoader(Of TInfo)
+  fullName.vb: cfEngine.Info.IValueLoader(Of TInfo)
+  name.vb: IValueLoader(Of TInfo)
+  spec.csharp:
+  - uid: cfEngine.Info.IValueLoader`1
+    name: IValueLoader
+    href: cfEngine.Info.IValueLoader-1.html
+  - name: <
+  - name: TInfo
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Info.IValueLoader`1
+    name: IValueLoader
+    href: cfEngine.Info.IValueLoader-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInfo
+  - name: )
+- uid: cfEngine.Info.ExcelByteLoader`1
+  commentId: T:cfEngine.Info.ExcelByteLoader`1
+  href: cfEngine.Info.ExcelByteLoader-1.html
+  name: ExcelByteLoader<TInfo>
+  nameWithType: ExcelByteLoader<TInfo>
+  fullName: cfEngine.Info.ExcelByteLoader<TInfo>
+  nameWithType.vb: ExcelByteLoader(Of TInfo)
+  fullName.vb: cfEngine.Info.ExcelByteLoader(Of TInfo)
+  name.vb: ExcelByteLoader(Of TInfo)
+  spec.csharp:
+  - uid: cfEngine.Info.ExcelByteLoader`1
+    name: ExcelByteLoader
+    href: cfEngine.Info.ExcelByteLoader-1.html
+  - name: <
+  - name: TInfo
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Info.ExcelByteLoader`1
+    name: ExcelByteLoader
+    href: cfEngine.Info.ExcelByteLoader-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInfo
+  - name: )
+- uid: cfEngine.Info.SerializationLoader`1
+  commentId: T:cfEngine.Info.SerializationLoader`1
+  href: cfEngine.Info.SerializationLoader-1.html
+  name: SerializationLoader<TInfo>
+  nameWithType: SerializationLoader<TInfo>
+  fullName: cfEngine.Info.SerializationLoader<TInfo>
+  nameWithType.vb: SerializationLoader(Of TInfo)
+  fullName.vb: cfEngine.Info.SerializationLoader(Of TInfo)
+  name.vb: SerializationLoader(Of TInfo)
+  spec.csharp:
+  - uid: cfEngine.Info.SerializationLoader`1
+    name: SerializationLoader
+    href: cfEngine.Info.SerializationLoader-1.html
+  - name: <
+  - name: TInfo
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Info.SerializationLoader`1
+    name: SerializationLoader
+    href: cfEngine.Info.SerializationLoader-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInfo
+  - name: )
+- uid: cfEngine.Info
+  commentId: N:cfEngine.Info
+  href: cfEngine.html
+  name: cfEngine.Info
+  nameWithType: cfEngine.Info
+  fullName: cfEngine.Info
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Info
+    name: Info
+    href: cfEngine.Info.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Info
+    name: Info
+    href: cfEngine.Info.html

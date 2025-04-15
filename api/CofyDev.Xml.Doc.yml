@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: CofyDev.Xml.Doc
+  commentId: N:CofyDev.Xml.Doc
+  id: CofyDev.Xml.Doc
+  children:
+  - CofyDev.Xml.Doc.CofyXmlDocParser
+  - CofyDev.Xml.Doc.DataContainer
+  - CofyDev.Xml.Doc.DataObject
+  - CofyDev.Xml.Doc.DataObjectEncoder
+  - CofyDev.Xml.Doc.DataObjectExtension
+  langs:
+  - csharp
+  - vb
+  name: CofyDev.Xml.Doc
+  nameWithType: CofyDev.Xml.Doc
+  fullName: CofyDev.Xml.Doc
+  type: Namespace
+references:
+- uid: CofyDev.Xml.Doc.CofyXmlDocParser
+  commentId: T:CofyDev.Xml.Doc.CofyXmlDocParser
+  href: CofyDev.Xml.Doc.CofyXmlDocParser.html
+  name: CofyXmlDocParser
+  nameWithType: CofyXmlDocParser
+  fullName: CofyDev.Xml.Doc.CofyXmlDocParser
+- uid: CofyDev.Xml.Doc.DataObject
+  commentId: T:CofyDev.Xml.Doc.DataObject
+  parent: CofyDev.Xml.Doc
+  href: CofyDev.Xml.Doc.DataObject.html
+  name: DataObject
+  nameWithType: DataObject
+  fullName: CofyDev.Xml.Doc.DataObject
+- uid: CofyDev.Xml.Doc.DataContainer
+  commentId: T:CofyDev.Xml.Doc.DataContainer
+  parent: CofyDev.Xml.Doc
+  href: CofyDev.Xml.Doc.DataContainer.html
+  name: DataContainer
+  nameWithType: DataContainer
+  fullName: CofyDev.Xml.Doc.DataContainer
+- uid: CofyDev.Xml.Doc.DataObjectEncoder
+  commentId: T:CofyDev.Xml.Doc.DataObjectEncoder
+  parent: CofyDev.Xml.Doc
+  href: CofyDev.Xml.Doc.DataObjectEncoder.html
+  name: DataObjectEncoder
+  nameWithType: DataObjectEncoder
+  fullName: CofyDev.Xml.Doc.DataObjectEncoder
+- uid: CofyDev.Xml.Doc.DataObjectExtension
+  commentId: T:CofyDev.Xml.Doc.DataObjectExtension
+  href: CofyDev.Xml.Doc.DataObjectExtension.html
+  name: DataObjectExtension
+  nameWithType: DataObjectExtension
+  fullName: CofyDev.Xml.Doc.DataObjectExtension
+- uid: CofyDev.Xml.Doc
+  commentId: N:CofyDev.Xml.Doc
+  href: CofyDev.html
+  name: CofyDev.Xml.Doc
+  nameWithType: CofyDev.Xml.Doc
+  fullName: CofyDev.Xml.Doc
+  spec.csharp:
+  - uid: CofyDev
+    name: CofyDev
+    href: CofyDev.html
+  - name: .
+  - uid: CofyDev.Xml
+    name: Xml
+    href: CofyDev.Xml.html
+  - name: .
+  - uid: CofyDev.Xml.Doc
+    name: Doc
+    href: CofyDev.Xml.Doc.html
+  spec.vb:
+  - uid: CofyDev
+    name: CofyDev
+    href: CofyDev.html
+  - name: .
+  - uid: CofyDev.Xml
+    name: Xml
+    href: CofyDev.Xml.html
+  - name: .
+  - uid: CofyDev.Xml.Doc
+    name: Doc
+    href: CofyDev.Xml.Doc.html

@@ -1,0 +1,532 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Service.Auth.IAuthService
+  commentId: T:cfEngine.Service.Auth.IAuthService
+  id: IAuthService
+  parent: cfEngine.Service.Auth
+  children:
+  - cfEngine.Service.Auth.IAuthService.GetUserId
+  - cfEngine.Service.Auth.IAuthService.InitAsync(System.Threading.CancellationToken)
+  - cfEngine.Service.Auth.IAuthService.IsSessionUserExist
+  - cfEngine.Service.Auth.IAuthService.LinkAsync(cfEngine.Service.Auth.LoginPlatform,cfEngine.Service.Auth.LoginToken)
+  - cfEngine.Service.Auth.IAuthService.RegisterPlatform(cfEngine.Service.Auth.PlatformAuth)
+  - cfEngine.Service.Auth.IAuthService.SignInAsync(cfEngine.Service.Auth.LoginPlatform,cfEngine.Service.Auth.LoginToken)
+  - cfEngine.Service.Auth.IAuthService.SignUpAsync(cfEngine.Service.Auth.LoginPlatform,cfEngine.Service.Auth.LoginToken)
+  - cfEngine.Service.Auth.IAuthService.TryLoginCachedUserAsync(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IAuthService
+  nameWithType: IAuthService
+  fullName: cfEngine.Service.Auth.IAuthService
+  type: Interface
+  source:
+    id: IAuthService
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 53
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: 'public interface IAuthService : IService, IDisposable'
+    content.vb: Public Interface IAuthService Inherits IService, IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: cfEngine.Service.Auth.IAuthService.GetUserId
+  commentId: M:cfEngine.Service.Auth.IAuthService.GetUserId
+  id: GetUserId
+  parent: cfEngine.Service.Auth.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: GetUserId()
+  nameWithType: IAuthService.GetUserId()
+  fullName: cfEngine.Service.Auth.IAuthService.GetUserId()
+  type: Method
+  source:
+    id: GetUserId
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 55
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: string GetUserId()
+    return:
+      type: System.String
+    content.vb: Function GetUserId() As String
+  overload: cfEngine.Service.Auth.IAuthService.GetUserId*
+- uid: cfEngine.Service.Auth.IAuthService.IsSessionUserExist
+  commentId: M:cfEngine.Service.Auth.IAuthService.IsSessionUserExist
+  id: IsSessionUserExist
+  parent: cfEngine.Service.Auth.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: IsSessionUserExist()
+  nameWithType: IAuthService.IsSessionUserExist()
+  fullName: cfEngine.Service.Auth.IAuthService.IsSessionUserExist()
+  type: Method
+  source:
+    id: IsSessionUserExist
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 56
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: bool IsSessionUserExist()
+    return:
+      type: System.Boolean
+    content.vb: Function IsSessionUserExist() As Boolean
+  overload: cfEngine.Service.Auth.IAuthService.IsSessionUserExist*
+- uid: cfEngine.Service.Auth.IAuthService.InitAsync(System.Threading.CancellationToken)
+  commentId: M:cfEngine.Service.Auth.IAuthService.InitAsync(System.Threading.CancellationToken)
+  id: InitAsync(System.Threading.CancellationToken)
+  parent: cfEngine.Service.Auth.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: InitAsync(CancellationToken)
+  nameWithType: IAuthService.InitAsync(CancellationToken)
+  fullName: cfEngine.Service.Auth.IAuthService.InitAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: InitAsync
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 57
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: Task InitAsync(CancellationToken token)
+    parameters:
+    - id: token
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function InitAsync(token As CancellationToken) As Task
+  overload: cfEngine.Service.Auth.IAuthService.InitAsync*
+- uid: cfEngine.Service.Auth.IAuthService.TryLoginCachedUserAsync(System.Threading.CancellationToken)
+  commentId: M:cfEngine.Service.Auth.IAuthService.TryLoginCachedUserAsync(System.Threading.CancellationToken)
+  id: TryLoginCachedUserAsync(System.Threading.CancellationToken)
+  parent: cfEngine.Service.Auth.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: TryLoginCachedUserAsync(CancellationToken)
+  nameWithType: IAuthService.TryLoginCachedUserAsync(CancellationToken)
+  fullName: cfEngine.Service.Auth.IAuthService.TryLoginCachedUserAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: TryLoginCachedUserAsync
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 58
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: Task<bool> TryLoginCachedUserAsync(CancellationToken token)
+    parameters:
+    - id: token
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function TryLoginCachedUserAsync(token As CancellationToken) As Task(Of Boolean)
+  overload: cfEngine.Service.Auth.IAuthService.TryLoginCachedUserAsync*
+- uid: cfEngine.Service.Auth.IAuthService.RegisterPlatform(cfEngine.Service.Auth.PlatformAuth)
+  commentId: M:cfEngine.Service.Auth.IAuthService.RegisterPlatform(cfEngine.Service.Auth.PlatformAuth)
+  id: RegisterPlatform(cfEngine.Service.Auth.PlatformAuth)
+  parent: cfEngine.Service.Auth.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: RegisterPlatform(PlatformAuth)
+  nameWithType: IAuthService.RegisterPlatform(PlatformAuth)
+  fullName: cfEngine.Service.Auth.IAuthService.RegisterPlatform(cfEngine.Service.Auth.PlatformAuth)
+  type: Method
+  source:
+    id: RegisterPlatform
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 59
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: void RegisterPlatform(PlatformAuth platform)
+    parameters:
+    - id: platform
+      type: cfEngine.Service.Auth.PlatformAuth
+    content.vb: Sub RegisterPlatform(platform As PlatformAuth)
+  overload: cfEngine.Service.Auth.IAuthService.RegisterPlatform*
+- uid: cfEngine.Service.Auth.IAuthService.SignInAsync(cfEngine.Service.Auth.LoginPlatform,cfEngine.Service.Auth.LoginToken)
+  commentId: M:cfEngine.Service.Auth.IAuthService.SignInAsync(cfEngine.Service.Auth.LoginPlatform,cfEngine.Service.Auth.LoginToken)
+  id: SignInAsync(cfEngine.Service.Auth.LoginPlatform,cfEngine.Service.Auth.LoginToken)
+  parent: cfEngine.Service.Auth.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: SignInAsync(LoginPlatform, LoginToken)
+  nameWithType: IAuthService.SignInAsync(LoginPlatform, LoginToken)
+  fullName: cfEngine.Service.Auth.IAuthService.SignInAsync(cfEngine.Service.Auth.LoginPlatform, cfEngine.Service.Auth.LoginToken)
+  type: Method
+  source:
+    id: SignInAsync
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 60
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: Task SignInAsync(LoginPlatform platform, LoginToken token)
+    parameters:
+    - id: platform
+      type: cfEngine.Service.Auth.LoginPlatform
+    - id: token
+      type: cfEngine.Service.Auth.LoginToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SignInAsync(platform As LoginPlatform, token As LoginToken) As Task
+  overload: cfEngine.Service.Auth.IAuthService.SignInAsync*
+- uid: cfEngine.Service.Auth.IAuthService.SignUpAsync(cfEngine.Service.Auth.LoginPlatform,cfEngine.Service.Auth.LoginToken)
+  commentId: M:cfEngine.Service.Auth.IAuthService.SignUpAsync(cfEngine.Service.Auth.LoginPlatform,cfEngine.Service.Auth.LoginToken)
+  id: SignUpAsync(cfEngine.Service.Auth.LoginPlatform,cfEngine.Service.Auth.LoginToken)
+  parent: cfEngine.Service.Auth.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: SignUpAsync(LoginPlatform, LoginToken)
+  nameWithType: IAuthService.SignUpAsync(LoginPlatform, LoginToken)
+  fullName: cfEngine.Service.Auth.IAuthService.SignUpAsync(cfEngine.Service.Auth.LoginPlatform, cfEngine.Service.Auth.LoginToken)
+  type: Method
+  source:
+    id: SignUpAsync
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 61
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: Task SignUpAsync(LoginPlatform platform, LoginToken token)
+    parameters:
+    - id: platform
+      type: cfEngine.Service.Auth.LoginPlatform
+    - id: token
+      type: cfEngine.Service.Auth.LoginToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SignUpAsync(platform As LoginPlatform, token As LoginToken) As Task
+  overload: cfEngine.Service.Auth.IAuthService.SignUpAsync*
+- uid: cfEngine.Service.Auth.IAuthService.LinkAsync(cfEngine.Service.Auth.LoginPlatform,cfEngine.Service.Auth.LoginToken)
+  commentId: M:cfEngine.Service.Auth.IAuthService.LinkAsync(cfEngine.Service.Auth.LoginPlatform,cfEngine.Service.Auth.LoginToken)
+  id: LinkAsync(cfEngine.Service.Auth.LoginPlatform,cfEngine.Service.Auth.LoginToken)
+  parent: cfEngine.Service.Auth.IAuthService
+  langs:
+  - csharp
+  - vb
+  name: LinkAsync(LoginPlatform, LoginToken)
+  nameWithType: IAuthService.LinkAsync(LoginPlatform, LoginToken)
+  fullName: cfEngine.Service.Auth.IAuthService.LinkAsync(cfEngine.Service.Auth.LoginPlatform, cfEngine.Service.Auth.LoginToken)
+  type: Method
+  source:
+    id: LinkAsync
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 62
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: Task LinkAsync(LoginPlatform platform, LoginToken token)
+    parameters:
+    - id: platform
+      type: cfEngine.Service.Auth.LoginPlatform
+    - id: token
+      type: cfEngine.Service.Auth.LoginToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function LinkAsync(platform As LoginPlatform, token As LoginToken) As Task
+  overload: cfEngine.Service.Auth.IAuthService.LinkAsync*
+references:
+- uid: cfEngine.Service.Auth
+  commentId: N:cfEngine.Service.Auth
+  href: cfEngine.html
+  name: cfEngine.Service.Auth
+  nameWithType: cfEngine.Service.Auth
+  fullName: cfEngine.Service.Auth
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Auth
+    name: Auth
+    href: cfEngine.Service.Auth.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Auth
+    name: Auth
+    href: cfEngine.Service.Auth.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Service.Auth.IAuthService.GetUserId*
+  commentId: Overload:cfEngine.Service.Auth.IAuthService.GetUserId
+  href: cfEngine.Service.Auth.IAuthService.html#cfEngine_Service_Auth_IAuthService_GetUserId
+  name: GetUserId
+  nameWithType: IAuthService.GetUserId
+  fullName: cfEngine.Service.Auth.IAuthService.GetUserId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: cfEngine.Service.Auth.IAuthService.IsSessionUserExist*
+  commentId: Overload:cfEngine.Service.Auth.IAuthService.IsSessionUserExist
+  href: cfEngine.Service.Auth.IAuthService.html#cfEngine_Service_Auth_IAuthService_IsSessionUserExist
+  name: IsSessionUserExist
+  nameWithType: IAuthService.IsSessionUserExist
+  fullName: cfEngine.Service.Auth.IAuthService.IsSessionUserExist
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: cfEngine.Service.Auth.IAuthService.InitAsync*
+  commentId: Overload:cfEngine.Service.Auth.IAuthService.InitAsync
+  href: cfEngine.Service.Auth.IAuthService.html#cfEngine_Service_Auth_IAuthService_InitAsync_System_Threading_CancellationToken_
+  name: InitAsync
+  nameWithType: IAuthService.InitAsync
+  fullName: cfEngine.Service.Auth.IAuthService.InitAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: cfEngine.Service.Auth.IAuthService.TryLoginCachedUserAsync*
+  commentId: Overload:cfEngine.Service.Auth.IAuthService.TryLoginCachedUserAsync
+  href: cfEngine.Service.Auth.IAuthService.html#cfEngine_Service_Auth_IAuthService_TryLoginCachedUserAsync_System_Threading_CancellationToken_
+  name: TryLoginCachedUserAsync
+  nameWithType: IAuthService.TryLoginCachedUserAsync
+  fullName: cfEngine.Service.Auth.IAuthService.TryLoginCachedUserAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: cfEngine.Service.Auth.IAuthService.RegisterPlatform*
+  commentId: Overload:cfEngine.Service.Auth.IAuthService.RegisterPlatform
+  href: cfEngine.Service.Auth.IAuthService.html#cfEngine_Service_Auth_IAuthService_RegisterPlatform_cfEngine_Service_Auth_PlatformAuth_
+  name: RegisterPlatform
+  nameWithType: IAuthService.RegisterPlatform
+  fullName: cfEngine.Service.Auth.IAuthService.RegisterPlatform
+- uid: cfEngine.Service.Auth.PlatformAuth
+  commentId: T:cfEngine.Service.Auth.PlatformAuth
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.PlatformAuth.html
+  name: PlatformAuth
+  nameWithType: PlatformAuth
+  fullName: cfEngine.Service.Auth.PlatformAuth
+- uid: cfEngine.Service.Auth.IAuthService.SignInAsync*
+  commentId: Overload:cfEngine.Service.Auth.IAuthService.SignInAsync
+  href: cfEngine.Service.Auth.IAuthService.html#cfEngine_Service_Auth_IAuthService_SignInAsync_cfEngine_Service_Auth_LoginPlatform_cfEngine_Service_Auth_LoginToken_
+  name: SignInAsync
+  nameWithType: IAuthService.SignInAsync
+  fullName: cfEngine.Service.Auth.IAuthService.SignInAsync
+- uid: cfEngine.Service.Auth.LoginPlatform
+  commentId: T:cfEngine.Service.Auth.LoginPlatform
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.LoginPlatform.html
+  name: LoginPlatform
+  nameWithType: LoginPlatform
+  fullName: cfEngine.Service.Auth.LoginPlatform
+- uid: cfEngine.Service.Auth.LoginToken
+  commentId: T:cfEngine.Service.Auth.LoginToken
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.LoginToken.html
+  name: LoginToken
+  nameWithType: LoginToken
+  fullName: cfEngine.Service.Auth.LoginToken
+- uid: cfEngine.Service.Auth.IAuthService.SignUpAsync*
+  commentId: Overload:cfEngine.Service.Auth.IAuthService.SignUpAsync
+  href: cfEngine.Service.Auth.IAuthService.html#cfEngine_Service_Auth_IAuthService_SignUpAsync_cfEngine_Service_Auth_LoginPlatform_cfEngine_Service_Auth_LoginToken_
+  name: SignUpAsync
+  nameWithType: IAuthService.SignUpAsync
+  fullName: cfEngine.Service.Auth.IAuthService.SignUpAsync
+- uid: cfEngine.Service.Auth.IAuthService.LinkAsync*
+  commentId: Overload:cfEngine.Service.Auth.IAuthService.LinkAsync
+  href: cfEngine.Service.Auth.IAuthService.html#cfEngine_Service_Auth_IAuthService_LinkAsync_cfEngine_Service_Auth_LoginPlatform_cfEngine_Service_Auth_LoginToken_
+  name: LinkAsync
+  nameWithType: IAuthService.LinkAsync
+  fullName: cfEngine.Service.Auth.IAuthService.LinkAsync

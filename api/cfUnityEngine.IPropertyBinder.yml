@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.IPropertyBinder
+  commentId: T:cfUnityEngine.IPropertyBinder
+  id: IPropertyBinder
+  parent: cfUnityEngine
+  children:
+  - cfUnityEngine.IPropertyBinder.BindSource(cfUnityEngine.IPropertySource)
+  langs:
+  - csharp
+  - vb
+  name: IPropertyBinder
+  nameWithType: IPropertyBinder
+  fullName: cfUnityEngine.IPropertyBinder
+  type: Interface
+  source:
+    id: IPropertyBinder
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/binder/PropertyBinderBase.cs
+    startLine: 6
+  namespace: cfUnityEngine
+  syntax:
+    content: public interface IPropertyBinder
+    content.vb: Public Interface IPropertyBinder
+- uid: cfUnityEngine.IPropertyBinder.BindSource(cfUnityEngine.IPropertySource)
+  commentId: M:cfUnityEngine.IPropertyBinder.BindSource(cfUnityEngine.IPropertySource)
+  id: BindSource(cfUnityEngine.IPropertySource)
+  parent: cfUnityEngine.IPropertyBinder
+  langs:
+  - csharp
+  - vb
+  name: BindSource(IPropertySource)
+  nameWithType: IPropertyBinder.BindSource(IPropertySource)
+  fullName: cfUnityEngine.IPropertyBinder.BindSource(cfUnityEngine.IPropertySource)
+  type: Method
+  source:
+    id: BindSource
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/binder/PropertyBinderBase.cs
+    startLine: 8
+  namespace: cfUnityEngine
+  syntax:
+    content: void BindSource(IPropertySource source)
+    parameters:
+    - id: source
+      type: cfUnityEngine.IPropertySource
+    content.vb: Sub BindSource(source As IPropertySource)
+  overload: cfUnityEngine.IPropertyBinder.BindSource*
+references:
+- uid: cfUnityEngine
+  commentId: N:cfUnityEngine
+  href: cfUnityEngine.html
+  name: cfUnityEngine
+  nameWithType: cfUnityEngine
+  fullName: cfUnityEngine
+- uid: cfUnityEngine.IPropertyBinder.BindSource*
+  commentId: Overload:cfUnityEngine.IPropertyBinder.BindSource
+  href: cfUnityEngine.IPropertyBinder.html#cfUnityEngine_IPropertyBinder_BindSource_cfUnityEngine_IPropertySource_
+  name: BindSource
+  nameWithType: IPropertyBinder.BindSource
+  fullName: cfUnityEngine.IPropertyBinder.BindSource
+- uid: cfUnityEngine.IPropertySource
+  commentId: T:cfUnityEngine.IPropertySource
+  parent: cfUnityEngine
+  href: cfUnityEngine.IPropertySource.html
+  name: IPropertySource
+  nameWithType: IPropertySource
+  fullName: cfUnityEngine.IPropertySource

@@ -1,0 +1,401 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Service.Auth.LoginPlatform
+  commentId: T:cfEngine.Service.Auth.LoginPlatform
+  id: LoginPlatform
+  parent: cfEngine.Service.Auth
+  children:
+  - cfEngine.Service.Auth.LoginPlatform.Anonymous
+  - cfEngine.Service.Auth.LoginPlatform.Apple
+  - cfEngine.Service.Auth.LoginPlatform.AppleGame
+  - cfEngine.Service.Auth.LoginPlatform.Facebook
+  - cfEngine.Service.Auth.LoginPlatform.FromCached
+  - cfEngine.Service.Auth.LoginPlatform.Google
+  - cfEngine.Service.Auth.LoginPlatform.GooglePlay
+  - cfEngine.Service.Auth.LoginPlatform.Local
+  - cfEngine.Service.Auth.LoginPlatform.Oculus
+  - cfEngine.Service.Auth.LoginPlatform.Steam
+  - cfEngine.Service.Auth.LoginPlatform.Username
+  langs:
+  - csharp
+  - vb
+  name: LoginPlatform
+  nameWithType: LoginPlatform
+  fullName: cfEngine.Service.Auth.LoginPlatform
+  type: Enum
+  source:
+    id: LoginPlatform
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 26
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: 'public enum LoginPlatform : byte'
+    content.vb: Public Enum LoginPlatform As Byte
+  extensionMethods:
+  - System.Enum.cfEngine.Extension.EnumExtension.hasFlag(System.Enum)
+- uid: cfEngine.Service.Auth.LoginPlatform.FromCached
+  commentId: F:cfEngine.Service.Auth.LoginPlatform.FromCached
+  id: FromCached
+  parent: cfEngine.Service.Auth.LoginPlatform
+  langs:
+  - csharp
+  - vb
+  name: FromCached
+  nameWithType: LoginPlatform.FromCached
+  fullName: cfEngine.Service.Auth.LoginPlatform.FromCached
+  type: Field
+  source:
+    id: FromCached
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 28
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: FromCached = 0
+    return:
+      type: cfEngine.Service.Auth.LoginPlatform
+- uid: cfEngine.Service.Auth.LoginPlatform.Anonymous
+  commentId: F:cfEngine.Service.Auth.LoginPlatform.Anonymous
+  id: Anonymous
+  parent: cfEngine.Service.Auth.LoginPlatform
+  langs:
+  - csharp
+  - vb
+  name: Anonymous
+  nameWithType: LoginPlatform.Anonymous
+  fullName: cfEngine.Service.Auth.LoginPlatform.Anonymous
+  type: Field
+  source:
+    id: Anonymous
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 29
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: Anonymous = 1
+    return:
+      type: cfEngine.Service.Auth.LoginPlatform
+- uid: cfEngine.Service.Auth.LoginPlatform.Google
+  commentId: F:cfEngine.Service.Auth.LoginPlatform.Google
+  id: Google
+  parent: cfEngine.Service.Auth.LoginPlatform
+  langs:
+  - csharp
+  - vb
+  name: Google
+  nameWithType: LoginPlatform.Google
+  fullName: cfEngine.Service.Auth.LoginPlatform.Google
+  type: Field
+  source:
+    id: Google
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 30
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: Google = 2
+    return:
+      type: cfEngine.Service.Auth.LoginPlatform
+- uid: cfEngine.Service.Auth.LoginPlatform.GooglePlay
+  commentId: F:cfEngine.Service.Auth.LoginPlatform.GooglePlay
+  id: GooglePlay
+  parent: cfEngine.Service.Auth.LoginPlatform
+  langs:
+  - csharp
+  - vb
+  name: GooglePlay
+  nameWithType: LoginPlatform.GooglePlay
+  fullName: cfEngine.Service.Auth.LoginPlatform.GooglePlay
+  type: Field
+  source:
+    id: GooglePlay
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 31
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: GooglePlay = 3
+    return:
+      type: cfEngine.Service.Auth.LoginPlatform
+- uid: cfEngine.Service.Auth.LoginPlatform.Apple
+  commentId: F:cfEngine.Service.Auth.LoginPlatform.Apple
+  id: Apple
+  parent: cfEngine.Service.Auth.LoginPlatform
+  langs:
+  - csharp
+  - vb
+  name: Apple
+  nameWithType: LoginPlatform.Apple
+  fullName: cfEngine.Service.Auth.LoginPlatform.Apple
+  type: Field
+  source:
+    id: Apple
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 32
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: Apple = 4
+    return:
+      type: cfEngine.Service.Auth.LoginPlatform
+- uid: cfEngine.Service.Auth.LoginPlatform.AppleGame
+  commentId: F:cfEngine.Service.Auth.LoginPlatform.AppleGame
+  id: AppleGame
+  parent: cfEngine.Service.Auth.LoginPlatform
+  langs:
+  - csharp
+  - vb
+  name: AppleGame
+  nameWithType: LoginPlatform.AppleGame
+  fullName: cfEngine.Service.Auth.LoginPlatform.AppleGame
+  type: Field
+  source:
+    id: AppleGame
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 33
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: AppleGame = 5
+    return:
+      type: cfEngine.Service.Auth.LoginPlatform
+- uid: cfEngine.Service.Auth.LoginPlatform.Facebook
+  commentId: F:cfEngine.Service.Auth.LoginPlatform.Facebook
+  id: Facebook
+  parent: cfEngine.Service.Auth.LoginPlatform
+  langs:
+  - csharp
+  - vb
+  name: Facebook
+  nameWithType: LoginPlatform.Facebook
+  fullName: cfEngine.Service.Auth.LoginPlatform.Facebook
+  type: Field
+  source:
+    id: Facebook
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 34
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: Facebook = 6
+    return:
+      type: cfEngine.Service.Auth.LoginPlatform
+- uid: cfEngine.Service.Auth.LoginPlatform.Steam
+  commentId: F:cfEngine.Service.Auth.LoginPlatform.Steam
+  id: Steam
+  parent: cfEngine.Service.Auth.LoginPlatform
+  langs:
+  - csharp
+  - vb
+  name: Steam
+  nameWithType: LoginPlatform.Steam
+  fullName: cfEngine.Service.Auth.LoginPlatform.Steam
+  type: Field
+  source:
+    id: Steam
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 35
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: Steam = 7
+    return:
+      type: cfEngine.Service.Auth.LoginPlatform
+- uid: cfEngine.Service.Auth.LoginPlatform.Oculus
+  commentId: F:cfEngine.Service.Auth.LoginPlatform.Oculus
+  id: Oculus
+  parent: cfEngine.Service.Auth.LoginPlatform
+  langs:
+  - csharp
+  - vb
+  name: Oculus
+  nameWithType: LoginPlatform.Oculus
+  fullName: cfEngine.Service.Auth.LoginPlatform.Oculus
+  type: Field
+  source:
+    id: Oculus
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 36
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: Oculus = 8
+    return:
+      type: cfEngine.Service.Auth.LoginPlatform
+- uid: cfEngine.Service.Auth.LoginPlatform.Username
+  commentId: F:cfEngine.Service.Auth.LoginPlatform.Username
+  id: Username
+  parent: cfEngine.Service.Auth.LoginPlatform
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: LoginPlatform.Username
+  fullName: cfEngine.Service.Auth.LoginPlatform.Username
+  type: Field
+  source:
+    id: Username
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 37
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: Username = 9
+    return:
+      type: cfEngine.Service.Auth.LoginPlatform
+- uid: cfEngine.Service.Auth.LoginPlatform.Local
+  commentId: F:cfEngine.Service.Auth.LoginPlatform.Local
+  id: Local
+  parent: cfEngine.Service.Auth.LoginPlatform
+  langs:
+  - csharp
+  - vb
+  name: Local
+  nameWithType: LoginPlatform.Local
+  fullName: cfEngine.Service.Auth.LoginPlatform.Local
+  type: Field
+  source:
+    id: Local
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 38
+  namespace: cfEngine.Service.Auth
+  syntax:
+    content: Local = 10
+    return:
+      type: cfEngine.Service.Auth.LoginPlatform
+references:
+- uid: cfEngine.Service.Auth
+  commentId: N:cfEngine.Service.Auth
+  href: cfEngine.html
+  name: cfEngine.Service.Auth
+  nameWithType: cfEngine.Service.Auth
+  fullName: cfEngine.Service.Auth
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Auth
+    name: Auth
+    href: cfEngine.Service.Auth.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Auth
+    name: Auth
+    href: cfEngine.Service.Auth.html
+- uid: System.Enum.cfEngine.Extension.EnumExtension.hasFlag(System.Enum)
+  commentId: M:cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+  parent: cfEngine.Extension.EnumExtension
+  definition: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+  href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  name: hasFlag(Enum, Enum)
+  nameWithType: EnumExtension.hasFlag(Enum, Enum)
+  fullName: cfEngine.Extension.EnumExtension.hasFlag(System.Enum, System.Enum)
+  spec.csharp:
+  - uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+    name: hasFlag
+    href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+    name: hasFlag
+    href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+  commentId: M:cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+  isExternal: true
+  href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  name: hasFlag(Enum, Enum)
+  nameWithType: EnumExtension.hasFlag(Enum, Enum)
+  fullName: cfEngine.Extension.EnumExtension.hasFlag(System.Enum, System.Enum)
+  spec.csharp:
+  - uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+    name: hasFlag
+    href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+    name: hasFlag
+    href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: cfEngine.Extension.EnumExtension
+  commentId: T:cfEngine.Extension.EnumExtension
+  parent: cfEngine.Extension
+  href: cfEngine.Extension.EnumExtension.html
+  name: EnumExtension
+  nameWithType: EnumExtension
+  fullName: cfEngine.Extension.EnumExtension
+- uid: cfEngine.Extension
+  commentId: N:cfEngine.Extension
+  href: cfEngine.html
+  name: cfEngine.Extension
+  nameWithType: cfEngine.Extension
+  fullName: cfEngine.Extension
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Extension
+    name: Extension
+    href: cfEngine.Extension.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Extension
+    name: Extension
+    href: cfEngine.Extension.html
+- uid: cfEngine.Service.Auth.LoginPlatform
+  commentId: T:cfEngine.Service.Auth.LoginPlatform
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.LoginPlatform.html
+  name: LoginPlatform
+  nameWithType: LoginPlatform
+  fullName: cfEngine.Service.Auth.LoginPlatform

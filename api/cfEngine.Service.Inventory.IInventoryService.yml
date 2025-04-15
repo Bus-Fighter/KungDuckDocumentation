@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Service.Inventory.IInventoryService
+  commentId: T:cfEngine.Service.Inventory.IInventoryService
+  id: IInventoryService
+  parent: cfEngine.Service.Inventory
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: cfEngine.Service.Inventory.IInventoryService
+  type: Interface
+  source:
+    id: IInventoryService
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryService.cs
+    startLine: 38
+  namespace: cfEngine.Service.Inventory
+  syntax:
+    content: 'public interface IInventoryService : IService, IDisposable'
+    content.vb: Public Interface IInventoryService Inherits IService, IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+references:
+- uid: cfEngine.Service.Inventory
+  commentId: N:cfEngine.Service.Inventory
+  href: cfEngine.html
+  name: cfEngine.Service.Inventory
+  nameWithType: cfEngine.Service.Inventory
+  fullName: cfEngine.Service.Inventory
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Inventory
+    name: Inventory
+    href: cfEngine.Service.Inventory.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Inventory
+    name: Inventory
+    href: cfEngine.Service.Inventory.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

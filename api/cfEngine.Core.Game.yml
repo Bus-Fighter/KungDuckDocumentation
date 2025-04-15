@@ -1,0 +1,1550 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Core.Game
+  commentId: T:cfEngine.Core.Game
+  id: Game
+  parent: cfEngine.Core
+  children:
+  - cfEngine.Core.Game.Current
+  - cfEngine.Core.Game.SetCurrent(cfEngine.Core.Game)
+  - cfEngine.Core.Game.TaskToken
+  langs:
+  - csharp
+  - vb
+  name: Game
+  nameWithType: Game
+  fullName: cfEngine.Core.Game
+  type: Class
+  source:
+    id: Game
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/game/Game.cs
+    startLine: 5
+  namespace: cfEngine.Core
+  syntax:
+    content: 'public class Game : ServiceLocator, IServiceLocator, IDisposable'
+    content.vb: Public Class Game Inherits ServiceLocator Implements IServiceLocator, IDisposable
+  inheritance:
+  - System.Object
+  - cfEngine.Service.ServiceLocator
+  implements:
+  - cfEngine.Service.IServiceLocator
+  - System.IDisposable
+  inheritedMembers:
+  - cfEngine.Service.ServiceLocator.Register``1({T},System.String)
+  - cfEngine.Service.ServiceLocator.Unregister``1({T})
+  - cfEngine.Service.ServiceLocator.Unregister(System.String)
+  - cfEngine.Service.ServiceLocator.GetService``1
+  - cfEngine.Service.ServiceLocator.GetService``1(System.String)
+  - cfEngine.Service.ServiceLocator.Dispose
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - cfEngine.Core.Game.cfEngine.Core.GameExtension.GetAsset``1
+  - cfEngine.Core.Game.cfEngine.Core.GameExtension.GetAuth
+  - cfEngine.Core.Game.cfEngine.Core.GameExtension.GetInfo
+  - cfEngine.Core.Game.cfEngine.Core.GameExtension.GetInventory
+  - cfEngine.Core.Game.cfEngine.Core.GameExtension.GetPoolManager
+  - cfEngine.Core.Game.cfEngine.Core.GameExtension.GetUserData
+  - cfEngine.Core.Game.cfEngine.Core.GameExtension.WithAsset``1(cfEngine.Asset.AssetManager{{T}})
+  - cfEngine.Core.Game.cfEngine.Core.GameExtension.WithAuthService(cfEngine.Service.Auth.IAuthService)
+  - cfEngine.Core.Game.cfEngine.Core.GameExtension.WithInfo(cfEngine.Info.InfoLayer)
+  - cfEngine.Core.Game.cfEngine.Core.GameExtension.WithInventory(cfEngine.Service.Inventory.IInventoryService)
+  - cfEngine.Core.Game.cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Pooling.PoolManager)
+  - cfEngine.Core.Game.cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.UserDataManager)
+- uid: cfEngine.Core.Game.Current
+  commentId: P:cfEngine.Core.Game.Current
+  id: Current
+  parent: cfEngine.Core.Game
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: Game.Current
+  fullName: cfEngine.Core.Game.Current
+  type: Property
+  source:
+    id: Current
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/game/Game.cs
+    startLine: 8
+  namespace: cfEngine.Core
+  syntax:
+    content: public static Game Current { get; }
+    parameters: []
+    return:
+      type: cfEngine.Core.Game
+    content.vb: Public Shared ReadOnly Property Current As Game
+  overload: cfEngine.Core.Game.Current*
+- uid: cfEngine.Core.Game.TaskToken
+  commentId: P:cfEngine.Core.Game.TaskToken
+  id: TaskToken
+  parent: cfEngine.Core.Game
+  langs:
+  - csharp
+  - vb
+  name: TaskToken
+  nameWithType: Game.TaskToken
+  fullName: cfEngine.Core.Game.TaskToken
+  type: Property
+  source:
+    id: TaskToken
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/game/Game.cs
+    startLine: 9
+  namespace: cfEngine.Core
+  syntax:
+    content: public static CancellationToken TaskToken { get; }
+    parameters: []
+    return:
+      type: System.Threading.CancellationToken
+    content.vb: Public Shared Property TaskToken As CancellationToken
+  overload: cfEngine.Core.Game.TaskToken*
+- uid: cfEngine.Core.Game.SetCurrent(cfEngine.Core.Game)
+  commentId: M:cfEngine.Core.Game.SetCurrent(cfEngine.Core.Game)
+  id: SetCurrent(cfEngine.Core.Game)
+  parent: cfEngine.Core.Game
+  langs:
+  - csharp
+  - vb
+  name: SetCurrent(Game)
+  nameWithType: Game.SetCurrent(Game)
+  fullName: cfEngine.Core.Game.SetCurrent(cfEngine.Core.Game)
+  type: Method
+  source:
+    id: SetCurrent
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/game/Game.cs
+    startLine: 11
+  namespace: cfEngine.Core
+  syntax:
+    content: public static void SetCurrent(Game game)
+    parameters:
+    - id: game
+      type: cfEngine.Core.Game
+    content.vb: Public Shared Sub SetCurrent(game As Game)
+  overload: cfEngine.Core.Game.SetCurrent*
+references:
+- uid: cfEngine.Core
+  commentId: N:cfEngine.Core
+  href: cfEngine.html
+  name: cfEngine.Core
+  nameWithType: cfEngine.Core
+  fullName: cfEngine.Core
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Core
+    name: Core
+    href: cfEngine.Core.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Core
+    name: Core
+    href: cfEngine.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: cfEngine.Service.ServiceLocator
+  commentId: T:cfEngine.Service.ServiceLocator
+  parent: cfEngine.Service
+  href: cfEngine.Service.ServiceLocator.html
+  name: ServiceLocator
+  nameWithType: ServiceLocator
+  fullName: cfEngine.Service.ServiceLocator
+- uid: cfEngine.Service.IServiceLocator
+  commentId: T:cfEngine.Service.IServiceLocator
+  parent: cfEngine.Service
+  href: cfEngine.Service.IServiceLocator.html
+  name: IServiceLocator
+  nameWithType: IServiceLocator
+  fullName: cfEngine.Service.IServiceLocator
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: cfEngine.Service.ServiceLocator.Register``1({T},System.String)
+  commentId: M:cfEngine.Service.ServiceLocator.Register``1(``0,System.String)
+  parent: cfEngine.Service.ServiceLocator
+  definition: cfEngine.Service.ServiceLocator.Register``1(``0,System.String)
+  href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Register__1___0_System_String_
+  name: Register<T>(T, string)
+  nameWithType: ServiceLocator.Register<T>(T, string)
+  fullName: cfEngine.Service.ServiceLocator.Register<T>(T, string)
+  nameWithType.vb: ServiceLocator.Register(Of T)(T, String)
+  fullName.vb: cfEngine.Service.ServiceLocator.Register(Of T)(T, String)
+  name.vb: Register(Of T)(T, String)
+  spec.csharp:
+  - uid: cfEngine.Service.ServiceLocator.Register``1(``0,System.String)
+    name: Register
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Register__1___0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Service.ServiceLocator.Register``1(``0,System.String)
+    name: Register
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Register__1___0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: cfEngine.Service.ServiceLocator.Unregister``1({T})
+  commentId: M:cfEngine.Service.ServiceLocator.Unregister``1(``0)
+  parent: cfEngine.Service.ServiceLocator
+  definition: cfEngine.Service.ServiceLocator.Unregister``1(``0)
+  href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Unregister__1___0_
+  name: Unregister<T>(T)
+  nameWithType: ServiceLocator.Unregister<T>(T)
+  fullName: cfEngine.Service.ServiceLocator.Unregister<T>(T)
+  nameWithType.vb: ServiceLocator.Unregister(Of T)(T)
+  fullName.vb: cfEngine.Service.ServiceLocator.Unregister(Of T)(T)
+  name.vb: Unregister(Of T)(T)
+  spec.csharp:
+  - uid: cfEngine.Service.ServiceLocator.Unregister``1(``0)
+    name: Unregister
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Unregister__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Service.ServiceLocator.Unregister``1(``0)
+    name: Unregister
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Unregister__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: cfEngine.Service.ServiceLocator.Unregister(System.String)
+  commentId: M:cfEngine.Service.ServiceLocator.Unregister(System.String)
+  parent: cfEngine.Service.ServiceLocator
+  isExternal: true
+  href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Unregister_System_String_
+  name: Unregister(string)
+  nameWithType: ServiceLocator.Unregister(string)
+  fullName: cfEngine.Service.ServiceLocator.Unregister(string)
+  nameWithType.vb: ServiceLocator.Unregister(String)
+  fullName.vb: cfEngine.Service.ServiceLocator.Unregister(String)
+  name.vb: Unregister(String)
+  spec.csharp:
+  - uid: cfEngine.Service.ServiceLocator.Unregister(System.String)
+    name: Unregister
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Unregister_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Service.ServiceLocator.Unregister(System.String)
+    name: Unregister
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Unregister_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: cfEngine.Service.ServiceLocator.GetService``1
+  commentId: M:cfEngine.Service.ServiceLocator.GetService``1
+  parent: cfEngine.Service.ServiceLocator
+  href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_GetService__1
+  name: GetService<T>()
+  nameWithType: ServiceLocator.GetService<T>()
+  fullName: cfEngine.Service.ServiceLocator.GetService<T>()
+  nameWithType.vb: ServiceLocator.GetService(Of T)()
+  fullName.vb: cfEngine.Service.ServiceLocator.GetService(Of T)()
+  name.vb: GetService(Of T)()
+  spec.csharp:
+  - uid: cfEngine.Service.ServiceLocator.GetService``1
+    name: GetService
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_GetService__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Service.ServiceLocator.GetService``1
+    name: GetService
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_GetService__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: cfEngine.Service.ServiceLocator.GetService``1(System.String)
+  commentId: M:cfEngine.Service.ServiceLocator.GetService``1(System.String)
+  parent: cfEngine.Service.ServiceLocator
+  isExternal: true
+  href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_GetService__1_System_String_
+  name: GetService<T>(string)
+  nameWithType: ServiceLocator.GetService<T>(string)
+  fullName: cfEngine.Service.ServiceLocator.GetService<T>(string)
+  nameWithType.vb: ServiceLocator.GetService(Of T)(String)
+  fullName.vb: cfEngine.Service.ServiceLocator.GetService(Of T)(String)
+  name.vb: GetService(Of T)(String)
+  spec.csharp:
+  - uid: cfEngine.Service.ServiceLocator.GetService``1(System.String)
+    name: GetService
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_GetService__1_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Service.ServiceLocator.GetService``1(System.String)
+    name: GetService
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_GetService__1_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: cfEngine.Service.ServiceLocator.Dispose
+  commentId: M:cfEngine.Service.ServiceLocator.Dispose
+  parent: cfEngine.Service.ServiceLocator
+  href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Dispose
+  name: Dispose()
+  nameWithType: ServiceLocator.Dispose()
+  fullName: cfEngine.Service.ServiceLocator.Dispose()
+  spec.csharp:
+  - uid: cfEngine.Service.ServiceLocator.Dispose
+    name: Dispose
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Service.ServiceLocator.Dispose
+    name: Dispose
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Dispose
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: cfEngine.Core.Game.cfEngine.Core.GameExtension.GetAsset``1
+  commentId: M:cfEngine.Core.GameExtension.GetAsset``1(cfEngine.Core.Game)
+  parent: cfEngine.Core.GameExtension
+  definition: cfEngine.Core.GameExtension.GetAsset``1(cfEngine.Core.Game)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAsset__1_cfEngine_Core_Game_
+  name: GetAsset<T>(Game)
+  nameWithType: GameExtension.GetAsset<T>(Game)
+  fullName: cfEngine.Core.GameExtension.GetAsset<T>(cfEngine.Core.Game)
+  nameWithType.vb: GameExtension.GetAsset(Of T)(Game)
+  fullName.vb: cfEngine.Core.GameExtension.GetAsset(Of T)(cfEngine.Core.Game)
+  name.vb: GetAsset(Of T)(Game)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.GetAsset``1(cfEngine.Core.Game)
+    name: GetAsset
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAsset__1_cfEngine_Core_Game_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.GetAsset``1(cfEngine.Core.Game)
+    name: GetAsset
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAsset__1_cfEngine_Core_Game_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+- uid: cfEngine.Core.Game.cfEngine.Core.GameExtension.GetAuth
+  commentId: M:cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+  parent: cfEngine.Core.GameExtension
+  definition: cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAuth_cfEngine_Core_Game_
+  name: GetAuth(Game)
+  nameWithType: GameExtension.GetAuth(Game)
+  fullName: cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+    name: GetAuth
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAuth_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+    name: GetAuth
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAuth_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+- uid: cfEngine.Core.Game.cfEngine.Core.GameExtension.GetInfo
+  commentId: M:cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+  parent: cfEngine.Core.GameExtension
+  definition: cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInfo_cfEngine_Core_Game_
+  name: GetInfo(Game)
+  nameWithType: GameExtension.GetInfo(Game)
+  fullName: cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+    name: GetInfo
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInfo_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+    name: GetInfo
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInfo_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+- uid: cfEngine.Core.Game.cfEngine.Core.GameExtension.GetInventory
+  commentId: M:cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+  parent: cfEngine.Core.GameExtension
+  definition: cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInventory_cfEngine_Core_Game_
+  name: GetInventory(Game)
+  nameWithType: GameExtension.GetInventory(Game)
+  fullName: cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+    name: GetInventory
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInventory_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+    name: GetInventory
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInventory_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+- uid: cfEngine.Core.Game.cfEngine.Core.GameExtension.GetPoolManager
+  commentId: M:cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+  parent: cfEngine.Core.GameExtension
+  definition: cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetPoolManager_cfEngine_Core_Game_
+  name: GetPoolManager(Game)
+  nameWithType: GameExtension.GetPoolManager(Game)
+  fullName: cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+    name: GetPoolManager
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetPoolManager_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+    name: GetPoolManager
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetPoolManager_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+- uid: cfEngine.Core.Game.cfEngine.Core.GameExtension.GetUserData
+  commentId: M:cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+  parent: cfEngine.Core.GameExtension
+  definition: cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetUserData_cfEngine_Core_Game_
+  name: GetUserData(Game)
+  nameWithType: GameExtension.GetUserData(Game)
+  fullName: cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+    name: GetUserData
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetUserData_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+    name: GetUserData
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetUserData_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+- uid: cfEngine.Core.Game.cfEngine.Core.GameExtension.WithAsset``1(cfEngine.Asset.AssetManager{{T}})
+  commentId: M:cfEngine.Core.GameExtension.WithAsset``1(cfEngine.Core.Game,cfEngine.Asset.AssetManager{``0})
+  parent: cfEngine.Core.GameExtension
+  definition: cfEngine.Core.GameExtension.WithAsset``1(cfEngine.Core.Game,cfEngine.Asset.AssetManager{``0})
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAsset__1_cfEngine_Core_Game_cfEngine_Asset_AssetManager___0__
+  name: WithAsset<T>(Game, AssetManager<T>)
+  nameWithType: GameExtension.WithAsset<T>(Game, AssetManager<T>)
+  fullName: cfEngine.Core.GameExtension.WithAsset<T>(cfEngine.Core.Game, cfEngine.Asset.AssetManager<T>)
+  nameWithType.vb: GameExtension.WithAsset(Of T)(Game, AssetManager(Of T))
+  fullName.vb: cfEngine.Core.GameExtension.WithAsset(Of T)(cfEngine.Core.Game, cfEngine.Asset.AssetManager(Of T))
+  name.vb: WithAsset(Of T)(Game, AssetManager(Of T))
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.WithAsset``1(cfEngine.Core.Game,cfEngine.Asset.AssetManager{``0})
+    name: WithAsset
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAsset__1_cfEngine_Core_Game_cfEngine_Asset_AssetManager___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.WithAsset``1(cfEngine.Core.Game,cfEngine.Asset.AssetManager{``0})
+    name: WithAsset
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAsset__1_cfEngine_Core_Game_cfEngine_Asset_AssetManager___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: cfEngine.Core.Game.cfEngine.Core.GameExtension.WithAuthService(cfEngine.Service.Auth.IAuthService)
+  commentId: M:cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game,cfEngine.Service.Auth.IAuthService)
+  parent: cfEngine.Core.GameExtension
+  definition: cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game,cfEngine.Service.Auth.IAuthService)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAuthService_cfEngine_Core_Game_cfEngine_Service_Auth_IAuthService_
+  name: WithAuthService(Game, IAuthService)
+  nameWithType: GameExtension.WithAuthService(Game, IAuthService)
+  fullName: cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game, cfEngine.Service.Auth.IAuthService)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game,cfEngine.Service.Auth.IAuthService)
+    name: WithAuthService
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAuthService_cfEngine_Core_Game_cfEngine_Service_Auth_IAuthService_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Service.Auth.IAuthService
+    name: IAuthService
+    href: cfEngine.Service.Auth.IAuthService.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game,cfEngine.Service.Auth.IAuthService)
+    name: WithAuthService
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAuthService_cfEngine_Core_Game_cfEngine_Service_Auth_IAuthService_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Service.Auth.IAuthService
+    name: IAuthService
+    href: cfEngine.Service.Auth.IAuthService.html
+  - name: )
+- uid: cfEngine.Core.Game.cfEngine.Core.GameExtension.WithInfo(cfEngine.Info.InfoLayer)
+  commentId: M:cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game,cfEngine.Info.InfoLayer)
+  parent: cfEngine.Core.GameExtension
+  definition: cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game,cfEngine.Info.InfoLayer)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInfo_cfEngine_Core_Game_cfEngine_Info_InfoLayer_
+  name: WithInfo(Game, InfoLayer)
+  nameWithType: GameExtension.WithInfo(Game, InfoLayer)
+  fullName: cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game, cfEngine.Info.InfoLayer)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game,cfEngine.Info.InfoLayer)
+    name: WithInfo
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInfo_cfEngine_Core_Game_cfEngine_Info_InfoLayer_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Info.InfoLayer
+    name: InfoLayer
+    href: cfEngine.Info.InfoLayer.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game,cfEngine.Info.InfoLayer)
+    name: WithInfo
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInfo_cfEngine_Core_Game_cfEngine_Info_InfoLayer_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Info.InfoLayer
+    name: InfoLayer
+    href: cfEngine.Info.InfoLayer.html
+  - name: )
+- uid: cfEngine.Core.Game.cfEngine.Core.GameExtension.WithInventory(cfEngine.Service.Inventory.IInventoryService)
+  commentId: M:cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game,cfEngine.Service.Inventory.IInventoryService)
+  parent: cfEngine.Core.GameExtension
+  definition: cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game,cfEngine.Service.Inventory.IInventoryService)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInventory_cfEngine_Core_Game_cfEngine_Service_Inventory_IInventoryService_
+  name: WithInventory(Game, IInventoryService)
+  nameWithType: GameExtension.WithInventory(Game, IInventoryService)
+  fullName: cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game, cfEngine.Service.Inventory.IInventoryService)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game,cfEngine.Service.Inventory.IInventoryService)
+    name: WithInventory
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInventory_cfEngine_Core_Game_cfEngine_Service_Inventory_IInventoryService_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Service.Inventory.IInventoryService
+    name: IInventoryService
+    href: cfEngine.Service.Inventory.IInventoryService.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game,cfEngine.Service.Inventory.IInventoryService)
+    name: WithInventory
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInventory_cfEngine_Core_Game_cfEngine_Service_Inventory_IInventoryService_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Service.Inventory.IInventoryService
+    name: IInventoryService
+    href: cfEngine.Service.Inventory.IInventoryService.html
+  - name: )
+- uid: cfEngine.Core.Game.cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Pooling.PoolManager)
+  commentId: M:cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game,cfEngine.Pooling.PoolManager)
+  parent: cfEngine.Core.GameExtension
+  definition: cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game,cfEngine.Pooling.PoolManager)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithPoolManager_cfEngine_Core_Game_cfEngine_Pooling_PoolManager_
+  name: WithPoolManager(Game, PoolManager)
+  nameWithType: GameExtension.WithPoolManager(Game, PoolManager)
+  fullName: cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game, cfEngine.Pooling.PoolManager)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game,cfEngine.Pooling.PoolManager)
+    name: WithPoolManager
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithPoolManager_cfEngine_Core_Game_cfEngine_Pooling_PoolManager_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Pooling.PoolManager
+    name: PoolManager
+    href: cfEngine.Pooling.PoolManager.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game,cfEngine.Pooling.PoolManager)
+    name: WithPoolManager
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithPoolManager_cfEngine_Core_Game_cfEngine_Pooling_PoolManager_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Pooling.PoolManager
+    name: PoolManager
+    href: cfEngine.Pooling.PoolManager.html
+  - name: )
+- uid: cfEngine.Core.Game.cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.UserDataManager)
+  commentId: M:cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game,cfEngine.Core.UserDataManager)
+  parent: cfEngine.Core.GameExtension
+  definition: cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game,cfEngine.Core.UserDataManager)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithUserData_cfEngine_Core_Game_cfEngine_Core_UserDataManager_
+  name: WithUserData(Game, UserDataManager)
+  nameWithType: GameExtension.WithUserData(Game, UserDataManager)
+  fullName: cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game, cfEngine.Core.UserDataManager)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game,cfEngine.Core.UserDataManager)
+    name: WithUserData
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithUserData_cfEngine_Core_Game_cfEngine_Core_UserDataManager_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Core.UserDataManager
+    name: UserDataManager
+    href: cfEngine.Core.UserDataManager.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game,cfEngine.Core.UserDataManager)
+    name: WithUserData
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithUserData_cfEngine_Core_Game_cfEngine_Core_UserDataManager_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Core.UserDataManager
+    name: UserDataManager
+    href: cfEngine.Core.UserDataManager.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Service
+  commentId: N:cfEngine.Service
+  href: cfEngine.html
+  name: cfEngine.Service
+  nameWithType: cfEngine.Service
+  fullName: cfEngine.Service
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+- uid: cfEngine.Service.ServiceLocator.Register``1(``0,System.String)
+  commentId: M:cfEngine.Service.ServiceLocator.Register``1(``0,System.String)
+  isExternal: true
+  href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Register__1___0_System_String_
+  name: Register<T>(T, string)
+  nameWithType: ServiceLocator.Register<T>(T, string)
+  fullName: cfEngine.Service.ServiceLocator.Register<T>(T, string)
+  nameWithType.vb: ServiceLocator.Register(Of T)(T, String)
+  fullName.vb: cfEngine.Service.ServiceLocator.Register(Of T)(T, String)
+  name.vb: Register(Of T)(T, String)
+  spec.csharp:
+  - uid: cfEngine.Service.ServiceLocator.Register``1(``0,System.String)
+    name: Register
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Register__1___0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Service.ServiceLocator.Register``1(``0,System.String)
+    name: Register
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Register__1___0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: cfEngine.Service.ServiceLocator.Unregister``1(``0)
+  commentId: M:cfEngine.Service.ServiceLocator.Unregister``1(``0)
+  href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Unregister__1___0_
+  name: Unregister<T>(T)
+  nameWithType: ServiceLocator.Unregister<T>(T)
+  fullName: cfEngine.Service.ServiceLocator.Unregister<T>(T)
+  nameWithType.vb: ServiceLocator.Unregister(Of T)(T)
+  fullName.vb: cfEngine.Service.ServiceLocator.Unregister(Of T)(T)
+  name.vb: Unregister(Of T)(T)
+  spec.csharp:
+  - uid: cfEngine.Service.ServiceLocator.Unregister``1(``0)
+    name: Unregister
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Unregister__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Service.ServiceLocator.Unregister``1(``0)
+    name: Unregister
+    href: cfEngine.Service.ServiceLocator.html#cfEngine_Service_ServiceLocator_Unregister__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: cfEngine.Core.GameExtension.GetAsset``1(cfEngine.Core.Game)
+  commentId: M:cfEngine.Core.GameExtension.GetAsset``1(cfEngine.Core.Game)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAsset__1_cfEngine_Core_Game_
+  name: GetAsset<T>(Game)
+  nameWithType: GameExtension.GetAsset<T>(Game)
+  fullName: cfEngine.Core.GameExtension.GetAsset<T>(cfEngine.Core.Game)
+  nameWithType.vb: GameExtension.GetAsset(Of T)(Game)
+  fullName.vb: cfEngine.Core.GameExtension.GetAsset(Of T)(cfEngine.Core.Game)
+  name.vb: GetAsset(Of T)(Game)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.GetAsset``1(cfEngine.Core.Game)
+    name: GetAsset
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAsset__1_cfEngine_Core_Game_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.GetAsset``1(cfEngine.Core.Game)
+    name: GetAsset
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAsset__1_cfEngine_Core_Game_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+- uid: cfEngine.Core.GameExtension
+  commentId: T:cfEngine.Core.GameExtension
+  parent: cfEngine.Core
+  href: cfEngine.Core.GameExtension.html
+  name: GameExtension
+  nameWithType: GameExtension
+  fullName: cfEngine.Core.GameExtension
+- uid: cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+  commentId: M:cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAuth_cfEngine_Core_Game_
+  name: GetAuth(Game)
+  nameWithType: GameExtension.GetAuth(Game)
+  fullName: cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+    name: GetAuth
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAuth_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+    name: GetAuth
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAuth_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+- uid: cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+  commentId: M:cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInfo_cfEngine_Core_Game_
+  name: GetInfo(Game)
+  nameWithType: GameExtension.GetInfo(Game)
+  fullName: cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+    name: GetInfo
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInfo_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+    name: GetInfo
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInfo_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+- uid: cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+  commentId: M:cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInventory_cfEngine_Core_Game_
+  name: GetInventory(Game)
+  nameWithType: GameExtension.GetInventory(Game)
+  fullName: cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+    name: GetInventory
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInventory_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+    name: GetInventory
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInventory_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+- uid: cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+  commentId: M:cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetPoolManager_cfEngine_Core_Game_
+  name: GetPoolManager(Game)
+  nameWithType: GameExtension.GetPoolManager(Game)
+  fullName: cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+    name: GetPoolManager
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetPoolManager_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+    name: GetPoolManager
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetPoolManager_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+- uid: cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+  commentId: M:cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetUserData_cfEngine_Core_Game_
+  name: GetUserData(Game)
+  nameWithType: GameExtension.GetUserData(Game)
+  fullName: cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+    name: GetUserData
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetUserData_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+    name: GetUserData
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetUserData_cfEngine_Core_Game_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: )
+- uid: cfEngine.Core.GameExtension.WithAsset``1(cfEngine.Core.Game,cfEngine.Asset.AssetManager{``0})
+  commentId: M:cfEngine.Core.GameExtension.WithAsset``1(cfEngine.Core.Game,cfEngine.Asset.AssetManager{``0})
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAsset__1_cfEngine_Core_Game_cfEngine_Asset_AssetManager___0__
+  name: WithAsset<T>(Game, AssetManager<T>)
+  nameWithType: GameExtension.WithAsset<T>(Game, AssetManager<T>)
+  fullName: cfEngine.Core.GameExtension.WithAsset<T>(cfEngine.Core.Game, cfEngine.Asset.AssetManager<T>)
+  nameWithType.vb: GameExtension.WithAsset(Of T)(Game, AssetManager(Of T))
+  fullName.vb: cfEngine.Core.GameExtension.WithAsset(Of T)(cfEngine.Core.Game, cfEngine.Asset.AssetManager(Of T))
+  name.vb: WithAsset(Of T)(Game, AssetManager(Of T))
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.WithAsset``1(cfEngine.Core.Game,cfEngine.Asset.AssetManager{``0})
+    name: WithAsset
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAsset__1_cfEngine_Core_Game_cfEngine_Asset_AssetManager___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.WithAsset``1(cfEngine.Core.Game,cfEngine.Asset.AssetManager{``0})
+    name: WithAsset
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAsset__1_cfEngine_Core_Game_cfEngine_Asset_AssetManager___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game,cfEngine.Service.Auth.IAuthService)
+  commentId: M:cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game,cfEngine.Service.Auth.IAuthService)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAuthService_cfEngine_Core_Game_cfEngine_Service_Auth_IAuthService_
+  name: WithAuthService(Game, IAuthService)
+  nameWithType: GameExtension.WithAuthService(Game, IAuthService)
+  fullName: cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game, cfEngine.Service.Auth.IAuthService)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game,cfEngine.Service.Auth.IAuthService)
+    name: WithAuthService
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAuthService_cfEngine_Core_Game_cfEngine_Service_Auth_IAuthService_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Service.Auth.IAuthService
+    name: IAuthService
+    href: cfEngine.Service.Auth.IAuthService.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game,cfEngine.Service.Auth.IAuthService)
+    name: WithAuthService
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAuthService_cfEngine_Core_Game_cfEngine_Service_Auth_IAuthService_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Service.Auth.IAuthService
+    name: IAuthService
+    href: cfEngine.Service.Auth.IAuthService.html
+  - name: )
+- uid: cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game,cfEngine.Info.InfoLayer)
+  commentId: M:cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game,cfEngine.Info.InfoLayer)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInfo_cfEngine_Core_Game_cfEngine_Info_InfoLayer_
+  name: WithInfo(Game, InfoLayer)
+  nameWithType: GameExtension.WithInfo(Game, InfoLayer)
+  fullName: cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game, cfEngine.Info.InfoLayer)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game,cfEngine.Info.InfoLayer)
+    name: WithInfo
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInfo_cfEngine_Core_Game_cfEngine_Info_InfoLayer_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Info.InfoLayer
+    name: InfoLayer
+    href: cfEngine.Info.InfoLayer.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game,cfEngine.Info.InfoLayer)
+    name: WithInfo
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInfo_cfEngine_Core_Game_cfEngine_Info_InfoLayer_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Info.InfoLayer
+    name: InfoLayer
+    href: cfEngine.Info.InfoLayer.html
+  - name: )
+- uid: cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game,cfEngine.Service.Inventory.IInventoryService)
+  commentId: M:cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game,cfEngine.Service.Inventory.IInventoryService)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInventory_cfEngine_Core_Game_cfEngine_Service_Inventory_IInventoryService_
+  name: WithInventory(Game, IInventoryService)
+  nameWithType: GameExtension.WithInventory(Game, IInventoryService)
+  fullName: cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game, cfEngine.Service.Inventory.IInventoryService)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game,cfEngine.Service.Inventory.IInventoryService)
+    name: WithInventory
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInventory_cfEngine_Core_Game_cfEngine_Service_Inventory_IInventoryService_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Service.Inventory.IInventoryService
+    name: IInventoryService
+    href: cfEngine.Service.Inventory.IInventoryService.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game,cfEngine.Service.Inventory.IInventoryService)
+    name: WithInventory
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInventory_cfEngine_Core_Game_cfEngine_Service_Inventory_IInventoryService_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Service.Inventory.IInventoryService
+    name: IInventoryService
+    href: cfEngine.Service.Inventory.IInventoryService.html
+  - name: )
+- uid: cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game,cfEngine.Pooling.PoolManager)
+  commentId: M:cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game,cfEngine.Pooling.PoolManager)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithPoolManager_cfEngine_Core_Game_cfEngine_Pooling_PoolManager_
+  name: WithPoolManager(Game, PoolManager)
+  nameWithType: GameExtension.WithPoolManager(Game, PoolManager)
+  fullName: cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game, cfEngine.Pooling.PoolManager)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game,cfEngine.Pooling.PoolManager)
+    name: WithPoolManager
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithPoolManager_cfEngine_Core_Game_cfEngine_Pooling_PoolManager_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Pooling.PoolManager
+    name: PoolManager
+    href: cfEngine.Pooling.PoolManager.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game,cfEngine.Pooling.PoolManager)
+    name: WithPoolManager
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithPoolManager_cfEngine_Core_Game_cfEngine_Pooling_PoolManager_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Pooling.PoolManager
+    name: PoolManager
+    href: cfEngine.Pooling.PoolManager.html
+  - name: )
+- uid: cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game,cfEngine.Core.UserDataManager)
+  commentId: M:cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game,cfEngine.Core.UserDataManager)
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithUserData_cfEngine_Core_Game_cfEngine_Core_UserDataManager_
+  name: WithUserData(Game, UserDataManager)
+  nameWithType: GameExtension.WithUserData(Game, UserDataManager)
+  fullName: cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game, cfEngine.Core.UserDataManager)
+  spec.csharp:
+  - uid: cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game,cfEngine.Core.UserDataManager)
+    name: WithUserData
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithUserData_cfEngine_Core_Game_cfEngine_Core_UserDataManager_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Core.UserDataManager
+    name: UserDataManager
+    href: cfEngine.Core.UserDataManager.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game,cfEngine.Core.UserDataManager)
+    name: WithUserData
+    href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithUserData_cfEngine_Core_Game_cfEngine_Core_UserDataManager_
+  - name: (
+  - uid: cfEngine.Core.Game
+    name: Game
+    href: cfEngine.Core.Game.html
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Core.UserDataManager
+    name: UserDataManager
+    href: cfEngine.Core.UserDataManager.html
+  - name: )
+- uid: cfEngine.Core.Game.Current*
+  commentId: Overload:cfEngine.Core.Game.Current
+  href: cfEngine.Core.Game.html#cfEngine_Core_Game_Current
+  name: Current
+  nameWithType: Game.Current
+  fullName: cfEngine.Core.Game.Current
+- uid: cfEngine.Core.Game
+  commentId: T:cfEngine.Core.Game
+  parent: cfEngine.Core
+  href: cfEngine.Core.Game.html
+  name: Game
+  nameWithType: Game
+  fullName: cfEngine.Core.Game
+- uid: cfEngine.Core.Game.TaskToken*
+  commentId: Overload:cfEngine.Core.Game.TaskToken
+  href: cfEngine.Core.Game.html#cfEngine_Core_Game_TaskToken
+  name: TaskToken
+  nameWithType: Game.TaskToken
+  fullName: cfEngine.Core.Game.TaskToken
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: cfEngine.Core.Game.SetCurrent*
+  commentId: Overload:cfEngine.Core.Game.SetCurrent
+  href: cfEngine.Core.Game.html#cfEngine_Core_Game_SetCurrent_cfEngine_Core_Game_
+  name: SetCurrent
+  nameWithType: Game.SetCurrent
+  fullName: cfEngine.Core.Game.SetCurrent

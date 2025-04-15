@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Service.Auth
+  commentId: N:cfEngine.Service.Auth
+  id: cfEngine.Service.Auth
+  children:
+  - cfEngine.Service.Auth.AuthService
+  - cfEngine.Service.Auth.AuthService.Builder
+  - cfEngine.Service.Auth.IAuthService
+  - cfEngine.Service.Auth.LocalAuthService
+  - cfEngine.Service.Auth.LocalPlatform
+  - cfEngine.Service.Auth.LoginPlatform
+  - cfEngine.Service.Auth.LoginToken
+  - cfEngine.Service.Auth.PlatformAuth
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.Service.Auth
+  nameWithType: cfEngine.Service.Auth
+  fullName: cfEngine.Service.Auth
+  type: Namespace
+references:
+- uid: cfEngine.Service.Auth.AuthService
+  commentId: T:cfEngine.Service.Auth.AuthService
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.AuthService.html
+  name: AuthService
+  nameWithType: AuthService
+  fullName: cfEngine.Service.Auth.AuthService
+- uid: cfEngine.Service.Auth.AuthService.Builder
+  commentId: T:cfEngine.Service.Auth.AuthService.Builder
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.AuthService.html
+  name: AuthService.Builder
+  nameWithType: AuthService.Builder
+  fullName: cfEngine.Service.Auth.AuthService.Builder
+  spec.csharp:
+  - uid: cfEngine.Service.Auth.AuthService
+    name: AuthService
+    href: cfEngine.Service.Auth.AuthService.html
+  - name: .
+  - uid: cfEngine.Service.Auth.AuthService.Builder
+    name: Builder
+    href: cfEngine.Service.Auth.AuthService.Builder.html
+  spec.vb:
+  - uid: cfEngine.Service.Auth.AuthService
+    name: AuthService
+    href: cfEngine.Service.Auth.AuthService.html
+  - name: .
+  - uid: cfEngine.Service.Auth.AuthService.Builder
+    name: Builder
+    href: cfEngine.Service.Auth.AuthService.Builder.html
+- uid: cfEngine.Service.Auth.LoginPlatform
+  commentId: T:cfEngine.Service.Auth.LoginPlatform
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.LoginPlatform.html
+  name: LoginPlatform
+  nameWithType: LoginPlatform
+  fullName: cfEngine.Service.Auth.LoginPlatform
+- uid: cfEngine.Service.Auth.LoginToken
+  commentId: T:cfEngine.Service.Auth.LoginToken
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.LoginToken.html
+  name: LoginToken
+  nameWithType: LoginToken
+  fullName: cfEngine.Service.Auth.LoginToken
+- uid: cfEngine.Service.Auth.PlatformAuth
+  commentId: T:cfEngine.Service.Auth.PlatformAuth
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.PlatformAuth.html
+  name: PlatformAuth
+  nameWithType: PlatformAuth
+  fullName: cfEngine.Service.Auth.PlatformAuth
+- uid: cfEngine.Service.Auth.IAuthService
+  commentId: T:cfEngine.Service.Auth.IAuthService
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.IAuthService.html
+  name: IAuthService
+  nameWithType: IAuthService
+  fullName: cfEngine.Service.Auth.IAuthService
+- uid: cfEngine.Service.Auth.LocalPlatform
+  commentId: T:cfEngine.Service.Auth.LocalPlatform
+  href: cfEngine.Service.Auth.LocalPlatform.html
+  name: LocalPlatform
+  nameWithType: LocalPlatform
+  fullName: cfEngine.Service.Auth.LocalPlatform
+- uid: cfEngine.Service.Auth.LocalAuthService
+  commentId: T:cfEngine.Service.Auth.LocalAuthService
+  href: cfEngine.Service.Auth.LocalAuthService.html
+  name: LocalAuthService
+  nameWithType: LocalAuthService
+  fullName: cfEngine.Service.Auth.LocalAuthService
+- uid: cfEngine.Service.Auth
+  commentId: N:cfEngine.Service.Auth
+  href: cfEngine.html
+  name: cfEngine.Service.Auth
+  nameWithType: cfEngine.Service.Auth
+  fullName: cfEngine.Service.Auth
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Auth
+    name: Auth
+    href: cfEngine.Service.Auth.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Auth
+    name: Auth
+    href: cfEngine.Service.Auth.html

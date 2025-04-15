@@ -1,0 +1,1186 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Serialize.JsonSerializer
+  commentId: T:cfEngine.Serialize.JsonSerializer
+  id: JsonSerializer
+  parent: cfEngine.Serialize
+  children:
+  - cfEngine.Serialize.JsonSerializer.Deserialize(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  - cfEngine.Serialize.JsonSerializer.DeserializeAsAsync``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  - cfEngine.Serialize.JsonSerializer.DeserializeAs``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  - cfEngine.Serialize.JsonSerializer.DeserializeAsync(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  - cfEngine.Serialize.JsonSerializer.Instance
+  - cfEngine.Serialize.JsonSerializer.Serialize(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam)
+  - cfEngine.Serialize.JsonSerializer.SerializeAsync(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: JsonSerializer
+  nameWithType: JsonSerializer
+  fullName: cfEngine.Serialize.JsonSerializer
+  type: Class
+  source:
+    id: JsonSerializer
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/serialize/JsonSerializer.cs
+    startLine: 8
+  namespace: cfEngine.Serialize
+  syntax:
+    content: 'public class JsonSerializer : Serializer, ISerializer'
+    content.vb: Public Class JsonSerializer Inherits Serializer Implements ISerializer
+  inheritance:
+  - System.Object
+  - cfEngine.Serialize.Serializer
+  implements:
+  - cfEngine.Serialize.ISerializer
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: cfEngine.Serialize.JsonSerializer.Instance
+  commentId: P:cfEngine.Serialize.JsonSerializer.Instance
+  id: Instance
+  parent: cfEngine.Serialize.JsonSerializer
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: JsonSerializer.Instance
+  fullName: cfEngine.Serialize.JsonSerializer.Instance
+  type: Property
+  source:
+    id: Instance
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/serialize/JsonSerializer.cs
+    startLine: 18
+  namespace: cfEngine.Serialize
+  syntax:
+    content: public static JsonSerializer Instance { get; }
+    parameters: []
+    return:
+      type: cfEngine.Serialize.JsonSerializer
+    content.vb: Public Shared ReadOnly Property Instance As JsonSerializer
+  overload: cfEngine.Serialize.JsonSerializer.Instance*
+- uid: cfEngine.Serialize.JsonSerializer.Serialize(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam)
+  commentId: M:cfEngine.Serialize.JsonSerializer.Serialize(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam)
+  id: Serialize(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam)
+  parent: cfEngine.Serialize.JsonSerializer
+  langs:
+  - csharp
+  - vb
+  name: Serialize(object, ISerializeParam)
+  nameWithType: JsonSerializer.Serialize(object, ISerializer.ISerializeParam)
+  fullName: cfEngine.Serialize.JsonSerializer.Serialize(object, cfEngine.Serialize.ISerializer.ISerializeParam)
+  type: Method
+  source:
+    id: Serialize
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/serialize/JsonSerializer.cs
+    startLine: 20
+  namespace: cfEngine.Serialize
+  example: []
+  syntax:
+    content: public override byte[] Serialize(object obj, ISerializer.ISerializeParam param = null)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: param
+      type: cfEngine.Serialize.ISerializer.ISerializeParam
+    return:
+      type: System.Byte[]
+    content.vb: Public Overrides Function Serialize(obj As Object, param As ISerializer.ISerializeParam = Nothing) As Byte()
+  overridden: cfEngine.Serialize.Serializer.Serialize(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam)
+  overload: cfEngine.Serialize.JsonSerializer.Serialize*
+  nameWithType.vb: JsonSerializer.Serialize(Object, ISerializer.ISerializeParam)
+  fullName.vb: cfEngine.Serialize.JsonSerializer.Serialize(Object, cfEngine.Serialize.ISerializer.ISerializeParam)
+  name.vb: Serialize(Object, ISerializeParam)
+- uid: cfEngine.Serialize.JsonSerializer.SerializeAsync(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam,System.Threading.CancellationToken)
+  commentId: M:cfEngine.Serialize.JsonSerializer.SerializeAsync(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam,System.Threading.CancellationToken)
+  id: SerializeAsync(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam,System.Threading.CancellationToken)
+  parent: cfEngine.Serialize.JsonSerializer
+  langs:
+  - csharp
+  - vb
+  name: SerializeAsync(object, ISerializeParam, CancellationToken)
+  nameWithType: JsonSerializer.SerializeAsync(object, ISerializer.ISerializeParam, CancellationToken)
+  fullName: cfEngine.Serialize.JsonSerializer.SerializeAsync(object, cfEngine.Serialize.ISerializer.ISerializeParam, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: SerializeAsync
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/serialize/JsonSerializer.cs
+    startLine: 25
+  namespace: cfEngine.Serialize
+  example: []
+  syntax:
+    content: public override Task<byte[]> SerializeAsync(object obj, ISerializer.ISerializeParam param = null, CancellationToken token = default)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: param
+      type: cfEngine.Serialize.ISerializer.ISerializeParam
+    - id: token
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+    content.vb: Public Overrides Function SerializeAsync(obj As Object, param As ISerializer.ISerializeParam = Nothing, token As CancellationToken = Nothing) As Task(Of Byte())
+  overridden: cfEngine.Serialize.Serializer.SerializeAsync(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam,System.Threading.CancellationToken)
+  overload: cfEngine.Serialize.JsonSerializer.SerializeAsync*
+  nameWithType.vb: JsonSerializer.SerializeAsync(Object, ISerializer.ISerializeParam, CancellationToken)
+  fullName.vb: cfEngine.Serialize.JsonSerializer.SerializeAsync(Object, cfEngine.Serialize.ISerializer.ISerializeParam, System.Threading.CancellationToken)
+  name.vb: SerializeAsync(Object, ISerializeParam, CancellationToken)
+- uid: cfEngine.Serialize.JsonSerializer.Deserialize(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  commentId: M:cfEngine.Serialize.JsonSerializer.Deserialize(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  id: Deserialize(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  parent: cfEngine.Serialize.JsonSerializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(byte[], IDeserializeParam)
+  nameWithType: JsonSerializer.Deserialize(byte[], ISerializer.IDeserializeParam)
+  fullName: cfEngine.Serialize.JsonSerializer.Deserialize(byte[], cfEngine.Serialize.ISerializer.IDeserializeParam)
+  type: Method
+  source:
+    id: Deserialize
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/serialize/JsonSerializer.cs
+    startLine: 35
+  namespace: cfEngine.Serialize
+  example: []
+  syntax:
+    content: public override object Deserialize(byte[] byteLoaded, ISerializer.IDeserializeParam param = null)
+    parameters:
+    - id: byteLoaded
+      type: System.Byte[]
+    - id: param
+      type: cfEngine.Serialize.ISerializer.IDeserializeParam
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function Deserialize(byteLoaded As Byte(), param As ISerializer.IDeserializeParam = Nothing) As Object
+  overridden: cfEngine.Serialize.Serializer.Deserialize(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  overload: cfEngine.Serialize.JsonSerializer.Deserialize*
+  nameWithType.vb: JsonSerializer.Deserialize(Byte(), ISerializer.IDeserializeParam)
+  fullName.vb: cfEngine.Serialize.JsonSerializer.Deserialize(Byte(), cfEngine.Serialize.ISerializer.IDeserializeParam)
+  name.vb: Deserialize(Byte(), IDeserializeParam)
+- uid: cfEngine.Serialize.JsonSerializer.DeserializeAsync(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  commentId: M:cfEngine.Serialize.JsonSerializer.DeserializeAsync(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  id: DeserializeAsync(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  parent: cfEngine.Serialize.JsonSerializer
+  langs:
+  - csharp
+  - vb
+  name: DeserializeAsync(byte[], IDeserializeParam, CancellationToken)
+  nameWithType: JsonSerializer.DeserializeAsync(byte[], ISerializer.IDeserializeParam, CancellationToken)
+  fullName: cfEngine.Serialize.JsonSerializer.DeserializeAsync(byte[], cfEngine.Serialize.ISerializer.IDeserializeParam, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: DeserializeAsync
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/serialize/JsonSerializer.cs
+    startLine: 40
+  namespace: cfEngine.Serialize
+  example: []
+  syntax:
+    content: public override Task<object> DeserializeAsync(byte[] byteLoaded, ISerializer.IDeserializeParam deserializeParam = null, CancellationToken token = default)
+    parameters:
+    - id: byteLoaded
+      type: System.Byte[]
+    - id: deserializeParam
+      type: cfEngine.Serialize.ISerializer.IDeserializeParam
+    - id: token
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Object}
+    content.vb: Public Overrides Function DeserializeAsync(byteLoaded As Byte(), deserializeParam As ISerializer.IDeserializeParam = Nothing, token As CancellationToken = Nothing) As Task(Of Object)
+  overridden: cfEngine.Serialize.Serializer.DeserializeAsync(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  overload: cfEngine.Serialize.JsonSerializer.DeserializeAsync*
+  nameWithType.vb: JsonSerializer.DeserializeAsync(Byte(), ISerializer.IDeserializeParam, CancellationToken)
+  fullName.vb: cfEngine.Serialize.JsonSerializer.DeserializeAsync(Byte(), cfEngine.Serialize.ISerializer.IDeserializeParam, System.Threading.CancellationToken)
+  name.vb: DeserializeAsync(Byte(), IDeserializeParam, CancellationToken)
+- uid: cfEngine.Serialize.JsonSerializer.DeserializeAs``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  commentId: M:cfEngine.Serialize.JsonSerializer.DeserializeAs``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  id: DeserializeAs``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  parent: cfEngine.Serialize.JsonSerializer
+  langs:
+  - csharp
+  - vb
+  name: DeserializeAs<T>(byte[], IDeserializeParam)
+  nameWithType: JsonSerializer.DeserializeAs<T>(byte[], ISerializer.IDeserializeParam)
+  fullName: cfEngine.Serialize.JsonSerializer.DeserializeAs<T>(byte[], cfEngine.Serialize.ISerializer.IDeserializeParam)
+  type: Method
+  source:
+    id: DeserializeAs
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/serialize/JsonSerializer.cs
+    startLine: 48
+  namespace: cfEngine.Serialize
+  example: []
+  syntax:
+    content: public override T DeserializeAs<T>(byte[] byteLoaded, ISerializer.IDeserializeParam param = null)
+    parameters:
+    - id: byteLoaded
+      type: System.Byte[]
+    - id: param
+      type: cfEngine.Serialize.ISerializer.IDeserializeParam
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Overrides Function DeserializeAs(Of T)(byteLoaded As Byte(), param As ISerializer.IDeserializeParam = Nothing) As T
+  overridden: cfEngine.Serialize.Serializer.DeserializeAs``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  overload: cfEngine.Serialize.JsonSerializer.DeserializeAs*
+  nameWithType.vb: JsonSerializer.DeserializeAs(Of T)(Byte(), ISerializer.IDeserializeParam)
+  fullName.vb: cfEngine.Serialize.JsonSerializer.DeserializeAs(Of T)(Byte(), cfEngine.Serialize.ISerializer.IDeserializeParam)
+  name.vb: DeserializeAs(Of T)(Byte(), IDeserializeParam)
+- uid: cfEngine.Serialize.JsonSerializer.DeserializeAsAsync``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  commentId: M:cfEngine.Serialize.JsonSerializer.DeserializeAsAsync``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  id: DeserializeAsAsync``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  parent: cfEngine.Serialize.JsonSerializer
+  langs:
+  - csharp
+  - vb
+  name: DeserializeAsAsync<T>(byte[], IDeserializeParam, CancellationToken)
+  nameWithType: JsonSerializer.DeserializeAsAsync<T>(byte[], ISerializer.IDeserializeParam, CancellationToken)
+  fullName: cfEngine.Serialize.JsonSerializer.DeserializeAsAsync<T>(byte[], cfEngine.Serialize.ISerializer.IDeserializeParam, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: DeserializeAsAsync
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/serialize/JsonSerializer.cs
+    startLine: 53
+  namespace: cfEngine.Serialize
+  example: []
+  syntax:
+    content: public override Task<T> DeserializeAsAsync<T>(byte[] byteLoaded, ISerializer.IDeserializeParam deserializeParam = null, CancellationToken token = default)
+    parameters:
+    - id: byteLoaded
+      type: System.Byte[]
+    - id: deserializeParam
+      type: cfEngine.Serialize.ISerializer.IDeserializeParam
+    - id: token
+      type: System.Threading.CancellationToken
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Public Overrides Function DeserializeAsAsync(Of T)(byteLoaded As Byte(), deserializeParam As ISerializer.IDeserializeParam = Nothing, token As CancellationToken = Nothing) As Task(Of T)
+  overridden: cfEngine.Serialize.Serializer.DeserializeAsAsync``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  overload: cfEngine.Serialize.JsonSerializer.DeserializeAsAsync*
+  nameWithType.vb: JsonSerializer.DeserializeAsAsync(Of T)(Byte(), ISerializer.IDeserializeParam, CancellationToken)
+  fullName.vb: cfEngine.Serialize.JsonSerializer.DeserializeAsAsync(Of T)(Byte(), cfEngine.Serialize.ISerializer.IDeserializeParam, System.Threading.CancellationToken)
+  name.vb: DeserializeAsAsync(Of T)(Byte(), IDeserializeParam, CancellationToken)
+references:
+- uid: cfEngine.Serialize
+  commentId: N:cfEngine.Serialize
+  href: cfEngine.html
+  name: cfEngine.Serialize
+  nameWithType: cfEngine.Serialize
+  fullName: cfEngine.Serialize
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Serialize
+    name: Serialize
+    href: cfEngine.Serialize.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Serialize
+    name: Serialize
+    href: cfEngine.Serialize.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: cfEngine.Serialize.Serializer
+  commentId: T:cfEngine.Serialize.Serializer
+  parent: cfEngine.Serialize
+  href: cfEngine.Serialize.Serializer.html
+  name: Serializer
+  nameWithType: Serializer
+  fullName: cfEngine.Serialize.Serializer
+- uid: cfEngine.Serialize.ISerializer
+  commentId: T:cfEngine.Serialize.ISerializer
+  parent: cfEngine.Serialize
+  href: cfEngine.Serialize.ISerializer.html
+  name: ISerializer
+  nameWithType: ISerializer
+  fullName: cfEngine.Serialize.ISerializer
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Serialize.JsonSerializer.Instance*
+  commentId: Overload:cfEngine.Serialize.JsonSerializer.Instance
+  href: cfEngine.Serialize.JsonSerializer.html#cfEngine_Serialize_JsonSerializer_Instance
+  name: Instance
+  nameWithType: JsonSerializer.Instance
+  fullName: cfEngine.Serialize.JsonSerializer.Instance
+- uid: cfEngine.Serialize.JsonSerializer
+  commentId: T:cfEngine.Serialize.JsonSerializer
+  parent: cfEngine.Serialize
+  href: cfEngine.Serialize.JsonSerializer.html
+  name: JsonSerializer
+  nameWithType: JsonSerializer
+  fullName: cfEngine.Serialize.JsonSerializer
+- uid: cfEngine.Serialize.Serializer.Serialize(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam)
+  commentId: M:cfEngine.Serialize.Serializer.Serialize(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam)
+  parent: cfEngine.Serialize.Serializer
+  isExternal: true
+  href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_Serialize_System_Object_cfEngine_Serialize_ISerializer_ISerializeParam_
+  name: Serialize(object, ISerializeParam)
+  nameWithType: Serializer.Serialize(object, ISerializer.ISerializeParam)
+  fullName: cfEngine.Serialize.Serializer.Serialize(object, cfEngine.Serialize.ISerializer.ISerializeParam)
+  nameWithType.vb: Serializer.Serialize(Object, ISerializer.ISerializeParam)
+  fullName.vb: cfEngine.Serialize.Serializer.Serialize(Object, cfEngine.Serialize.ISerializer.ISerializeParam)
+  name.vb: Serialize(Object, ISerializeParam)
+  spec.csharp:
+  - uid: cfEngine.Serialize.Serializer.Serialize(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam)
+    name: Serialize
+    href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_Serialize_System_Object_cfEngine_Serialize_ISerializer_ISerializeParam_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Serialize.ISerializer.ISerializeParam
+    name: ISerializeParam
+    href: cfEngine.Serialize.ISerializer.ISerializeParam.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Serialize.Serializer.Serialize(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam)
+    name: Serialize
+    href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_Serialize_System_Object_cfEngine_Serialize_ISerializer_ISerializeParam_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Serialize.ISerializer.ISerializeParam
+    name: ISerializeParam
+    href: cfEngine.Serialize.ISerializer.ISerializeParam.html
+  - name: )
+- uid: cfEngine.Serialize.JsonSerializer.Serialize*
+  commentId: Overload:cfEngine.Serialize.JsonSerializer.Serialize
+  href: cfEngine.Serialize.JsonSerializer.html#cfEngine_Serialize_JsonSerializer_Serialize_System_Object_cfEngine_Serialize_ISerializer_ISerializeParam_
+  name: Serialize
+  nameWithType: JsonSerializer.Serialize
+  fullName: cfEngine.Serialize.JsonSerializer.Serialize
+- uid: cfEngine.Serialize.ISerializer.ISerializeParam
+  commentId: T:cfEngine.Serialize.ISerializer.ISerializeParam
+  parent: cfEngine.Serialize
+  href: cfEngine.Serialize.ISerializer.html
+  name: ISerializer.ISerializeParam
+  nameWithType: ISerializer.ISerializeParam
+  fullName: cfEngine.Serialize.ISerializer.ISerializeParam
+  spec.csharp:
+  - uid: cfEngine.Serialize.ISerializer
+    name: ISerializer
+    href: cfEngine.Serialize.ISerializer.html
+  - name: .
+  - uid: cfEngine.Serialize.ISerializer.ISerializeParam
+    name: ISerializeParam
+    href: cfEngine.Serialize.ISerializer.ISerializeParam.html
+  spec.vb:
+  - uid: cfEngine.Serialize.ISerializer
+    name: ISerializer
+    href: cfEngine.Serialize.ISerializer.html
+  - name: .
+  - uid: cfEngine.Serialize.ISerializer.ISerializeParam
+    name: ISerializeParam
+    href: cfEngine.Serialize.ISerializer.ISerializeParam.html
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: cfEngine.Serialize.Serializer.SerializeAsync(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam,System.Threading.CancellationToken)
+  commentId: M:cfEngine.Serialize.Serializer.SerializeAsync(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam,System.Threading.CancellationToken)
+  parent: cfEngine.Serialize.Serializer
+  isExternal: true
+  href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_SerializeAsync_System_Object_cfEngine_Serialize_ISerializer_ISerializeParam_System_Threading_CancellationToken_
+  name: SerializeAsync(object, ISerializeParam, CancellationToken)
+  nameWithType: Serializer.SerializeAsync(object, ISerializer.ISerializeParam, CancellationToken)
+  fullName: cfEngine.Serialize.Serializer.SerializeAsync(object, cfEngine.Serialize.ISerializer.ISerializeParam, System.Threading.CancellationToken)
+  nameWithType.vb: Serializer.SerializeAsync(Object, ISerializer.ISerializeParam, CancellationToken)
+  fullName.vb: cfEngine.Serialize.Serializer.SerializeAsync(Object, cfEngine.Serialize.ISerializer.ISerializeParam, System.Threading.CancellationToken)
+  name.vb: SerializeAsync(Object, ISerializeParam, CancellationToken)
+  spec.csharp:
+  - uid: cfEngine.Serialize.Serializer.SerializeAsync(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam,System.Threading.CancellationToken)
+    name: SerializeAsync
+    href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_SerializeAsync_System_Object_cfEngine_Serialize_ISerializer_ISerializeParam_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Serialize.ISerializer.ISerializeParam
+    name: ISerializeParam
+    href: cfEngine.Serialize.ISerializer.ISerializeParam.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Serialize.Serializer.SerializeAsync(System.Object,cfEngine.Serialize.ISerializer.ISerializeParam,System.Threading.CancellationToken)
+    name: SerializeAsync
+    href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_SerializeAsync_System_Object_cfEngine_Serialize_ISerializer_ISerializeParam_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Serialize.ISerializer.ISerializeParam
+    name: ISerializeParam
+    href: cfEngine.Serialize.ISerializer.ISerializeParam.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: cfEngine.Serialize.JsonSerializer.SerializeAsync*
+  commentId: Overload:cfEngine.Serialize.JsonSerializer.SerializeAsync
+  href: cfEngine.Serialize.JsonSerializer.html#cfEngine_Serialize_JsonSerializer_SerializeAsync_System_Object_cfEngine_Serialize_ISerializer_ISerializeParam_System_Threading_CancellationToken_
+  name: SerializeAsync
+  nameWithType: JsonSerializer.SerializeAsync
+  fullName: cfEngine.Serialize.JsonSerializer.SerializeAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Byte[]}
+  commentId: T:System.Threading.Tasks.Task{System.Byte[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<byte[]>
+  nameWithType: Task<byte[]>
+  fullName: System.Threading.Tasks.Task<byte[]>
+  nameWithType.vb: Task(Of Byte())
+  fullName.vb: System.Threading.Tasks.Task(Of Byte())
+  name.vb: Task(Of Byte())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: cfEngine.Serialize.Serializer.Deserialize(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  commentId: M:cfEngine.Serialize.Serializer.Deserialize(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  parent: cfEngine.Serialize.Serializer
+  isExternal: true
+  href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_Deserialize_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_
+  name: Deserialize(byte[], IDeserializeParam)
+  nameWithType: Serializer.Deserialize(byte[], ISerializer.IDeserializeParam)
+  fullName: cfEngine.Serialize.Serializer.Deserialize(byte[], cfEngine.Serialize.ISerializer.IDeserializeParam)
+  nameWithType.vb: Serializer.Deserialize(Byte(), ISerializer.IDeserializeParam)
+  fullName.vb: cfEngine.Serialize.Serializer.Deserialize(Byte(), cfEngine.Serialize.ISerializer.IDeserializeParam)
+  name.vb: Deserialize(Byte(), IDeserializeParam)
+  spec.csharp:
+  - uid: cfEngine.Serialize.Serializer.Deserialize(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+    name: Deserialize
+    href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_Deserialize_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+    name: IDeserializeParam
+    href: cfEngine.Serialize.ISerializer.IDeserializeParam.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Serialize.Serializer.Deserialize(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+    name: Deserialize
+    href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_Deserialize_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+    name: IDeserializeParam
+    href: cfEngine.Serialize.ISerializer.IDeserializeParam.html
+  - name: )
+- uid: cfEngine.Serialize.JsonSerializer.Deserialize*
+  commentId: Overload:cfEngine.Serialize.JsonSerializer.Deserialize
+  href: cfEngine.Serialize.JsonSerializer.html#cfEngine_Serialize_JsonSerializer_Deserialize_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_
+  name: Deserialize
+  nameWithType: JsonSerializer.Deserialize
+  fullName: cfEngine.Serialize.JsonSerializer.Deserialize
+- uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+  commentId: T:cfEngine.Serialize.ISerializer.IDeserializeParam
+  parent: cfEngine.Serialize
+  href: cfEngine.Serialize.ISerializer.html
+  name: ISerializer.IDeserializeParam
+  nameWithType: ISerializer.IDeserializeParam
+  fullName: cfEngine.Serialize.ISerializer.IDeserializeParam
+  spec.csharp:
+  - uid: cfEngine.Serialize.ISerializer
+    name: ISerializer
+    href: cfEngine.Serialize.ISerializer.html
+  - name: .
+  - uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+    name: IDeserializeParam
+    href: cfEngine.Serialize.ISerializer.IDeserializeParam.html
+  spec.vb:
+  - uid: cfEngine.Serialize.ISerializer
+    name: ISerializer
+    href: cfEngine.Serialize.ISerializer.html
+  - name: .
+  - uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+    name: IDeserializeParam
+    href: cfEngine.Serialize.ISerializer.IDeserializeParam.html
+- uid: cfEngine.Serialize.Serializer.DeserializeAsync(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  commentId: M:cfEngine.Serialize.Serializer.DeserializeAsync(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  parent: cfEngine.Serialize.Serializer
+  isExternal: true
+  href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_DeserializeAsync_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_System_Threading_CancellationToken_
+  name: DeserializeAsync(byte[], IDeserializeParam, CancellationToken)
+  nameWithType: Serializer.DeserializeAsync(byte[], ISerializer.IDeserializeParam, CancellationToken)
+  fullName: cfEngine.Serialize.Serializer.DeserializeAsync(byte[], cfEngine.Serialize.ISerializer.IDeserializeParam, System.Threading.CancellationToken)
+  nameWithType.vb: Serializer.DeserializeAsync(Byte(), ISerializer.IDeserializeParam, CancellationToken)
+  fullName.vb: cfEngine.Serialize.Serializer.DeserializeAsync(Byte(), cfEngine.Serialize.ISerializer.IDeserializeParam, System.Threading.CancellationToken)
+  name.vb: DeserializeAsync(Byte(), IDeserializeParam, CancellationToken)
+  spec.csharp:
+  - uid: cfEngine.Serialize.Serializer.DeserializeAsync(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+    name: DeserializeAsync
+    href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_DeserializeAsync_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+    name: IDeserializeParam
+    href: cfEngine.Serialize.ISerializer.IDeserializeParam.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Serialize.Serializer.DeserializeAsync(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+    name: DeserializeAsync
+    href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_DeserializeAsync_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+    name: IDeserializeParam
+    href: cfEngine.Serialize.ISerializer.IDeserializeParam.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: cfEngine.Serialize.JsonSerializer.DeserializeAsync*
+  commentId: Overload:cfEngine.Serialize.JsonSerializer.DeserializeAsync
+  href: cfEngine.Serialize.JsonSerializer.html#cfEngine_Serialize_JsonSerializer_DeserializeAsync_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_System_Threading_CancellationToken_
+  name: DeserializeAsync
+  nameWithType: JsonSerializer.DeserializeAsync
+  fullName: cfEngine.Serialize.JsonSerializer.DeserializeAsync
+- uid: System.Threading.Tasks.Task{System.Object}
+  commentId: T:System.Threading.Tasks.Task{System.Object}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<object>
+  nameWithType: Task<object>
+  fullName: System.Threading.Tasks.Task<object>
+  nameWithType.vb: Task(Of Object)
+  fullName.vb: System.Threading.Tasks.Task(Of Object)
+  name.vb: Task(Of Object)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: cfEngine.Serialize.Serializer.DeserializeAs``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  commentId: M:cfEngine.Serialize.Serializer.DeserializeAs``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+  parent: cfEngine.Serialize.Serializer
+  isExternal: true
+  href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_DeserializeAs__1_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_
+  name: DeserializeAs<T>(byte[], IDeserializeParam)
+  nameWithType: Serializer.DeserializeAs<T>(byte[], ISerializer.IDeserializeParam)
+  fullName: cfEngine.Serialize.Serializer.DeserializeAs<T>(byte[], cfEngine.Serialize.ISerializer.IDeserializeParam)
+  nameWithType.vb: Serializer.DeserializeAs(Of T)(Byte(), ISerializer.IDeserializeParam)
+  fullName.vb: cfEngine.Serialize.Serializer.DeserializeAs(Of T)(Byte(), cfEngine.Serialize.ISerializer.IDeserializeParam)
+  name.vb: DeserializeAs(Of T)(Byte(), IDeserializeParam)
+  spec.csharp:
+  - uid: cfEngine.Serialize.Serializer.DeserializeAs``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+    name: DeserializeAs
+    href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_DeserializeAs__1_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+    name: IDeserializeParam
+    href: cfEngine.Serialize.ISerializer.IDeserializeParam.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Serialize.Serializer.DeserializeAs``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam)
+    name: DeserializeAs
+    href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_DeserializeAs__1_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+    name: IDeserializeParam
+    href: cfEngine.Serialize.ISerializer.IDeserializeParam.html
+  - name: )
+- uid: cfEngine.Serialize.JsonSerializer.DeserializeAs*
+  commentId: Overload:cfEngine.Serialize.JsonSerializer.DeserializeAs
+  href: cfEngine.Serialize.JsonSerializer.html#cfEngine_Serialize_JsonSerializer_DeserializeAs__1_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_
+  name: DeserializeAs
+  nameWithType: JsonSerializer.DeserializeAs
+  fullName: cfEngine.Serialize.JsonSerializer.DeserializeAs
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: cfEngine.Serialize.Serializer.DeserializeAsAsync``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  commentId: M:cfEngine.Serialize.Serializer.DeserializeAsAsync``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+  parent: cfEngine.Serialize.Serializer
+  isExternal: true
+  href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_DeserializeAsAsync__1_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_System_Threading_CancellationToken_
+  name: DeserializeAsAsync<T>(byte[], IDeserializeParam, CancellationToken)
+  nameWithType: Serializer.DeserializeAsAsync<T>(byte[], ISerializer.IDeserializeParam, CancellationToken)
+  fullName: cfEngine.Serialize.Serializer.DeserializeAsAsync<T>(byte[], cfEngine.Serialize.ISerializer.IDeserializeParam, System.Threading.CancellationToken)
+  nameWithType.vb: Serializer.DeserializeAsAsync(Of T)(Byte(), ISerializer.IDeserializeParam, CancellationToken)
+  fullName.vb: cfEngine.Serialize.Serializer.DeserializeAsAsync(Of T)(Byte(), cfEngine.Serialize.ISerializer.IDeserializeParam, System.Threading.CancellationToken)
+  name.vb: DeserializeAsAsync(Of T)(Byte(), IDeserializeParam, CancellationToken)
+  spec.csharp:
+  - uid: cfEngine.Serialize.Serializer.DeserializeAsAsync``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+    name: DeserializeAsAsync
+    href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_DeserializeAsAsync__1_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_System_Threading_CancellationToken_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+    name: IDeserializeParam
+    href: cfEngine.Serialize.ISerializer.IDeserializeParam.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Serialize.Serializer.DeserializeAsAsync``1(System.Byte[],cfEngine.Serialize.ISerializer.IDeserializeParam,System.Threading.CancellationToken)
+    name: DeserializeAsAsync
+    href: cfEngine.Serialize.Serializer.html#cfEngine_Serialize_Serializer_DeserializeAsAsync__1_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_System_Threading_CancellationToken_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+    name: IDeserializeParam
+    href: cfEngine.Serialize.ISerializer.IDeserializeParam.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: cfEngine.Serialize.JsonSerializer.DeserializeAsAsync*
+  commentId: Overload:cfEngine.Serialize.JsonSerializer.DeserializeAsAsync
+  href: cfEngine.Serialize.JsonSerializer.html#cfEngine_Serialize_JsonSerializer_DeserializeAsAsync__1_System_Byte___cfEngine_Serialize_ISerializer_IDeserializeParam_System_Threading_CancellationToken_
+  name: DeserializeAsAsync
+  nameWithType: JsonSerializer.DeserializeAsAsync
+  fullName: cfEngine.Serialize.JsonSerializer.DeserializeAsAsync
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: T:System.Threading.Tasks.Task{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

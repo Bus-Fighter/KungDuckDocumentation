@@ -1,0 +1,1237 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Info.ConfigInfoManager`2
+  commentId: T:cfEngine.Info.ConfigInfoManager`2
+  id: ConfigInfoManager`2
+  parent: cfEngine.Info
+  children:
+  - cfEngine.Info.ConfigInfoManager`2.#ctor(cfEngine.Info.IValueLoader{`1})
+  - cfEngine.Info.ConfigInfoManager`2.Dispose
+  - cfEngine.Info.ConfigInfoManager`2.GetAllValue
+  - cfEngine.Info.ConfigInfoManager`2.LoadInfo
+  - cfEngine.Info.ConfigInfoManager`2.LoadInfoAsync(System.Threading.CancellationToken)
+  - cfEngine.Info.ConfigInfoManager`2.ValueMap
+  - cfEngine.Info.ConfigInfoManager`2._valueMap
+  - cfEngine.Info.ConfigInfoManager`2.allValues
+  - cfEngine.Info.ConfigInfoManager`2.keyFn
+  langs:
+  - csharp
+  - vb
+  name: ConfigInfoManager<TKey, TInfo>
+  nameWithType: ConfigInfoManager<TKey, TInfo>
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>
+  type: Class
+  source:
+    id: ConfigInfoManager
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/ConfigInfoManager.cs
+    startLine: 9
+  namespace: cfEngine.Info
+  syntax:
+    content: 'public abstract class ConfigInfoManager<TKey, TInfo> : InfoManager, IInfoManager, IDisposable where TKey : notnull where TInfo : class'
+    typeParameters:
+    - id: TKey
+    - id: TInfo
+    content.vb: Public MustInherit Class ConfigInfoManager(Of TKey, TInfo As Class) Inherits InfoManager Implements IInfoManager, IDisposable
+  inheritance:
+  - System.Object
+  - cfEngine.Info.InfoManager
+  derivedClasses:
+  - cfEngine.Service.InventoryInfoManager
+  implements:
+  - cfEngine.Info.IInfoManager
+  - System.IDisposable
+  inheritedMembers:
+  - cfEngine.Info.InfoManager.infoDirectory
+  - cfEngine.Info.InfoManager.OnLoadCompleted
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo)
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo)
+  name.vb: ConfigInfoManager(Of TKey, TInfo)
+- uid: cfEngine.Info.ConfigInfoManager`2._valueMap
+  commentId: F:cfEngine.Info.ConfigInfoManager`2._valueMap
+  id: _valueMap
+  parent: cfEngine.Info.ConfigInfoManager`2
+  langs:
+  - csharp
+  - vb
+  name: _valueMap
+  nameWithType: ConfigInfoManager<TKey, TInfo>._valueMap
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>._valueMap
+  type: Field
+  source:
+    id: _valueMap
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/ConfigInfoManager.cs
+    startLine: 13
+  namespace: cfEngine.Info
+  syntax:
+    content: protected readonly Dictionary<TKey, TInfo> _valueMap
+    return:
+      type: System.Collections.Generic.Dictionary{{TKey},{TInfo}}
+    content.vb: Protected ReadOnly _valueMap As Dictionary(Of TKey, TInfo)
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo)._valueMap
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo)._valueMap
+- uid: cfEngine.Info.ConfigInfoManager`2.ValueMap
+  commentId: P:cfEngine.Info.ConfigInfoManager`2.ValueMap
+  id: ValueMap
+  parent: cfEngine.Info.ConfigInfoManager`2
+  langs:
+  - csharp
+  - vb
+  name: ValueMap
+  nameWithType: ConfigInfoManager<TKey, TInfo>.ValueMap
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.ValueMap
+  type: Property
+  source:
+    id: ValueMap
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/ConfigInfoManager.cs
+    startLine: 14
+  namespace: cfEngine.Info
+  syntax:
+    content: public IReadOnlyDictionary<TKey, TInfo> ValueMap { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyDictionary{{TKey},{TInfo}}
+    content.vb: Public ReadOnly Property ValueMap As IReadOnlyDictionary(Of TKey, TInfo)
+  overload: cfEngine.Info.ConfigInfoManager`2.ValueMap*
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).ValueMap
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).ValueMap
+- uid: cfEngine.Info.ConfigInfoManager`2.GetAllValue
+  commentId: M:cfEngine.Info.ConfigInfoManager`2.GetAllValue
+  id: GetAllValue
+  parent: cfEngine.Info.ConfigInfoManager`2
+  langs:
+  - csharp
+  - vb
+  name: GetAllValue()
+  nameWithType: ConfigInfoManager<TKey, TInfo>.GetAllValue()
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.GetAllValue()
+  type: Method
+  source:
+    id: GetAllValue
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/ConfigInfoManager.cs
+    startLine: 15
+  namespace: cfEngine.Info
+  example: []
+  syntax:
+    content: public override IEnumerable<object> GetAllValue()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Object}
+    content.vb: Public Overrides Function GetAllValue() As IEnumerable(Of Object)
+  overridden: cfEngine.Info.InfoManager.GetAllValue
+  overload: cfEngine.Info.ConfigInfoManager`2.GetAllValue*
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).GetAllValue()
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).GetAllValue()
+- uid: cfEngine.Info.ConfigInfoManager`2.allValues
+  commentId: P:cfEngine.Info.ConfigInfoManager`2.allValues
+  id: allValues
+  parent: cfEngine.Info.ConfigInfoManager`2
+  langs:
+  - csharp
+  - vb
+  name: allValues
+  nameWithType: ConfigInfoManager<TKey, TInfo>.allValues
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.allValues
+  type: Property
+  source:
+    id: allValues
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/ConfigInfoManager.cs
+    startLine: 18
+  namespace: cfEngine.Info
+  syntax:
+    content: public IReadOnlyList<TInfo> allValues { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{{TInfo}}
+    content.vb: Public ReadOnly Property allValues As IReadOnlyList(Of TInfo)
+  overload: cfEngine.Info.ConfigInfoManager`2.allValues*
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).allValues
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).allValues
+- uid: cfEngine.Info.ConfigInfoManager`2.keyFn
+  commentId: P:cfEngine.Info.ConfigInfoManager`2.keyFn
+  id: keyFn
+  parent: cfEngine.Info.ConfigInfoManager`2
+  langs:
+  - csharp
+  - vb
+  name: keyFn
+  nameWithType: ConfigInfoManager<TKey, TInfo>.keyFn
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.keyFn
+  type: Property
+  source:
+    id: keyFn
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/ConfigInfoManager.cs
+    startLine: 20
+  namespace: cfEngine.Info
+  syntax:
+    content: protected abstract Func<TInfo, TKey> keyFn { get; }
+    parameters: []
+    return:
+      type: System.Func{{TInfo},{TKey}}
+    content.vb: Protected MustOverride ReadOnly Property keyFn As Func(Of TInfo, TKey)
+  overload: cfEngine.Info.ConfigInfoManager`2.keyFn*
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).keyFn
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).keyFn
+- uid: cfEngine.Info.ConfigInfoManager`2.#ctor(cfEngine.Info.IValueLoader{`1})
+  commentId: M:cfEngine.Info.ConfigInfoManager`2.#ctor(cfEngine.Info.IValueLoader{`1})
+  id: '#ctor(cfEngine.Info.IValueLoader{`1})'
+  parent: cfEngine.Info.ConfigInfoManager`2
+  langs:
+  - csharp
+  - vb
+  name: ConfigInfoManager(IValueLoader<TInfo>)
+  nameWithType: ConfigInfoManager<TKey, TInfo>.ConfigInfoManager(IValueLoader<TInfo>)
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.ConfigInfoManager(cfEngine.Info.IValueLoader<TInfo>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/ConfigInfoManager.cs
+    startLine: 22
+  namespace: cfEngine.Info
+  syntax:
+    content: protected ConfigInfoManager(IValueLoader<TInfo> loader)
+    parameters:
+    - id: loader
+      type: cfEngine.Info.IValueLoader{{TInfo}}
+    content.vb: Protected Sub New(loader As IValueLoader(Of TInfo))
+  overload: cfEngine.Info.ConfigInfoManager`2.#ctor*
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).New(IValueLoader(Of TInfo))
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).New(cfEngine.Info.IValueLoader(Of TInfo))
+  name.vb: New(IValueLoader(Of TInfo))
+- uid: cfEngine.Info.ConfigInfoManager`2.LoadInfo
+  commentId: M:cfEngine.Info.ConfigInfoManager`2.LoadInfo
+  id: LoadInfo
+  parent: cfEngine.Info.ConfigInfoManager`2
+  langs:
+  - csharp
+  - vb
+  name: LoadInfo()
+  nameWithType: ConfigInfoManager<TKey, TInfo>.LoadInfo()
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.LoadInfo()
+  type: Method
+  source:
+    id: LoadInfo
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/ConfigInfoManager.cs
+    startLine: 27
+  namespace: cfEngine.Info
+  example: []
+  syntax:
+    content: public override void LoadInfo()
+    content.vb: Public Overrides Sub LoadInfo()
+  overridden: cfEngine.Info.InfoManager.LoadInfo
+  overload: cfEngine.Info.ConfigInfoManager`2.LoadInfo*
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).LoadInfo()
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).LoadInfo()
+- uid: cfEngine.Info.ConfigInfoManager`2.LoadInfoAsync(System.Threading.CancellationToken)
+  commentId: M:cfEngine.Info.ConfigInfoManager`2.LoadInfoAsync(System.Threading.CancellationToken)
+  id: LoadInfoAsync(System.Threading.CancellationToken)
+  parent: cfEngine.Info.ConfigInfoManager`2
+  langs:
+  - csharp
+  - vb
+  name: LoadInfoAsync(CancellationToken)
+  nameWithType: ConfigInfoManager<TKey, TInfo>.LoadInfoAsync(CancellationToken)
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.LoadInfoAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: LoadInfoAsync
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/ConfigInfoManager.cs
+    startLine: 47
+  namespace: cfEngine.Info
+  example: []
+  syntax:
+    content: public override Task LoadInfoAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Overrides Function LoadInfoAsync(cancellationToken As CancellationToken) As Task
+  overridden: cfEngine.Info.InfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+  overload: cfEngine.Info.ConfigInfoManager`2.LoadInfoAsync*
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).LoadInfoAsync(CancellationToken)
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).LoadInfoAsync(System.Threading.CancellationToken)
+- uid: cfEngine.Info.ConfigInfoManager`2.Dispose
+  commentId: M:cfEngine.Info.ConfigInfoManager`2.Dispose
+  id: Dispose
+  parent: cfEngine.Info.ConfigInfoManager`2
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ConfigInfoManager<TKey, TInfo>.Dispose()
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/ConfigInfoManager.cs
+    startLine: 72
+  namespace: cfEngine.Info
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
+  syntax:
+    content: public override void Dispose()
+    content.vb: Public Overrides Sub Dispose()
+  overridden: cfEngine.Info.InfoManager.Dispose
+  overload: cfEngine.Info.ConfigInfoManager`2.Dispose*
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).Dispose()
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).Dispose()
+references:
+- uid: cfEngine.Info
+  commentId: N:cfEngine.Info
+  href: cfEngine.html
+  name: cfEngine.Info
+  nameWithType: cfEngine.Info
+  fullName: cfEngine.Info
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Info
+    name: Info
+    href: cfEngine.Info.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Info
+    name: Info
+    href: cfEngine.Info.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: cfEngine.Info.InfoManager
+  commentId: T:cfEngine.Info.InfoManager
+  parent: cfEngine.Info
+  href: cfEngine.Info.InfoManager.html
+  name: InfoManager
+  nameWithType: InfoManager
+  fullName: cfEngine.Info.InfoManager
+- uid: cfEngine.Info.IInfoManager
+  commentId: T:cfEngine.Info.IInfoManager
+  parent: cfEngine.Info
+  href: cfEngine.Info.IInfoManager.html
+  name: IInfoManager
+  nameWithType: IInfoManager
+  fullName: cfEngine.Info.IInfoManager
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: cfEngine.Info.InfoManager.infoDirectory
+  commentId: P:cfEngine.Info.InfoManager.infoDirectory
+  parent: cfEngine.Info.InfoManager
+  href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_infoDirectory
+  name: infoDirectory
+  nameWithType: InfoManager.infoDirectory
+  fullName: cfEngine.Info.InfoManager.infoDirectory
+- uid: cfEngine.Info.InfoManager.OnLoadCompleted
+  commentId: M:cfEngine.Info.InfoManager.OnLoadCompleted
+  parent: cfEngine.Info.InfoManager
+  href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_OnLoadCompleted
+  name: OnLoadCompleted()
+  nameWithType: InfoManager.OnLoadCompleted()
+  fullName: cfEngine.Info.InfoManager.OnLoadCompleted()
+  spec.csharp:
+  - uid: cfEngine.Info.InfoManager.OnLoadCompleted
+    name: OnLoadCompleted
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_OnLoadCompleted
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.InfoManager.OnLoadCompleted
+    name: OnLoadCompleted
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_OnLoadCompleted
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary{{TKey},{TInfo}}
+  commentId: T:System.Collections.Generic.Dictionary{`0,`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TInfo>
+  nameWithType: Dictionary<TKey, TInfo>
+  fullName: System.Collections.Generic.Dictionary<TKey, TInfo>
+  nameWithType.vb: Dictionary(Of TKey, TInfo)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TInfo)
+  name.vb: Dictionary(Of TKey, TInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TInfo
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TInfo
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: cfEngine.Info.ConfigInfoManager`2.ValueMap*
+  commentId: Overload:cfEngine.Info.ConfigInfoManager`2.ValueMap
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_ValueMap
+  name: ValueMap
+  nameWithType: ConfigInfoManager<TKey, TInfo>.ValueMap
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.ValueMap
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).ValueMap
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).ValueMap
+- uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},{TInfo}}
+  commentId: T:System.Collections.Generic.IReadOnlyDictionary{`0,`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  name: IReadOnlyDictionary<TKey, TInfo>
+  nameWithType: IReadOnlyDictionary<TKey, TInfo>
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TInfo>
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, TInfo)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TInfo)
+  name.vb: IReadOnlyDictionary(Of TKey, TInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TInfo
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TInfo
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyDictionary`2
+  commentId: T:System.Collections.Generic.IReadOnlyDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  name: IReadOnlyDictionary<TKey, TValue>
+  nameWithType: IReadOnlyDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue)
+  name.vb: IReadOnlyDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: cfEngine.Info.InfoManager.GetAllValue
+  commentId: M:cfEngine.Info.InfoManager.GetAllValue
+  parent: cfEngine.Info.InfoManager
+  href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_GetAllValue
+  name: GetAllValue()
+  nameWithType: InfoManager.GetAllValue()
+  fullName: cfEngine.Info.InfoManager.GetAllValue()
+  spec.csharp:
+  - uid: cfEngine.Info.InfoManager.GetAllValue
+    name: GetAllValue
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_GetAllValue
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.InfoManager.GetAllValue
+    name: GetAllValue
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_GetAllValue
+  - name: (
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager`2.GetAllValue*
+  commentId: Overload:cfEngine.Info.ConfigInfoManager`2.GetAllValue
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_GetAllValue
+  name: GetAllValue
+  nameWithType: ConfigInfoManager<TKey, TInfo>.GetAllValue
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.GetAllValue
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).GetAllValue
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).GetAllValue
+- uid: System.Collections.Generic.IEnumerable{System.Object}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<object>
+  nameWithType: IEnumerable<object>
+  fullName: System.Collections.Generic.IEnumerable<object>
+  nameWithType.vb: IEnumerable(Of Object)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Object)
+  name.vb: IEnumerable(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager`2.allValues*
+  commentId: Overload:cfEngine.Info.ConfigInfoManager`2.allValues
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_allValues
+  name: allValues
+  nameWithType: ConfigInfoManager<TKey, TInfo>.allValues
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.allValues
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).allValues
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).allValues
+- uid: System.Collections.Generic.IReadOnlyList{{TInfo}}
+  commentId: T:System.Collections.Generic.IReadOnlyList{`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<TInfo>
+  nameWithType: IReadOnlyList<TInfo>
+  fullName: System.Collections.Generic.IReadOnlyList<TInfo>
+  nameWithType.vb: IReadOnlyList(Of TInfo)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of TInfo)
+  name.vb: IReadOnlyList(Of TInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: TInfo
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInfo
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager`2.keyFn*
+  commentId: Overload:cfEngine.Info.ConfigInfoManager`2.keyFn
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_keyFn
+  name: keyFn
+  nameWithType: ConfigInfoManager<TKey, TInfo>.keyFn
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.keyFn
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).keyFn
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).keyFn
+- uid: System.Func{{TInfo},{TKey}}
+  commentId: T:System.Func{`1,`0}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<TInfo, TKey>
+  nameWithType: Func<TInfo, TKey>
+  fullName: System.Func<TInfo, TKey>
+  nameWithType.vb: Func(Of TInfo, TKey)
+  fullName.vb: System.Func(Of TInfo, TKey)
+  name.vb: Func(Of TInfo, TKey)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TInfo
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInfo
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager`2.#ctor*
+  commentId: Overload:cfEngine.Info.ConfigInfoManager`2.#ctor
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2__ctor_cfEngine_Info_IValueLoader__1__
+  name: ConfigInfoManager
+  nameWithType: ConfigInfoManager<TKey, TInfo>.ConfigInfoManager
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.ConfigInfoManager
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).New
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).New
+  name.vb: New
+- uid: cfEngine.Info.IValueLoader{{TInfo}}
+  commentId: T:cfEngine.Info.IValueLoader{`1}
+  parent: cfEngine.Info
+  definition: cfEngine.Info.IValueLoader`1
+  href: cfEngine.Info.IValueLoader-1.html
+  name: IValueLoader<TInfo>
+  nameWithType: IValueLoader<TInfo>
+  fullName: cfEngine.Info.IValueLoader<TInfo>
+  nameWithType.vb: IValueLoader(Of TInfo)
+  fullName.vb: cfEngine.Info.IValueLoader(Of TInfo)
+  name.vb: IValueLoader(Of TInfo)
+  spec.csharp:
+  - uid: cfEngine.Info.IValueLoader`1
+    name: IValueLoader
+    href: cfEngine.Info.IValueLoader-1.html
+  - name: <
+  - name: TInfo
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Info.IValueLoader`1
+    name: IValueLoader
+    href: cfEngine.Info.IValueLoader-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInfo
+  - name: )
+- uid: cfEngine.Info.IValueLoader`1
+  commentId: T:cfEngine.Info.IValueLoader`1
+  href: cfEngine.Info.IValueLoader-1.html
+  name: IValueLoader<TInfo>
+  nameWithType: IValueLoader<TInfo>
+  fullName: cfEngine.Info.IValueLoader<TInfo>
+  nameWithType.vb: IValueLoader(Of TInfo)
+  fullName.vb: cfEngine.Info.IValueLoader(Of TInfo)
+  name.vb: IValueLoader(Of TInfo)
+  spec.csharp:
+  - uid: cfEngine.Info.IValueLoader`1
+    name: IValueLoader
+    href: cfEngine.Info.IValueLoader-1.html
+  - name: <
+  - name: TInfo
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Info.IValueLoader`1
+    name: IValueLoader
+    href: cfEngine.Info.IValueLoader-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInfo
+  - name: )
+- uid: cfEngine.Info.InfoManager.LoadInfo
+  commentId: M:cfEngine.Info.InfoManager.LoadInfo
+  parent: cfEngine.Info.InfoManager
+  href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_LoadInfo
+  name: LoadInfo()
+  nameWithType: InfoManager.LoadInfo()
+  fullName: cfEngine.Info.InfoManager.LoadInfo()
+  spec.csharp:
+  - uid: cfEngine.Info.InfoManager.LoadInfo
+    name: LoadInfo
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_LoadInfo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.InfoManager.LoadInfo
+    name: LoadInfo
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_LoadInfo
+  - name: (
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager`2.LoadInfo*
+  commentId: Overload:cfEngine.Info.ConfigInfoManager`2.LoadInfo
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfo
+  name: LoadInfo
+  nameWithType: ConfigInfoManager<TKey, TInfo>.LoadInfo
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.LoadInfo
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).LoadInfo
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).LoadInfo
+- uid: cfEngine.Info.InfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+  commentId: M:cfEngine.Info.InfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+  parent: cfEngine.Info.InfoManager
+  isExternal: true
+  href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_LoadInfoAsync_System_Threading_CancellationToken_
+  name: LoadInfoAsync(CancellationToken)
+  nameWithType: InfoManager.LoadInfoAsync(CancellationToken)
+  fullName: cfEngine.Info.InfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: cfEngine.Info.InfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+    name: LoadInfoAsync
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_LoadInfoAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.InfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+    name: LoadInfoAsync
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_LoadInfoAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager`2.LoadInfoAsync*
+  commentId: Overload:cfEngine.Info.ConfigInfoManager`2.LoadInfoAsync
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfoAsync_System_Threading_CancellationToken_
+  name: LoadInfoAsync
+  nameWithType: ConfigInfoManager<TKey, TInfo>.LoadInfoAsync
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.LoadInfoAsync
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).LoadInfoAsync
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).LoadInfoAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: cfEngine.Info.InfoManager.Dispose
+  commentId: M:cfEngine.Info.InfoManager.Dispose
+  parent: cfEngine.Info.InfoManager
+  href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_Dispose
+  name: Dispose()
+  nameWithType: InfoManager.Dispose()
+  fullName: cfEngine.Info.InfoManager.Dispose()
+  spec.csharp:
+  - uid: cfEngine.Info.InfoManager.Dispose
+    name: Dispose
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.InfoManager.Dispose
+    name: Dispose
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_Dispose
+  - name: (
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager`2.Dispose*
+  commentId: Overload:cfEngine.Info.ConfigInfoManager`2.Dispose
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_Dispose
+  name: Dispose
+  nameWithType: ConfigInfoManager<TKey, TInfo>.Dispose
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.Dispose
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).Dispose
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).Dispose

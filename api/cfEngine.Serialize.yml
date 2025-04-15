@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Serialize
+  commentId: N:cfEngine.Serialize
+  id: cfEngine.Serialize
+  children:
+  - cfEngine.Serialize.ISerializer
+  - cfEngine.Serialize.ISerializer.IDeserializeParam
+  - cfEngine.Serialize.ISerializer.ISerializeParam
+  - cfEngine.Serialize.JsonSerializer
+  - cfEngine.Serialize.Serializer
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.Serialize
+  nameWithType: cfEngine.Serialize
+  fullName: cfEngine.Serialize
+  type: Namespace
+references:
+- uid: cfEngine.Serialize.JsonSerializer
+  commentId: T:cfEngine.Serialize.JsonSerializer
+  parent: cfEngine.Serialize
+  href: cfEngine.Serialize.JsonSerializer.html
+  name: JsonSerializer
+  nameWithType: JsonSerializer
+  fullName: cfEngine.Serialize.JsonSerializer
+- uid: cfEngine.Serialize.ISerializer
+  commentId: T:cfEngine.Serialize.ISerializer
+  parent: cfEngine.Serialize
+  href: cfEngine.Serialize.ISerializer.html
+  name: ISerializer
+  nameWithType: ISerializer
+  fullName: cfEngine.Serialize.ISerializer
+- uid: cfEngine.Serialize.ISerializer.ISerializeParam
+  commentId: T:cfEngine.Serialize.ISerializer.ISerializeParam
+  parent: cfEngine.Serialize
+  href: cfEngine.Serialize.ISerializer.html
+  name: ISerializer.ISerializeParam
+  nameWithType: ISerializer.ISerializeParam
+  fullName: cfEngine.Serialize.ISerializer.ISerializeParam
+  spec.csharp:
+  - uid: cfEngine.Serialize.ISerializer
+    name: ISerializer
+    href: cfEngine.Serialize.ISerializer.html
+  - name: .
+  - uid: cfEngine.Serialize.ISerializer.ISerializeParam
+    name: ISerializeParam
+    href: cfEngine.Serialize.ISerializer.ISerializeParam.html
+  spec.vb:
+  - uid: cfEngine.Serialize.ISerializer
+    name: ISerializer
+    href: cfEngine.Serialize.ISerializer.html
+  - name: .
+  - uid: cfEngine.Serialize.ISerializer.ISerializeParam
+    name: ISerializeParam
+    href: cfEngine.Serialize.ISerializer.ISerializeParam.html
+- uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+  commentId: T:cfEngine.Serialize.ISerializer.IDeserializeParam
+  parent: cfEngine.Serialize
+  href: cfEngine.Serialize.ISerializer.html
+  name: ISerializer.IDeserializeParam
+  nameWithType: ISerializer.IDeserializeParam
+  fullName: cfEngine.Serialize.ISerializer.IDeserializeParam
+  spec.csharp:
+  - uid: cfEngine.Serialize.ISerializer
+    name: ISerializer
+    href: cfEngine.Serialize.ISerializer.html
+  - name: .
+  - uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+    name: IDeserializeParam
+    href: cfEngine.Serialize.ISerializer.IDeserializeParam.html
+  spec.vb:
+  - uid: cfEngine.Serialize.ISerializer
+    name: ISerializer
+    href: cfEngine.Serialize.ISerializer.html
+  - name: .
+  - uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+    name: IDeserializeParam
+    href: cfEngine.Serialize.ISerializer.IDeserializeParam.html
+- uid: cfEngine.Serialize.Serializer
+  commentId: T:cfEngine.Serialize.Serializer
+  parent: cfEngine.Serialize
+  href: cfEngine.Serialize.Serializer.html
+  name: Serializer
+  nameWithType: Serializer
+  fullName: cfEngine.Serialize.Serializer
+- uid: cfEngine.Serialize
+  commentId: N:cfEngine.Serialize
+  href: cfEngine.html
+  name: cfEngine.Serialize
+  nameWithType: cfEngine.Serialize
+  fullName: cfEngine.Serialize
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Serialize
+    name: Serialize
+    href: cfEngine.Serialize.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Serialize
+    name: Serialize
+    href: cfEngine.Serialize.html

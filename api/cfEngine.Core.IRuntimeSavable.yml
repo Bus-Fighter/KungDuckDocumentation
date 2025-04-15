@@ -1,0 +1,310 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Core.IRuntimeSavable
+  commentId: T:cfEngine.Core.IRuntimeSavable
+  id: IRuntimeSavable
+  parent: cfEngine.Core
+  children:
+  - cfEngine.Core.IRuntimeSavable.Initialize(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Text.Json.Nodes.JsonObject})
+  - cfEngine.Core.IRuntimeSavable.Save(System.Collections.Generic.Dictionary{System.String,System.Object})
+  langs:
+  - csharp
+  - vb
+  name: IRuntimeSavable
+  nameWithType: IRuntimeSavable
+  fullName: cfEngine.Core.IRuntimeSavable
+  type: Interface
+  source:
+    id: IRuntimeSavable
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/core/UserDataManager.cs
+    startLine: 36
+  namespace: cfEngine.Core
+  syntax:
+    content: public interface IRuntimeSavable
+    content.vb: Public Interface IRuntimeSavable
+- uid: cfEngine.Core.IRuntimeSavable.Initialize(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Text.Json.Nodes.JsonObject})
+  commentId: M:cfEngine.Core.IRuntimeSavable.Initialize(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Text.Json.Nodes.JsonObject})
+  id: Initialize(System.Collections.Generic.IReadOnlyDictionary{System.String,System.Text.Json.Nodes.JsonObject})
+  parent: cfEngine.Core.IRuntimeSavable
+  langs:
+  - csharp
+  - vb
+  name: Initialize(IReadOnlyDictionary<string, JsonObject>)
+  nameWithType: IRuntimeSavable.Initialize(IReadOnlyDictionary<string, JsonObject>)
+  fullName: cfEngine.Core.IRuntimeSavable.Initialize(System.Collections.Generic.IReadOnlyDictionary<string, System.Text.Json.Nodes.JsonObject>)
+  type: Method
+  source:
+    id: Initialize
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/core/UserDataManager.cs
+    startLine: 38
+  namespace: cfEngine.Core
+  syntax:
+    content: void Initialize(IReadOnlyDictionary<string, JsonObject> dataMap)
+    parameters:
+    - id: dataMap
+      type: System.Collections.Generic.IReadOnlyDictionary{System.String,System.Text.Json.Nodes.JsonObject}
+    content.vb: Sub Initialize(dataMap As IReadOnlyDictionary(Of String, JsonObject))
+  overload: cfEngine.Core.IRuntimeSavable.Initialize*
+  nameWithType.vb: IRuntimeSavable.Initialize(IReadOnlyDictionary(Of String, JsonObject))
+  fullName.vb: cfEngine.Core.IRuntimeSavable.Initialize(System.Collections.Generic.IReadOnlyDictionary(Of String, System.Text.Json.Nodes.JsonObject))
+  name.vb: Initialize(IReadOnlyDictionary(Of String, JsonObject))
+- uid: cfEngine.Core.IRuntimeSavable.Save(System.Collections.Generic.Dictionary{System.String,System.Object})
+  commentId: M:cfEngine.Core.IRuntimeSavable.Save(System.Collections.Generic.Dictionary{System.String,System.Object})
+  id: Save(System.Collections.Generic.Dictionary{System.String,System.Object})
+  parent: cfEngine.Core.IRuntimeSavable
+  langs:
+  - csharp
+  - vb
+  name: Save(Dictionary<string, object>)
+  nameWithType: IRuntimeSavable.Save(Dictionary<string, object>)
+  fullName: cfEngine.Core.IRuntimeSavable.Save(System.Collections.Generic.Dictionary<string, object>)
+  type: Method
+  source:
+    id: Save
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/core/UserDataManager.cs
+    startLine: 39
+  namespace: cfEngine.Core
+  syntax:
+    content: void Save(Dictionary<string, object> dataMap)
+    parameters:
+    - id: dataMap
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: Sub Save(dataMap As Dictionary(Of String, Object))
+  overload: cfEngine.Core.IRuntimeSavable.Save*
+  nameWithType.vb: IRuntimeSavable.Save(Dictionary(Of String, Object))
+  fullName.vb: cfEngine.Core.IRuntimeSavable.Save(System.Collections.Generic.Dictionary(Of String, Object))
+  name.vb: Save(Dictionary(Of String, Object))
+references:
+- uid: cfEngine.Core
+  commentId: N:cfEngine.Core
+  href: cfEngine.html
+  name: cfEngine.Core
+  nameWithType: cfEngine.Core
+  fullName: cfEngine.Core
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Core
+    name: Core
+    href: cfEngine.Core.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Core
+    name: Core
+    href: cfEngine.Core.html
+- uid: cfEngine.Core.IRuntimeSavable.Initialize*
+  commentId: Overload:cfEngine.Core.IRuntimeSavable.Initialize
+  href: cfEngine.Core.IRuntimeSavable.html#cfEngine_Core_IRuntimeSavable_Initialize_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Text_Json_Nodes_JsonObject__
+  name: Initialize
+  nameWithType: IRuntimeSavable.Initialize
+  fullName: cfEngine.Core.IRuntimeSavable.Initialize
+- uid: System.Collections.Generic.IReadOnlyDictionary{System.String,System.Text.Json.Nodes.JsonObject}
+  commentId: T:System.Collections.Generic.IReadOnlyDictionary{System.String,System.Text.Json.Nodes.JsonObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  name: IReadOnlyDictionary<string, JsonObject>
+  nameWithType: IReadOnlyDictionary<string, JsonObject>
+  fullName: System.Collections.Generic.IReadOnlyDictionary<string, System.Text.Json.Nodes.JsonObject>
+  nameWithType.vb: IReadOnlyDictionary(Of String, JsonObject)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of String, System.Text.Json.Nodes.JsonObject)
+  name.vb: IReadOnlyDictionary(Of String, JsonObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Text.Json.Nodes.JsonObject
+    name: JsonObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.json.nodes.jsonobject
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Text.Json.Nodes.JsonObject
+    name: JsonObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.json.nodes.jsonobject
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyDictionary`2
+  commentId: T:System.Collections.Generic.IReadOnlyDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  name: IReadOnlyDictionary<TKey, TValue>
+  nameWithType: IReadOnlyDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue)
+  name.vb: IReadOnlyDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: cfEngine.Core.IRuntimeSavable.Save*
+  commentId: Overload:cfEngine.Core.IRuntimeSavable.Save
+  href: cfEngine.Core.IRuntimeSavable.html#cfEngine_Core_IRuntimeSavable_Save_System_Collections_Generic_Dictionary_System_String_System_Object__
+  name: Save
+  nameWithType: IRuntimeSavable.Save
+  fullName: cfEngine.Core.IRuntimeSavable.Save
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, object>
+  nameWithType: Dictionary<string, object>
+  fullName: System.Collections.Generic.Dictionary<string, object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )

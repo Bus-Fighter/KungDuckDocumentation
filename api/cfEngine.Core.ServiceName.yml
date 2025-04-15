@@ -1,0 +1,435 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Core.ServiceName
+  commentId: T:cfEngine.Core.ServiceName
+  id: ServiceName
+  parent: cfEngine.Core
+  children:
+  - cfEngine.Core.ServiceName.Asset
+  - cfEngine.Core.ServiceName.Auth
+  - cfEngine.Core.ServiceName.Info
+  - cfEngine.Core.ServiceName.Inventory
+  - cfEngine.Core.ServiceName.Pool
+  - cfEngine.Core.ServiceName.UserDataManager
+  langs:
+  - csharp
+  - vb
+  name: ServiceName
+  nameWithType: ServiceName
+  fullName: cfEngine.Core.ServiceName
+  type: Class
+  source:
+    id: ServiceName
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryService.cs
+    startLine: 19
+  namespace: cfEngine.Core
+  syntax:
+    content: public static class ServiceName
+    content.vb: Public Module ServiceName
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: cfEngine.Core.ServiceName.Asset
+  commentId: F:cfEngine.Core.ServiceName.Asset
+  id: Asset
+  parent: cfEngine.Core.ServiceName
+  langs:
+  - csharp
+  - vb
+  name: Asset
+  nameWithType: ServiceName.Asset
+  fullName: cfEngine.Core.ServiceName.Asset
+  type: Field
+  source:
+    id: Asset
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/asset/AssetManager.cs
+    startLine: 12
+  namespace: cfEngine.Core
+  syntax:
+    content: public const string Asset = "Asset"
+    return:
+      type: System.String
+    content.vb: Public Const Asset As String = "Asset"
+- uid: cfEngine.Core.ServiceName.UserDataManager
+  commentId: F:cfEngine.Core.ServiceName.UserDataManager
+  id: UserDataManager
+  parent: cfEngine.Core.ServiceName
+  langs:
+  - csharp
+  - vb
+  name: UserDataManager
+  nameWithType: ServiceName.UserDataManager
+  fullName: cfEngine.Core.ServiceName.UserDataManager
+  type: Field
+  source:
+    id: UserDataManager
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/core/UserDataManager.cs
+    startLine: 19
+  namespace: cfEngine.Core
+  syntax:
+    content: public const string UserDataManager = "UserDataManager"
+    return:
+      type: System.String
+    content.vb: Public Const UserDataManager As String = "UserDataManager"
+- uid: cfEngine.Core.ServiceName.Info
+  commentId: F:cfEngine.Core.ServiceName.Info
+  id: Info
+  parent: cfEngine.Core.ServiceName
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: ServiceName.Info
+  fullName: cfEngine.Core.ServiceName.Info
+  type: Field
+  source:
+    id: Info
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/InfoLayer.cs
+    startLine: 12
+  namespace: cfEngine.Core
+  syntax:
+    content: public const string Info = "Info"
+    return:
+      type: System.String
+    content.vb: Public Const Info As String = "Info"
+- uid: cfEngine.Core.ServiceName.Pool
+  commentId: F:cfEngine.Core.ServiceName.Pool
+  id: Pool
+  parent: cfEngine.Core.ServiceName
+  langs:
+  - csharp
+  - vb
+  name: Pool
+  nameWithType: ServiceName.Pool
+  fullName: cfEngine.Core.ServiceName.Pool
+  type: Field
+  source:
+    id: Pool
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/pooling/PoolManager.cs
+    startLine: 11
+  namespace: cfEngine.Core
+  syntax:
+    content: public const string Pool = "Pool"
+    return:
+      type: System.String
+    content.vb: Public Const Pool As String = "Pool"
+- uid: cfEngine.Core.ServiceName.Auth
+  commentId: F:cfEngine.Core.ServiceName.Auth
+  id: Auth
+  parent: cfEngine.Core.ServiceName
+  langs:
+  - csharp
+  - vb
+  name: Auth
+  nameWithType: ServiceName.Auth
+  fullName: cfEngine.Core.ServiceName.Auth
+  type: Field
+  source:
+    id: Auth
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 10
+  namespace: cfEngine.Core
+  syntax:
+    content: public const string Auth = "Auth"
+    return:
+      type: System.String
+    content.vb: Public Const Auth As String = "Auth"
+- uid: cfEngine.Core.ServiceName.Inventory
+  commentId: F:cfEngine.Core.ServiceName.Inventory
+  id: Inventory
+  parent: cfEngine.Core.ServiceName
+  langs:
+  - csharp
+  - vb
+  name: Inventory
+  nameWithType: ServiceName.Inventory
+  fullName: cfEngine.Core.ServiceName.Inventory
+  type: Field
+  source:
+    id: Inventory
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryService.cs
+    startLine: 21
+  namespace: cfEngine.Core
+  syntax:
+    content: public const string Inventory = "Inventory"
+    return:
+      type: System.String
+    content.vb: Public Const Inventory As String = "Inventory"
+references:
+- uid: cfEngine.Core
+  commentId: N:cfEngine.Core
+  href: cfEngine.html
+  name: cfEngine.Core
+  nameWithType: cfEngine.Core
+  fullName: cfEngine.Core
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Core
+    name: Core
+    href: cfEngine.Core.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Core
+    name: Core
+    href: cfEngine.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

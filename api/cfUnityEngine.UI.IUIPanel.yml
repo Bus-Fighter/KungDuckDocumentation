@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.UI.IUIPanel
+  commentId: T:cfUnityEngine.UI.IUIPanel
+  id: IUIPanel
+  parent: cfUnityEngine.UI
+  children:
+  - cfUnityEngine.UI.IUIPanel.Bind(cfUnityEngine.INamespaceScope)
+  - cfUnityEngine.UI.IUIPanel.Hide
+  - cfUnityEngine.UI.IUIPanel.Show
+  - cfUnityEngine.UI.IUIPanel.id
+  langs:
+  - csharp
+  - vb
+  name: IUIPanel
+  nameWithType: IUIPanel
+  fullName: cfUnityEngine.UI.IUIPanel
+  type: Interface
+  source:
+    id: IUIPanel
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/IUIPanel.cs
+    startLine: 2
+  namespace: cfUnityEngine.UI
+  syntax:
+    content: public interface IUIPanel
+    content.vb: Public Interface IUIPanel
+- uid: cfUnityEngine.UI.IUIPanel.id
+  commentId: P:cfUnityEngine.UI.IUIPanel.id
+  id: id
+  parent: cfUnityEngine.UI.IUIPanel
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: IUIPanel.id
+  fullName: cfUnityEngine.UI.IUIPanel.id
+  type: Property
+  source:
+    id: id
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/IUIPanel.cs
+    startLine: 4
+  namespace: cfUnityEngine.UI
+  syntax:
+    content: string id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property id As String
+  overload: cfUnityEngine.UI.IUIPanel.id*
+- uid: cfUnityEngine.UI.IUIPanel.Show
+  commentId: M:cfUnityEngine.UI.IUIPanel.Show
+  id: Show
+  parent: cfUnityEngine.UI.IUIPanel
+  langs:
+  - csharp
+  - vb
+  name: Show()
+  nameWithType: IUIPanel.Show()
+  fullName: cfUnityEngine.UI.IUIPanel.Show()
+  type: Method
+  source:
+    id: Show
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/IUIPanel.cs
+    startLine: 5
+  namespace: cfUnityEngine.UI
+  syntax:
+    content: void Show()
+    content.vb: Sub Show()
+  overload: cfUnityEngine.UI.IUIPanel.Show*
+- uid: cfUnityEngine.UI.IUIPanel.Hide
+  commentId: M:cfUnityEngine.UI.IUIPanel.Hide
+  id: Hide
+  parent: cfUnityEngine.UI.IUIPanel
+  langs:
+  - csharp
+  - vb
+  name: Hide()
+  nameWithType: IUIPanel.Hide()
+  fullName: cfUnityEngine.UI.IUIPanel.Hide()
+  type: Method
+  source:
+    id: Hide
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/IUIPanel.cs
+    startLine: 6
+  namespace: cfUnityEngine.UI
+  syntax:
+    content: void Hide()
+    content.vb: Sub Hide()
+  overload: cfUnityEngine.UI.IUIPanel.Hide*
+- uid: cfUnityEngine.UI.IUIPanel.Bind(cfUnityEngine.INamespaceScope)
+  commentId: M:cfUnityEngine.UI.IUIPanel.Bind(cfUnityEngine.INamespaceScope)
+  id: Bind(cfUnityEngine.INamespaceScope)
+  parent: cfUnityEngine.UI.IUIPanel
+  langs:
+  - csharp
+  - vb
+  name: Bind(INamespaceScope)
+  nameWithType: IUIPanel.Bind(INamespaceScope)
+  fullName: cfUnityEngine.UI.IUIPanel.Bind(cfUnityEngine.INamespaceScope)
+  type: Method
+  source:
+    id: Bind
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/IUIPanel.cs
+    startLine: 7
+  namespace: cfUnityEngine.UI
+  syntax:
+    content: void Bind(INamespaceScope scope)
+    parameters:
+    - id: scope
+      type: cfUnityEngine.INamespaceScope
+    content.vb: Sub Bind(scope As INamespaceScope)
+  overload: cfUnityEngine.UI.IUIPanel.Bind*
+references:
+- uid: cfUnityEngine.UI
+  commentId: N:cfUnityEngine.UI
+  href: cfUnityEngine.html
+  name: cfUnityEngine.UI
+  nameWithType: cfUnityEngine.UI
+  fullName: cfUnityEngine.UI
+  spec.csharp:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+  spec.vb:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+- uid: cfUnityEngine.UI.IUIPanel.id*
+  commentId: Overload:cfUnityEngine.UI.IUIPanel.id
+  href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_id
+  name: id
+  nameWithType: IUIPanel.id
+  fullName: cfUnityEngine.UI.IUIPanel.id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfUnityEngine.UI.IUIPanel.Show*
+  commentId: Overload:cfUnityEngine.UI.IUIPanel.Show
+  href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_Show
+  name: Show
+  nameWithType: IUIPanel.Show
+  fullName: cfUnityEngine.UI.IUIPanel.Show
+- uid: cfUnityEngine.UI.IUIPanel.Hide*
+  commentId: Overload:cfUnityEngine.UI.IUIPanel.Hide
+  href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_Hide
+  name: Hide
+  nameWithType: IUIPanel.Hide
+  fullName: cfUnityEngine.UI.IUIPanel.Hide
+- uid: cfUnityEngine.UI.IUIPanel.Bind*
+  commentId: Overload:cfUnityEngine.UI.IUIPanel.Bind
+  href: cfUnityEngine.UI.IUIPanel.html#cfUnityEngine_UI_IUIPanel_Bind_cfUnityEngine_INamespaceScope_
+  name: Bind
+  nameWithType: IUIPanel.Bind
+  fullName: cfUnityEngine.UI.IUIPanel.Bind
+- uid: cfUnityEngine.INamespaceScope
+  commentId: T:cfUnityEngine.INamespaceScope
+  parent: cfUnityEngine
+  href: cfUnityEngine.INamespaceScope.html
+  name: INamespaceScope
+  nameWithType: INamespaceScope
+  fullName: cfUnityEngine.INamespaceScope
+- uid: cfUnityEngine
+  commentId: N:cfUnityEngine
+  href: cfUnityEngine.html
+  name: cfUnityEngine
+  nameWithType: cfUnityEngine
+  fullName: cfUnityEngine

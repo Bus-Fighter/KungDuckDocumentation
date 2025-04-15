@@ -1,0 +1,2395 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Service.Inventory.InventoryService.PageRecord
+  commentId: T:cfEngine.Service.Inventory.InventoryService.PageRecord
+  id: InventoryService.PageRecord
+  parent: cfEngine.Service.Inventory
+  children:
+  - cfEngine.Service.Inventory.InventoryService.PageRecord.#ctor(System.Int32)
+  - cfEngine.Service.Inventory.InventoryService.PageRecord.RemoveItem(System.Int32)
+  - cfEngine.Service.Inventory.InventoryService.PageRecord.TryAddToEmptySlot(System.Guid)
+  langs:
+  - csharp
+  - vb
+  name: InventoryService.PageRecord
+  nameWithType: InventoryService.PageRecord
+  fullName: cfEngine.Service.Inventory.InventoryService.PageRecord
+  type: Class
+  source:
+    id: PageRecord
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryService.PageRecord.cs
+    startLine: 8
+  namespace: cfEngine.Service.Inventory
+  syntax:
+    content: 'public class InventoryService.PageRecord : RtList<Guid>, IDisposable, IReadOnlyList<Guid>, IReadOnlyCollection<Guid>, IEnumerable<Guid>, IEnumerable'
+    content.vb: Public Class InventoryService.PageRecord Inherits RtList(Of Guid) Implements IDisposable, IReadOnlyList(Of Guid), IReadOnlyCollection(Of Guid), IEnumerable(Of Guid), IEnumerable
+  inheritance:
+  - System.Object
+  - cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}
+  - cfEngine.Rx.RtReadOnlyList{System.Guid}
+  - cfEngine.Rx.RtList{System.Guid}
+  implements:
+  - System.IDisposable
+  - System.Collections.Generic.IReadOnlyList{System.Guid}
+  - System.Collections.Generic.IReadOnlyCollection{System.Guid}
+  - System.Collections.Generic.IEnumerable{System.Guid}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - cfEngine.Rx.RtList{System.Guid}.Dispose
+  - cfEngine.Rx.RtList{System.Guid}.GetEnumerator
+  - cfEngine.Rx.RtList{System.Guid}.Add(System.Guid)
+  - cfEngine.Rx.RtList{System.Guid}.Clear
+  - cfEngine.Rx.RtList{System.Guid}.Contains(System.Guid)
+  - cfEngine.Rx.RtList{System.Guid}.CopyTo(System.Guid[],System.Int32)
+  - cfEngine.Rx.RtList{System.Guid}.Remove(System.Guid)
+  - cfEngine.Rx.RtList{System.Guid}.Count
+  - cfEngine.Rx.RtList{System.Guid}.IsReadOnly
+  - cfEngine.Rx.RtList{System.Guid}.IndexOf(System.Guid)
+  - cfEngine.Rx.RtList{System.Guid}.Insert(System.Int32,System.Guid)
+  - cfEngine.Rx.RtList{System.Guid}.RemoveAt(System.Int32)
+  - cfEngine.Rx.RtList{System.Guid}.Update(System.Int32,System.Guid)
+  - cfEngine.Rx.RtList{System.Guid}.Item(System.Int32)
+  - cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}.CollectionEvents
+  - cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}.Events
+  - cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}.Dispose
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - cfEngine.Rx.RtReadOnlyList{System.Guid}.cfEngine.Rx.Linq.count``1
+  - cfEngine.Rx.RtReadOnlyList{System.Guid}.cfEngine.Rx.Linq.groupBy``2(System.Func{System.Guid,{TKey}})
+  - cfEngine.Rx.RtReadOnlyList{System.Guid}.cfEngine.Rx.Linq.selectNew``2(System.Func{System.Guid,{TSelect}})
+  - cfEngine.Rx.RtReadOnlyList{System.Guid}.cfEngine.Rx.Linq.select``2(System.Func{System.Guid,{TSelect}})
+- uid: cfEngine.Service.Inventory.InventoryService.PageRecord.#ctor(System.Int32)
+  commentId: M:cfEngine.Service.Inventory.InventoryService.PageRecord.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: cfEngine.Service.Inventory.InventoryService.PageRecord
+  langs:
+  - csharp
+  - vb
+  name: PageRecord(int)
+  nameWithType: InventoryService.PageRecord.PageRecord(int)
+  fullName: cfEngine.Service.Inventory.InventoryService.PageRecord.PageRecord(int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryService.PageRecord.cs
+    startLine: 10
+  namespace: cfEngine.Service.Inventory
+  syntax:
+    content: public PageRecord(int pageSize)
+    parameters:
+    - id: pageSize
+      type: System.Int32
+    content.vb: Public Sub New(pageSize As Integer)
+  overload: cfEngine.Service.Inventory.InventoryService.PageRecord.#ctor*
+  nameWithType.vb: InventoryService.PageRecord.New(Integer)
+  fullName.vb: cfEngine.Service.Inventory.InventoryService.PageRecord.New(Integer)
+  name.vb: New(Integer)
+- uid: cfEngine.Service.Inventory.InventoryService.PageRecord.TryAddToEmptySlot(System.Guid)
+  commentId: M:cfEngine.Service.Inventory.InventoryService.PageRecord.TryAddToEmptySlot(System.Guid)
+  id: TryAddToEmptySlot(System.Guid)
+  parent: cfEngine.Service.Inventory.InventoryService.PageRecord
+  langs:
+  - csharp
+  - vb
+  name: TryAddToEmptySlot(Guid)
+  nameWithType: InventoryService.PageRecord.TryAddToEmptySlot(Guid)
+  fullName: cfEngine.Service.Inventory.InventoryService.PageRecord.TryAddToEmptySlot(System.Guid)
+  type: Method
+  source:
+    id: TryAddToEmptySlot
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryService.PageRecord.cs
+    startLine: 18
+  namespace: cfEngine.Service.Inventory
+  syntax:
+    content: public bool TryAddToEmptySlot(Guid stackId)
+    parameters:
+    - id: stackId
+      type: System.Guid
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryAddToEmptySlot(stackId As Guid) As Boolean
+  overload: cfEngine.Service.Inventory.InventoryService.PageRecord.TryAddToEmptySlot*
+- uid: cfEngine.Service.Inventory.InventoryService.PageRecord.RemoveItem(System.Int32)
+  commentId: M:cfEngine.Service.Inventory.InventoryService.PageRecord.RemoveItem(System.Int32)
+  id: RemoveItem(System.Int32)
+  parent: cfEngine.Service.Inventory.InventoryService.PageRecord
+  langs:
+  - csharp
+  - vb
+  name: RemoveItem(int)
+  nameWithType: InventoryService.PageRecord.RemoveItem(int)
+  fullName: cfEngine.Service.Inventory.InventoryService.PageRecord.RemoveItem(int)
+  type: Method
+  source:
+    id: RemoveItem
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryService.PageRecord.cs
+    startLine: 30
+  namespace: cfEngine.Service.Inventory
+  syntax:
+    content: public void RemoveItem(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub RemoveItem(index As Integer)
+  overload: cfEngine.Service.Inventory.InventoryService.PageRecord.RemoveItem*
+  nameWithType.vb: InventoryService.PageRecord.RemoveItem(Integer)
+  fullName.vb: cfEngine.Service.Inventory.InventoryService.PageRecord.RemoveItem(Integer)
+  name.vb: RemoveItem(Integer)
+references:
+- uid: cfEngine.Service.Inventory
+  commentId: N:cfEngine.Service.Inventory
+  href: cfEngine.html
+  name: cfEngine.Service.Inventory
+  nameWithType: cfEngine.Service.Inventory
+  fullName: cfEngine.Service.Inventory
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Inventory
+    name: Inventory
+    href: cfEngine.Service.Inventory.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Inventory
+    name: Inventory
+    href: cfEngine.Service.Inventory.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}
+  commentId: T:cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}
+  parent: cfEngine.Rx
+  definition: cfEngine.Rx.RtCollection`1
+  href: cfEngine.Rx.RtCollection-1.html
+  name: RtCollection<(int index, Guid item)>
+  nameWithType: RtCollection<(int index, Guid item)>
+  fullName: cfEngine.Rx.RtCollection<(int index, System.Guid item)>
+  nameWithType.vb: RtCollection(Of (index As Integer, item As Guid))
+  fullName.vb: cfEngine.Rx.RtCollection(Of (index As Integer, item As System.Guid))
+  name.vb: RtCollection(Of (index As Integer, item As Guid))
+  spec.csharp:
+  - uid: cfEngine.Rx.RtCollection`1
+    name: RtCollection
+    href: cfEngine.Rx.RtCollection-1.html
+  - name: <
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Guid}.index
+    name: index
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.guid-.index
+  - name: ','
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Guid}.item
+    name: item
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.guid-.item
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtCollection`1
+    name: RtCollection
+    href: cfEngine.Rx.RtCollection-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{System.Int32,System.Guid}.index
+    name: index
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.guid-.index
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Guid}.item
+    name: item
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.guid-.item
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyList{System.Guid}
+  commentId: T:cfEngine.Rx.RtReadOnlyList{System.Guid}
+  parent: cfEngine.Rx
+  definition: cfEngine.Rx.RtReadOnlyList`1
+  href: cfEngine.Rx.RtReadOnlyList-1.html
+  name: RtReadOnlyList<Guid>
+  nameWithType: RtReadOnlyList<Guid>
+  fullName: cfEngine.Rx.RtReadOnlyList<System.Guid>
+  nameWithType.vb: RtReadOnlyList(Of Guid)
+  fullName.vb: cfEngine.Rx.RtReadOnlyList(Of System.Guid)
+  name.vb: RtReadOnlyList(Of Guid)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: cfEngine.Rx.RtList{System.Guid}
+  commentId: T:cfEngine.Rx.RtList{System.Guid}
+  parent: cfEngine.Rx
+  definition: cfEngine.Rx.RtList`1
+  href: cfEngine.Rx.RtList-1.html
+  name: RtList<Guid>
+  nameWithType: RtList<Guid>
+  fullName: cfEngine.Rx.RtList<System.Guid>
+  nameWithType.vb: RtList(Of Guid)
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid)
+  name.vb: RtList(Of Guid)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1
+    name: RtList
+    href: cfEngine.Rx.RtList-1.html
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1
+    name: RtList
+    href: cfEngine.Rx.RtList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Collections.Generic.IReadOnlyList{System.Guid}
+  commentId: T:System.Collections.Generic.IReadOnlyList{System.Guid}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<Guid>
+  nameWithType: IReadOnlyList<Guid>
+  fullName: System.Collections.Generic.IReadOnlyList<System.Guid>
+  nameWithType.vb: IReadOnlyList(Of Guid)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of System.Guid)
+  name.vb: IReadOnlyList(Of Guid)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyCollection{System.Guid}
+  commentId: T:System.Collections.Generic.IReadOnlyCollection{System.Guid}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  name: IReadOnlyCollection<Guid>
+  nameWithType: IReadOnlyCollection<Guid>
+  fullName: System.Collections.Generic.IReadOnlyCollection<System.Guid>
+  nameWithType.vb: IReadOnlyCollection(Of Guid)
+  fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of System.Guid)
+  name.vb: IReadOnlyCollection(Of Guid)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Guid}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Guid}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Guid>
+  nameWithType: IEnumerable<Guid>
+  fullName: System.Collections.Generic.IEnumerable<System.Guid>
+  nameWithType.vb: IEnumerable(Of Guid)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Guid)
+  name.vb: IEnumerable(Of Guid)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: cfEngine.Rx.RtList{System.Guid}.Dispose
+  commentId: M:cfEngine.Rx.RtList{System.Guid}.Dispose
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.Dispose
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Dispose
+  name: Dispose()
+  nameWithType: RtList<Guid>.Dispose()
+  fullName: cfEngine.Rx.RtList<System.Guid>.Dispose()
+  nameWithType.vb: RtList(Of Guid).Dispose()
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).Dispose()
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Dispose
+    name: Dispose
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Dispose
+    name: Dispose
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Dispose
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.RtList{System.Guid}.GetEnumerator
+  commentId: M:cfEngine.Rx.RtList{System.Guid}.GetEnumerator
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.GetEnumerator
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_GetEnumerator
+  name: GetEnumerator()
+  nameWithType: RtList<Guid>.GetEnumerator()
+  fullName: cfEngine.Rx.RtList<System.Guid>.GetEnumerator()
+  nameWithType.vb: RtList(Of Guid).GetEnumerator()
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).GetEnumerator()
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList{System.Guid}.GetEnumerator
+    name: GetEnumerator
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_GetEnumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList{System.Guid}.GetEnumerator
+    name: GetEnumerator
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_GetEnumerator
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.RtList{System.Guid}.Add(System.Guid)
+  commentId: M:cfEngine.Rx.RtList{System.Guid}.Add(System.Guid)
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.Add(`0)
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Add__0_
+  name: Add(Guid)
+  nameWithType: RtList<Guid>.Add(Guid)
+  fullName: cfEngine.Rx.RtList<System.Guid>.Add(System.Guid)
+  nameWithType.vb: RtList(Of Guid).Add(Guid)
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).Add(System.Guid)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Add(System.Guid)
+    name: Add
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Add__0_
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Add(System.Guid)
+    name: Add
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Add__0_
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: cfEngine.Rx.RtList{System.Guid}.Clear
+  commentId: M:cfEngine.Rx.RtList{System.Guid}.Clear
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.Clear
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Clear
+  name: Clear()
+  nameWithType: RtList<Guid>.Clear()
+  fullName: cfEngine.Rx.RtList<System.Guid>.Clear()
+  nameWithType.vb: RtList(Of Guid).Clear()
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).Clear()
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Clear
+    name: Clear
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Clear
+    name: Clear
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Clear
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.RtList{System.Guid}.Contains(System.Guid)
+  commentId: M:cfEngine.Rx.RtList{System.Guid}.Contains(System.Guid)
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.Contains(`0)
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Contains__0_
+  name: Contains(Guid)
+  nameWithType: RtList<Guid>.Contains(Guid)
+  fullName: cfEngine.Rx.RtList<System.Guid>.Contains(System.Guid)
+  nameWithType.vb: RtList(Of Guid).Contains(Guid)
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).Contains(System.Guid)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Contains(System.Guid)
+    name: Contains
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Contains__0_
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Contains(System.Guid)
+    name: Contains
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Contains__0_
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: cfEngine.Rx.RtList{System.Guid}.CopyTo(System.Guid[],System.Int32)
+  commentId: M:cfEngine.Rx.RtList{System.Guid}.CopyTo(System.Guid[],System.Int32)
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.CopyTo(`0[],System.Int32)
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_CopyTo__0___System_Int32_
+  name: CopyTo(Guid[], int)
+  nameWithType: RtList<Guid>.CopyTo(Guid[], int)
+  fullName: cfEngine.Rx.RtList<System.Guid>.CopyTo(System.Guid[], int)
+  nameWithType.vb: RtList(Of Guid).CopyTo(Guid(), Integer)
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).CopyTo(System.Guid(), Integer)
+  name.vb: CopyTo(Guid(), Integer)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList{System.Guid}.CopyTo(System.Guid[],System.Int32)
+    name: CopyTo
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_CopyTo__0___System_Int32_
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList{System.Guid}.CopyTo(System.Guid[],System.Int32)
+    name: CopyTo
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_CopyTo__0___System_Int32_
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: cfEngine.Rx.RtList{System.Guid}.Remove(System.Guid)
+  commentId: M:cfEngine.Rx.RtList{System.Guid}.Remove(System.Guid)
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.Remove(`0)
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Remove__0_
+  name: Remove(Guid)
+  nameWithType: RtList<Guid>.Remove(Guid)
+  fullName: cfEngine.Rx.RtList<System.Guid>.Remove(System.Guid)
+  nameWithType.vb: RtList(Of Guid).Remove(Guid)
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).Remove(System.Guid)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Remove(System.Guid)
+    name: Remove
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Remove__0_
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Remove(System.Guid)
+    name: Remove
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Remove__0_
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: cfEngine.Rx.RtList{System.Guid}.Count
+  commentId: P:cfEngine.Rx.RtList{System.Guid}.Count
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.Count
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Count
+  name: Count
+  nameWithType: RtList<Guid>.Count
+  fullName: cfEngine.Rx.RtList<System.Guid>.Count
+  nameWithType.vb: RtList(Of Guid).Count
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).Count
+- uid: cfEngine.Rx.RtList{System.Guid}.IsReadOnly
+  commentId: P:cfEngine.Rx.RtList{System.Guid}.IsReadOnly
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.IsReadOnly
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_IsReadOnly
+  name: IsReadOnly
+  nameWithType: RtList<Guid>.IsReadOnly
+  fullName: cfEngine.Rx.RtList<System.Guid>.IsReadOnly
+  nameWithType.vb: RtList(Of Guid).IsReadOnly
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).IsReadOnly
+- uid: cfEngine.Rx.RtList{System.Guid}.IndexOf(System.Guid)
+  commentId: M:cfEngine.Rx.RtList{System.Guid}.IndexOf(System.Guid)
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.IndexOf(`0)
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_IndexOf__0_
+  name: IndexOf(Guid)
+  nameWithType: RtList<Guid>.IndexOf(Guid)
+  fullName: cfEngine.Rx.RtList<System.Guid>.IndexOf(System.Guid)
+  nameWithType.vb: RtList(Of Guid).IndexOf(Guid)
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).IndexOf(System.Guid)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList{System.Guid}.IndexOf(System.Guid)
+    name: IndexOf
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_IndexOf__0_
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList{System.Guid}.IndexOf(System.Guid)
+    name: IndexOf
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_IndexOf__0_
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: cfEngine.Rx.RtList{System.Guid}.Insert(System.Int32,System.Guid)
+  commentId: M:cfEngine.Rx.RtList{System.Guid}.Insert(System.Int32,System.Guid)
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.Insert(System.Int32,`0)
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Insert_System_Int32__0_
+  name: Insert(int, Guid)
+  nameWithType: RtList<Guid>.Insert(int, Guid)
+  fullName: cfEngine.Rx.RtList<System.Guid>.Insert(int, System.Guid)
+  nameWithType.vb: RtList(Of Guid).Insert(Integer, Guid)
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).Insert(Integer, System.Guid)
+  name.vb: Insert(Integer, Guid)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Insert(System.Int32,System.Guid)
+    name: Insert
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Insert_System_Int32__0_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Insert(System.Int32,System.Guid)
+    name: Insert
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Insert_System_Int32__0_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: cfEngine.Rx.RtList{System.Guid}.RemoveAt(System.Int32)
+  commentId: M:cfEngine.Rx.RtList{System.Guid}.RemoveAt(System.Int32)
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.RemoveAt(System.Int32)
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_RemoveAt_System_Int32_
+  name: RemoveAt(int)
+  nameWithType: RtList<Guid>.RemoveAt(int)
+  fullName: cfEngine.Rx.RtList<System.Guid>.RemoveAt(int)
+  nameWithType.vb: RtList(Of Guid).RemoveAt(Integer)
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).RemoveAt(Integer)
+  name.vb: RemoveAt(Integer)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList{System.Guid}.RemoveAt(System.Int32)
+    name: RemoveAt
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_RemoveAt_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList{System.Guid}.RemoveAt(System.Int32)
+    name: RemoveAt
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_RemoveAt_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: cfEngine.Rx.RtList{System.Guid}.Update(System.Int32,System.Guid)
+  commentId: M:cfEngine.Rx.RtList{System.Guid}.Update(System.Int32,System.Guid)
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.Update(System.Int32,`0)
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Update_System_Int32__0_
+  name: Update(int, Guid)
+  nameWithType: RtList<Guid>.Update(int, Guid)
+  fullName: cfEngine.Rx.RtList<System.Guid>.Update(int, System.Guid)
+  nameWithType.vb: RtList(Of Guid).Update(Integer, Guid)
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).Update(Integer, System.Guid)
+  name.vb: Update(Integer, Guid)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Update(System.Int32,System.Guid)
+    name: Update
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Update_System_Int32__0_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Update(System.Int32,System.Guid)
+    name: Update
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Update_System_Int32__0_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: cfEngine.Rx.RtList{System.Guid}.Item(System.Int32)
+  commentId: P:cfEngine.Rx.RtList{System.Guid}.Item(System.Int32)
+  parent: cfEngine.Rx.RtList{System.Guid}
+  definition: cfEngine.Rx.RtList`1.Item(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int]
+  nameWithType: RtList<Guid>.this[int]
+  fullName: cfEngine.Rx.RtList<System.Guid>.this[int]
+  nameWithType.vb: RtList(Of Guid).this[](Integer)
+  fullName.vb: cfEngine.Rx.RtList(Of System.Guid).this[](Integer)
+  name.vb: this[](Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: cfEngine.Rx.RtList{System.Guid}.Item(System.Int32)
+    name: this[]
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Item_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}.CollectionEvents
+  commentId: P:cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}.CollectionEvents
+  parent: cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}
+  definition: cfEngine.Rx.RtCollection`1.CollectionEvents
+  href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_CollectionEvents
+  name: CollectionEvents
+  nameWithType: RtCollection<(int index, Guid item)>.CollectionEvents
+  fullName: cfEngine.Rx.RtCollection<(int index, System.Guid item)>.CollectionEvents
+  nameWithType.vb: RtCollection(Of (index As Integer, item As Guid)).CollectionEvents
+  fullName.vb: cfEngine.Rx.RtCollection(Of (index As Integer, item As System.Guid)).CollectionEvents
+- uid: cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}.Events
+  commentId: P:cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}.Events
+  parent: cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}
+  definition: cfEngine.Rx.RtCollection`1.Events
+  href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Events
+  name: Events
+  nameWithType: RtCollection<(int index, Guid item)>.Events
+  fullName: cfEngine.Rx.RtCollection<(int index, System.Guid item)>.Events
+  nameWithType.vb: RtCollection(Of (index As Integer, item As Guid)).Events
+  fullName.vb: cfEngine.Rx.RtCollection(Of (index As Integer, item As System.Guid)).Events
+- uid: cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}.Dispose
+  commentId: M:cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}.Dispose
+  parent: cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}
+  definition: cfEngine.Rx.RtCollection`1.Dispose
+  href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Dispose
+  name: Dispose()
+  nameWithType: RtCollection<(int index, Guid item)>.Dispose()
+  fullName: cfEngine.Rx.RtCollection<(int index, System.Guid item)>.Dispose()
+  nameWithType.vb: RtCollection(Of (index As Integer, item As Guid)).Dispose()
+  fullName.vb: cfEngine.Rx.RtCollection(Of (index As Integer, item As System.Guid)).Dispose()
+  spec.csharp:
+  - uid: cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}.Dispose
+    name: Dispose
+    href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtCollection{System.ValueTuple{System.Int32,System.Guid}}.Dispose
+    name: Dispose
+    href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Dispose
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyList{System.Guid}.cfEngine.Rx.Linq.count``1
+  commentId: M:cfEngine.Rx.Linq.count``1(cfEngine.Rx.RtReadOnlyList{``0})
+  parent: cfEngine.Rx.Linq
+  definition: cfEngine.Rx.Linq.count``1(cfEngine.Rx.RtReadOnlyList{``0})
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_count__1_cfEngine_Rx_RtReadOnlyList___0__
+  name: count<Guid>(RtReadOnlyList<Guid>)
+  nameWithType: Linq.count<Guid>(RtReadOnlyList<Guid>)
+  fullName: cfEngine.Rx.Linq.count<System.Guid>(cfEngine.Rx.RtReadOnlyList<System.Guid>)
+  nameWithType.vb: Linq.count(Of Guid)(RtReadOnlyList(Of Guid))
+  fullName.vb: cfEngine.Rx.Linq.count(Of System.Guid)(cfEngine.Rx.RtReadOnlyList(Of System.Guid))
+  name.vb: count(Of Guid)(RtReadOnlyList(Of Guid))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.count``1(cfEngine.Rx.RtReadOnlyList{System.Guid})
+    name: count
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_count__1_cfEngine_Rx_RtReadOnlyList___0__
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.count``1(cfEngine.Rx.RtReadOnlyList{System.Guid})
+    name: count
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_count__1_cfEngine_Rx_RtReadOnlyList___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyList{System.Guid}.cfEngine.Rx.Linq.groupBy``2(System.Func{System.Guid,{TKey}})
+  commentId: M:cfEngine.Rx.Linq.groupBy``2(cfEngine.Rx.RtReadOnlyList{``1},System.Func{``1,``0})
+  parent: cfEngine.Rx.Linq
+  definition: cfEngine.Rx.Linq.groupBy``2(cfEngine.Rx.RtReadOnlyList{``1},System.Func{``1,``0})
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_groupBy__2_cfEngine_Rx_RtReadOnlyList___1__System_Func___1___0__
+  name: groupBy<TKey, Guid>(RtReadOnlyList<Guid>, Func<Guid, TKey>)
+  nameWithType: Linq.groupBy<TKey, Guid>(RtReadOnlyList<Guid>, Func<Guid, TKey>)
+  fullName: cfEngine.Rx.Linq.groupBy<TKey, System.Guid>(cfEngine.Rx.RtReadOnlyList<System.Guid>, System.Func<System.Guid, TKey>)
+  nameWithType.vb: Linq.groupBy(Of TKey, Guid)(RtReadOnlyList(Of Guid), Func(Of Guid, TKey))
+  fullName.vb: cfEngine.Rx.Linq.groupBy(Of TKey, System.Guid)(cfEngine.Rx.RtReadOnlyList(Of System.Guid), System.Func(Of System.Guid, TKey))
+  name.vb: groupBy(Of TKey, Guid)(RtReadOnlyList(Of Guid), Func(Of Guid, TKey))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.groupBy``2(cfEngine.Rx.RtReadOnlyList{System.Guid},System.Func{System.Guid,``0})
+    name: groupBy
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_groupBy__2_cfEngine_Rx_RtReadOnlyList___1__System_Func___1___0__
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.groupBy``2(cfEngine.Rx.RtReadOnlyList{System.Guid},System.Func{System.Guid,``0})
+    name: groupBy
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_groupBy__2_cfEngine_Rx_RtReadOnlyList___1__System_Func___1___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyList{System.Guid}.cfEngine.Rx.Linq.selectNew``2(System.Func{System.Guid,{TSelect}})
+  commentId: M:cfEngine.Rx.Linq.selectNew``2(cfEngine.Rx.RtReadOnlyList{``0},System.Func{``0,``1})
+  parent: cfEngine.Rx.Linq
+  definition: cfEngine.Rx.Linq.selectNew``2(cfEngine.Rx.RtReadOnlyList{``0},System.Func{``0,``1})
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectNew__2_cfEngine_Rx_RtReadOnlyList___0__System_Func___0___1__
+  name: selectNew<Guid, TSelect>(RtReadOnlyList<Guid>, Func<Guid, TSelect>)
+  nameWithType: Linq.selectNew<Guid, TSelect>(RtReadOnlyList<Guid>, Func<Guid, TSelect>)
+  fullName: cfEngine.Rx.Linq.selectNew<System.Guid, TSelect>(cfEngine.Rx.RtReadOnlyList<System.Guid>, System.Func<System.Guid, TSelect>)
+  nameWithType.vb: Linq.selectNew(Of Guid, TSelect)(RtReadOnlyList(Of Guid), Func(Of Guid, TSelect))
+  fullName.vb: cfEngine.Rx.Linq.selectNew(Of System.Guid, TSelect)(cfEngine.Rx.RtReadOnlyList(Of System.Guid), System.Func(Of System.Guid, TSelect))
+  name.vb: selectNew(Of Guid, TSelect)(RtReadOnlyList(Of Guid), Func(Of Guid, TSelect))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.selectNew``2(cfEngine.Rx.RtReadOnlyList{System.Guid},System.Func{System.Guid,``1})
+    name: selectNew
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectNew__2_cfEngine_Rx_RtReadOnlyList___0__System_Func___0___1__
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.selectNew``2(cfEngine.Rx.RtReadOnlyList{System.Guid},System.Func{System.Guid,``1})
+    name: selectNew
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectNew__2_cfEngine_Rx_RtReadOnlyList___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyList{System.Guid}.cfEngine.Rx.Linq.select``2(System.Func{System.Guid,{TSelect}})
+  commentId: M:cfEngine.Rx.Linq.select``2(cfEngine.Rx.RtReadOnlyList{``0},System.Func{``0,``1})
+  parent: cfEngine.Rx.Linq
+  definition: cfEngine.Rx.Linq.select``2(cfEngine.Rx.RtReadOnlyList{``0},System.Func{``0,``1})
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_select__2_cfEngine_Rx_RtReadOnlyList___0__System_Func___0___1__
+  name: select<Guid, TSelect>(RtReadOnlyList<Guid>, Func<Guid, TSelect>)
+  nameWithType: Linq.select<Guid, TSelect>(RtReadOnlyList<Guid>, Func<Guid, TSelect>)
+  fullName: cfEngine.Rx.Linq.select<System.Guid, TSelect>(cfEngine.Rx.RtReadOnlyList<System.Guid>, System.Func<System.Guid, TSelect>)
+  nameWithType.vb: Linq.select(Of Guid, TSelect)(RtReadOnlyList(Of Guid), Func(Of Guid, TSelect))
+  fullName.vb: cfEngine.Rx.Linq.select(Of System.Guid, TSelect)(cfEngine.Rx.RtReadOnlyList(Of System.Guid), System.Func(Of System.Guid, TSelect))
+  name.vb: select(Of Guid, TSelect)(RtReadOnlyList(Of Guid), Func(Of Guid, TSelect))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.select``2(cfEngine.Rx.RtReadOnlyList{System.Guid},System.Func{System.Guid,``1})
+    name: select
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_select__2_cfEngine_Rx_RtReadOnlyList___0__System_Func___0___1__
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.select``2(cfEngine.Rx.RtReadOnlyList{System.Guid},System.Func{System.Guid,``1})
+    name: select
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_select__2_cfEngine_Rx_RtReadOnlyList___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Rx.RtCollection`1
+  commentId: T:cfEngine.Rx.RtCollection`1
+  href: cfEngine.Rx.RtCollection-1.html
+  name: RtCollection<TEventArgs>
+  nameWithType: RtCollection<TEventArgs>
+  fullName: cfEngine.Rx.RtCollection<TEventArgs>
+  nameWithType.vb: RtCollection(Of TEventArgs)
+  fullName.vb: cfEngine.Rx.RtCollection(Of TEventArgs)
+  name.vb: RtCollection(Of TEventArgs)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtCollection`1
+    name: RtCollection
+    href: cfEngine.Rx.RtCollection-1.html
+  - name: <
+  - name: TEventArgs
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtCollection`1
+    name: RtCollection
+    href: cfEngine.Rx.RtCollection-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventArgs
+  - name: )
+- uid: cfEngine.Rx
+  commentId: N:cfEngine.Rx
+  href: cfEngine.html
+  name: cfEngine.Rx
+  nameWithType: cfEngine.Rx
+  fullName: cfEngine.Rx
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html
+- uid: cfEngine.Rx.RtReadOnlyList`1
+  commentId: T:cfEngine.Rx.RtReadOnlyList`1
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.RtReadOnlyList-1.html
+  name: RtReadOnlyList<T>
+  nameWithType: RtReadOnlyList<T>
+  fullName: cfEngine.Rx.RtReadOnlyList<T>
+  nameWithType.vb: RtReadOnlyList(Of T)
+  fullName.vb: cfEngine.Rx.RtReadOnlyList(Of T)
+  name.vb: RtReadOnlyList(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.RtList`1
+  commentId: T:cfEngine.Rx.RtList`1
+  href: cfEngine.Rx.RtList-1.html
+  name: RtList<T>
+  nameWithType: RtList<T>
+  fullName: cfEngine.Rx.RtList<T>
+  nameWithType.vb: RtList(Of T)
+  fullName.vb: cfEngine.Rx.RtList(Of T)
+  name.vb: RtList(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1
+    name: RtList
+    href: cfEngine.Rx.RtList-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1
+    name: RtList
+    href: cfEngine.Rx.RtList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.IReadOnlyCollection`1
+  commentId: T:System.Collections.Generic.IReadOnlyCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  name: IReadOnlyCollection<T>
+  nameWithType: IReadOnlyCollection<T>
+  fullName: System.Collections.Generic.IReadOnlyCollection<T>
+  nameWithType.vb: IReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of T)
+  name.vb: IReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: cfEngine.Rx.RtList`1.Dispose
+  commentId: M:cfEngine.Rx.RtList`1.Dispose
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Dispose
+  name: Dispose()
+  nameWithType: RtList<T>.Dispose()
+  fullName: cfEngine.Rx.RtList<T>.Dispose()
+  nameWithType.vb: RtList(Of T).Dispose()
+  fullName.vb: cfEngine.Rx.RtList(Of T).Dispose()
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1.Dispose
+    name: Dispose
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1.Dispose
+    name: Dispose
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Dispose
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.RtList`1.GetEnumerator
+  commentId: M:cfEngine.Rx.RtList`1.GetEnumerator
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_GetEnumerator
+  name: GetEnumerator()
+  nameWithType: RtList<T>.GetEnumerator()
+  fullName: cfEngine.Rx.RtList<T>.GetEnumerator()
+  nameWithType.vb: RtList(Of T).GetEnumerator()
+  fullName.vb: cfEngine.Rx.RtList(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1.GetEnumerator
+    name: GetEnumerator
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_GetEnumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1.GetEnumerator
+    name: GetEnumerator
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_GetEnumerator
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.RtList`1.Add(`0)
+  commentId: M:cfEngine.Rx.RtList`1.Add(`0)
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Add__0_
+  name: Add(T)
+  nameWithType: RtList<T>.Add(T)
+  fullName: cfEngine.Rx.RtList<T>.Add(T)
+  nameWithType.vb: RtList(Of T).Add(T)
+  fullName.vb: cfEngine.Rx.RtList(Of T).Add(T)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1.Add(`0)
+    name: Add
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Add__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1.Add(`0)
+    name: Add
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Add__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.RtList`1.Clear
+  commentId: M:cfEngine.Rx.RtList`1.Clear
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Clear
+  name: Clear()
+  nameWithType: RtList<T>.Clear()
+  fullName: cfEngine.Rx.RtList<T>.Clear()
+  nameWithType.vb: RtList(Of T).Clear()
+  fullName.vb: cfEngine.Rx.RtList(Of T).Clear()
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1.Clear
+    name: Clear
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1.Clear
+    name: Clear
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Clear
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.RtList`1.Contains(`0)
+  commentId: M:cfEngine.Rx.RtList`1.Contains(`0)
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Contains__0_
+  name: Contains(T)
+  nameWithType: RtList<T>.Contains(T)
+  fullName: cfEngine.Rx.RtList<T>.Contains(T)
+  nameWithType.vb: RtList(Of T).Contains(T)
+  fullName.vb: cfEngine.Rx.RtList(Of T).Contains(T)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1.Contains(`0)
+    name: Contains
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Contains__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1.Contains(`0)
+    name: Contains
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Contains__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.RtList`1.CopyTo(`0[],System.Int32)
+  commentId: M:cfEngine.Rx.RtList`1.CopyTo(`0[],System.Int32)
+  isExternal: true
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_CopyTo__0___System_Int32_
+  name: CopyTo(T[], int)
+  nameWithType: RtList<T>.CopyTo(T[], int)
+  fullName: cfEngine.Rx.RtList<T>.CopyTo(T[], int)
+  nameWithType.vb: RtList(Of T).CopyTo(T(), Integer)
+  fullName.vb: cfEngine.Rx.RtList(Of T).CopyTo(T(), Integer)
+  name.vb: CopyTo(T(), Integer)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_CopyTo__0___System_Int32_
+  - name: (
+  - name: T
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_CopyTo__0___System_Int32_
+  - name: (
+  - name: T
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: cfEngine.Rx.RtList`1.Remove(`0)
+  commentId: M:cfEngine.Rx.RtList`1.Remove(`0)
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Remove__0_
+  name: Remove(T)
+  nameWithType: RtList<T>.Remove(T)
+  fullName: cfEngine.Rx.RtList<T>.Remove(T)
+  nameWithType.vb: RtList(Of T).Remove(T)
+  fullName.vb: cfEngine.Rx.RtList(Of T).Remove(T)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1.Remove(`0)
+    name: Remove
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Remove__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1.Remove(`0)
+    name: Remove
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Remove__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.RtList`1.Count
+  commentId: P:cfEngine.Rx.RtList`1.Count
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Count
+  name: Count
+  nameWithType: RtList<T>.Count
+  fullName: cfEngine.Rx.RtList<T>.Count
+  nameWithType.vb: RtList(Of T).Count
+  fullName.vb: cfEngine.Rx.RtList(Of T).Count
+- uid: cfEngine.Rx.RtList`1.IsReadOnly
+  commentId: P:cfEngine.Rx.RtList`1.IsReadOnly
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_IsReadOnly
+  name: IsReadOnly
+  nameWithType: RtList<T>.IsReadOnly
+  fullName: cfEngine.Rx.RtList<T>.IsReadOnly
+  nameWithType.vb: RtList(Of T).IsReadOnly
+  fullName.vb: cfEngine.Rx.RtList(Of T).IsReadOnly
+- uid: cfEngine.Rx.RtList`1.IndexOf(`0)
+  commentId: M:cfEngine.Rx.RtList`1.IndexOf(`0)
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_IndexOf__0_
+  name: IndexOf(T)
+  nameWithType: RtList<T>.IndexOf(T)
+  fullName: cfEngine.Rx.RtList<T>.IndexOf(T)
+  nameWithType.vb: RtList(Of T).IndexOf(T)
+  fullName.vb: cfEngine.Rx.RtList(Of T).IndexOf(T)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1.IndexOf(`0)
+    name: IndexOf
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_IndexOf__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1.IndexOf(`0)
+    name: IndexOf
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_IndexOf__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.RtList`1.Insert(System.Int32,`0)
+  commentId: M:cfEngine.Rx.RtList`1.Insert(System.Int32,`0)
+  isExternal: true
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Insert_System_Int32__0_
+  name: Insert(int, T)
+  nameWithType: RtList<T>.Insert(int, T)
+  fullName: cfEngine.Rx.RtList<T>.Insert(int, T)
+  nameWithType.vb: RtList(Of T).Insert(Integer, T)
+  fullName.vb: cfEngine.Rx.RtList(Of T).Insert(Integer, T)
+  name.vb: Insert(Integer, T)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1.Insert(System.Int32,`0)
+    name: Insert
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Insert_System_Int32__0_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1.Insert(System.Int32,`0)
+    name: Insert
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Insert_System_Int32__0_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.RtList`1.RemoveAt(System.Int32)
+  commentId: M:cfEngine.Rx.RtList`1.RemoveAt(System.Int32)
+  isExternal: true
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_RemoveAt_System_Int32_
+  name: RemoveAt(int)
+  nameWithType: RtList<T>.RemoveAt(int)
+  fullName: cfEngine.Rx.RtList<T>.RemoveAt(int)
+  nameWithType.vb: RtList(Of T).RemoveAt(Integer)
+  fullName.vb: cfEngine.Rx.RtList(Of T).RemoveAt(Integer)
+  name.vb: RemoveAt(Integer)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1.RemoveAt(System.Int32)
+    name: RemoveAt
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_RemoveAt_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1.RemoveAt(System.Int32)
+    name: RemoveAt
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_RemoveAt_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: cfEngine.Rx.RtList`1.Update(System.Int32,`0)
+  commentId: M:cfEngine.Rx.RtList`1.Update(System.Int32,`0)
+  isExternal: true
+  href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Update_System_Int32__0_
+  name: Update(int, T)
+  nameWithType: RtList<T>.Update(int, T)
+  fullName: cfEngine.Rx.RtList<T>.Update(int, T)
+  nameWithType.vb: RtList(Of T).Update(Integer, T)
+  fullName.vb: cfEngine.Rx.RtList(Of T).Update(Integer, T)
+  name.vb: Update(Integer, T)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtList`1.Update(System.Int32,`0)
+    name: Update
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Update_System_Int32__0_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1.Update(System.Int32,`0)
+    name: Update
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Update_System_Int32__0_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.RtList`1.Item(System.Int32)
+  commentId: P:cfEngine.Rx.RtList`1.Item(System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int]
+  nameWithType: RtList<T>.this[int]
+  fullName: cfEngine.Rx.RtList<T>.this[int]
+  nameWithType.vb: RtList(Of T).this[](Integer)
+  fullName.vb: cfEngine.Rx.RtList(Of T).this[](Integer)
+  name.vb: this[](Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: cfEngine.Rx.RtList`1.Item(System.Int32)
+    name: this[]
+    href: cfEngine.Rx.RtList-1.html#cfEngine_Rx_RtList_1_Item_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: cfEngine.Rx.RtCollection`1.CollectionEvents
+  commentId: P:cfEngine.Rx.RtCollection`1.CollectionEvents
+  href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_CollectionEvents
+  name: CollectionEvents
+  nameWithType: RtCollection<TEventArgs>.CollectionEvents
+  fullName: cfEngine.Rx.RtCollection<TEventArgs>.CollectionEvents
+  nameWithType.vb: RtCollection(Of TEventArgs).CollectionEvents
+  fullName.vb: cfEngine.Rx.RtCollection(Of TEventArgs).CollectionEvents
+- uid: cfEngine.Rx.RtCollection`1.Events
+  commentId: P:cfEngine.Rx.RtCollection`1.Events
+  href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Events
+  name: Events
+  nameWithType: RtCollection<TEventArgs>.Events
+  fullName: cfEngine.Rx.RtCollection<TEventArgs>.Events
+  nameWithType.vb: RtCollection(Of TEventArgs).Events
+  fullName.vb: cfEngine.Rx.RtCollection(Of TEventArgs).Events
+- uid: cfEngine.Rx.RtCollection`1.Dispose
+  commentId: M:cfEngine.Rx.RtCollection`1.Dispose
+  href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Dispose
+  name: Dispose()
+  nameWithType: RtCollection<TEventArgs>.Dispose()
+  fullName: cfEngine.Rx.RtCollection<TEventArgs>.Dispose()
+  nameWithType.vb: RtCollection(Of TEventArgs).Dispose()
+  fullName.vb: cfEngine.Rx.RtCollection(Of TEventArgs).Dispose()
+  spec.csharp:
+  - uid: cfEngine.Rx.RtCollection`1.Dispose
+    name: Dispose
+    href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtCollection`1.Dispose
+    name: Dispose
+    href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Dispose
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.Linq.count``1(cfEngine.Rx.RtReadOnlyList{``0})
+  commentId: M:cfEngine.Rx.Linq.count``1(cfEngine.Rx.RtReadOnlyList{``0})
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_count__1_cfEngine_Rx_RtReadOnlyList___0__
+  name: count<T>(RtReadOnlyList<T>)
+  nameWithType: Linq.count<T>(RtReadOnlyList<T>)
+  fullName: cfEngine.Rx.Linq.count<T>(cfEngine.Rx.RtReadOnlyList<T>)
+  nameWithType.vb: Linq.count(Of T)(RtReadOnlyList(Of T))
+  fullName.vb: cfEngine.Rx.Linq.count(Of T)(cfEngine.Rx.RtReadOnlyList(Of T))
+  name.vb: count(Of T)(RtReadOnlyList(Of T))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.count``1(cfEngine.Rx.RtReadOnlyList{``0})
+    name: count
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_count__1_cfEngine_Rx_RtReadOnlyList___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.count``1(cfEngine.Rx.RtReadOnlyList{``0})
+    name: count
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_count__1_cfEngine_Rx_RtReadOnlyList___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.Linq
+  commentId: T:cfEngine.Rx.Linq
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.Linq.html
+  name: Linq
+  nameWithType: Linq
+  fullName: cfEngine.Rx.Linq
+- uid: cfEngine.Rx.Linq.groupBy``2(cfEngine.Rx.RtReadOnlyList{``1},System.Func{``1,``0})
+  commentId: M:cfEngine.Rx.Linq.groupBy``2(cfEngine.Rx.RtReadOnlyList{``1},System.Func{``1,``0})
+  isExternal: true
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_groupBy__2_cfEngine_Rx_RtReadOnlyList___1__System_Func___1___0__
+  name: groupBy<TKey, TValue>(RtReadOnlyList<TValue>, Func<TValue, TKey>)
+  nameWithType: Linq.groupBy<TKey, TValue>(RtReadOnlyList<TValue>, Func<TValue, TKey>)
+  fullName: cfEngine.Rx.Linq.groupBy<TKey, TValue>(cfEngine.Rx.RtReadOnlyList<TValue>, System.Func<TValue, TKey>)
+  nameWithType.vb: Linq.groupBy(Of TKey, TValue)(RtReadOnlyList(Of TValue), Func(Of TValue, TKey))
+  fullName.vb: cfEngine.Rx.Linq.groupBy(Of TKey, TValue)(cfEngine.Rx.RtReadOnlyList(Of TValue), System.Func(Of TValue, TKey))
+  name.vb: groupBy(Of TKey, TValue)(RtReadOnlyList(Of TValue), Func(Of TValue, TKey))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.groupBy``2(cfEngine.Rx.RtReadOnlyList{``1},System.Func{``1,``0})
+    name: groupBy
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_groupBy__2_cfEngine_Rx_RtReadOnlyList___1__System_Func___1___0__
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.groupBy``2(cfEngine.Rx.RtReadOnlyList{``1},System.Func{``1,``0})
+    name: groupBy
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_groupBy__2_cfEngine_Rx_RtReadOnlyList___1__System_Func___1___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.Linq.selectNew``2(cfEngine.Rx.RtReadOnlyList{``0},System.Func{``0,``1})
+  commentId: M:cfEngine.Rx.Linq.selectNew``2(cfEngine.Rx.RtReadOnlyList{``0},System.Func{``0,``1})
+  isExternal: true
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectNew__2_cfEngine_Rx_RtReadOnlyList___0__System_Func___0___1__
+  name: selectNew<T, TSelect>(RtReadOnlyList<T>, Func<T, TSelect>)
+  nameWithType: Linq.selectNew<T, TSelect>(RtReadOnlyList<T>, Func<T, TSelect>)
+  fullName: cfEngine.Rx.Linq.selectNew<T, TSelect>(cfEngine.Rx.RtReadOnlyList<T>, System.Func<T, TSelect>)
+  nameWithType.vb: Linq.selectNew(Of T, TSelect)(RtReadOnlyList(Of T), Func(Of T, TSelect))
+  fullName.vb: cfEngine.Rx.Linq.selectNew(Of T, TSelect)(cfEngine.Rx.RtReadOnlyList(Of T), System.Func(Of T, TSelect))
+  name.vb: selectNew(Of T, TSelect)(RtReadOnlyList(Of T), Func(Of T, TSelect))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.selectNew``2(cfEngine.Rx.RtReadOnlyList{``0},System.Func{``0,``1})
+    name: selectNew
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectNew__2_cfEngine_Rx_RtReadOnlyList___0__System_Func___0___1__
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.selectNew``2(cfEngine.Rx.RtReadOnlyList{``0},System.Func{``0,``1})
+    name: selectNew
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectNew__2_cfEngine_Rx_RtReadOnlyList___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.Linq.select``2(cfEngine.Rx.RtReadOnlyList{``0},System.Func{``0,``1})
+  commentId: M:cfEngine.Rx.Linq.select``2(cfEngine.Rx.RtReadOnlyList{``0},System.Func{``0,``1})
+  isExternal: true
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_select__2_cfEngine_Rx_RtReadOnlyList___0__System_Func___0___1__
+  name: select<T, TSelect>(RtReadOnlyList<T>, Func<T, TSelect>)
+  nameWithType: Linq.select<T, TSelect>(RtReadOnlyList<T>, Func<T, TSelect>)
+  fullName: cfEngine.Rx.Linq.select<T, TSelect>(cfEngine.Rx.RtReadOnlyList<T>, System.Func<T, TSelect>)
+  nameWithType.vb: Linq.select(Of T, TSelect)(RtReadOnlyList(Of T), Func(Of T, TSelect))
+  fullName.vb: cfEngine.Rx.Linq.select(Of T, TSelect)(cfEngine.Rx.RtReadOnlyList(Of T), System.Func(Of T, TSelect))
+  name.vb: select(Of T, TSelect)(RtReadOnlyList(Of T), Func(Of T, TSelect))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.select``2(cfEngine.Rx.RtReadOnlyList{``0},System.Func{``0,``1})
+    name: select
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_select__2_cfEngine_Rx_RtReadOnlyList___0__System_Func___0___1__
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.select``2(cfEngine.Rx.RtReadOnlyList{``0},System.Func{``0,``1})
+    name: select
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_select__2_cfEngine_Rx_RtReadOnlyList___0__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TSelect
+  - name: )
+  - name: )
+- uid: cfEngine.Service.Inventory.InventoryService.PageRecord.#ctor*
+  commentId: Overload:cfEngine.Service.Inventory.InventoryService.PageRecord.#ctor
+  href: cfEngine.Service.Inventory.InventoryService.PageRecord.html#cfEngine_Service_Inventory_InventoryService_PageRecord__ctor_System_Int32_
+  name: PageRecord
+  nameWithType: InventoryService.PageRecord.PageRecord
+  fullName: cfEngine.Service.Inventory.InventoryService.PageRecord.PageRecord
+  nameWithType.vb: InventoryService.PageRecord.New
+  fullName.vb: cfEngine.Service.Inventory.InventoryService.PageRecord.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: cfEngine.Service.Inventory.InventoryService.PageRecord.TryAddToEmptySlot*
+  commentId: Overload:cfEngine.Service.Inventory.InventoryService.PageRecord.TryAddToEmptySlot
+  href: cfEngine.Service.Inventory.InventoryService.PageRecord.html#cfEngine_Service_Inventory_InventoryService_PageRecord_TryAddToEmptySlot_System_Guid_
+  name: TryAddToEmptySlot
+  nameWithType: InventoryService.PageRecord.TryAddToEmptySlot
+  fullName: cfEngine.Service.Inventory.InventoryService.PageRecord.TryAddToEmptySlot
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: cfEngine.Service.Inventory.InventoryService.PageRecord.RemoveItem*
+  commentId: Overload:cfEngine.Service.Inventory.InventoryService.PageRecord.RemoveItem
+  href: cfEngine.Service.Inventory.InventoryService.PageRecord.html#cfEngine_Service_Inventory_InventoryService_PageRecord_RemoveItem_System_Int32_
+  name: RemoveItem
+  nameWithType: InventoryService.PageRecord.RemoveItem
+  fullName: cfEngine.Service.Inventory.InventoryService.PageRecord.RemoveItem

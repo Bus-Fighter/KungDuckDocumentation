@@ -1,0 +1,534 @@
+### YamlMime:TableOfContent
+items:
+- uid: CofyDev.Xml.Doc
+  name: CofyDev.Xml.Doc
+  type: Namespace
+  items:
+  - uid: CofyDev.Xml.Doc.CofyXmlDocParser
+    name: CofyXmlDocParser
+    type: Class
+  - uid: CofyDev.Xml.Doc.DataContainer
+    name: DataContainer
+    type: Class
+  - uid: CofyDev.Xml.Doc.DataObject
+    name: DataObject
+    type: Class
+  - uid: CofyDev.Xml.Doc.DataObjectEncoder
+    name: DataObjectEncoder
+    type: Class
+  - uid: CofyDev.Xml.Doc.DataObjectExtension
+    name: DataObjectExtension
+    type: Class
+- uid: cfEngine.Asset
+  name: cfEngine.Asset
+  type: Namespace
+  items:
+  - uid: cfEngine.Asset.AssetHandle
+    name: AssetHandle
+    type: Class
+  - uid: cfEngine.Asset.AssetHandle`1
+    name: AssetHandle<T>
+    type: Class
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager<TBaseObject>
+    type: Class
+  - uid: cfEngine.Asset.ResourceAssetManager
+    name: ResourceAssetManager
+    type: Class
+- uid: cfEngine.Core
+  name: cfEngine.Core
+  type: Namespace
+  items:
+  - uid: cfEngine.Core.Game
+    name: Game
+    type: Class
+  - uid: cfEngine.Core.GameExtension
+    name: GameExtension
+    type: Class
+  - uid: cfEngine.Core.IRuntimeSavable
+    name: IRuntimeSavable
+    type: Interface
+  - uid: cfEngine.Core.ServiceName
+    name: ServiceName
+    type: Class
+  - uid: cfEngine.Core.UserDataKey
+    name: UserDataKey
+    type: Class
+  - uid: cfEngine.Core.UserDataManager
+    name: UserDataManager
+    type: Class
+- uid: cfEngine.DataStructure
+  name: cfEngine.DataStructure
+  type: Namespace
+  items:
+  - uid: cfEngine.DataStructure.MemoryDictionary`2
+    name: MemoryDictionary<TMemoryKey, TValue>
+    type: Class
+  - uid: cfEngine.DataStructure.ReadOnlyMemoryComparer`1
+    name: ReadOnlyMemoryComparer<T>
+    type: Class
+  - uid: cfEngine.DataStructure.WeakReferenceListPool`1
+    name: WeakReferenceListPool<T>
+    type: Class
+  - uid: cfEngine.DataStructure.WeakReferenceList`1
+    name: WeakReferenceList<T>
+    type: Class
+- uid: cfEngine.Extension
+  name: cfEngine.Extension
+  type: Namespace
+  items:
+  - uid: cfEngine.Extension.EnumExtension
+    name: EnumExtension
+    type: Class
+  - uid: cfEngine.Extension.ListExtension
+    name: ListExtension
+    type: Class
+  - uid: cfEngine.Extension.TaskExtension
+    name: TaskExtension
+    type: Class
+- uid: cfEngine.IO
+  name: cfEngine.IO
+  type: Namespace
+  items:
+  - uid: cfEngine.IO.IStorage
+    name: IStorage
+    type: Interface
+  - uid: cfEngine.IO.LocalFileStorage
+    name: LocalFileStorage
+    type: Class
+  - uid: cfEngine.IO.Storage
+    name: Storage
+    type: Class
+- uid: cfEngine.Info
+  name: cfEngine.Info
+  type: Namespace
+  items:
+  - uid: cfEngine.Info.ConfigInfoManager`2
+    name: ConfigInfoManager<TKey, TInfo>
+    type: Class
+  - uid: cfEngine.Info.ExcelByteLoader`1
+    name: ExcelByteLoader<TInfo>
+    type: Class
+  - uid: cfEngine.Info.IInfoManager
+    name: IInfoManager
+    type: Interface
+  - uid: cfEngine.Info.IValueLoader`1
+    name: IValueLoader<TInfo>
+    type: Interface
+  - uid: cfEngine.Info.InfoLayer
+    name: InfoLayer
+    type: Class
+  - uid: cfEngine.Info.InfoManager
+    name: InfoManager
+    type: Class
+  - uid: cfEngine.Info.SerializationLoader`1
+    name: SerializationLoader<TInfo>
+    type: Class
+- uid: cfEngine.Logging
+  name: cfEngine.Logging
+  type: Namespace
+  items:
+  - uid: cfEngine.Logging.ILogger
+    name: ILogger
+    type: Interface
+  - uid: cfEngine.Logging.Log
+    name: Log
+    type: Class
+  - uid: cfEngine.Logging.LogLevel
+    name: LogLevel
+    type: Enum
+  - uid: cfEngine.Logging.LogType
+    name: LogType
+    type: Enum
+- uid: cfEngine.Pooling
+  name: cfEngine.Pooling
+  type: Namespace
+  items:
+  - uid: cfEngine.Pooling.IObjectPool
+    name: IObjectPool
+    type: Interface
+  - uid: cfEngine.Pooling.ListPool`1
+    name: ListPool<T>
+    type: Class
+  - uid: cfEngine.Pooling.ObjectPool`1
+    name: ObjectPool<T>
+    type: Class
+  - uid: cfEngine.Pooling.ObjectPool`1.Handle
+    name: ObjectPool<T>.Handle
+    type: Struct
+  - uid: cfEngine.Pooling.PoolManager
+    name: PoolManager
+    type: Class
+- uid: cfEngine.Rx
+  name: cfEngine.Rx
+  type: Namespace
+  items:
+  - uid: cfEngine.Rx.CollectionEventExtension
+    name: CollectionEventExtension
+    type: Class
+  - uid: cfEngine.Rx.CollectionEvents`1
+    name: CollectionEvents<T>
+    type: Class
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents<T>
+    type: Interface
+  - uid: cfEngine.Rx.IRelay`1
+    name: IRelay<TDelegate>
+    type: Interface
+  - uid: cfEngine.Rx.Linq
+    name: Linq
+    type: Class
+  - uid: cfEngine.Rx.Relay
+    name: Relay
+    type: Class
+  - uid: cfEngine.Rx.RelayBase`1
+    name: RelayBase<TDelegate>
+    type: Class
+  - uid: cfEngine.Rx.Relay`1
+    name: Relay<T>
+    type: Class
+  - uid: cfEngine.Rx.Relay`2
+    name: Relay<T1, T2>
+    type: Class
+  - uid: cfEngine.Rx.RtCollection`1
+    name: RtCollection<TEventArgs>
+    type: Class
+  - uid: cfEngine.Rx.RtCount`1
+    name: RtCount<T>
+    type: Class
+  - uid: cfEngine.Rx.RtDictionary`2
+    name: RtDictionary<TKey, TValue>
+    type: Class
+  - uid: cfEngine.Rx.RtFilteredDictionary`2
+    name: RtFilteredDictionary<TKey, TValue>
+    type: Class
+  - uid: cfEngine.Rx.RtGroup`2
+    name: RtGroup<TKey, TValue>
+    type: Class
+  - uid: cfEngine.Rx.RtList`1
+    name: RtList<T>
+    type: Class
+  - uid: cfEngine.Rx.RtMutatedDictionaryBase`4
+    name: RtMutatedDictionaryBase<TSourceKey, TSourceValue, TKey, TValue>
+    type: Class
+  - uid: cfEngine.Rx.RtMutatedListBase`2
+    name: RtMutatedListBase<TOrig, TNew>
+    type: Class
+  - uid: cfEngine.Rx.RtMutatedLocalListBase`2
+    name: RtMutatedLocalListBase<TOrig, TNew>
+    type: Class
+  - uid: cfEngine.Rx.RtMutatedSingleBase`2
+    name: RtMutatedSingleBase<TOrig, TNew>
+    type: Class
+  - uid: cfEngine.Rx.RtObserverList`1
+    name: RtObserverList<T>
+    type: Class
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary<TKey, TValue>
+    type: Class
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList<T>
+    type: Class
+  - uid: cfEngine.Rx.RtSelectKeyDictionary`3
+    name: RtSelectKeyDictionary<TOrigKey, TSelectKey, TValue>
+    type: Class
+  - uid: cfEngine.Rx.RtSelectList`2
+    name: RtSelectList<TOrig, TNew>
+    type: Class
+  - uid: cfEngine.Rx.RtSelectLocalList`2
+    name: RtSelectLocalList<T, TSelect>
+    type: Class
+  - uid: cfEngine.Rx.RtSelectValueDictionary`3
+    name: RtSelectValueDictionary<TKey, TOrigValue, TValue>
+    type: Class
+  - uid: cfEngine.Rx.Rt`1
+    name: Rt<T>
+    type: Class
+  - uid: cfEngine.Rx.Subscription
+    name: Subscription
+    type: Class
+  - uid: cfEngine.Rx.SubscriptionBinding`1
+    name: SubscriptionBinding<TDelegate>
+    type: Class
+  - uid: cfEngine.Rx.SubscriptionGroup
+    name: SubscriptionGroup
+    type: Class
+  - uid: cfEngine.Rx.SubscriptionHandleExtension
+    name: SubscriptionHandleExtension
+    type: Class
+- uid: cfEngine.Serialize
+  name: cfEngine.Serialize
+  type: Namespace
+  items:
+  - uid: cfEngine.Serialize.ISerializer
+    name: ISerializer
+    type: Interface
+  - uid: cfEngine.Serialize.ISerializer.IDeserializeParam
+    name: ISerializer.IDeserializeParam
+    type: Interface
+  - uid: cfEngine.Serialize.ISerializer.ISerializeParam
+    name: ISerializer.ISerializeParam
+    type: Interface
+  - uid: cfEngine.Serialize.JsonSerializer
+    name: JsonSerializer
+    type: Class
+  - uid: cfEngine.Serialize.Serializer
+    name: Serializer
+    type: Class
+- uid: cfEngine.Service
+  name: cfEngine.Service
+  type: Namespace
+  items:
+  - uid: cfEngine.Service.IService
+    name: IService
+    type: Interface
+  - uid: cfEngine.Service.IServiceLocator
+    name: IServiceLocator
+    type: Interface
+  - uid: cfEngine.Service.InventoryInfo
+    name: InventoryInfo
+    type: Class
+  - uid: cfEngine.Service.InventoryInfoManager
+    name: InventoryInfoManager
+    type: Class
+  - uid: cfEngine.Service.ServiceLocator
+    name: ServiceLocator
+    type: Class
+- uid: cfEngine.Service.Auth
+  name: cfEngine.Service.Auth
+  type: Namespace
+  items:
+  - uid: cfEngine.Service.Auth.AuthService
+    name: AuthService
+    type: Class
+  - uid: cfEngine.Service.Auth.AuthService.Builder
+    name: AuthService.Builder
+    type: Class
+  - uid: cfEngine.Service.Auth.IAuthService
+    name: IAuthService
+    type: Interface
+  - uid: cfEngine.Service.Auth.LocalAuthService
+    name: LocalAuthService
+    type: Class
+  - uid: cfEngine.Service.Auth.LocalPlatform
+    name: LocalPlatform
+    type: Class
+  - uid: cfEngine.Service.Auth.LoginPlatform
+    name: LoginPlatform
+    type: Enum
+  - uid: cfEngine.Service.Auth.LoginToken
+    name: LoginToken
+    type: Class
+  - uid: cfEngine.Service.Auth.PlatformAuth
+    name: PlatformAuth
+    type: Class
+- uid: cfEngine.Service.Inventory
+  name: cfEngine.Service.Inventory
+  type: Namespace
+  items:
+  - uid: cfEngine.Service.Inventory.IInventoryService
+    name: IInventoryService
+    type: Interface
+  - uid: cfEngine.Service.Inventory.InventoryService
+    name: InventoryService
+    type: Class
+  - uid: cfEngine.Service.Inventory.InventoryService.PageRecord
+    name: InventoryService.PageRecord
+    type: Class
+  - uid: cfEngine.Service.Inventory.InventoryService.StackRecord
+    name: InventoryService.StackRecord
+    type: Class
+  - uid: cfEngine.Service.Inventory.InventoryService.UpdateRequest
+    name: InventoryService.UpdateRequest
+    type: Class
+- uid: cfEngine.Util
+  name: cfEngine.Util
+  type: Namespace
+  items:
+  - uid: cfEngine.Util.IStateMachine`1
+    name: IStateMachine<TStateId>
+    type: Interface
+  - uid: cfEngine.Util.SanityCheck
+    name: SanityCheck
+    type: Class
+  - uid: cfEngine.Util.SanityCheckException
+    name: SanityCheckException
+    type: Class
+  - uid: cfEngine.Util.StateChangeRecord`1
+    name: StateChangeRecord<TStateId>
+    type: Struct
+  - uid: cfEngine.Util.StateExecutionException`1
+    name: StateExecutionException<TStateId>
+    type: Class
+  - uid: cfEngine.Util.StateMachine`3
+    name: StateMachine<TStateId, TState, TStateMachine>
+    type: Class
+  - uid: cfEngine.Util.StateParam
+    name: StateParam
+    type: Class
+  - uid: cfEngine.Util.State`3
+    name: State<TStateId, TState, TStateMachine>
+    type: Class
+  - uid: cfEngine.Util.TypeExtension
+    name: TypeExtension
+    type: Class
+  - uid: cfEngine.Util.ValidationState
+    name: ValidationState
+    type: Enum
+  - uid: cfEngine.Util.Validation`1
+    name: Validation<T>
+    type: Class
+- uid: cfUnityEngine
+  name: cfUnityEngine
+  type: Namespace
+  items:
+  - uid: cfUnityEngine.INamespaceScope
+    name: INamespaceScope
+    type: Interface
+  - uid: cfUnityEngine.IPropertyBinder
+    name: IPropertyBinder
+    type: Interface
+  - uid: cfUnityEngine.IPropertyBoolResolver
+    name: IPropertyBoolResolver
+    type: Interface
+  - uid: cfUnityEngine.IPropertyFloatResolver
+    name: IPropertyFloatResolver
+    type: Interface
+  - uid: cfUnityEngine.IPropertyIntResolver
+    name: IPropertyIntResolver
+    type: Interface
+  - uid: cfUnityEngine.IPropertyObjectResolver
+    name: IPropertyObjectResolver
+    type: Interface
+  - uid: cfUnityEngine.IPropertyResolver`1
+    name: IPropertyResolver<T>
+    type: Interface
+  - uid: cfUnityEngine.IPropertySource
+    name: IPropertySource
+    type: Interface
+  - uid: cfUnityEngine.NamespaceScope
+    name: NamespaceScope
+    type: Class
+  - uid: cfUnityEngine.PropertyBinderBase`2
+    name: PropertyBinderBase<T, TValueType>
+    type: Class
+  - uid: cfUnityEngine.PropertyBoolBinder
+    name: PropertyBoolBinder
+    type: Class
+  - uid: cfUnityEngine.PropertyBoolResolver
+    name: PropertyBoolResolver
+    type: Class
+  - uid: cfUnityEngine.PropertyFloatBinder
+    name: PropertyFloatBinder
+    type: Class
+  - uid: cfUnityEngine.PropertyFloatResolver
+    name: PropertyFloatResolver
+    type: Class
+  - uid: cfUnityEngine.PropertyIntBinder
+    name: PropertyIntBinder
+    type: Class
+  - uid: cfUnityEngine.PropertyIntResolver
+    name: PropertyIntResolver
+    type: Class
+  - uid: cfUnityEngine.PropertyObjectBinder
+    name: PropertyObjectBinder
+    type: Class
+  - uid: cfUnityEngine.PropertyObjectResolver
+    name: PropertyObjectResolver
+    type: Class
+  - uid: cfUnityEngine.PropertyResolverBase`1
+    name: PropertyResolverBase<TValueType>
+    type: Class
+  - uid: cfUnityEngine.PropertySource
+    name: PropertySource
+    type: Class
+  - uid: cfUnityEngine.UGUITextResolver
+    name: UGUITextResolver
+    type: Class
+- uid: cfUnityEngine.Editor
+  name: cfUnityEngine.Editor
+  type: Namespace
+  items:
+  - uid: cfUnityEngine.Editor.AssetPathAttribute
+    name: AssetPathAttribute
+    type: Class
+  - uid: cfUnityEngine.Editor.MethodButtonAttribute
+    name: MethodButtonAttribute
+    type: Class
+  - uid: cfUnityEngine.Editor.ReadOnlyAttribute
+    name: ReadOnlyAttribute
+    type: Class
+- uid: cfUnityEngine.GoogleDrive
+  name: cfUnityEngine.GoogleDrive
+  type: Namespace
+  items:
+  - uid: cfUnityEngine.GoogleDrive.GDriveMirror
+    name: GDriveMirror
+    type: Class
+- uid: cfUnityEngine.UI
+  name: cfUnityEngine.UI
+  type: Namespace
+  items:
+  - uid: cfUnityEngine.UI.IUIPanel
+    name: IUIPanel
+    type: Interface
+  - uid: cfUnityEngine.UI.IUIRoot
+    name: IUIRoot
+    type: Interface
+  - uid: cfUnityEngine.UI.UIRoot
+    name: UIRoot
+    type: Class
+- uid: cfUnityEngine.UI.UGUI
+  name: cfUnityEngine.UI.UGUI
+  type: Namespace
+  items:
+  - uid: cfUnityEngine.UI.UGUI.ActiveInactiveResolver
+    name: ActiveInactiveResolver
+    type: Class
+  - uid: cfUnityEngine.UI.UGUI.UGUIRoot
+    name: UGUIRoot
+    type: Class
+  - uid: cfUnityEngine.UI.UGUI.UIPanel
+    name: UIPanel
+    type: Class
+  - uid: cfUnityEngine.UI.UGUI.UIPanel.Builder`1
+    name: UIPanel.Builder<T>
+    type: Class
+  - uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+    name: UIPanel.IBuilder
+    type: Interface
+- uid: cfUnityEngine.Util
+  name: cfUnityEngine.Util
+  type: Namespace
+  items:
+  - uid: cfUnityEngine.Util.ActionCommandController`2
+    name: ActionCommandController<TCommandType, TCommand>
+    type: Class
+  - uid: cfUnityEngine.Util.ActionCommand`2
+    name: ActionCommand<TCommandType, TCommand>
+    type: Class
+  - uid: cfUnityEngine.Util.ActionCommand`2.ExecutionContext
+    name: ActionCommand<TCommandType, TCommand>.ExecutionContext
+    type: Class
+  - uid: cfUnityEngine.Util.CommandPattern`1
+    name: CommandPattern<TCommandType>
+    type: Class
+  - uid: cfUnityEngine.Util.EditorSetting`1
+    name: EditorSetting<T>
+    type: Class
+  - uid: cfUnityEngine.Util.FilePathAttribute
+    name: FilePathAttribute
+    type: Class
+  - uid: cfUnityEngine.Util.GameObjectUtil
+    name: GameObjectUtil
+    type: Class
+  - uid: cfUnityEngine.Util.MonoStateMachine`3
+    name: MonoStateMachine<TStateId, TState, TStateMachine>
+    type: Class
+  - uid: cfUnityEngine.Util.MonoState`3
+    name: MonoState<TStateId, TState, TStateMachine>
+    type: Class
+  - uid: cfUnityEngine.Util.StateExecutionException`1
+    name: StateExecutionException<TStateId>
+    type: Class
+memberLayout: SamePage

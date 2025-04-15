@@ -1,0 +1,579 @@
+### YamlMime:ManagedReference
+items:
+- uid: CofyDev.Xml.Doc.DataObjectEncoder
+  commentId: T:CofyDev.Xml.Doc.DataObjectEncoder
+  id: DataObjectEncoder
+  parent: CofyDev.Xml.Doc
+  children:
+  - CofyDev.Xml.Doc.DataObjectEncoder.DecodeAs``1(CofyDev.Xml.Doc.DataObject,System.Action{System.Reflection.FieldInfo,System.Object,System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+  - CofyDev.Xml.Doc.DataObjectEncoder.Dispose
+  - CofyDev.Xml.Doc.DataObjectEncoder.Encode(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: DataObjectEncoder
+  nameWithType: DataObjectEncoder
+  fullName: CofyDev.Xml.Doc.DataObjectEncoder
+  type: Class
+  source:
+    id: DataObjectEncoder
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/module/CofyExcelParser/DataObjectExtension.cs
+    startLine: 8
+  namespace: CofyDev.Xml.Doc
+  syntax:
+    content: 'public class DataObjectEncoder : IDisposable'
+    content.vb: Public Class DataObjectEncoder Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CofyDev.Xml.Doc.DataObjectEncoder.Encode(System.Object)
+  commentId: M:CofyDev.Xml.Doc.DataObjectEncoder.Encode(System.Object)
+  id: Encode(System.Object)
+  parent: CofyDev.Xml.Doc.DataObjectEncoder
+  langs:
+  - csharp
+  - vb
+  name: Encode(object)
+  nameWithType: DataObjectEncoder.Encode(object)
+  fullName: CofyDev.Xml.Doc.DataObjectEncoder.Encode(object)
+  type: Method
+  source:
+    id: Encode
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/module/CofyExcelParser/DataObjectExtension.cs
+    startLine: 12
+  namespace: CofyDev.Xml.Doc
+  syntax:
+    content: public virtual DataObject Encode(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: CofyDev.Xml.Doc.DataObject
+    content.vb: Public Overridable Function Encode(obj As Object) As DataObject
+  overload: CofyDev.Xml.Doc.DataObjectEncoder.Encode*
+  nameWithType.vb: DataObjectEncoder.Encode(Object)
+  fullName.vb: CofyDev.Xml.Doc.DataObjectEncoder.Encode(Object)
+  name.vb: Encode(Object)
+- uid: CofyDev.Xml.Doc.DataObjectEncoder.DecodeAs``1(CofyDev.Xml.Doc.DataObject,System.Action{System.Reflection.FieldInfo,System.Object,System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+  commentId: M:CofyDev.Xml.Doc.DataObjectEncoder.DecodeAs``1(CofyDev.Xml.Doc.DataObject,System.Action{System.Reflection.FieldInfo,System.Object,System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+  id: DecodeAs``1(CofyDev.Xml.Doc.DataObject,System.Action{System.Reflection.FieldInfo,System.Object,System.Collections.Generic.KeyValuePair{System.String,System.Object}})
+  parent: CofyDev.Xml.Doc.DataObjectEncoder
+  langs:
+  - csharp
+  - vb
+  name: DecodeAs<T>(DataObject, Action<FieldInfo, object, KeyValuePair<string, object>>)
+  nameWithType: DataObjectEncoder.DecodeAs<T>(DataObject, Action<FieldInfo, object, KeyValuePair<string, object>>)
+  fullName: CofyDev.Xml.Doc.DataObjectEncoder.DecodeAs<T>(CofyDev.Xml.Doc.DataObject, System.Action<System.Reflection.FieldInfo, object, System.Collections.Generic.KeyValuePair<string, object>>)
+  type: Method
+  source:
+    id: DecodeAs
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/module/CofyExcelParser/DataObjectExtension.cs
+    startLine: 17
+  namespace: CofyDev.Xml.Doc
+  syntax:
+    content: public virtual T DecodeAs<T>(DataObject dataObject, Action<FieldInfo, object, KeyValuePair<string, object>> propertyDecodeSetter)
+    parameters:
+    - id: dataObject
+      type: CofyDev.Xml.Doc.DataObject
+    - id: propertyDecodeSetter
+      type: System.Action{System.Reflection.FieldInfo,System.Object,System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Overridable Function DecodeAs(Of T)(dataObject As DataObject, propertyDecodeSetter As Action(Of FieldInfo, Object, KeyValuePair(Of String, Object))) As T
+  overload: CofyDev.Xml.Doc.DataObjectEncoder.DecodeAs*
+  nameWithType.vb: DataObjectEncoder.DecodeAs(Of T)(DataObject, Action(Of FieldInfo, Object, KeyValuePair(Of String, Object)))
+  fullName.vb: CofyDev.Xml.Doc.DataObjectEncoder.DecodeAs(Of T)(CofyDev.Xml.Doc.DataObject, System.Action(Of System.Reflection.FieldInfo, Object, System.Collections.Generic.KeyValuePair(Of String, Object)))
+  name.vb: DecodeAs(Of T)(DataObject, Action(Of FieldInfo, Object, KeyValuePair(Of String, Object)))
+- uid: CofyDev.Xml.Doc.DataObjectEncoder.Dispose
+  commentId: M:CofyDev.Xml.Doc.DataObjectEncoder.Dispose
+  id: Dispose
+  parent: CofyDev.Xml.Doc.DataObjectEncoder
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: DataObjectEncoder.Dispose()
+  fullName: CofyDev.Xml.Doc.DataObjectEncoder.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/module/CofyExcelParser/DataObjectExtension.cs
+    startLine: 58
+  namespace: CofyDev.Xml.Doc
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: CofyDev.Xml.Doc.DataObjectEncoder.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+references:
+- uid: CofyDev.Xml.Doc
+  commentId: N:CofyDev.Xml.Doc
+  href: CofyDev.html
+  name: CofyDev.Xml.Doc
+  nameWithType: CofyDev.Xml.Doc
+  fullName: CofyDev.Xml.Doc
+  spec.csharp:
+  - uid: CofyDev
+    name: CofyDev
+    href: CofyDev.html
+  - name: .
+  - uid: CofyDev.Xml
+    name: Xml
+    href: CofyDev.Xml.html
+  - name: .
+  - uid: CofyDev.Xml.Doc
+    name: Doc
+    href: CofyDev.Xml.Doc.html
+  spec.vb:
+  - uid: CofyDev
+    name: CofyDev
+    href: CofyDev.html
+  - name: .
+  - uid: CofyDev.Xml
+    name: Xml
+    href: CofyDev.Xml.html
+  - name: .
+  - uid: CofyDev.Xml.Doc
+    name: Doc
+    href: CofyDev.Xml.Doc.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CofyDev.Xml.Doc.DataObjectEncoder.Encode*
+  commentId: Overload:CofyDev.Xml.Doc.DataObjectEncoder.Encode
+  href: CofyDev.Xml.Doc.DataObjectEncoder.html#CofyDev_Xml_Doc_DataObjectEncoder_Encode_System_Object_
+  name: Encode
+  nameWithType: DataObjectEncoder.Encode
+  fullName: CofyDev.Xml.Doc.DataObjectEncoder.Encode
+- uid: CofyDev.Xml.Doc.DataObject
+  commentId: T:CofyDev.Xml.Doc.DataObject
+  parent: CofyDev.Xml.Doc
+  href: CofyDev.Xml.Doc.DataObject.html
+  name: DataObject
+  nameWithType: DataObject
+  fullName: CofyDev.Xml.Doc.DataObject
+- uid: CofyDev.Xml.Doc.DataObjectEncoder.DecodeAs*
+  commentId: Overload:CofyDev.Xml.Doc.DataObjectEncoder.DecodeAs
+  href: CofyDev.Xml.Doc.DataObjectEncoder.html#CofyDev_Xml_Doc_DataObjectEncoder_DecodeAs__1_CofyDev_Xml_Doc_DataObject_System_Action_System_Reflection_FieldInfo_System_Object_System_Collections_Generic_KeyValuePair_System_String_System_Object___
+  name: DecodeAs
+  nameWithType: DataObjectEncoder.DecodeAs
+  fullName: CofyDev.Xml.Doc.DataObjectEncoder.DecodeAs
+- uid: System.Action{System.Reflection.FieldInfo,System.Object,System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  commentId: T:System.Action{System.Reflection.FieldInfo,System.Object,System.Collections.Generic.KeyValuePair{System.String,System.Object}}
+  parent: System
+  definition: System.Action`3
+  href: https://learn.microsoft.com/dotnet/api/system.action-3
+  name: Action<FieldInfo, object, KeyValuePair<string, object>>
+  nameWithType: Action<FieldInfo, object, KeyValuePair<string, object>>
+  fullName: System.Action<System.Reflection.FieldInfo, object, System.Collections.Generic.KeyValuePair<string, object>>
+  nameWithType.vb: Action(Of FieldInfo, Object, KeyValuePair(Of String, Object))
+  fullName.vb: System.Action(Of System.Reflection.FieldInfo, Object, System.Collections.Generic.KeyValuePair(Of String, Object))
+  name.vb: Action(Of FieldInfo, Object, KeyValuePair(Of String, Object))
+  spec.csharp:
+  - uid: System.Action`3
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-3
+  - name: <
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.fieldinfo
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`3
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-3
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.fieldinfo
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action`3
+  commentId: T:System.Action`3
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-3
+  name: Action<T1, T2, T3>
+  nameWithType: Action<T1, T2, T3>
+  fullName: System.Action<T1, T2, T3>
+  nameWithType.vb: Action(Of T1, T2, T3)
+  fullName.vb: System.Action(Of T1, T2, T3)
+  name.vb: Action(Of T1, T2, T3)
+  spec.csharp:
+  - uid: System.Action`3
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-3
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`3
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CofyDev.Xml.Doc.DataObjectEncoder.Dispose*
+  commentId: Overload:CofyDev.Xml.Doc.DataObjectEncoder.Dispose
+  href: CofyDev.Xml.Doc.DataObjectEncoder.html#CofyDev_Xml_Doc_DataObjectEncoder_Dispose
+  name: Dispose
+  nameWithType: DataObjectEncoder.Dispose
+  fullName: CofyDev.Xml.Doc.DataObjectEncoder.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

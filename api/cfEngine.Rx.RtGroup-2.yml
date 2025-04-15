@@ -1,0 +1,2584 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Rx.RtGroup`2
+  commentId: T:cfEngine.Rx.RtGroup`2
+  id: RtGroup`2
+  parent: cfEngine.Rx
+  children:
+  - cfEngine.Rx.RtGroup`2.#ctor(cfEngine.Rx.RtReadOnlyList{`1},System.Func{`1,`0})
+  - cfEngine.Rx.RtGroup`2.ContainsKey(`0)
+  - cfEngine.Rx.RtGroup`2.Count
+  - cfEngine.Rx.RtGroup`2.Dispose
+  - cfEngine.Rx.RtGroup`2.GetEnumerator
+  - cfEngine.Rx.RtGroup`2.Item(`0)
+  - cfEngine.Rx.RtGroup`2.Keys
+  - cfEngine.Rx.RtGroup`2.TryGetValue(`0,cfEngine.Rx.RtReadOnlyList{`1}@)
+  - cfEngine.Rx.RtGroup`2.Values
+  langs:
+  - csharp
+  - vb
+  name: RtGroup<TKey, TValue>
+  nameWithType: RtGroup<TKey, TValue>
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>
+  type: Class
+  source:
+    id: RtGroup
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/RtGroup/RtGroup.cs
+    startLine: 7
+  namespace: cfEngine.Rx
+  syntax:
+    content: 'public class RtGroup<TKey, TValue> : RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>, IDisposable, IReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>, IReadOnlyCollection<KeyValuePair<TKey, RtReadOnlyList<TValue>>>, IEnumerable<KeyValuePair<TKey, RtReadOnlyList<TValue>>>, IEnumerable'
+    typeParameters:
+    - id: TKey
+    - id: TValue
+    content.vb: Public Class RtGroup(Of TKey, TValue) Inherits RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)) Implements IDisposable, IReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)), IReadOnlyCollection(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue))), IEnumerable(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue))), IEnumerable
+  inheritance:
+  - System.Object
+  - cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}
+  - cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  implements:
+  - System.IDisposable
+  - System.Collections.Generic.IReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  - System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.Count
+  - cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.ContainsKey({TKey})
+  - cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.TryGetValue({TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}@)
+  - cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.Item({TKey})
+  - cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.Keys
+  - cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.Values
+  - cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.RtPairs
+  - cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.RtKeys
+  - cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.RtValues
+  - cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.GetEnumerator
+  - cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}.CollectionEvents
+  - cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}.Events
+  - cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}.Dispose
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.cfEngine.Rx.Linq.selectKey``3(System.Func{{TKey},{TSelectedKey}})
+  - cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.cfEngine.Rx.Linq.selectValue``3(System.Func{cfEngine.Rx.RtReadOnlyList{{TValue}},{TSelectValue}})
+  - cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.cfEngine.Rx.Linq.where``2(System.Func{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}},System.Boolean})
+  nameWithType.vb: RtGroup(Of TKey, TValue)
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue)
+  name.vb: RtGroup(Of TKey, TValue)
+- uid: cfEngine.Rx.RtGroup`2.#ctor(cfEngine.Rx.RtReadOnlyList{`1},System.Func{`1,`0})
+  commentId: M:cfEngine.Rx.RtGroup`2.#ctor(cfEngine.Rx.RtReadOnlyList{`1},System.Func{`1,`0})
+  id: '#ctor(cfEngine.Rx.RtReadOnlyList{`1},System.Func{`1,`0})'
+  parent: cfEngine.Rx.RtGroup`2
+  langs:
+  - csharp
+  - vb
+  name: RtGroup(RtReadOnlyList<TValue>, Func<TValue, TKey>)
+  nameWithType: RtGroup<TKey, TValue>.RtGroup(RtReadOnlyList<TValue>, Func<TValue, TKey>)
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.RtGroup(cfEngine.Rx.RtReadOnlyList<TValue>, System.Func<TValue, TKey>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/RtGroup/RtGroup.cs
+    startLine: 14
+  namespace: cfEngine.Rx
+  syntax:
+    content: public RtGroup(RtReadOnlyList<TValue> source, Func<TValue, TKey> keyFn)
+    parameters:
+    - id: source
+      type: cfEngine.Rx.RtReadOnlyList{{TValue}}
+    - id: keyFn
+      type: System.Func{{TValue},{TKey}}
+    content.vb: Public Sub New(source As RtReadOnlyList(Of TValue), keyFn As Func(Of TValue, TKey))
+  overload: cfEngine.Rx.RtGroup`2.#ctor*
+  nameWithType.vb: RtGroup(Of TKey, TValue).New(RtReadOnlyList(Of TValue), Func(Of TValue, TKey))
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).New(cfEngine.Rx.RtReadOnlyList(Of TValue), System.Func(Of TValue, TKey))
+  name.vb: New(RtReadOnlyList(Of TValue), Func(Of TValue, TKey))
+- uid: cfEngine.Rx.RtGroup`2.Dispose
+  commentId: M:cfEngine.Rx.RtGroup`2.Dispose
+  id: Dispose
+  parent: cfEngine.Rx.RtGroup`2
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: RtGroup<TKey, TValue>.Dispose()
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/RtGroup/RtGroup.cs
+    startLine: 37
+  namespace: cfEngine.Rx
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
+  syntax:
+    content: public override void Dispose()
+    content.vb: Public Overrides Sub Dispose()
+  overridden: cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}.Dispose
+  overload: cfEngine.Rx.RtGroup`2.Dispose*
+  nameWithType.vb: RtGroup(Of TKey, TValue).Dispose()
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).Dispose()
+- uid: cfEngine.Rx.RtGroup`2.GetEnumerator
+  commentId: M:cfEngine.Rx.RtGroup`2.GetEnumerator
+  id: GetEnumerator
+  parent: cfEngine.Rx.RtGroup`2
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: RtGroup<TKey, TValue>.GetEnumerator()
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.GetEnumerator()
+  type: Method
+  source:
+    id: GetEnumerator
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/RtGroup/RtGroup.cs
+    startLine: 96
+  namespace: cfEngine.Rx
+  summary: Returns an enumerator that iterates through the collection.
+  example: []
+  syntax:
+    content: public override IEnumerator<KeyValuePair<TKey, RtReadOnlyList<TValue>>> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}
+      description: An enumerator that can be used to iterate through the collection.
+    content.vb: Public Overrides Function GetEnumerator() As IEnumerator(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue)))
+  overridden: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.GetEnumerator
+  overload: cfEngine.Rx.RtGroup`2.GetEnumerator*
+  nameWithType.vb: RtGroup(Of TKey, TValue).GetEnumerator()
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).GetEnumerator()
+- uid: cfEngine.Rx.RtGroup`2.Count
+  commentId: P:cfEngine.Rx.RtGroup`2.Count
+  id: Count
+  parent: cfEngine.Rx.RtGroup`2
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: RtGroup<TKey, TValue>.Count
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.Count
+  type: Property
+  source:
+    id: Count
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/RtGroup/RtGroup.cs
+    startLine: 104
+  namespace: cfEngine.Rx
+  summary: Gets the number of elements in the collection.
+  example: []
+  syntax:
+    content: public override int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: The number of elements in the collection.
+    content.vb: Public Overrides ReadOnly Property Count As Integer
+  overridden: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.Count
+  overload: cfEngine.Rx.RtGroup`2.Count*
+  nameWithType.vb: RtGroup(Of TKey, TValue).Count
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).Count
+- uid: cfEngine.Rx.RtGroup`2.ContainsKey(`0)
+  commentId: M:cfEngine.Rx.RtGroup`2.ContainsKey(`0)
+  id: ContainsKey(`0)
+  parent: cfEngine.Rx.RtGroup`2
+  langs:
+  - csharp
+  - vb
+  name: ContainsKey(TKey)
+  nameWithType: RtGroup<TKey, TValue>.ContainsKey(TKey)
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.ContainsKey(TKey)
+  type: Method
+  source:
+    id: ContainsKey
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/RtGroup/RtGroup.cs
+    startLine: 106
+  namespace: cfEngine.Rx
+  summary: Determines whether the read-only dictionary contains an element that has the specified key.
+  example: []
+  syntax:
+    content: public override bool ContainsKey(TKey key)
+    parameters:
+    - id: key
+      type: '{TKey}'
+      description: The key to locate.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the read-only dictionary contains an element that has the specified key; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function ContainsKey(key As TKey) As Boolean
+  overridden: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.ContainsKey({TKey})
+  overload: cfEngine.Rx.RtGroup`2.ContainsKey*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+  nameWithType.vb: RtGroup(Of TKey, TValue).ContainsKey(TKey)
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).ContainsKey(TKey)
+- uid: cfEngine.Rx.RtGroup`2.TryGetValue(`0,cfEngine.Rx.RtReadOnlyList{`1}@)
+  commentId: M:cfEngine.Rx.RtGroup`2.TryGetValue(`0,cfEngine.Rx.RtReadOnlyList{`1}@)
+  id: TryGetValue(`0,cfEngine.Rx.RtReadOnlyList{`1}@)
+  parent: cfEngine.Rx.RtGroup`2
+  langs:
+  - csharp
+  - vb
+  name: TryGetValue(TKey, out RtReadOnlyList<TValue>)
+  nameWithType: RtGroup<TKey, TValue>.TryGetValue(TKey, out RtReadOnlyList<TValue>)
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.TryGetValue(TKey, out cfEngine.Rx.RtReadOnlyList<TValue>)
+  type: Method
+  source:
+    id: TryGetValue
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/RtGroup/RtGroup.cs
+    startLine: 108
+  namespace: cfEngine.Rx
+  summary: Gets the value that is associated with the specified key.
+  example: []
+  syntax:
+    content: public override bool TryGetValue(TKey key, out RtReadOnlyList<TValue> value)
+    parameters:
+    - id: key
+      type: '{TKey}'
+      description: The key to locate.
+    - id: value
+      type: cfEngine.Rx.RtReadOnlyList{{TValue}}
+      description: When this method returns, the value associated with the specified key, if the key is found; otherwise, the default value for the type of the <code class="paramref">value</code> parameter. This parameter is passed uninitialized.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the object that implements the <xref href="System.Collections.Generic.IReadOnlyDictionary%602" data-throw-if-not-resolved="false"></xref> interface contains an element that has the specified key; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function TryGetValue(key As TKey, value As RtReadOnlyList(Of TValue)) As Boolean
+  overridden: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.TryGetValue({TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}@)
+  overload: cfEngine.Rx.RtGroup`2.TryGetValue*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+  nameWithType.vb: RtGroup(Of TKey, TValue).TryGetValue(TKey, RtReadOnlyList(Of TValue))
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).TryGetValue(TKey, cfEngine.Rx.RtReadOnlyList(Of TValue))
+  name.vb: TryGetValue(TKey, RtReadOnlyList(Of TValue))
+- uid: cfEngine.Rx.RtGroup`2.Item(`0)
+  commentId: P:cfEngine.Rx.RtGroup`2.Item(`0)
+  id: Item(`0)
+  parent: cfEngine.Rx.RtGroup`2
+  langs:
+  - csharp
+  - vb
+  name: this[TKey]
+  nameWithType: RtGroup<TKey, TValue>.this[TKey]
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.this[TKey]
+  type: Property
+  source:
+    id: this[]
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/RtGroup/RtGroup.cs
+    startLine: 120
+  namespace: cfEngine.Rx
+  summary: Gets the element that has the specified key in the read-only dictionary.
+  example: []
+  syntax:
+    content: public override RtReadOnlyList<TValue> this[TKey key] { get; }
+    parameters:
+    - id: key
+      type: '{TKey}'
+      description: The key to locate.
+    return:
+      type: cfEngine.Rx.RtReadOnlyList{{TValue}}
+      description: The element that has the specified key in the read-only dictionary.
+    content.vb: Public Overrides ReadOnly Default Property this[](key As TKey) As RtReadOnlyList(Of TValue)
+  overridden: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.Item({TKey})
+  overload: cfEngine.Rx.RtGroup`2.Item*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+  - type: System.Collections.Generic.KeyNotFoundException
+    commentId: T:System.Collections.Generic.KeyNotFoundException
+    description: The property is retrieved and <code class="paramref">key</code> is not found.
+  nameWithType.vb: RtGroup(Of TKey, TValue).this[](TKey)
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).this[](TKey)
+  name.vb: this[](TKey)
+- uid: cfEngine.Rx.RtGroup`2.Keys
+  commentId: P:cfEngine.Rx.RtGroup`2.Keys
+  id: Keys
+  parent: cfEngine.Rx.RtGroup`2
+  langs:
+  - csharp
+  - vb
+  name: Keys
+  nameWithType: RtGroup<TKey, TValue>.Keys
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.Keys
+  type: Property
+  source:
+    id: Keys
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/RtGroup/RtGroup.cs
+    startLine: 122
+  namespace: cfEngine.Rx
+  summary: Gets an enumerable collection that contains the keys in the read-only dictionary.
+  example: []
+  syntax:
+    content: public override IEnumerable<TKey> Keys { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{{TKey}}
+      description: An enumerable collection that contains the keys in the read-only dictionary.
+    content.vb: Public Overrides ReadOnly Property Keys As IEnumerable(Of TKey)
+  overridden: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.Keys
+  overload: cfEngine.Rx.RtGroup`2.Keys*
+  nameWithType.vb: RtGroup(Of TKey, TValue).Keys
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).Keys
+- uid: cfEngine.Rx.RtGroup`2.Values
+  commentId: P:cfEngine.Rx.RtGroup`2.Values
+  id: Values
+  parent: cfEngine.Rx.RtGroup`2
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: RtGroup<TKey, TValue>.Values
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.Values
+  type: Property
+  source:
+    id: Values
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/RtGroup/RtGroup.cs
+    startLine: 124
+  namespace: cfEngine.Rx
+  summary: Gets an enumerable collection that contains the values in the read-only dictionary.
+  example: []
+  syntax:
+    content: public override IEnumerable<RtReadOnlyList<TValue>> Values { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{cfEngine.Rx.RtReadOnlyList{{TValue}}}
+      description: An enumerable collection that contains the values in the read-only dictionary.
+    content.vb: Public Overrides ReadOnly Property Values As IEnumerable(Of RtReadOnlyList(Of TValue))
+  overridden: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.Values
+  overload: cfEngine.Rx.RtGroup`2.Values*
+  nameWithType.vb: RtGroup(Of TKey, TValue).Values
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).Values
+references:
+- uid: cfEngine.Rx
+  commentId: N:cfEngine.Rx
+  href: cfEngine.html
+  name: cfEngine.Rx
+  nameWithType: cfEngine.Rx
+  fullName: cfEngine.Rx
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}
+  commentId: T:cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{`0,cfEngine.Rx.RtReadOnlyList{`1}}}
+  parent: cfEngine.Rx
+  definition: cfEngine.Rx.RtCollection`1
+  href: cfEngine.Rx.RtCollection-1.html
+  name: RtCollection<KeyValuePair<TKey, RtReadOnlyList<TValue>>>
+  nameWithType: RtCollection<KeyValuePair<TKey, RtReadOnlyList<TValue>>>
+  fullName: cfEngine.Rx.RtCollection<System.Collections.Generic.KeyValuePair<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>>
+  nameWithType.vb: RtCollection(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue)))
+  fullName.vb: cfEngine.Rx.RtCollection(Of System.Collections.Generic.KeyValuePair(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)))
+  name.vb: RtCollection(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue)))
+  spec.csharp:
+  - uid: cfEngine.Rx.RtCollection`1
+    name: RtCollection
+    href: cfEngine.Rx.RtCollection-1.html
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtCollection`1
+    name: RtCollection
+    href: cfEngine.Rx.RtCollection-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  commentId: T:cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}
+  parent: cfEngine.Rx
+  definition: cfEngine.Rx.RtReadOnlyDictionary`2
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  name: RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>
+  nameWithType: RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue))
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue))
+  name.vb: RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue))
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  commentId: T:System.Collections.Generic.IReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  name: IReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>
+  nameWithType: IReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue))
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue))
+  name.vb: IReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue))
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}
+  commentId: T:System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{`0,cfEngine.Rx.RtReadOnlyList{`1}}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  name: IReadOnlyCollection<KeyValuePair<TKey, RtReadOnlyList<TValue>>>
+  nameWithType: IReadOnlyCollection<KeyValuePair<TKey, RtReadOnlyList<TValue>>>
+  fullName: System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>>
+  nameWithType.vb: IReadOnlyCollection(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue)))
+  fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of System.Collections.Generic.KeyValuePair(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)))
+  name.vb: IReadOnlyCollection(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue)))
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,cfEngine.Rx.RtReadOnlyList{`1}}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyValuePair<TKey, RtReadOnlyList<TValue>>>
+  nameWithType: IEnumerable<KeyValuePair<TKey, RtReadOnlyList<TValue>>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue)))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)))
+  name.vb: IEnumerable(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue)))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.Count
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.Count
+  parent: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  definition: cfEngine.Rx.RtReadOnlyDictionary`2.Count
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Count
+  name: Count
+  nameWithType: RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>.Count
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>.Count
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)).Count
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)).Count
+- uid: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.ContainsKey({TKey})
+  commentId: M:cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.ContainsKey(`0)
+  parent: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  definition: cfEngine.Rx.RtReadOnlyDictionary`2.ContainsKey(`0)
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_ContainsKey__0_
+  name: ContainsKey(TKey)
+  nameWithType: RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>.ContainsKey(TKey)
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>.ContainsKey(TKey)
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)).ContainsKey(TKey)
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)).ContainsKey(TKey)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.ContainsKey(`0)
+    name: ContainsKey
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_ContainsKey__0_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.ContainsKey(`0)
+    name: ContainsKey
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_ContainsKey__0_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.TryGetValue({TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}@)
+  commentId: M:cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.TryGetValue(`0,cfEngine.Rx.RtReadOnlyList{`1}@)
+  parent: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  definition: cfEngine.Rx.RtReadOnlyDictionary`2.TryGetValue(`0,`1@)
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_TryGetValue__0__1__
+  name: TryGetValue(TKey, out RtReadOnlyList<TValue>)
+  nameWithType: RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>.TryGetValue(TKey, out RtReadOnlyList<TValue>)
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>.TryGetValue(TKey, out cfEngine.Rx.RtReadOnlyList<TValue>)
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)).TryGetValue(TKey, RtReadOnlyList(Of TValue))
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)).TryGetValue(TKey, cfEngine.Rx.RtReadOnlyList(Of TValue))
+  name.vb: TryGetValue(TKey, RtReadOnlyList(Of TValue))
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.TryGetValue(`0,cfEngine.Rx.RtReadOnlyList{`1}@)
+    name: TryGetValue
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_TryGetValue__0__1__
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.TryGetValue(`0,cfEngine.Rx.RtReadOnlyList{`1}@)
+    name: TryGetValue
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_TryGetValue__0__1__
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.Item({TKey})
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.Item(`0)
+  parent: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  definition: cfEngine.Rx.RtReadOnlyDictionary`2.Item(`0)
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Item__0_
+  name: this[TKey]
+  nameWithType: RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>.this[TKey]
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>.this[TKey]
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)).this[](TKey)
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)).this[](TKey)
+  name.vb: this[](TKey)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - name: TKey
+  - name: ']'
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.Item(`0)
+    name: this[]
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Item__0_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.Keys
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.Keys
+  parent: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  definition: cfEngine.Rx.RtReadOnlyDictionary`2.Keys
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Keys
+  name: Keys
+  nameWithType: RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>.Keys
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>.Keys
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)).Keys
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)).Keys
+- uid: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.Values
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.Values
+  parent: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  definition: cfEngine.Rx.RtReadOnlyDictionary`2.Values
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Values
+  name: Values
+  nameWithType: RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>.Values
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>.Values
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)).Values
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)).Values
+- uid: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.RtPairs
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.RtPairs
+  parent: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  definition: cfEngine.Rx.RtReadOnlyDictionary`2.RtPairs
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_RtPairs
+  name: RtPairs
+  nameWithType: RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>.RtPairs
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>.RtPairs
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)).RtPairs
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)).RtPairs
+- uid: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.RtKeys
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.RtKeys
+  parent: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  definition: cfEngine.Rx.RtReadOnlyDictionary`2.RtKeys
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_RtKeys
+  name: RtKeys
+  nameWithType: RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>.RtKeys
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>.RtKeys
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)).RtKeys
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)).RtKeys
+- uid: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.RtValues
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.RtValues
+  parent: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  definition: cfEngine.Rx.RtReadOnlyDictionary`2.RtValues
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_RtValues
+  name: RtValues
+  nameWithType: RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>.RtValues
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>.RtValues
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)).RtValues
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)).RtValues
+- uid: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}.GetEnumerator
+  commentId: M:cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.GetEnumerator
+  parent: cfEngine.Rx.RtReadOnlyDictionary{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  definition: cfEngine.Rx.RtReadOnlyDictionary`2.GetEnumerator
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_GetEnumerator
+  name: GetEnumerator()
+  nameWithType: RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>.GetEnumerator()
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>.GetEnumerator()
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)).GetEnumerator()
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)).GetEnumerator()
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.GetEnumerator
+    name: GetEnumerator
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_GetEnumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.GetEnumerator
+    name: GetEnumerator
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_GetEnumerator
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}.CollectionEvents
+  commentId: P:cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{`0,cfEngine.Rx.RtReadOnlyList{`1}}}.CollectionEvents
+  parent: cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}
+  definition: cfEngine.Rx.RtCollection`1.CollectionEvents
+  href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_CollectionEvents
+  name: CollectionEvents
+  nameWithType: RtCollection<KeyValuePair<TKey, RtReadOnlyList<TValue>>>.CollectionEvents
+  fullName: cfEngine.Rx.RtCollection<System.Collections.Generic.KeyValuePair<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>>.CollectionEvents
+  nameWithType.vb: RtCollection(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue))).CollectionEvents
+  fullName.vb: cfEngine.Rx.RtCollection(Of System.Collections.Generic.KeyValuePair(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue))).CollectionEvents
+- uid: cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}.Events
+  commentId: P:cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{`0,cfEngine.Rx.RtReadOnlyList{`1}}}.Events
+  parent: cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}
+  definition: cfEngine.Rx.RtCollection`1.Events
+  href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Events
+  name: Events
+  nameWithType: RtCollection<KeyValuePair<TKey, RtReadOnlyList<TValue>>>.Events
+  fullName: cfEngine.Rx.RtCollection<System.Collections.Generic.KeyValuePair<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>>.Events
+  nameWithType.vb: RtCollection(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue))).Events
+  fullName.vb: cfEngine.Rx.RtCollection(Of System.Collections.Generic.KeyValuePair(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue))).Events
+- uid: cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}.Dispose
+  commentId: M:cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{`0,cfEngine.Rx.RtReadOnlyList{`1}}}.Dispose
+  parent: cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}
+  definition: cfEngine.Rx.RtCollection`1.Dispose
+  href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Dispose
+  name: Dispose()
+  nameWithType: RtCollection<KeyValuePair<TKey, RtReadOnlyList<TValue>>>.Dispose()
+  fullName: cfEngine.Rx.RtCollection<System.Collections.Generic.KeyValuePair<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>>.Dispose()
+  nameWithType.vb: RtCollection(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue))).Dispose()
+  fullName.vb: cfEngine.Rx.RtCollection(Of System.Collections.Generic.KeyValuePair(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue))).Dispose()
+  spec.csharp:
+  - uid: cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{`0,cfEngine.Rx.RtReadOnlyList{`1}}}.Dispose
+    name: Dispose
+    href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtCollection{System.Collections.Generic.KeyValuePair{`0,cfEngine.Rx.RtReadOnlyList{`1}}}.Dispose
+    name: Dispose
+    href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Dispose
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.cfEngine.Rx.Linq.selectKey``3(System.Func{{TKey},{TSelectedKey}})
+  commentId: M:cfEngine.Rx.Linq.selectKey``3(cfEngine.Rx.RtReadOnlyDictionary{``0,``2},System.Func{``0,``1})
+  parent: cfEngine.Rx.Linq
+  definition: cfEngine.Rx.Linq.selectKey``3(cfEngine.Rx.RtReadOnlyDictionary{``0,``2},System.Func{``0,``1})
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectKey__3_cfEngine_Rx_RtReadOnlyDictionary___0___2__System_Func___0___1__
+  name: selectKey<TKey, TSelectedKey, RtReadOnlyList<TValue>>(RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>, Func<TKey, TSelectedKey>)
+  nameWithType: Linq.selectKey<TKey, TSelectedKey, RtReadOnlyList<TValue>>(RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>, Func<TKey, TSelectedKey>)
+  fullName: cfEngine.Rx.Linq.selectKey<TKey, TSelectedKey, cfEngine.Rx.RtReadOnlyList<TValue>>(cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>, System.Func<TKey, TSelectedKey>)
+  nameWithType.vb: Linq.selectKey(Of TKey, TSelectedKey, RtReadOnlyList(Of TValue))(RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)), Func(Of TKey, TSelectedKey))
+  fullName.vb: cfEngine.Rx.Linq.selectKey(Of TKey, TSelectedKey, cfEngine.Rx.RtReadOnlyList(Of TValue))(cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)), System.Func(Of TKey, TSelectedKey))
+  name.vb: selectKey(Of TKey, TSelectedKey, RtReadOnlyList(Of TValue))(RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)), Func(Of TKey, TSelectedKey))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.selectKey``3(cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}},System.Func{`0,``1})
+    name: selectKey
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectKey__3_cfEngine_Rx_RtReadOnlyDictionary___0___2__System_Func___0___1__
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TSelectedKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TSelectedKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.selectKey``3(cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}},System.Func{`0,``1})
+    name: selectKey
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectKey__3_cfEngine_Rx_RtReadOnlyDictionary___0___2__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TSelectedKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TSelectedKey
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.cfEngine.Rx.Linq.selectValue``3(System.Func{cfEngine.Rx.RtReadOnlyList{{TValue}},{TSelectValue}})
+  commentId: M:cfEngine.Rx.Linq.selectValue``3(cfEngine.Rx.RtReadOnlyDictionary{``0,``1},System.Func{``1,``2})
+  parent: cfEngine.Rx.Linq
+  definition: cfEngine.Rx.Linq.selectValue``3(cfEngine.Rx.RtReadOnlyDictionary{``0,``1},System.Func{``1,``2})
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectValue__3_cfEngine_Rx_RtReadOnlyDictionary___0___1__System_Func___1___2__
+  name: selectValue<TKey, RtReadOnlyList<TValue>, TSelectValue>(RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>, Func<RtReadOnlyList<TValue>, TSelectValue>)
+  nameWithType: Linq.selectValue<TKey, RtReadOnlyList<TValue>, TSelectValue>(RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>, Func<RtReadOnlyList<TValue>, TSelectValue>)
+  fullName: cfEngine.Rx.Linq.selectValue<TKey, cfEngine.Rx.RtReadOnlyList<TValue>, TSelectValue>(cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>, System.Func<cfEngine.Rx.RtReadOnlyList<TValue>, TSelectValue>)
+  nameWithType.vb: Linq.selectValue(Of TKey, RtReadOnlyList(Of TValue), TSelectValue)(RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)), Func(Of RtReadOnlyList(Of TValue), TSelectValue))
+  fullName.vb: cfEngine.Rx.Linq.selectValue(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue), TSelectValue)(cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)), System.Func(Of cfEngine.Rx.RtReadOnlyList(Of TValue), TSelectValue))
+  name.vb: selectValue(Of TKey, RtReadOnlyList(Of TValue), TSelectValue)(RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)), Func(Of RtReadOnlyList(Of TValue), TSelectValue))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.selectValue``3(cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}},System.Func{cfEngine.Rx.RtReadOnlyList{`1},``2})
+    name: selectValue
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectValue__3_cfEngine_Rx_RtReadOnlyDictionary___0___1__System_Func___1___2__
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TSelectValue
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: TSelectValue
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.selectValue``3(cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}},System.Func{cfEngine.Rx.RtReadOnlyList{`1},``2})
+    name: selectValue
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectValue__3_cfEngine_Rx_RtReadOnlyDictionary___0___1__System_Func___1___2__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TSelectValue
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: ','
+  - name: " "
+  - name: TSelectValue
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}}.cfEngine.Rx.Linq.where``2(System.Func{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}},System.Boolean})
+  commentId: M:cfEngine.Rx.Linq.where``2(cfEngine.Rx.RtReadOnlyDictionary{``0,``1},System.Func{System.Collections.Generic.KeyValuePair{``0,``1},System.Boolean})
+  parent: cfEngine.Rx.Linq
+  definition: cfEngine.Rx.Linq.where``2(cfEngine.Rx.RtReadOnlyDictionary{``0,``1},System.Func{System.Collections.Generic.KeyValuePair{``0,``1},System.Boolean})
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_where__2_cfEngine_Rx_RtReadOnlyDictionary___0___1__System_Func_System_Collections_Generic_KeyValuePair___0___1__System_Boolean__
+  name: where<TKey, RtReadOnlyList<TValue>>(RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>, Func<KeyValuePair<TKey, RtReadOnlyList<TValue>>, bool>)
+  nameWithType: Linq.where<TKey, RtReadOnlyList<TValue>>(RtReadOnlyDictionary<TKey, RtReadOnlyList<TValue>>, Func<KeyValuePair<TKey, RtReadOnlyList<TValue>>, bool>)
+  fullName: cfEngine.Rx.Linq.where<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>(cfEngine.Rx.RtReadOnlyDictionary<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>, System.Func<System.Collections.Generic.KeyValuePair<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>, bool>)
+  nameWithType.vb: Linq.where(Of TKey, RtReadOnlyList(Of TValue))(RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)), Func(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue)), Boolean))
+  fullName.vb: cfEngine.Rx.Linq.where(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue))(cfEngine.Rx.RtReadOnlyDictionary(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)), System.Func(Of System.Collections.Generic.KeyValuePair(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)), Boolean))
+  name.vb: where(Of TKey, RtReadOnlyList(Of TValue))(RtReadOnlyDictionary(Of TKey, RtReadOnlyList(Of TValue)), Func(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue)), Boolean))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.where``2(cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}},System.Func{System.Collections.Generic.KeyValuePair{`0,cfEngine.Rx.RtReadOnlyList{`1}},System.Boolean})
+    name: where
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_where__2_cfEngine_Rx_RtReadOnlyDictionary___0___1__System_Func_System_Collections_Generic_KeyValuePair___0___1__System_Boolean__
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.where``2(cfEngine.Rx.RtReadOnlyDictionary{`0,cfEngine.Rx.RtReadOnlyList{`1}},System.Func{System.Collections.Generic.KeyValuePair{`0,cfEngine.Rx.RtReadOnlyList{`1}},System.Boolean})
+    name: where
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_where__2_cfEngine_Rx_RtReadOnlyDictionary___0___1__System_Func_System_Collections_Generic_KeyValuePair___0___1__System_Boolean__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Rx.RtCollection`1
+  commentId: T:cfEngine.Rx.RtCollection`1
+  href: cfEngine.Rx.RtCollection-1.html
+  name: RtCollection<TEventArgs>
+  nameWithType: RtCollection<TEventArgs>
+  fullName: cfEngine.Rx.RtCollection<TEventArgs>
+  nameWithType.vb: RtCollection(Of TEventArgs)
+  fullName.vb: cfEngine.Rx.RtCollection(Of TEventArgs)
+  name.vb: RtCollection(Of TEventArgs)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtCollection`1
+    name: RtCollection
+    href: cfEngine.Rx.RtCollection-1.html
+  - name: <
+  - name: TEventArgs
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtCollection`1
+    name: RtCollection
+    href: cfEngine.Rx.RtCollection-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventArgs
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyDictionary`2
+  commentId: T:cfEngine.Rx.RtReadOnlyDictionary`2
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  name: RtReadOnlyDictionary<TKey, TValue>
+  nameWithType: RtReadOnlyDictionary<TKey, TValue>
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, TValue)
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue)
+  name.vb: RtReadOnlyDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyDictionary`2
+  commentId: T:System.Collections.Generic.IReadOnlyDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  name: IReadOnlyDictionary<TKey, TValue>
+  nameWithType: IReadOnlyDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue)
+  name.vb: IReadOnlyDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.IReadOnlyCollection`1
+  commentId: T:System.Collections.Generic.IReadOnlyCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  name: IReadOnlyCollection<T>
+  nameWithType: IReadOnlyCollection<T>
+  fullName: System.Collections.Generic.IReadOnlyCollection<T>
+  nameWithType.vb: IReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of T)
+  name.vb: IReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: cfEngine.Rx.RtReadOnlyDictionary`2.Count
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary`2.Count
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Count
+  name: Count
+  nameWithType: RtReadOnlyDictionary<TKey, TValue>.Count
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>.Count
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, TValue).Count
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue).Count
+- uid: cfEngine.Rx.RtReadOnlyDictionary`2.ContainsKey(`0)
+  commentId: M:cfEngine.Rx.RtReadOnlyDictionary`2.ContainsKey(`0)
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_ContainsKey__0_
+  name: ContainsKey(TKey)
+  nameWithType: RtReadOnlyDictionary<TKey, TValue>.ContainsKey(TKey)
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>.ContainsKey(TKey)
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, TValue).ContainsKey(TKey)
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue).ContainsKey(TKey)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2.ContainsKey(`0)
+    name: ContainsKey
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_ContainsKey__0_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2.ContainsKey(`0)
+    name: ContainsKey
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_ContainsKey__0_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyDictionary`2.TryGetValue(`0,`1@)
+  commentId: M:cfEngine.Rx.RtReadOnlyDictionary`2.TryGetValue(`0,`1@)
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_TryGetValue__0__1__
+  name: TryGetValue(TKey, out TValue)
+  nameWithType: RtReadOnlyDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
+  name.vb: TryGetValue(TKey, TValue)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2.TryGetValue(`0,`1@)
+    name: TryGetValue
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_TryGetValue__0__1__
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - name: TValue
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2.TryGetValue(`0,`1@)
+    name: TryGetValue
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_TryGetValue__0__1__
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyDictionary`2.Item(`0)
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary`2.Item(`0)
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Item__0_
+  name: this[TKey]
+  nameWithType: RtReadOnlyDictionary<TKey, TValue>.this[TKey]
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>.this[TKey]
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, TValue).this[](TKey)
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue).this[](TKey)
+  name.vb: this[](TKey)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - name: TKey
+  - name: ']'
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2.Item(`0)
+    name: this[]
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Item__0_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyDictionary`2.Keys
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary`2.Keys
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Keys
+  name: Keys
+  nameWithType: RtReadOnlyDictionary<TKey, TValue>.Keys
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>.Keys
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, TValue).Keys
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue).Keys
+- uid: cfEngine.Rx.RtReadOnlyDictionary`2.Values
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary`2.Values
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Values
+  name: Values
+  nameWithType: RtReadOnlyDictionary<TKey, TValue>.Values
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>.Values
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, TValue).Values
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue).Values
+- uid: cfEngine.Rx.RtReadOnlyDictionary`2.RtPairs
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary`2.RtPairs
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_RtPairs
+  name: RtPairs
+  nameWithType: RtReadOnlyDictionary<TKey, TValue>.RtPairs
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>.RtPairs
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, TValue).RtPairs
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue).RtPairs
+- uid: cfEngine.Rx.RtReadOnlyDictionary`2.RtKeys
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary`2.RtKeys
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_RtKeys
+  name: RtKeys
+  nameWithType: RtReadOnlyDictionary<TKey, TValue>.RtKeys
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>.RtKeys
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, TValue).RtKeys
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue).RtKeys
+- uid: cfEngine.Rx.RtReadOnlyDictionary`2.RtValues
+  commentId: P:cfEngine.Rx.RtReadOnlyDictionary`2.RtValues
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_RtValues
+  name: RtValues
+  nameWithType: RtReadOnlyDictionary<TKey, TValue>.RtValues
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>.RtValues
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, TValue).RtValues
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue).RtValues
+- uid: cfEngine.Rx.RtReadOnlyDictionary`2.GetEnumerator
+  commentId: M:cfEngine.Rx.RtReadOnlyDictionary`2.GetEnumerator
+  href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_GetEnumerator
+  name: GetEnumerator()
+  nameWithType: RtReadOnlyDictionary<TKey, TValue>.GetEnumerator()
+  fullName: cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>.GetEnumerator()
+  nameWithType.vb: RtReadOnlyDictionary(Of TKey, TValue).GetEnumerator()
+  fullName.vb: cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue).GetEnumerator()
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2.GetEnumerator
+    name: GetEnumerator
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_GetEnumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2.GetEnumerator
+    name: GetEnumerator
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_GetEnumerator
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.RtCollection`1.CollectionEvents
+  commentId: P:cfEngine.Rx.RtCollection`1.CollectionEvents
+  href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_CollectionEvents
+  name: CollectionEvents
+  nameWithType: RtCollection<TEventArgs>.CollectionEvents
+  fullName: cfEngine.Rx.RtCollection<TEventArgs>.CollectionEvents
+  nameWithType.vb: RtCollection(Of TEventArgs).CollectionEvents
+  fullName.vb: cfEngine.Rx.RtCollection(Of TEventArgs).CollectionEvents
+- uid: cfEngine.Rx.RtCollection`1.Events
+  commentId: P:cfEngine.Rx.RtCollection`1.Events
+  href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Events
+  name: Events
+  nameWithType: RtCollection<TEventArgs>.Events
+  fullName: cfEngine.Rx.RtCollection<TEventArgs>.Events
+  nameWithType.vb: RtCollection(Of TEventArgs).Events
+  fullName.vb: cfEngine.Rx.RtCollection(Of TEventArgs).Events
+- uid: cfEngine.Rx.RtCollection`1.Dispose
+  commentId: M:cfEngine.Rx.RtCollection`1.Dispose
+  href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Dispose
+  name: Dispose()
+  nameWithType: RtCollection<TEventArgs>.Dispose()
+  fullName: cfEngine.Rx.RtCollection<TEventArgs>.Dispose()
+  nameWithType.vb: RtCollection(Of TEventArgs).Dispose()
+  fullName.vb: cfEngine.Rx.RtCollection(Of TEventArgs).Dispose()
+  spec.csharp:
+  - uid: cfEngine.Rx.RtCollection`1.Dispose
+    name: Dispose
+    href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RtCollection`1.Dispose
+    name: Dispose
+    href: cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Dispose
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.Linq.selectKey``3(cfEngine.Rx.RtReadOnlyDictionary{``0,``2},System.Func{``0,``1})
+  commentId: M:cfEngine.Rx.Linq.selectKey``3(cfEngine.Rx.RtReadOnlyDictionary{``0,``2},System.Func{``0,``1})
+  isExternal: true
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectKey__3_cfEngine_Rx_RtReadOnlyDictionary___0___2__System_Func___0___1__
+  name: selectKey<TOrigKey, TSelectedKey, TValue>(RtReadOnlyDictionary<TOrigKey, TValue>, Func<TOrigKey, TSelectedKey>)
+  nameWithType: Linq.selectKey<TOrigKey, TSelectedKey, TValue>(RtReadOnlyDictionary<TOrigKey, TValue>, Func<TOrigKey, TSelectedKey>)
+  fullName: cfEngine.Rx.Linq.selectKey<TOrigKey, TSelectedKey, TValue>(cfEngine.Rx.RtReadOnlyDictionary<TOrigKey, TValue>, System.Func<TOrigKey, TSelectedKey>)
+  nameWithType.vb: Linq.selectKey(Of TOrigKey, TSelectedKey, TValue)(RtReadOnlyDictionary(Of TOrigKey, TValue), Func(Of TOrigKey, TSelectedKey))
+  fullName.vb: cfEngine.Rx.Linq.selectKey(Of TOrigKey, TSelectedKey, TValue)(cfEngine.Rx.RtReadOnlyDictionary(Of TOrigKey, TValue), System.Func(Of TOrigKey, TSelectedKey))
+  name.vb: selectKey(Of TOrigKey, TSelectedKey, TValue)(RtReadOnlyDictionary(Of TOrigKey, TValue), Func(Of TOrigKey, TSelectedKey))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.selectKey``3(cfEngine.Rx.RtReadOnlyDictionary{``0,``2},System.Func{``0,``1})
+    name: selectKey
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectKey__3_cfEngine_Rx_RtReadOnlyDictionary___0___2__System_Func___0___1__
+  - name: <
+  - name: TOrigKey
+  - name: ','
+  - name: " "
+  - name: TSelectedKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: <
+  - name: TOrigKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TOrigKey
+  - name: ','
+  - name: " "
+  - name: TSelectedKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.selectKey``3(cfEngine.Rx.RtReadOnlyDictionary{``0,``2},System.Func{``0,``1})
+    name: selectKey
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectKey__3_cfEngine_Rx_RtReadOnlyDictionary___0___2__System_Func___0___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOrigKey
+  - name: ','
+  - name: " "
+  - name: TSelectedKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOrigKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOrigKey
+  - name: ','
+  - name: " "
+  - name: TSelectedKey
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.Linq
+  commentId: T:cfEngine.Rx.Linq
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.Linq.html
+  name: Linq
+  nameWithType: Linq
+  fullName: cfEngine.Rx.Linq
+- uid: cfEngine.Rx.Linq.selectValue``3(cfEngine.Rx.RtReadOnlyDictionary{``0,``1},System.Func{``1,``2})
+  commentId: M:cfEngine.Rx.Linq.selectValue``3(cfEngine.Rx.RtReadOnlyDictionary{``0,``1},System.Func{``1,``2})
+  isExternal: true
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectValue__3_cfEngine_Rx_RtReadOnlyDictionary___0___1__System_Func___1___2__
+  name: selectValue<TKey, TValue, TSelectValue>(RtReadOnlyDictionary<TKey, TValue>, Func<TValue, TSelectValue>)
+  nameWithType: Linq.selectValue<TKey, TValue, TSelectValue>(RtReadOnlyDictionary<TKey, TValue>, Func<TValue, TSelectValue>)
+  fullName: cfEngine.Rx.Linq.selectValue<TKey, TValue, TSelectValue>(cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>, System.Func<TValue, TSelectValue>)
+  nameWithType.vb: Linq.selectValue(Of TKey, TValue, TSelectValue)(RtReadOnlyDictionary(Of TKey, TValue), Func(Of TValue, TSelectValue))
+  fullName.vb: cfEngine.Rx.Linq.selectValue(Of TKey, TValue, TSelectValue)(cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue), System.Func(Of TValue, TSelectValue))
+  name.vb: selectValue(Of TKey, TValue, TSelectValue)(RtReadOnlyDictionary(Of TKey, TValue), Func(Of TValue, TSelectValue))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.selectValue``3(cfEngine.Rx.RtReadOnlyDictionary{``0,``1},System.Func{``1,``2})
+    name: selectValue
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectValue__3_cfEngine_Rx_RtReadOnlyDictionary___0___1__System_Func___1___2__
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TSelectValue
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TSelectValue
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.selectValue``3(cfEngine.Rx.RtReadOnlyDictionary{``0,``1},System.Func{``1,``2})
+    name: selectValue
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectValue__3_cfEngine_Rx_RtReadOnlyDictionary___0___1__System_Func___1___2__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TSelectValue
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TSelectValue
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.Linq.where``2(cfEngine.Rx.RtReadOnlyDictionary{``0,``1},System.Func{System.Collections.Generic.KeyValuePair{``0,``1},System.Boolean})
+  commentId: M:cfEngine.Rx.Linq.where``2(cfEngine.Rx.RtReadOnlyDictionary{``0,``1},System.Func{System.Collections.Generic.KeyValuePair{``0,``1},System.Boolean})
+  isExternal: true
+  href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_where__2_cfEngine_Rx_RtReadOnlyDictionary___0___1__System_Func_System_Collections_Generic_KeyValuePair___0___1__System_Boolean__
+  name: where<TKey, TValue>(RtReadOnlyDictionary<TKey, TValue>, Func<KeyValuePair<TKey, TValue>, bool>)
+  nameWithType: Linq.where<TKey, TValue>(RtReadOnlyDictionary<TKey, TValue>, Func<KeyValuePair<TKey, TValue>, bool>)
+  fullName: cfEngine.Rx.Linq.where<TKey, TValue>(cfEngine.Rx.RtReadOnlyDictionary<TKey, TValue>, System.Func<System.Collections.Generic.KeyValuePair<TKey, TValue>, bool>)
+  nameWithType.vb: Linq.where(Of TKey, TValue)(RtReadOnlyDictionary(Of TKey, TValue), Func(Of KeyValuePair(Of TKey, TValue), Boolean))
+  fullName.vb: cfEngine.Rx.Linq.where(Of TKey, TValue)(cfEngine.Rx.RtReadOnlyDictionary(Of TKey, TValue), System.Func(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue), Boolean))
+  name.vb: where(Of TKey, TValue)(RtReadOnlyDictionary(Of TKey, TValue), Func(Of KeyValuePair(Of TKey, TValue), Boolean))
+  spec.csharp:
+  - uid: cfEngine.Rx.Linq.where``2(cfEngine.Rx.RtReadOnlyDictionary{``0,``1},System.Func{System.Collections.Generic.KeyValuePair{``0,``1},System.Boolean})
+    name: where
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_where__2_cfEngine_Rx_RtReadOnlyDictionary___0___1__System_Func_System_Collections_Generic_KeyValuePair___0___1__System_Boolean__
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Linq.where``2(cfEngine.Rx.RtReadOnlyDictionary{``0,``1},System.Func{System.Collections.Generic.KeyValuePair{``0,``1},System.Boolean})
+    name: where
+    href: cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_where__2_cfEngine_Rx_RtReadOnlyDictionary___0___1__System_Func_System_Collections_Generic_KeyValuePair___0___1__System_Boolean__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.RtReadOnlyDictionary`2
+    name: RtReadOnlyDictionary
+    href: cfEngine.Rx.RtReadOnlyDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.RtGroup`2.#ctor*
+  commentId: Overload:cfEngine.Rx.RtGroup`2.#ctor
+  href: cfEngine.Rx.RtGroup-2.html#cfEngine_Rx_RtGroup_2__ctor_cfEngine_Rx_RtReadOnlyList__1__System_Func__1__0__
+  name: RtGroup
+  nameWithType: RtGroup<TKey, TValue>.RtGroup
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.RtGroup
+  nameWithType.vb: RtGroup(Of TKey, TValue).New
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).New
+  name.vb: New
+- uid: cfEngine.Rx.RtReadOnlyList{{TValue}}
+  commentId: T:cfEngine.Rx.RtReadOnlyList{``1}
+  parent: cfEngine.Rx
+  definition: cfEngine.Rx.RtReadOnlyList`1
+  href: cfEngine.Rx.RtReadOnlyList-1.html
+  name: RtReadOnlyList<TValue>
+  nameWithType: RtReadOnlyList<TValue>
+  fullName: cfEngine.Rx.RtReadOnlyList<TValue>
+  nameWithType.vb: RtReadOnlyList(Of TValue)
+  fullName.vb: cfEngine.Rx.RtReadOnlyList(Of TValue)
+  name.vb: RtReadOnlyList(Of TValue)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Func{{TValue},{TKey}}
+  commentId: T:System.Func{``1,``0}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<TValue, TKey>
+  nameWithType: Func<TValue, TKey>
+  fullName: System.Func<TValue, TKey>
+  nameWithType.vb: Func(Of TValue, TKey)
+  fullName.vb: System.Func(Of TValue, TKey)
+  name.vb: Func(Of TValue, TKey)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+- uid: cfEngine.Rx.RtReadOnlyList`1
+  commentId: T:cfEngine.Rx.RtReadOnlyList`1
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.RtReadOnlyList-1.html
+  name: RtReadOnlyList<T>
+  nameWithType: RtReadOnlyList<T>
+  fullName: cfEngine.Rx.RtReadOnlyList<T>
+  nameWithType.vb: RtReadOnlyList(Of T)
+  fullName.vb: cfEngine.Rx.RtReadOnlyList(Of T)
+  name.vb: RtReadOnlyList(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: cfEngine.Rx.RtGroup`2.Dispose*
+  commentId: Overload:cfEngine.Rx.RtGroup`2.Dispose
+  href: cfEngine.Rx.RtGroup-2.html#cfEngine_Rx_RtGroup_2_Dispose
+  name: Dispose
+  nameWithType: RtGroup<TKey, TValue>.Dispose
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.Dispose
+  nameWithType.vb: RtGroup(Of TKey, TValue).Dispose
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).Dispose
+- uid: cfEngine.Rx.RtGroup`2.GetEnumerator*
+  commentId: Overload:cfEngine.Rx.RtGroup`2.GetEnumerator
+  href: cfEngine.Rx.RtGroup-2.html#cfEngine_Rx_RtGroup_2_GetEnumerator
+  name: GetEnumerator
+  nameWithType: RtGroup<TKey, TValue>.GetEnumerator
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.GetEnumerator
+  nameWithType.vb: RtGroup(Of TKey, TValue).GetEnumerator
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).GetEnumerator
+- uid: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{{TKey},cfEngine.Rx.RtReadOnlyList{{TValue}}}}
+  commentId: T:System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{`0,cfEngine.Rx.RtReadOnlyList{`1}}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<KeyValuePair<TKey, RtReadOnlyList<TValue>>>
+  nameWithType: IEnumerator<KeyValuePair<TKey, RtReadOnlyList<TValue>>>
+  fullName: System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, cfEngine.Rx.RtReadOnlyList<TValue>>>
+  nameWithType.vb: IEnumerator(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue)))
+  fullName.vb: System.Collections.Generic.IEnumerator(Of System.Collections.Generic.KeyValuePair(Of TKey, cfEngine.Rx.RtReadOnlyList(Of TValue)))
+  name.vb: IEnumerator(Of KeyValuePair(Of TKey, RtReadOnlyList(Of TValue)))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.RtGroup`2.Count*
+  commentId: Overload:cfEngine.Rx.RtGroup`2.Count
+  href: cfEngine.Rx.RtGroup-2.html#cfEngine_Rx_RtGroup_2_Count
+  name: Count
+  nameWithType: RtGroup<TKey, TValue>.Count
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.Count
+  nameWithType.vb: RtGroup(Of TKey, TValue).Count
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: cfEngine.Rx.RtGroup`2.ContainsKey*
+  commentId: Overload:cfEngine.Rx.RtGroup`2.ContainsKey
+  href: cfEngine.Rx.RtGroup-2.html#cfEngine_Rx_RtGroup_2_ContainsKey__0_
+  name: ContainsKey
+  nameWithType: RtGroup<TKey, TValue>.ContainsKey
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.ContainsKey
+  nameWithType.vb: RtGroup(Of TKey, TValue).ContainsKey
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).ContainsKey
+- uid: '{TKey}'
+  commentId: '!:TKey'
+  definition: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: cfEngine.Rx.RtGroup`2.TryGetValue*
+  commentId: Overload:cfEngine.Rx.RtGroup`2.TryGetValue
+  href: cfEngine.Rx.RtGroup-2.html#cfEngine_Rx_RtGroup_2_TryGetValue__0_cfEngine_Rx_RtReadOnlyList__1___
+  name: TryGetValue
+  nameWithType: RtGroup<TKey, TValue>.TryGetValue
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.TryGetValue
+  nameWithType.vb: RtGroup(Of TKey, TValue).TryGetValue
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).TryGetValue
+- uid: System.Collections.Generic.KeyNotFoundException
+  commentId: T:System.Collections.Generic.KeyNotFoundException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keynotfoundexception
+  name: KeyNotFoundException
+  nameWithType: KeyNotFoundException
+  fullName: System.Collections.Generic.KeyNotFoundException
+- uid: cfEngine.Rx.RtGroup`2.Item*
+  commentId: Overload:cfEngine.Rx.RtGroup`2.Item
+  href: cfEngine.Rx.RtGroup-2.html#cfEngine_Rx_RtGroup_2_Item__0_
+  name: this
+  nameWithType: RtGroup<TKey, TValue>.this
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.this
+  nameWithType.vb: RtGroup(Of TKey, TValue).this[]
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).this[]
+  name.vb: this[]
+- uid: cfEngine.Rx.RtGroup`2.Keys*
+  commentId: Overload:cfEngine.Rx.RtGroup`2.Keys
+  href: cfEngine.Rx.RtGroup-2.html#cfEngine_Rx_RtGroup_2_Keys
+  name: Keys
+  nameWithType: RtGroup<TKey, TValue>.Keys
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.Keys
+  nameWithType.vb: RtGroup(Of TKey, TValue).Keys
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).Keys
+- uid: System.Collections.Generic.IEnumerable{{TKey}}
+  commentId: T:System.Collections.Generic.IEnumerable{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<TKey>
+  nameWithType: IEnumerable<TKey>
+  fullName: System.Collections.Generic.IEnumerable<TKey>
+  nameWithType.vb: IEnumerable(Of TKey)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TKey)
+  name.vb: IEnumerable(Of TKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+- uid: cfEngine.Rx.RtGroup`2.Values*
+  commentId: Overload:cfEngine.Rx.RtGroup`2.Values
+  href: cfEngine.Rx.RtGroup-2.html#cfEngine_Rx_RtGroup_2_Values
+  name: Values
+  nameWithType: RtGroup<TKey, TValue>.Values
+  fullName: cfEngine.Rx.RtGroup<TKey, TValue>.Values
+  nameWithType.vb: RtGroup(Of TKey, TValue).Values
+  fullName.vb: cfEngine.Rx.RtGroup(Of TKey, TValue).Values
+- uid: System.Collections.Generic.IEnumerable{cfEngine.Rx.RtReadOnlyList{{TValue}}}
+  commentId: T:System.Collections.Generic.IEnumerable{cfEngine.Rx.RtReadOnlyList{`1}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<RtReadOnlyList<TValue>>
+  nameWithType: IEnumerable<RtReadOnlyList<TValue>>
+  fullName: System.Collections.Generic.IEnumerable<cfEngine.Rx.RtReadOnlyList<TValue>>
+  nameWithType.vb: IEnumerable(Of RtReadOnlyList(Of TValue))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of cfEngine.Rx.RtReadOnlyList(Of TValue))
+  name.vb: IEnumerable(Of RtReadOnlyList(Of TValue))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: cfEngine.Rx.RtReadOnlyList`1
+    name: RtReadOnlyList
+    href: cfEngine.Rx.RtReadOnlyList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )

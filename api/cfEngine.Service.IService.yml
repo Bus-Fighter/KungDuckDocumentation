@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Service.IService
+  commentId: T:cfEngine.Service.IService
+  id: IService
+  parent: cfEngine.Service
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IService
+  nameWithType: IService
+  fullName: cfEngine.Service.IService
+  type: Interface
+  source:
+    id: IService
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/game/ServiceLocator.cs
+    startLine: 6
+  namespace: cfEngine.Service
+  syntax:
+    content: 'public interface IService : IDisposable'
+    content.vb: Public Interface IService Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+references:
+- uid: cfEngine.Service
+  commentId: N:cfEngine.Service
+  href: cfEngine.html
+  name: cfEngine.Service
+  nameWithType: cfEngine.Service
+  fullName: cfEngine.Service
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine
+  commentId: N:cfUnityEngine
+  id: cfUnityEngine
+  children:
+  - cfUnityEngine.INamespaceScope
+  - cfUnityEngine.IPropertyBinder
+  - cfUnityEngine.IPropertyBoolResolver
+  - cfUnityEngine.IPropertyFloatResolver
+  - cfUnityEngine.IPropertyIntResolver
+  - cfUnityEngine.IPropertyObjectResolver
+  - cfUnityEngine.IPropertyResolver`1
+  - cfUnityEngine.IPropertySource
+  - cfUnityEngine.NamespaceScope
+  - cfUnityEngine.PropertyBinderBase`2
+  - cfUnityEngine.PropertyBoolBinder
+  - cfUnityEngine.PropertyBoolResolver
+  - cfUnityEngine.PropertyFloatBinder
+  - cfUnityEngine.PropertyFloatResolver
+  - cfUnityEngine.PropertyIntBinder
+  - cfUnityEngine.PropertyIntResolver
+  - cfUnityEngine.PropertyObjectBinder
+  - cfUnityEngine.PropertyObjectResolver
+  - cfUnityEngine.PropertyResolverBase`1
+  - cfUnityEngine.PropertySource
+  - cfUnityEngine.UGUITextResolver
+  langs:
+  - csharp
+  - vb
+  name: cfUnityEngine
+  nameWithType: cfUnityEngine
+  fullName: cfUnityEngine
+  type: Namespace
+references:
+- uid: cfUnityEngine.INamespaceScope
+  commentId: T:cfUnityEngine.INamespaceScope
+  parent: cfUnityEngine
+  href: cfUnityEngine.INamespaceScope.html
+  name: INamespaceScope
+  nameWithType: INamespaceScope
+  fullName: cfUnityEngine.INamespaceScope
+- uid: cfUnityEngine.IPropertyResolver`1
+  commentId: T:cfUnityEngine.IPropertyResolver`1
+  href: cfUnityEngine.IPropertyResolver-1.html
+  name: IPropertyResolver<T>
+  nameWithType: IPropertyResolver<T>
+  fullName: cfUnityEngine.IPropertyResolver<T>
+  nameWithType.vb: IPropertyResolver(Of T)
+  fullName.vb: cfUnityEngine.IPropertyResolver(Of T)
+  name.vb: IPropertyResolver(Of T)
+  spec.csharp:
+  - uid: cfUnityEngine.IPropertyResolver`1
+    name: IPropertyResolver
+    href: cfUnityEngine.IPropertyResolver-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.IPropertyResolver`1
+    name: IPropertyResolver
+    href: cfUnityEngine.IPropertyResolver-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfUnityEngine.IPropertyObjectResolver
+  commentId: T:cfUnityEngine.IPropertyObjectResolver
+  parent: cfUnityEngine
+  href: cfUnityEngine.IPropertyObjectResolver.html
+  name: IPropertyObjectResolver
+  nameWithType: IPropertyObjectResolver
+  fullName: cfUnityEngine.IPropertyObjectResolver
+- uid: cfUnityEngine.IPropertyIntResolver
+  commentId: T:cfUnityEngine.IPropertyIntResolver
+  parent: cfUnityEngine
+  href: cfUnityEngine.IPropertyIntResolver.html
+  name: IPropertyIntResolver
+  nameWithType: IPropertyIntResolver
+  fullName: cfUnityEngine.IPropertyIntResolver
+- uid: cfUnityEngine.IPropertyFloatResolver
+  commentId: T:cfUnityEngine.IPropertyFloatResolver
+  parent: cfUnityEngine
+  href: cfUnityEngine.IPropertyFloatResolver.html
+  name: IPropertyFloatResolver
+  nameWithType: IPropertyFloatResolver
+  fullName: cfUnityEngine.IPropertyFloatResolver
+- uid: cfUnityEngine.IPropertyBoolResolver
+  commentId: T:cfUnityEngine.IPropertyBoolResolver
+  parent: cfUnityEngine
+  href: cfUnityEngine.IPropertyBoolResolver.html
+  name: IPropertyBoolResolver
+  nameWithType: IPropertyBoolResolver
+  fullName: cfUnityEngine.IPropertyBoolResolver
+- uid: cfUnityEngine.NamespaceScope
+  commentId: T:cfUnityEngine.NamespaceScope
+  href: cfUnityEngine.NamespaceScope.html
+  name: NamespaceScope
+  nameWithType: NamespaceScope
+  fullName: cfUnityEngine.NamespaceScope
+- uid: cfUnityEngine.IPropertyBinder
+  commentId: T:cfUnityEngine.IPropertyBinder
+  parent: cfUnityEngine
+  href: cfUnityEngine.IPropertyBinder.html
+  name: IPropertyBinder
+  nameWithType: IPropertyBinder
+  fullName: cfUnityEngine.IPropertyBinder
+- uid: cfUnityEngine.PropertyBinderBase`2
+  commentId: T:cfUnityEngine.PropertyBinderBase`2
+  href: cfUnityEngine.PropertyBinderBase-2.html
+  name: PropertyBinderBase<T, TValueType>
+  nameWithType: PropertyBinderBase<T, TValueType>
+  fullName: cfUnityEngine.PropertyBinderBase<T, TValueType>
+  nameWithType.vb: PropertyBinderBase(Of T, TValueType)
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of T, TValueType)
+  name.vb: PropertyBinderBase(Of T, TValueType)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyBinderBase`2
+    name: PropertyBinderBase
+    href: cfUnityEngine.PropertyBinderBase-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TValueType
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.PropertyBinderBase`2
+    name: PropertyBinderBase
+    href: cfUnityEngine.PropertyBinderBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TValueType
+  - name: )
+- uid: cfUnityEngine.PropertyBoolBinder
+  commentId: T:cfUnityEngine.PropertyBoolBinder
+  href: cfUnityEngine.PropertyBoolBinder.html
+  name: PropertyBoolBinder
+  nameWithType: PropertyBoolBinder
+  fullName: cfUnityEngine.PropertyBoolBinder
+- uid: cfUnityEngine.PropertyFloatBinder
+  commentId: T:cfUnityEngine.PropertyFloatBinder
+  href: cfUnityEngine.PropertyFloatBinder.html
+  name: PropertyFloatBinder
+  nameWithType: PropertyFloatBinder
+  fullName: cfUnityEngine.PropertyFloatBinder
+- uid: cfUnityEngine.PropertyIntBinder
+  commentId: T:cfUnityEngine.PropertyIntBinder
+  href: cfUnityEngine.PropertyIntBinder.html
+  name: PropertyIntBinder
+  nameWithType: PropertyIntBinder
+  fullName: cfUnityEngine.PropertyIntBinder
+- uid: cfUnityEngine.PropertyObjectBinder
+  commentId: T:cfUnityEngine.PropertyObjectBinder
+  href: cfUnityEngine.PropertyObjectBinder.html
+  name: PropertyObjectBinder
+  nameWithType: PropertyObjectBinder
+  fullName: cfUnityEngine.PropertyObjectBinder
+- uid: cfUnityEngine.PropertyResolverBase`1
+  commentId: T:cfUnityEngine.PropertyResolverBase`1
+  href: cfUnityEngine.PropertyResolverBase-1.html
+  name: PropertyResolverBase<TValueType>
+  nameWithType: PropertyResolverBase<TValueType>
+  fullName: cfUnityEngine.PropertyResolverBase<TValueType>
+  nameWithType.vb: PropertyResolverBase(Of TValueType)
+  fullName.vb: cfUnityEngine.PropertyResolverBase(Of TValueType)
+  name.vb: PropertyResolverBase(Of TValueType)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyResolverBase`1
+    name: PropertyResolverBase
+    href: cfUnityEngine.PropertyResolverBase-1.html
+  - name: <
+  - name: TValueType
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.PropertyResolverBase`1
+    name: PropertyResolverBase
+    href: cfUnityEngine.PropertyResolverBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValueType
+  - name: )
+- uid: cfUnityEngine.PropertyObjectResolver
+  commentId: T:cfUnityEngine.PropertyObjectResolver
+  parent: cfUnityEngine
+  href: cfUnityEngine.PropertyObjectResolver.html
+  name: PropertyObjectResolver
+  nameWithType: PropertyObjectResolver
+  fullName: cfUnityEngine.PropertyObjectResolver
+- uid: cfUnityEngine.PropertyBoolResolver
+  commentId: T:cfUnityEngine.PropertyBoolResolver
+  parent: cfUnityEngine
+  href: cfUnityEngine.PropertyBoolResolver.html
+  name: PropertyBoolResolver
+  nameWithType: PropertyBoolResolver
+  fullName: cfUnityEngine.PropertyBoolResolver
+- uid: cfUnityEngine.PropertyIntResolver
+  commentId: T:cfUnityEngine.PropertyIntResolver
+  href: cfUnityEngine.PropertyIntResolver.html
+  name: PropertyIntResolver
+  nameWithType: PropertyIntResolver
+  fullName: cfUnityEngine.PropertyIntResolver
+- uid: cfUnityEngine.PropertyFloatResolver
+  commentId: T:cfUnityEngine.PropertyFloatResolver
+  href: cfUnityEngine.PropertyFloatResolver.html
+  name: PropertyFloatResolver
+  nameWithType: PropertyFloatResolver
+  fullName: cfUnityEngine.PropertyFloatResolver
+- uid: cfUnityEngine.IPropertySource
+  commentId: T:cfUnityEngine.IPropertySource
+  parent: cfUnityEngine
+  href: cfUnityEngine.IPropertySource.html
+  name: IPropertySource
+  nameWithType: IPropertySource
+  fullName: cfUnityEngine.IPropertySource
+- uid: cfUnityEngine.PropertySource
+  commentId: T:cfUnityEngine.PropertySource
+  parent: cfUnityEngine
+  href: cfUnityEngine.PropertySource.html
+  name: PropertySource
+  nameWithType: PropertySource
+  fullName: cfUnityEngine.PropertySource
+- uid: cfUnityEngine.UGUITextResolver
+  commentId: T:cfUnityEngine.UGUITextResolver
+  href: cfUnityEngine.UGUITextResolver.html
+  name: UGUITextResolver
+  nameWithType: UGUITextResolver
+  fullName: cfUnityEngine.UGUITextResolver
+- uid: cfUnityEngine
+  commentId: N:cfUnityEngine
+  href: cfUnityEngine.html
+  name: cfUnityEngine
+  nameWithType: cfUnityEngine
+  fullName: cfUnityEngine

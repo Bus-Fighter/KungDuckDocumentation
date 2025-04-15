@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.IPropertyFloatResolver
+  commentId: T:cfUnityEngine.IPropertyFloatResolver
+  id: IPropertyFloatResolver
+  parent: cfUnityEngine
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IPropertyFloatResolver
+  nameWithType: IPropertyFloatResolver
+  fullName: cfUnityEngine.IPropertyFloatResolver
+  type: Interface
+  source:
+    id: IPropertyFloatResolver
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/binder/IPropertyObjectResolver.cs
+    startLine: 10
+  namespace: cfUnityEngine
+  syntax:
+    content: 'public interface IPropertyFloatResolver : IPropertyResolver<float>'
+    content.vb: Public Interface IPropertyFloatResolver Inherits IPropertyResolver(Of Single)
+  inheritedMembers:
+  - cfUnityEngine.IPropertyResolver{System.Single}.canResolve
+  - cfUnityEngine.IPropertyResolver{System.Single}.Resolve(System.String,System.Single)
+references:
+- uid: cfUnityEngine
+  commentId: N:cfUnityEngine
+  href: cfUnityEngine.html
+  name: cfUnityEngine
+  nameWithType: cfUnityEngine
+  fullName: cfUnityEngine
+- uid: cfUnityEngine.IPropertyResolver{System.Single}.canResolve
+  commentId: P:cfUnityEngine.IPropertyResolver{System.Single}.canResolve
+  parent: cfUnityEngine.IPropertyResolver{System.Single}
+  definition: cfUnityEngine.IPropertyResolver`1.canResolve
+  href: cfUnityEngine.IPropertyResolver-1.html#cfUnityEngine_IPropertyResolver_1_canResolve
+  name: canResolve
+  nameWithType: IPropertyResolver<float>.canResolve
+  fullName: cfUnityEngine.IPropertyResolver<float>.canResolve
+  nameWithType.vb: IPropertyResolver(Of Single).canResolve
+  fullName.vb: cfUnityEngine.IPropertyResolver(Of Single).canResolve
+- uid: cfUnityEngine.IPropertyResolver{System.Single}.Resolve(System.String,System.Single)
+  commentId: M:cfUnityEngine.IPropertyResolver{System.Single}.Resolve(System.String,System.Single)
+  parent: cfUnityEngine.IPropertyResolver{System.Single}
+  definition: cfUnityEngine.IPropertyResolver`1.Resolve(System.String,`0)
+  href: cfUnityEngine.IPropertyResolver-1.html#cfUnityEngine_IPropertyResolver_1_Resolve_System_String__0_
+  name: Resolve(string, float)
+  nameWithType: IPropertyResolver<float>.Resolve(string, float)
+  fullName: cfUnityEngine.IPropertyResolver<float>.Resolve(string, float)
+  nameWithType.vb: IPropertyResolver(Of Single).Resolve(String, Single)
+  fullName.vb: cfUnityEngine.IPropertyResolver(Of Single).Resolve(String, Single)
+  name.vb: Resolve(String, Single)
+  spec.csharp:
+  - uid: cfUnityEngine.IPropertyResolver{System.Single}.Resolve(System.String,System.Single)
+    name: Resolve
+    href: cfUnityEngine.IPropertyResolver-1.html#cfUnityEngine_IPropertyResolver_1_Resolve_System_String__0_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.IPropertyResolver{System.Single}.Resolve(System.String,System.Single)
+    name: Resolve
+    href: cfUnityEngine.IPropertyResolver-1.html#cfUnityEngine_IPropertyResolver_1_Resolve_System_String__0_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: cfUnityEngine.IPropertyResolver`1.canResolve
+  commentId: P:cfUnityEngine.IPropertyResolver`1.canResolve
+  href: cfUnityEngine.IPropertyResolver-1.html#cfUnityEngine_IPropertyResolver_1_canResolve
+  name: canResolve
+  nameWithType: IPropertyResolver<T>.canResolve
+  fullName: cfUnityEngine.IPropertyResolver<T>.canResolve
+  nameWithType.vb: IPropertyResolver(Of T).canResolve
+  fullName.vb: cfUnityEngine.IPropertyResolver(Of T).canResolve
+- uid: cfUnityEngine.IPropertyResolver{System.Single}
+  commentId: T:cfUnityEngine.IPropertyResolver{System.Single}
+  parent: cfUnityEngine
+  definition: cfUnityEngine.IPropertyResolver`1
+  href: cfUnityEngine.IPropertyResolver-1.html
+  name: IPropertyResolver<float>
+  nameWithType: IPropertyResolver<float>
+  fullName: cfUnityEngine.IPropertyResolver<float>
+  nameWithType.vb: IPropertyResolver(Of Single)
+  fullName.vb: cfUnityEngine.IPropertyResolver(Of Single)
+  name.vb: IPropertyResolver(Of Single)
+  spec.csharp:
+  - uid: cfUnityEngine.IPropertyResolver`1
+    name: IPropertyResolver
+    href: cfUnityEngine.IPropertyResolver-1.html
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.IPropertyResolver`1
+    name: IPropertyResolver
+    href: cfUnityEngine.IPropertyResolver-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: cfUnityEngine.IPropertyResolver`1.Resolve(System.String,`0)
+  commentId: M:cfUnityEngine.IPropertyResolver`1.Resolve(System.String,`0)
+  isExternal: true
+  href: cfUnityEngine.IPropertyResolver-1.html#cfUnityEngine_IPropertyResolver_1_Resolve_System_String__0_
+  name: Resolve(string, T)
+  nameWithType: IPropertyResolver<T>.Resolve(string, T)
+  fullName: cfUnityEngine.IPropertyResolver<T>.Resolve(string, T)
+  nameWithType.vb: IPropertyResolver(Of T).Resolve(String, T)
+  fullName.vb: cfUnityEngine.IPropertyResolver(Of T).Resolve(String, T)
+  name.vb: Resolve(String, T)
+  spec.csharp:
+  - uid: cfUnityEngine.IPropertyResolver`1.Resolve(System.String,`0)
+    name: Resolve
+    href: cfUnityEngine.IPropertyResolver-1.html#cfUnityEngine_IPropertyResolver_1_Resolve_System_String__0_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.IPropertyResolver`1.Resolve(System.String,`0)
+    name: Resolve
+    href: cfUnityEngine.IPropertyResolver-1.html#cfUnityEngine_IPropertyResolver_1_Resolve_System_String__0_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfUnityEngine.IPropertyResolver`1
+  commentId: T:cfUnityEngine.IPropertyResolver`1
+  href: cfUnityEngine.IPropertyResolver-1.html
+  name: IPropertyResolver<T>
+  nameWithType: IPropertyResolver<T>
+  fullName: cfUnityEngine.IPropertyResolver<T>
+  nameWithType.vb: IPropertyResolver(Of T)
+  fullName.vb: cfUnityEngine.IPropertyResolver(Of T)
+  name.vb: IPropertyResolver(Of T)
+  spec.csharp:
+  - uid: cfUnityEngine.IPropertyResolver`1
+    name: IPropertyResolver
+    href: cfUnityEngine.IPropertyResolver-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.IPropertyResolver`1
+    name: IPropertyResolver
+    href: cfUnityEngine.IPropertyResolver-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

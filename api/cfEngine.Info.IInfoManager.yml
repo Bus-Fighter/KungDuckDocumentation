@@ -1,0 +1,393 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Info.IInfoManager
+  commentId: T:cfEngine.Info.IInfoManager
+  id: IInfoManager
+  parent: cfEngine.Info
+  children:
+  - cfEngine.Info.IInfoManager.GetAllValue
+  - cfEngine.Info.IInfoManager.LoadInfo
+  - cfEngine.Info.IInfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+  - cfEngine.Info.IInfoManager.infoDirectory
+  langs:
+  - csharp
+  - vb
+  name: IInfoManager
+  nameWithType: IInfoManager
+  fullName: cfEngine.Info.IInfoManager
+  type: Interface
+  source:
+    id: IInfoManager
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/InfoManager.cs
+    startLine: 10
+  namespace: cfEngine.Info
+  syntax:
+    content: 'public interface IInfoManager : IDisposable'
+    content.vb: Public Interface IInfoManager Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: cfEngine.Info.IInfoManager.infoDirectory
+  commentId: P:cfEngine.Info.IInfoManager.infoDirectory
+  id: infoDirectory
+  parent: cfEngine.Info.IInfoManager
+  langs:
+  - csharp
+  - vb
+  name: infoDirectory
+  nameWithType: IInfoManager.infoDirectory
+  fullName: cfEngine.Info.IInfoManager.infoDirectory
+  type: Property
+  source:
+    id: infoDirectory
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/InfoManager.cs
+    startLine: 12
+  namespace: cfEngine.Info
+  syntax:
+    content: string infoDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property infoDirectory As String
+  overload: cfEngine.Info.IInfoManager.infoDirectory*
+- uid: cfEngine.Info.IInfoManager.GetAllValue
+  commentId: M:cfEngine.Info.IInfoManager.GetAllValue
+  id: GetAllValue
+  parent: cfEngine.Info.IInfoManager
+  langs:
+  - csharp
+  - vb
+  name: GetAllValue()
+  nameWithType: IInfoManager.GetAllValue()
+  fullName: cfEngine.Info.IInfoManager.GetAllValue()
+  type: Method
+  source:
+    id: GetAllValue
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/InfoManager.cs
+    startLine: 13
+  namespace: cfEngine.Info
+  syntax:
+    content: IEnumerable<object> GetAllValue()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Object}
+    content.vb: Function GetAllValue() As IEnumerable(Of Object)
+  overload: cfEngine.Info.IInfoManager.GetAllValue*
+- uid: cfEngine.Info.IInfoManager.LoadInfo
+  commentId: M:cfEngine.Info.IInfoManager.LoadInfo
+  id: LoadInfo
+  parent: cfEngine.Info.IInfoManager
+  langs:
+  - csharp
+  - vb
+  name: LoadInfo()
+  nameWithType: IInfoManager.LoadInfo()
+  fullName: cfEngine.Info.IInfoManager.LoadInfo()
+  type: Method
+  source:
+    id: LoadInfo
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/InfoManager.cs
+    startLine: 14
+  namespace: cfEngine.Info
+  syntax:
+    content: void LoadInfo()
+    content.vb: Sub LoadInfo()
+  overload: cfEngine.Info.IInfoManager.LoadInfo*
+- uid: cfEngine.Info.IInfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+  commentId: M:cfEngine.Info.IInfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+  id: LoadInfoAsync(System.Threading.CancellationToken)
+  parent: cfEngine.Info.IInfoManager
+  langs:
+  - csharp
+  - vb
+  name: LoadInfoAsync(CancellationToken)
+  nameWithType: IInfoManager.LoadInfoAsync(CancellationToken)
+  fullName: cfEngine.Info.IInfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: LoadInfoAsync
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/InfoManager.cs
+    startLine: 15
+  namespace: cfEngine.Info
+  syntax:
+    content: Task LoadInfoAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function LoadInfoAsync(cancellationToken As CancellationToken) As Task
+  overload: cfEngine.Info.IInfoManager.LoadInfoAsync*
+references:
+- uid: cfEngine.Info
+  commentId: N:cfEngine.Info
+  href: cfEngine.html
+  name: cfEngine.Info
+  nameWithType: cfEngine.Info
+  fullName: cfEngine.Info
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Info
+    name: Info
+    href: cfEngine.Info.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Info
+    name: Info
+    href: cfEngine.Info.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Info.IInfoManager.infoDirectory*
+  commentId: Overload:cfEngine.Info.IInfoManager.infoDirectory
+  href: cfEngine.Info.IInfoManager.html#cfEngine_Info_IInfoManager_infoDirectory
+  name: infoDirectory
+  nameWithType: IInfoManager.infoDirectory
+  fullName: cfEngine.Info.IInfoManager.infoDirectory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: cfEngine.Info.IInfoManager.GetAllValue*
+  commentId: Overload:cfEngine.Info.IInfoManager.GetAllValue
+  href: cfEngine.Info.IInfoManager.html#cfEngine_Info_IInfoManager_GetAllValue
+  name: GetAllValue
+  nameWithType: IInfoManager.GetAllValue
+  fullName: cfEngine.Info.IInfoManager.GetAllValue
+- uid: System.Collections.Generic.IEnumerable{System.Object}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<object>
+  nameWithType: IEnumerable<object>
+  fullName: System.Collections.Generic.IEnumerable<object>
+  nameWithType.vb: IEnumerable(Of Object)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Object)
+  name.vb: IEnumerable(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: cfEngine.Info.IInfoManager.LoadInfo*
+  commentId: Overload:cfEngine.Info.IInfoManager.LoadInfo
+  href: cfEngine.Info.IInfoManager.html#cfEngine_Info_IInfoManager_LoadInfo
+  name: LoadInfo
+  nameWithType: IInfoManager.LoadInfo
+  fullName: cfEngine.Info.IInfoManager.LoadInfo
+- uid: cfEngine.Info.IInfoManager.LoadInfoAsync*
+  commentId: Overload:cfEngine.Info.IInfoManager.LoadInfoAsync
+  href: cfEngine.Info.IInfoManager.html#cfEngine_Info_IInfoManager_LoadInfoAsync_System_Threading_CancellationToken_
+  name: LoadInfoAsync
+  nameWithType: IInfoManager.LoadInfoAsync
+  fullName: cfEngine.Info.IInfoManager.LoadInfoAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

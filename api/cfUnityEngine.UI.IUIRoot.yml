@@ -1,0 +1,443 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.UI.IUIRoot
+  commentId: T:cfUnityEngine.UI.IUIRoot
+  id: IUIRoot
+  parent: cfUnityEngine.UI
+  children:
+  - cfUnityEngine.UI.IUIRoot.GetPanel(System.String)
+  - cfUnityEngine.UI.IUIRoot.GetPanel``1(System.String)
+  - cfUnityEngine.UI.IUIRoot.Initialize(cfEngine.Asset.AssetManager{UnityEngine.Object})
+  - cfUnityEngine.UI.IUIRoot.InstantiatePanel(System.String)
+  - cfUnityEngine.UI.IUIRoot.PreloadPanel(System.String)
+  - cfUnityEngine.UI.IUIRoot.Register``1(``0,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IUIRoot
+  nameWithType: IUIRoot
+  fullName: cfUnityEngine.UI.IUIRoot
+  type: Interface
+  source:
+    id: IUIRoot
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/IUIRoot.cs
+    startLine: 7
+  namespace: cfUnityEngine.UI
+  syntax:
+    content: 'public interface IUIRoot : IDisposable'
+    content.vb: Public Interface IUIRoot Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: cfUnityEngine.UI.IUIRoot.Initialize(cfEngine.Asset.AssetManager{UnityEngine.Object})
+  commentId: M:cfUnityEngine.UI.IUIRoot.Initialize(cfEngine.Asset.AssetManager{UnityEngine.Object})
+  id: Initialize(cfEngine.Asset.AssetManager{UnityEngine.Object})
+  parent: cfUnityEngine.UI.IUIRoot
+  langs:
+  - csharp
+  - vb
+  name: Initialize(AssetManager<Object>)
+  nameWithType: IUIRoot.Initialize(AssetManager<Object>)
+  fullName: cfUnityEngine.UI.IUIRoot.Initialize(cfEngine.Asset.AssetManager<UnityEngine.Object>)
+  type: Method
+  source:
+    id: Initialize
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/IUIRoot.cs
+    startLine: 9
+  namespace: cfUnityEngine.UI
+  syntax:
+    content: void Initialize(AssetManager<Object> assetLoader)
+    parameters:
+    - id: assetLoader
+      type: cfEngine.Asset.AssetManager{UnityEngine.Object}
+    content.vb: Sub Initialize(assetLoader As AssetManager(Of [Object]))
+  overload: cfUnityEngine.UI.IUIRoot.Initialize*
+  nameWithType.vb: IUIRoot.Initialize(AssetManager(Of Object))
+  fullName.vb: cfUnityEngine.UI.IUIRoot.Initialize(cfEngine.Asset.AssetManager(Of UnityEngine.Object))
+  name.vb: Initialize(AssetManager(Of Object))
+- uid: cfUnityEngine.UI.IUIRoot.Register``1(``0,System.String)
+  commentId: M:cfUnityEngine.UI.IUIRoot.Register``1(``0,System.String)
+  id: Register``1(``0,System.String)
+  parent: cfUnityEngine.UI.IUIRoot
+  langs:
+  - csharp
+  - vb
+  name: Register<T>(T, string)
+  nameWithType: IUIRoot.Register<T>(T, string)
+  fullName: cfUnityEngine.UI.IUIRoot.Register<T>(T, string)
+  type: Method
+  source:
+    id: Register
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/IUIRoot.cs
+    startLine: 10
+  namespace: cfUnityEngine.UI
+  syntax:
+    content: 'T Register<T>(T panel, string path) where T : IUIPanel'
+    parameters:
+    - id: panel
+      type: '{T}'
+    - id: path
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Function Register(Of T As IUIPanel)(panel As T, path As String) As T
+  overload: cfUnityEngine.UI.IUIRoot.Register*
+  nameWithType.vb: IUIRoot.Register(Of T)(T, String)
+  fullName.vb: cfUnityEngine.UI.IUIRoot.Register(Of T)(T, String)
+  name.vb: Register(Of T)(T, String)
+- uid: cfUnityEngine.UI.IUIRoot.PreloadPanel(System.String)
+  commentId: M:cfUnityEngine.UI.IUIRoot.PreloadPanel(System.String)
+  id: PreloadPanel(System.String)
+  parent: cfUnityEngine.UI.IUIRoot
+  langs:
+  - csharp
+  - vb
+  name: PreloadPanel(string)
+  nameWithType: IUIRoot.PreloadPanel(string)
+  fullName: cfUnityEngine.UI.IUIRoot.PreloadPanel(string)
+  type: Method
+  source:
+    id: PreloadPanel
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/IUIRoot.cs
+    startLine: 12
+  namespace: cfUnityEngine.UI
+  syntax:
+    content: Task PreloadPanel(string panelId)
+    parameters:
+    - id: panelId
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function PreloadPanel(panelId As String) As Task
+  overload: cfUnityEngine.UI.IUIRoot.PreloadPanel*
+  nameWithType.vb: IUIRoot.PreloadPanel(String)
+  fullName.vb: cfUnityEngine.UI.IUIRoot.PreloadPanel(String)
+  name.vb: PreloadPanel(String)
+- uid: cfUnityEngine.UI.IUIRoot.InstantiatePanel(System.String)
+  commentId: M:cfUnityEngine.UI.IUIRoot.InstantiatePanel(System.String)
+  id: InstantiatePanel(System.String)
+  parent: cfUnityEngine.UI.IUIRoot
+  langs:
+  - csharp
+  - vb
+  name: InstantiatePanel(string)
+  nameWithType: IUIRoot.InstantiatePanel(string)
+  fullName: cfUnityEngine.UI.IUIRoot.InstantiatePanel(string)
+  type: Method
+  source:
+    id: InstantiatePanel
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/IUIRoot.cs
+    startLine: 14
+  namespace: cfUnityEngine.UI
+  syntax:
+    content: Task InstantiatePanel(string panelId)
+    parameters:
+    - id: panelId
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function InstantiatePanel(panelId As String) As Task
+  overload: cfUnityEngine.UI.IUIRoot.InstantiatePanel*
+  nameWithType.vb: IUIRoot.InstantiatePanel(String)
+  fullName.vb: cfUnityEngine.UI.IUIRoot.InstantiatePanel(String)
+  name.vb: InstantiatePanel(String)
+- uid: cfUnityEngine.UI.IUIRoot.GetPanel(System.String)
+  commentId: M:cfUnityEngine.UI.IUIRoot.GetPanel(System.String)
+  id: GetPanel(System.String)
+  parent: cfUnityEngine.UI.IUIRoot
+  langs:
+  - csharp
+  - vb
+  name: GetPanel(string)
+  nameWithType: IUIRoot.GetPanel(string)
+  fullName: cfUnityEngine.UI.IUIRoot.GetPanel(string)
+  type: Method
+  source:
+    id: GetPanel
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/IUIRoot.cs
+    startLine: 15
+  namespace: cfUnityEngine.UI
+  syntax:
+    content: IUIPanel GetPanel(string panelId)
+    parameters:
+    - id: panelId
+      type: System.String
+    return:
+      type: cfUnityEngine.UI.IUIPanel
+    content.vb: Function GetPanel(panelId As String) As IUIPanel
+  overload: cfUnityEngine.UI.IUIRoot.GetPanel*
+  nameWithType.vb: IUIRoot.GetPanel(String)
+  fullName.vb: cfUnityEngine.UI.IUIRoot.GetPanel(String)
+  name.vb: GetPanel(String)
+- uid: cfUnityEngine.UI.IUIRoot.GetPanel``1(System.String)
+  commentId: M:cfUnityEngine.UI.IUIRoot.GetPanel``1(System.String)
+  id: GetPanel``1(System.String)
+  parent: cfUnityEngine.UI.IUIRoot
+  langs:
+  - csharp
+  - vb
+  name: GetPanel<T>(string)
+  nameWithType: IUIRoot.GetPanel<T>(string)
+  fullName: cfUnityEngine.UI.IUIRoot.GetPanel<T>(string)
+  type: Method
+  source:
+    id: GetPanel
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/IUIRoot.cs
+    startLine: 16
+  namespace: cfUnityEngine.UI
+  syntax:
+    content: 'T GetPanel<T>(string panelId) where T : IUIPanel'
+    parameters:
+    - id: panelId
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Function GetPanel(Of T As IUIPanel)(panelId As String) As T
+  overload: cfUnityEngine.UI.IUIRoot.GetPanel*
+  nameWithType.vb: IUIRoot.GetPanel(Of T)(String)
+  fullName.vb: cfUnityEngine.UI.IUIRoot.GetPanel(Of T)(String)
+  name.vb: GetPanel(Of T)(String)
+references:
+- uid: cfUnityEngine.UI
+  commentId: N:cfUnityEngine.UI
+  href: cfUnityEngine.html
+  name: cfUnityEngine.UI
+  nameWithType: cfUnityEngine.UI
+  fullName: cfUnityEngine.UI
+  spec.csharp:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+  spec.vb:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfUnityEngine.UI.IUIRoot.Initialize*
+  commentId: Overload:cfUnityEngine.UI.IUIRoot.Initialize
+  href: cfUnityEngine.UI.IUIRoot.html#cfUnityEngine_UI_IUIRoot_Initialize_cfEngine_Asset_AssetManager_UnityEngine_Object__
+  name: Initialize
+  nameWithType: IUIRoot.Initialize
+  fullName: cfUnityEngine.UI.IUIRoot.Initialize
+- uid: cfEngine.Asset.AssetManager{UnityEngine.Object}
+  commentId: T:cfEngine.Asset.AssetManager{UnityEngine.Object}
+  parent: cfEngine.Asset
+  definition: cfEngine.Asset.AssetManager`1
+  href: cfEngine.Asset.AssetManager-1.html
+  name: AssetManager<Object>
+  nameWithType: AssetManager<Object>
+  fullName: cfEngine.Asset.AssetManager<UnityEngine.Object>
+  nameWithType.vb: AssetManager(Of Object)
+  fullName.vb: cfEngine.Asset.AssetManager(Of UnityEngine.Object)
+  name.vb: AssetManager(Of Object)
+  spec.csharp:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: <
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: cfEngine.Asset.AssetManager`1
+  commentId: T:cfEngine.Asset.AssetManager`1
+  href: cfEngine.Asset.AssetManager-1.html
+  name: AssetManager<TBaseObject>
+  nameWithType: AssetManager<TBaseObject>
+  fullName: cfEngine.Asset.AssetManager<TBaseObject>
+  nameWithType.vb: AssetManager(Of TBaseObject)
+  fullName.vb: cfEngine.Asset.AssetManager(Of TBaseObject)
+  name.vb: AssetManager(Of TBaseObject)
+  spec.csharp:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: <
+  - name: TBaseObject
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TBaseObject
+  - name: )
+- uid: cfEngine.Asset
+  commentId: N:cfEngine.Asset
+  href: cfEngine.html
+  name: cfEngine.Asset
+  nameWithType: cfEngine.Asset
+  fullName: cfEngine.Asset
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Asset
+    name: Asset
+    href: cfEngine.Asset.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Asset
+    name: Asset
+    href: cfEngine.Asset.html
+- uid: cfUnityEngine.UI.IUIRoot.Register*
+  commentId: Overload:cfUnityEngine.UI.IUIRoot.Register
+  href: cfUnityEngine.UI.IUIRoot.html#cfUnityEngine_UI_IUIRoot_Register__1___0_System_String_
+  name: Register
+  nameWithType: IUIRoot.Register
+  fullName: cfUnityEngine.UI.IUIRoot.Register
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: cfUnityEngine.UI.IUIRoot.PreloadPanel*
+  commentId: Overload:cfUnityEngine.UI.IUIRoot.PreloadPanel
+  href: cfUnityEngine.UI.IUIRoot.html#cfUnityEngine_UI_IUIRoot_PreloadPanel_System_String_
+  name: PreloadPanel
+  nameWithType: IUIRoot.PreloadPanel
+  fullName: cfUnityEngine.UI.IUIRoot.PreloadPanel
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: cfUnityEngine.UI.IUIRoot.InstantiatePanel*
+  commentId: Overload:cfUnityEngine.UI.IUIRoot.InstantiatePanel
+  href: cfUnityEngine.UI.IUIRoot.html#cfUnityEngine_UI_IUIRoot_InstantiatePanel_System_String_
+  name: InstantiatePanel
+  nameWithType: IUIRoot.InstantiatePanel
+  fullName: cfUnityEngine.UI.IUIRoot.InstantiatePanel
+- uid: cfUnityEngine.UI.IUIRoot.GetPanel*
+  commentId: Overload:cfUnityEngine.UI.IUIRoot.GetPanel
+  href: cfUnityEngine.UI.IUIRoot.html#cfUnityEngine_UI_IUIRoot_GetPanel_System_String_
+  name: GetPanel
+  nameWithType: IUIRoot.GetPanel
+  fullName: cfUnityEngine.UI.IUIRoot.GetPanel
+- uid: cfUnityEngine.UI.IUIPanel
+  commentId: T:cfUnityEngine.UI.IUIPanel
+  parent: cfUnityEngine.UI
+  href: cfUnityEngine.UI.IUIPanel.html
+  name: IUIPanel
+  nameWithType: IUIPanel
+  fullName: cfUnityEngine.UI.IUIPanel

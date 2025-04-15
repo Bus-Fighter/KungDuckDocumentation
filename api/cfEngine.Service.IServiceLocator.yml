@@ -1,0 +1,269 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Service.IServiceLocator
+  commentId: T:cfEngine.Service.IServiceLocator
+  id: IServiceLocator
+  parent: cfEngine.Service
+  children:
+  - cfEngine.Service.IServiceLocator.GetService``1
+  - cfEngine.Service.IServiceLocator.GetService``1(System.String)
+  - cfEngine.Service.IServiceLocator.Register``1(``0,System.String)
+  - cfEngine.Service.IServiceLocator.Unregister(System.String)
+  - cfEngine.Service.IServiceLocator.Unregister``1(``0)
+  langs:
+  - csharp
+  - vb
+  name: IServiceLocator
+  nameWithType: IServiceLocator
+  fullName: cfEngine.Service.IServiceLocator
+  type: Interface
+  source:
+    id: IServiceLocator
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/game/ServiceLocator.cs
+    startLine: 7
+  namespace: cfEngine.Service
+  syntax:
+    content: 'public interface IServiceLocator : IDisposable'
+    content.vb: Public Interface IServiceLocator Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: cfEngine.Service.IServiceLocator.Register``1(``0,System.String)
+  commentId: M:cfEngine.Service.IServiceLocator.Register``1(``0,System.String)
+  id: Register``1(``0,System.String)
+  parent: cfEngine.Service.IServiceLocator
+  langs:
+  - csharp
+  - vb
+  name: Register<T>(T, string)
+  nameWithType: IServiceLocator.Register<T>(T, string)
+  fullName: cfEngine.Service.IServiceLocator.Register<T>(T, string)
+  type: Method
+  source:
+    id: Register
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/game/ServiceLocator.cs
+    startLine: 9
+  namespace: cfEngine.Service
+  syntax:
+    content: 'void Register<T>(T service, string serviceName) where T : IService'
+    parameters:
+    - id: service
+      type: '{T}'
+    - id: serviceName
+      type: System.String
+    typeParameters:
+    - id: T
+    content.vb: Sub Register(Of T As IService)(service As T, serviceName As String)
+  overload: cfEngine.Service.IServiceLocator.Register*
+  nameWithType.vb: IServiceLocator.Register(Of T)(T, String)
+  fullName.vb: cfEngine.Service.IServiceLocator.Register(Of T)(T, String)
+  name.vb: Register(Of T)(T, String)
+- uid: cfEngine.Service.IServiceLocator.Unregister``1(``0)
+  commentId: M:cfEngine.Service.IServiceLocator.Unregister``1(``0)
+  id: Unregister``1(``0)
+  parent: cfEngine.Service.IServiceLocator
+  langs:
+  - csharp
+  - vb
+  name: Unregister<T>(T)
+  nameWithType: IServiceLocator.Unregister<T>(T)
+  fullName: cfEngine.Service.IServiceLocator.Unregister<T>(T)
+  type: Method
+  source:
+    id: Unregister
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/game/ServiceLocator.cs
+    startLine: 10
+  namespace: cfEngine.Service
+  syntax:
+    content: 'void Unregister<T>(T service) where T : IService'
+    parameters:
+    - id: service
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Sub Unregister(Of T As IService)(service As T)
+  overload: cfEngine.Service.IServiceLocator.Unregister*
+  nameWithType.vb: IServiceLocator.Unregister(Of T)(T)
+  fullName.vb: cfEngine.Service.IServiceLocator.Unregister(Of T)(T)
+  name.vb: Unregister(Of T)(T)
+- uid: cfEngine.Service.IServiceLocator.Unregister(System.String)
+  commentId: M:cfEngine.Service.IServiceLocator.Unregister(System.String)
+  id: Unregister(System.String)
+  parent: cfEngine.Service.IServiceLocator
+  langs:
+  - csharp
+  - vb
+  name: Unregister(string)
+  nameWithType: IServiceLocator.Unregister(string)
+  fullName: cfEngine.Service.IServiceLocator.Unregister(string)
+  type: Method
+  source:
+    id: Unregister
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/game/ServiceLocator.cs
+    startLine: 11
+  namespace: cfEngine.Service
+  syntax:
+    content: void Unregister(string serviceName)
+    parameters:
+    - id: serviceName
+      type: System.String
+    content.vb: Sub Unregister(serviceName As String)
+  overload: cfEngine.Service.IServiceLocator.Unregister*
+  nameWithType.vb: IServiceLocator.Unregister(String)
+  fullName.vb: cfEngine.Service.IServiceLocator.Unregister(String)
+  name.vb: Unregister(String)
+- uid: cfEngine.Service.IServiceLocator.GetService``1
+  commentId: M:cfEngine.Service.IServiceLocator.GetService``1
+  id: GetService``1
+  parent: cfEngine.Service.IServiceLocator
+  langs:
+  - csharp
+  - vb
+  name: GetService<T>()
+  nameWithType: IServiceLocator.GetService<T>()
+  fullName: cfEngine.Service.IServiceLocator.GetService<T>()
+  type: Method
+  source:
+    id: GetService
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/game/ServiceLocator.cs
+    startLine: 12
+  namespace: cfEngine.Service
+  syntax:
+    content: 'T GetService<T>() where T : IService'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Function GetService(Of T As IService)() As T
+  overload: cfEngine.Service.IServiceLocator.GetService*
+  nameWithType.vb: IServiceLocator.GetService(Of T)()
+  fullName.vb: cfEngine.Service.IServiceLocator.GetService(Of T)()
+  name.vb: GetService(Of T)()
+- uid: cfEngine.Service.IServiceLocator.GetService``1(System.String)
+  commentId: M:cfEngine.Service.IServiceLocator.GetService``1(System.String)
+  id: GetService``1(System.String)
+  parent: cfEngine.Service.IServiceLocator
+  langs:
+  - csharp
+  - vb
+  name: GetService<T>(string)
+  nameWithType: IServiceLocator.GetService<T>(string)
+  fullName: cfEngine.Service.IServiceLocator.GetService<T>(string)
+  type: Method
+  source:
+    id: GetService
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/game/ServiceLocator.cs
+    startLine: 13
+  namespace: cfEngine.Service
+  syntax:
+    content: 'T GetService<T>(string serviceName) where T : IService'
+    parameters:
+    - id: serviceName
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Function GetService(Of T As IService)(serviceName As String) As T
+  overload: cfEngine.Service.IServiceLocator.GetService*
+  nameWithType.vb: IServiceLocator.GetService(Of T)(String)
+  fullName.vb: cfEngine.Service.IServiceLocator.GetService(Of T)(String)
+  name.vb: GetService(Of T)(String)
+references:
+- uid: cfEngine.Service
+  commentId: N:cfEngine.Service
+  href: cfEngine.html
+  name: cfEngine.Service
+  nameWithType: cfEngine.Service
+  fullName: cfEngine.Service
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Service.IServiceLocator.Register*
+  commentId: Overload:cfEngine.Service.IServiceLocator.Register
+  href: cfEngine.Service.IServiceLocator.html#cfEngine_Service_IServiceLocator_Register__1___0_System_String_
+  name: Register
+  nameWithType: IServiceLocator.Register
+  fullName: cfEngine.Service.IServiceLocator.Register
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: cfEngine.Service.IServiceLocator.Unregister*
+  commentId: Overload:cfEngine.Service.IServiceLocator.Unregister
+  href: cfEngine.Service.IServiceLocator.html#cfEngine_Service_IServiceLocator_Unregister__1___0_
+  name: Unregister
+  nameWithType: IServiceLocator.Unregister
+  fullName: cfEngine.Service.IServiceLocator.Unregister
+- uid: cfEngine.Service.IServiceLocator.GetService*
+  commentId: Overload:cfEngine.Service.IServiceLocator.GetService
+  href: cfEngine.Service.IServiceLocator.html#cfEngine_Service_IServiceLocator_GetService__1
+  name: GetService
+  nameWithType: IServiceLocator.GetService
+  fullName: cfEngine.Service.IServiceLocator.GetService

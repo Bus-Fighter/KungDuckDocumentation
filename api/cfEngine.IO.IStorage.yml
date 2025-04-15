@@ -1,0 +1,686 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.IO.IStorage
+  commentId: T:cfEngine.IO.IStorage
+  id: IStorage
+  parent: cfEngine.IO
+  children:
+  - cfEngine.IO.IStorage.CopyFile(System.String,System.String,System.Boolean)
+  - cfEngine.IO.IStorage.CreateStream(System.String,System.Boolean)
+  - cfEngine.IO.IStorage.DeleteFile(System.String)
+  - cfEngine.IO.IStorage.GetFiles(System.String)
+  - cfEngine.IO.IStorage.IsFileExist(System.String)
+  - cfEngine.IO.IStorage.IsStorageExist
+  - cfEngine.IO.IStorage.LoadBytes(System.String)
+  - cfEngine.IO.IStorage.LoadBytesAsync(System.String,System.Threading.CancellationToken)
+  - cfEngine.IO.IStorage.Save(System.String,System.Byte[])
+  - cfEngine.IO.IStorage.SaveAsync(System.String,System.Byte[],System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IStorage
+  nameWithType: IStorage
+  fullName: cfEngine.IO.IStorage
+  type: Interface
+  source:
+    id: IStorage
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/io/Storage.cs
+    startLine: 7
+  namespace: cfEngine.IO
+  syntax:
+    content: 'public interface IStorage : IDisposable'
+    content.vb: Public Interface IStorage Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: cfEngine.IO.IStorage.GetFiles(System.String)
+  commentId: M:cfEngine.IO.IStorage.GetFiles(System.String)
+  id: GetFiles(System.String)
+  parent: cfEngine.IO.IStorage
+  langs:
+  - csharp
+  - vb
+  name: GetFiles(string)
+  nameWithType: IStorage.GetFiles(string)
+  fullName: cfEngine.IO.IStorage.GetFiles(string)
+  type: Method
+  source:
+    id: GetFiles
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/io/Storage.cs
+    startLine: 9
+  namespace: cfEngine.IO
+  syntax:
+    content: string[] GetFiles(string regex)
+    parameters:
+    - id: regex
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: Function GetFiles(regex As String) As String()
+  overload: cfEngine.IO.IStorage.GetFiles*
+  nameWithType.vb: IStorage.GetFiles(String)
+  fullName.vb: cfEngine.IO.IStorage.GetFiles(String)
+  name.vb: GetFiles(String)
+- uid: cfEngine.IO.IStorage.IsFileExist(System.String)
+  commentId: M:cfEngine.IO.IStorage.IsFileExist(System.String)
+  id: IsFileExist(System.String)
+  parent: cfEngine.IO.IStorage
+  langs:
+  - csharp
+  - vb
+  name: IsFileExist(string)
+  nameWithType: IStorage.IsFileExist(string)
+  fullName: cfEngine.IO.IStorage.IsFileExist(string)
+  type: Method
+  source:
+    id: IsFileExist
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/io/Storage.cs
+    startLine: 10
+  namespace: cfEngine.IO
+  syntax:
+    content: bool IsFileExist(string relativePath)
+    parameters:
+    - id: relativePath
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function IsFileExist(relativePath As String) As Boolean
+  overload: cfEngine.IO.IStorage.IsFileExist*
+  nameWithType.vb: IStorage.IsFileExist(String)
+  fullName.vb: cfEngine.IO.IStorage.IsFileExist(String)
+  name.vb: IsFileExist(String)
+- uid: cfEngine.IO.IStorage.CopyFile(System.String,System.String,System.Boolean)
+  commentId: M:cfEngine.IO.IStorage.CopyFile(System.String,System.String,System.Boolean)
+  id: CopyFile(System.String,System.String,System.Boolean)
+  parent: cfEngine.IO.IStorage
+  langs:
+  - csharp
+  - vb
+  name: CopyFile(string, string, bool)
+  nameWithType: IStorage.CopyFile(string, string, bool)
+  fullName: cfEngine.IO.IStorage.CopyFile(string, string, bool)
+  type: Method
+  source:
+    id: CopyFile
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/io/Storage.cs
+    startLine: 11
+  namespace: cfEngine.IO
+  syntax:
+    content: void CopyFile(string relativeFrom, string relativeTo, bool overwrite = false)
+    parameters:
+    - id: relativeFrom
+      type: System.String
+    - id: relativeTo
+      type: System.String
+    - id: overwrite
+      type: System.Boolean
+    content.vb: Sub CopyFile(relativeFrom As String, relativeTo As String, overwrite As Boolean = False)
+  overload: cfEngine.IO.IStorage.CopyFile*
+  nameWithType.vb: IStorage.CopyFile(String, String, Boolean)
+  fullName.vb: cfEngine.IO.IStorage.CopyFile(String, String, Boolean)
+  name.vb: CopyFile(String, String, Boolean)
+- uid: cfEngine.IO.IStorage.DeleteFile(System.String)
+  commentId: M:cfEngine.IO.IStorage.DeleteFile(System.String)
+  id: DeleteFile(System.String)
+  parent: cfEngine.IO.IStorage
+  langs:
+  - csharp
+  - vb
+  name: DeleteFile(string)
+  nameWithType: IStorage.DeleteFile(string)
+  fullName: cfEngine.IO.IStorage.DeleteFile(string)
+  type: Method
+  source:
+    id: DeleteFile
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/io/Storage.cs
+    startLine: 12
+  namespace: cfEngine.IO
+  syntax:
+    content: void DeleteFile(string relativePath)
+    parameters:
+    - id: relativePath
+      type: System.String
+    content.vb: Sub DeleteFile(relativePath As String)
+  overload: cfEngine.IO.IStorage.DeleteFile*
+  nameWithType.vb: IStorage.DeleteFile(String)
+  fullName.vb: cfEngine.IO.IStorage.DeleteFile(String)
+  name.vb: DeleteFile(String)
+- uid: cfEngine.IO.IStorage.LoadBytes(System.String)
+  commentId: M:cfEngine.IO.IStorage.LoadBytes(System.String)
+  id: LoadBytes(System.String)
+  parent: cfEngine.IO.IStorage
+  langs:
+  - csharp
+  - vb
+  name: LoadBytes(string)
+  nameWithType: IStorage.LoadBytes(string)
+  fullName: cfEngine.IO.IStorage.LoadBytes(string)
+  type: Method
+  source:
+    id: LoadBytes
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/io/Storage.cs
+    startLine: 13
+  namespace: cfEngine.IO
+  syntax:
+    content: byte[] LoadBytes(string relativePath)
+    parameters:
+    - id: relativePath
+      type: System.String
+    return:
+      type: System.Byte[]
+    content.vb: Function LoadBytes(relativePath As String) As Byte()
+  overload: cfEngine.IO.IStorage.LoadBytes*
+  nameWithType.vb: IStorage.LoadBytes(String)
+  fullName.vb: cfEngine.IO.IStorage.LoadBytes(String)
+  name.vb: LoadBytes(String)
+- uid: cfEngine.IO.IStorage.LoadBytesAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:cfEngine.IO.IStorage.LoadBytesAsync(System.String,System.Threading.CancellationToken)
+  id: LoadBytesAsync(System.String,System.Threading.CancellationToken)
+  parent: cfEngine.IO.IStorage
+  langs:
+  - csharp
+  - vb
+  name: LoadBytesAsync(string, CancellationToken)
+  nameWithType: IStorage.LoadBytesAsync(string, CancellationToken)
+  fullName: cfEngine.IO.IStorage.LoadBytesAsync(string, System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: LoadBytesAsync
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/io/Storage.cs
+    startLine: 14
+  namespace: cfEngine.IO
+  syntax:
+    content: Task<byte[]> LoadBytesAsync(string relativePath, CancellationToken token = default)
+    parameters:
+    - id: relativePath
+      type: System.String
+    - id: token
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+    content.vb: Function LoadBytesAsync(relativePath As String, token As CancellationToken = Nothing) As Task(Of Byte())
+  overload: cfEngine.IO.IStorage.LoadBytesAsync*
+  nameWithType.vb: IStorage.LoadBytesAsync(String, CancellationToken)
+  fullName.vb: cfEngine.IO.IStorage.LoadBytesAsync(String, System.Threading.CancellationToken)
+  name.vb: LoadBytesAsync(String, CancellationToken)
+- uid: cfEngine.IO.IStorage.CreateStream(System.String,System.Boolean)
+  commentId: M:cfEngine.IO.IStorage.CreateStream(System.String,System.Boolean)
+  id: CreateStream(System.String,System.Boolean)
+  parent: cfEngine.IO.IStorage
+  langs:
+  - csharp
+  - vb
+  name: CreateStream(string, bool)
+  nameWithType: IStorage.CreateStream(string, bool)
+  fullName: cfEngine.IO.IStorage.CreateStream(string, bool)
+  type: Method
+  source:
+    id: CreateStream
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/io/Storage.cs
+    startLine: 15
+  namespace: cfEngine.IO
+  syntax:
+    content: Stream CreateStream(string relativePath, bool useAsync)
+    parameters:
+    - id: relativePath
+      type: System.String
+    - id: useAsync
+      type: System.Boolean
+    return:
+      type: System.IO.Stream
+    content.vb: Function CreateStream(relativePath As String, useAsync As Boolean) As Stream
+  overload: cfEngine.IO.IStorage.CreateStream*
+  nameWithType.vb: IStorage.CreateStream(String, Boolean)
+  fullName.vb: cfEngine.IO.IStorage.CreateStream(String, Boolean)
+  name.vb: CreateStream(String, Boolean)
+- uid: cfEngine.IO.IStorage.Save(System.String,System.Byte[])
+  commentId: M:cfEngine.IO.IStorage.Save(System.String,System.Byte[])
+  id: Save(System.String,System.Byte[])
+  parent: cfEngine.IO.IStorage
+  langs:
+  - csharp
+  - vb
+  name: Save(string, byte[])
+  nameWithType: IStorage.Save(string, byte[])
+  fullName: cfEngine.IO.IStorage.Save(string, byte[])
+  type: Method
+  source:
+    id: Save
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/io/Storage.cs
+    startLine: 16
+  namespace: cfEngine.IO
+  syntax:
+    content: void Save(string relativePath, byte[] data)
+    parameters:
+    - id: relativePath
+      type: System.String
+    - id: data
+      type: System.Byte[]
+    content.vb: Sub Save(relativePath As String, data As Byte())
+  overload: cfEngine.IO.IStorage.Save*
+  nameWithType.vb: IStorage.Save(String, Byte())
+  fullName.vb: cfEngine.IO.IStorage.Save(String, Byte())
+  name.vb: Save(String, Byte())
+- uid: cfEngine.IO.IStorage.SaveAsync(System.String,System.Byte[],System.Threading.CancellationToken)
+  commentId: M:cfEngine.IO.IStorage.SaveAsync(System.String,System.Byte[],System.Threading.CancellationToken)
+  id: SaveAsync(System.String,System.Byte[],System.Threading.CancellationToken)
+  parent: cfEngine.IO.IStorage
+  langs:
+  - csharp
+  - vb
+  name: SaveAsync(string, byte[], CancellationToken)
+  nameWithType: IStorage.SaveAsync(string, byte[], CancellationToken)
+  fullName: cfEngine.IO.IStorage.SaveAsync(string, byte[], System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: SaveAsync
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/io/Storage.cs
+    startLine: 17
+  namespace: cfEngine.IO
+  syntax:
+    content: Task SaveAsync(string relativePath, byte[] data, CancellationToken token = default)
+    parameters:
+    - id: relativePath
+      type: System.String
+    - id: data
+      type: System.Byte[]
+    - id: token
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SaveAsync(relativePath As String, data As Byte(), token As CancellationToken = Nothing) As Task
+  overload: cfEngine.IO.IStorage.SaveAsync*
+  nameWithType.vb: IStorage.SaveAsync(String, Byte(), CancellationToken)
+  fullName.vb: cfEngine.IO.IStorage.SaveAsync(String, Byte(), System.Threading.CancellationToken)
+  name.vb: SaveAsync(String, Byte(), CancellationToken)
+- uid: cfEngine.IO.IStorage.IsStorageExist
+  commentId: M:cfEngine.IO.IStorage.IsStorageExist
+  id: IsStorageExist
+  parent: cfEngine.IO.IStorage
+  langs:
+  - csharp
+  - vb
+  name: IsStorageExist()
+  nameWithType: IStorage.IsStorageExist()
+  fullName: cfEngine.IO.IStorage.IsStorageExist()
+  type: Method
+  source:
+    id: IsStorageExist
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/io/Storage.cs
+    startLine: 18
+  namespace: cfEngine.IO
+  syntax:
+    content: bool IsStorageExist()
+    return:
+      type: System.Boolean
+    content.vb: Function IsStorageExist() As Boolean
+  overload: cfEngine.IO.IStorage.IsStorageExist*
+references:
+- uid: cfEngine.IO
+  commentId: N:cfEngine.IO
+  href: cfEngine.html
+  name: cfEngine.IO
+  nameWithType: cfEngine.IO
+  fullName: cfEngine.IO
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.IO
+    name: IO
+    href: cfEngine.IO.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.IO
+    name: IO
+    href: cfEngine.IO.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.IO.IStorage.GetFiles*
+  commentId: Overload:cfEngine.IO.IStorage.GetFiles
+  href: cfEngine.IO.IStorage.html#cfEngine_IO_IStorage_GetFiles_System_String_
+  name: GetFiles
+  nameWithType: IStorage.GetFiles
+  fullName: cfEngine.IO.IStorage.GetFiles
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: cfEngine.IO.IStorage.IsFileExist*
+  commentId: Overload:cfEngine.IO.IStorage.IsFileExist
+  href: cfEngine.IO.IStorage.html#cfEngine_IO_IStorage_IsFileExist_System_String_
+  name: IsFileExist
+  nameWithType: IStorage.IsFileExist
+  fullName: cfEngine.IO.IStorage.IsFileExist
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: cfEngine.IO.IStorage.CopyFile*
+  commentId: Overload:cfEngine.IO.IStorage.CopyFile
+  href: cfEngine.IO.IStorage.html#cfEngine_IO_IStorage_CopyFile_System_String_System_String_System_Boolean_
+  name: CopyFile
+  nameWithType: IStorage.CopyFile
+  fullName: cfEngine.IO.IStorage.CopyFile
+- uid: cfEngine.IO.IStorage.DeleteFile*
+  commentId: Overload:cfEngine.IO.IStorage.DeleteFile
+  href: cfEngine.IO.IStorage.html#cfEngine_IO_IStorage_DeleteFile_System_String_
+  name: DeleteFile
+  nameWithType: IStorage.DeleteFile
+  fullName: cfEngine.IO.IStorage.DeleteFile
+- uid: cfEngine.IO.IStorage.LoadBytes*
+  commentId: Overload:cfEngine.IO.IStorage.LoadBytes
+  href: cfEngine.IO.IStorage.html#cfEngine_IO_IStorage_LoadBytes_System_String_
+  name: LoadBytes
+  nameWithType: IStorage.LoadBytes
+  fullName: cfEngine.IO.IStorage.LoadBytes
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: cfEngine.IO.IStorage.LoadBytesAsync*
+  commentId: Overload:cfEngine.IO.IStorage.LoadBytesAsync
+  href: cfEngine.IO.IStorage.html#cfEngine_IO_IStorage_LoadBytesAsync_System_String_System_Threading_CancellationToken_
+  name: LoadBytesAsync
+  nameWithType: IStorage.LoadBytesAsync
+  fullName: cfEngine.IO.IStorage.LoadBytesAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Byte[]}
+  commentId: T:System.Threading.Tasks.Task{System.Byte[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<byte[]>
+  nameWithType: Task<byte[]>
+  fullName: System.Threading.Tasks.Task<byte[]>
+  nameWithType.vb: Task(Of Byte())
+  fullName.vb: System.Threading.Tasks.Task(Of Byte())
+  name.vb: Task(Of Byte())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: cfEngine.IO.IStorage.CreateStream*
+  commentId: Overload:cfEngine.IO.IStorage.CreateStream
+  href: cfEngine.IO.IStorage.html#cfEngine_IO_IStorage_CreateStream_System_String_System_Boolean_
+  name: CreateStream
+  nameWithType: IStorage.CreateStream
+  fullName: cfEngine.IO.IStorage.CreateStream
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: cfEngine.IO.IStorage.Save*
+  commentId: Overload:cfEngine.IO.IStorage.Save
+  href: cfEngine.IO.IStorage.html#cfEngine_IO_IStorage_Save_System_String_System_Byte___
+  name: Save
+  nameWithType: IStorage.Save
+  fullName: cfEngine.IO.IStorage.Save
+- uid: cfEngine.IO.IStorage.SaveAsync*
+  commentId: Overload:cfEngine.IO.IStorage.SaveAsync
+  href: cfEngine.IO.IStorage.html#cfEngine_IO_IStorage_SaveAsync_System_String_System_Byte___System_Threading_CancellationToken_
+  name: SaveAsync
+  nameWithType: IStorage.SaveAsync
+  fullName: cfEngine.IO.IStorage.SaveAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: cfEngine.IO.IStorage.IsStorageExist*
+  commentId: Overload:cfEngine.IO.IStorage.IsStorageExist
+  href: cfEngine.IO.IStorage.html#cfEngine_IO_IStorage_IsStorageExist
+  name: IsStorageExist
+  nameWithType: IStorage.IsStorageExist
+  fullName: cfEngine.IO.IStorage.IsStorageExist

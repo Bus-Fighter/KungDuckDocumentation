@@ -1,0 +1,692 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.UI.UGUI.ActiveInactiveResolver
+  commentId: T:cfUnityEngine.UI.UGUI.ActiveInactiveResolver
+  id: ActiveInactiveResolver
+  parent: cfUnityEngine.UI.UGUI
+  children:
+  - cfUnityEngine.UI.UGUI.ActiveInactiveResolver.OnResolve(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ActiveInactiveResolver
+  nameWithType: ActiveInactiveResolver
+  fullName: cfUnityEngine.UI.UGUI.ActiveInactiveResolver
+  type: Class
+  source:
+    id: ActiveInactiveResolver
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/resolver/enable/ActiveInactiveResolver.cs
+    startLine: 4
+  namespace: cfUnityEngine.UI.UGUI
+  syntax:
+    content: >-
+      [AddComponentMenu("cfUnityEngine/UI/UGUI/Resolver/ActiveInactiveResolver")]
+
+      public class ActiveInactiveResolver : PropertyBoolResolver, IPropertyBoolResolver, IPropertyResolver<bool>
+    content.vb: >-
+      <AddComponentMenu("cfUnityEngine/UI/UGUI/Resolver/ActiveInactiveResolver")>
+
+      Public Class ActiveInactiveResolver Inherits PropertyBoolResolver Implements IPropertyBoolResolver, IPropertyResolver(Of Boolean)
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - cfUnityEngine.PropertyResolverBase{System.Boolean}
+  - cfUnityEngine.PropertyBoolResolver
+  implements:
+  - cfUnityEngine.IPropertyBoolResolver
+  - cfUnityEngine.IPropertyResolver{System.Boolean}
+  inheritedMembers:
+  - cfUnityEngine.PropertyBoolResolver.canResolve
+  - cfUnityEngine.PropertyResolverBase{System.Boolean}.Resolve(System.String,System.Boolean)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: UnityEngine.AddComponentMenu
+    ctor: UnityEngine.AddComponentMenu.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: cfUnityEngine/UI/UGUI/Resolver/ActiveInactiveResolver
+- uid: cfUnityEngine.UI.UGUI.ActiveInactiveResolver.OnResolve(System.Boolean)
+  commentId: M:cfUnityEngine.UI.UGUI.ActiveInactiveResolver.OnResolve(System.Boolean)
+  id: OnResolve(System.Boolean)
+  parent: cfUnityEngine.UI.UGUI.ActiveInactiveResolver
+  langs:
+  - csharp
+  - vb
+  name: OnResolve(bool)
+  nameWithType: ActiveInactiveResolver.OnResolve(bool)
+  fullName: cfUnityEngine.UI.UGUI.ActiveInactiveResolver.OnResolve(bool)
+  type: Method
+  source:
+    id: OnResolve
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/resolver/enable/ActiveInactiveResolver.cs
+    startLine: 7
+  namespace: cfUnityEngine.UI.UGUI
+  example: []
+  syntax:
+    content: >-
+      [MethodButton("", false)]
+
+      protected override void OnResolve(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    content.vb: >-
+      <MethodButton("", False)>
+
+      Protected Overrides Sub OnResolve(value As Boolean)
+  overridden: cfUnityEngine.PropertyResolverBase{System.Boolean}.OnResolve(System.Boolean)
+  overload: cfUnityEngine.UI.UGUI.ActiveInactiveResolver.OnResolve*
+  attributes:
+  - type: cfUnityEngine.Editor.MethodButtonAttribute
+    ctor: cfUnityEngine.Editor.MethodButtonAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: ''
+    - type: System.Boolean
+      value: false
+  nameWithType.vb: ActiveInactiveResolver.OnResolve(Boolean)
+  fullName.vb: cfUnityEngine.UI.UGUI.ActiveInactiveResolver.OnResolve(Boolean)
+  name.vb: OnResolve(Boolean)
+references:
+- uid: cfUnityEngine.UI.UGUI
+  commentId: N:cfUnityEngine.UI.UGUI
+  href: cfUnityEngine.html
+  name: cfUnityEngine.UI.UGUI
+  nameWithType: cfUnityEngine.UI.UGUI
+  fullName: cfUnityEngine.UI.UGUI
+  spec.csharp:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI
+    name: UGUI
+    href: cfUnityEngine.UI.UGUI.html
+  spec.vb:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI
+    name: UGUI
+    href: cfUnityEngine.UI.UGUI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: cfUnityEngine.PropertyResolverBase{System.Boolean}
+  commentId: T:cfUnityEngine.PropertyResolverBase{System.Boolean}
+  parent: cfUnityEngine
+  definition: cfUnityEngine.PropertyResolverBase`1
+  href: cfUnityEngine.PropertyResolverBase-1.html
+  name: PropertyResolverBase<bool>
+  nameWithType: PropertyResolverBase<bool>
+  fullName: cfUnityEngine.PropertyResolverBase<bool>
+  nameWithType.vb: PropertyResolverBase(Of Boolean)
+  fullName.vb: cfUnityEngine.PropertyResolverBase(Of Boolean)
+  name.vb: PropertyResolverBase(Of Boolean)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyResolverBase`1
+    name: PropertyResolverBase
+    href: cfUnityEngine.PropertyResolverBase-1.html
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.PropertyResolverBase`1
+    name: PropertyResolverBase
+    href: cfUnityEngine.PropertyResolverBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: cfUnityEngine.PropertyBoolResolver
+  commentId: T:cfUnityEngine.PropertyBoolResolver
+  parent: cfUnityEngine
+  href: cfUnityEngine.PropertyBoolResolver.html
+  name: PropertyBoolResolver
+  nameWithType: PropertyBoolResolver
+  fullName: cfUnityEngine.PropertyBoolResolver
+- uid: cfUnityEngine.IPropertyBoolResolver
+  commentId: T:cfUnityEngine.IPropertyBoolResolver
+  parent: cfUnityEngine
+  href: cfUnityEngine.IPropertyBoolResolver.html
+  name: IPropertyBoolResolver
+  nameWithType: IPropertyBoolResolver
+  fullName: cfUnityEngine.IPropertyBoolResolver
+- uid: cfUnityEngine.IPropertyResolver{System.Boolean}
+  commentId: T:cfUnityEngine.IPropertyResolver{System.Boolean}
+  parent: cfUnityEngine
+  definition: cfUnityEngine.IPropertyResolver`1
+  href: cfUnityEngine.IPropertyResolver-1.html
+  name: IPropertyResolver<bool>
+  nameWithType: IPropertyResolver<bool>
+  fullName: cfUnityEngine.IPropertyResolver<bool>
+  nameWithType.vb: IPropertyResolver(Of Boolean)
+  fullName.vb: cfUnityEngine.IPropertyResolver(Of Boolean)
+  name.vb: IPropertyResolver(Of Boolean)
+  spec.csharp:
+  - uid: cfUnityEngine.IPropertyResolver`1
+    name: IPropertyResolver
+    href: cfUnityEngine.IPropertyResolver-1.html
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.IPropertyResolver`1
+    name: IPropertyResolver
+    href: cfUnityEngine.IPropertyResolver-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: cfUnityEngine.PropertyBoolResolver.canResolve
+  commentId: P:cfUnityEngine.PropertyBoolResolver.canResolve
+  parent: cfUnityEngine.PropertyBoolResolver
+  href: cfUnityEngine.PropertyBoolResolver.html#cfUnityEngine_PropertyBoolResolver_canResolve
+  name: canResolve
+  nameWithType: PropertyBoolResolver.canResolve
+  fullName: cfUnityEngine.PropertyBoolResolver.canResolve
+- uid: cfUnityEngine.PropertyResolverBase{System.Boolean}.Resolve(System.String,System.Boolean)
+  commentId: M:cfUnityEngine.PropertyResolverBase{System.Boolean}.Resolve(System.String,System.Boolean)
+  parent: cfUnityEngine.PropertyResolverBase{System.Boolean}
+  definition: cfUnityEngine.PropertyResolverBase`1.Resolve(System.String,`0)
+  href: cfUnityEngine.PropertyResolverBase-1.html#cfUnityEngine_PropertyResolverBase_1_Resolve_System_String__0_
+  name: Resolve(string, bool)
+  nameWithType: PropertyResolverBase<bool>.Resolve(string, bool)
+  fullName: cfUnityEngine.PropertyResolverBase<bool>.Resolve(string, bool)
+  nameWithType.vb: PropertyResolverBase(Of Boolean).Resolve(String, Boolean)
+  fullName.vb: cfUnityEngine.PropertyResolverBase(Of Boolean).Resolve(String, Boolean)
+  name.vb: Resolve(String, Boolean)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyResolverBase{System.Boolean}.Resolve(System.String,System.Boolean)
+    name: Resolve
+    href: cfUnityEngine.PropertyResolverBase-1.html#cfUnityEngine_PropertyResolverBase_1_Resolve_System_String__0_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyResolverBase{System.Boolean}.Resolve(System.String,System.Boolean)
+    name: Resolve
+    href: cfUnityEngine.PropertyResolverBase-1.html#cfUnityEngine_PropertyResolverBase_1_Resolve_System_String__0_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: cfUnityEngine.PropertyResolverBase`1
+  commentId: T:cfUnityEngine.PropertyResolverBase`1
+  href: cfUnityEngine.PropertyResolverBase-1.html
+  name: PropertyResolverBase<TValueType>
+  nameWithType: PropertyResolverBase<TValueType>
+  fullName: cfUnityEngine.PropertyResolverBase<TValueType>
+  nameWithType.vb: PropertyResolverBase(Of TValueType)
+  fullName.vb: cfUnityEngine.PropertyResolverBase(Of TValueType)
+  name.vb: PropertyResolverBase(Of TValueType)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyResolverBase`1
+    name: PropertyResolverBase
+    href: cfUnityEngine.PropertyResolverBase-1.html
+  - name: <
+  - name: TValueType
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.PropertyResolverBase`1
+    name: PropertyResolverBase
+    href: cfUnityEngine.PropertyResolverBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValueType
+  - name: )
+- uid: cfUnityEngine
+  commentId: N:cfUnityEngine
+  href: cfUnityEngine.html
+  name: cfUnityEngine
+  nameWithType: cfUnityEngine
+  fullName: cfUnityEngine
+- uid: cfUnityEngine.IPropertyResolver`1
+  commentId: T:cfUnityEngine.IPropertyResolver`1
+  href: cfUnityEngine.IPropertyResolver-1.html
+  name: IPropertyResolver<T>
+  nameWithType: IPropertyResolver<T>
+  fullName: cfUnityEngine.IPropertyResolver<T>
+  nameWithType.vb: IPropertyResolver(Of T)
+  fullName.vb: cfUnityEngine.IPropertyResolver(Of T)
+  name.vb: IPropertyResolver(Of T)
+  spec.csharp:
+  - uid: cfUnityEngine.IPropertyResolver`1
+    name: IPropertyResolver
+    href: cfUnityEngine.IPropertyResolver-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.IPropertyResolver`1
+    name: IPropertyResolver
+    href: cfUnityEngine.IPropertyResolver-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfUnityEngine.PropertyResolverBase`1.Resolve(System.String,`0)
+  commentId: M:cfUnityEngine.PropertyResolverBase`1.Resolve(System.String,`0)
+  isExternal: true
+  href: cfUnityEngine.PropertyResolverBase-1.html#cfUnityEngine_PropertyResolverBase_1_Resolve_System_String__0_
+  name: Resolve(string, TValueType)
+  nameWithType: PropertyResolverBase<TValueType>.Resolve(string, TValueType)
+  fullName: cfUnityEngine.PropertyResolverBase<TValueType>.Resolve(string, TValueType)
+  nameWithType.vb: PropertyResolverBase(Of TValueType).Resolve(String, TValueType)
+  fullName.vb: cfUnityEngine.PropertyResolverBase(Of TValueType).Resolve(String, TValueType)
+  name.vb: Resolve(String, TValueType)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyResolverBase`1.Resolve(System.String,`0)
+    name: Resolve
+    href: cfUnityEngine.PropertyResolverBase-1.html#cfUnityEngine_PropertyResolverBase_1_Resolve_System_String__0_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TValueType
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyResolverBase`1.Resolve(System.String,`0)
+    name: Resolve
+    href: cfUnityEngine.PropertyResolverBase-1.html#cfUnityEngine_PropertyResolverBase_1_Resolve_System_String__0_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TValueType
+  - name: )
+- uid: cfUnityEngine.PropertyResolverBase{System.Boolean}.OnResolve(System.Boolean)
+  commentId: M:cfUnityEngine.PropertyResolverBase{System.Boolean}.OnResolve(System.Boolean)
+  parent: cfUnityEngine.PropertyResolverBase{System.Boolean}
+  definition: cfUnityEngine.PropertyResolverBase`1.OnResolve(`0)
+  href: cfUnityEngine.PropertyResolverBase-1.html#cfUnityEngine_PropertyResolverBase_1_OnResolve__0_
+  name: OnResolve(bool)
+  nameWithType: PropertyResolverBase<bool>.OnResolve(bool)
+  fullName: cfUnityEngine.PropertyResolverBase<bool>.OnResolve(bool)
+  nameWithType.vb: PropertyResolverBase(Of Boolean).OnResolve(Boolean)
+  fullName.vb: cfUnityEngine.PropertyResolverBase(Of Boolean).OnResolve(Boolean)
+  name.vb: OnResolve(Boolean)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyResolverBase{System.Boolean}.OnResolve(System.Boolean)
+    name: OnResolve
+    href: cfUnityEngine.PropertyResolverBase-1.html#cfUnityEngine_PropertyResolverBase_1_OnResolve__0_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyResolverBase{System.Boolean}.OnResolve(System.Boolean)
+    name: OnResolve
+    href: cfUnityEngine.PropertyResolverBase-1.html#cfUnityEngine_PropertyResolverBase_1_OnResolve__0_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: cfUnityEngine.UI.UGUI.ActiveInactiveResolver.OnResolve*
+  commentId: Overload:cfUnityEngine.UI.UGUI.ActiveInactiveResolver.OnResolve
+  href: cfUnityEngine.UI.UGUI.ActiveInactiveResolver.html#cfUnityEngine_UI_UGUI_ActiveInactiveResolver_OnResolve_System_Boolean_
+  name: OnResolve
+  nameWithType: ActiveInactiveResolver.OnResolve
+  fullName: cfUnityEngine.UI.UGUI.ActiveInactiveResolver.OnResolve
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: cfUnityEngine.PropertyResolverBase`1.OnResolve(`0)
+  commentId: M:cfUnityEngine.PropertyResolverBase`1.OnResolve(`0)
+  href: cfUnityEngine.PropertyResolverBase-1.html#cfUnityEngine_PropertyResolverBase_1_OnResolve__0_
+  name: OnResolve(TValueType)
+  nameWithType: PropertyResolverBase<TValueType>.OnResolve(TValueType)
+  fullName: cfUnityEngine.PropertyResolverBase<TValueType>.OnResolve(TValueType)
+  nameWithType.vb: PropertyResolverBase(Of TValueType).OnResolve(TValueType)
+  fullName.vb: cfUnityEngine.PropertyResolverBase(Of TValueType).OnResolve(TValueType)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyResolverBase`1.OnResolve(`0)
+    name: OnResolve
+    href: cfUnityEngine.PropertyResolverBase-1.html#cfUnityEngine_PropertyResolverBase_1_OnResolve__0_
+  - name: (
+  - name: TValueType
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyResolverBase`1.OnResolve(`0)
+    name: OnResolve
+    href: cfUnityEngine.PropertyResolverBase-1.html#cfUnityEngine_PropertyResolverBase_1_OnResolve__0_
+  - name: (
+  - name: TValueType
+  - name: )

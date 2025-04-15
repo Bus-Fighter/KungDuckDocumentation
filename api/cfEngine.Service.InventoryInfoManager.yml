@@ -1,0 +1,1084 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Service.InventoryInfoManager
+  commentId: T:cfEngine.Service.InventoryInfoManager
+  id: InventoryInfoManager
+  parent: cfEngine.Service
+  children:
+  - cfEngine.Service.InventoryInfoManager.#ctor(cfEngine.Info.IValueLoader{cfEngine.Service.InventoryInfo})
+  - cfEngine.Service.InventoryInfoManager.GetOrDefault(System.String)
+  - cfEngine.Service.InventoryInfoManager.infoDirectory
+  - cfEngine.Service.InventoryInfoManager.keyFn
+  langs:
+  - csharp
+  - vb
+  name: InventoryInfoManager
+  nameWithType: InventoryInfoManager
+  fullName: cfEngine.Service.InventoryInfoManager
+  type: Class
+  source:
+    id: InventoryInfoManager
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryInfo.cs
+    startLine: 5
+  namespace: cfEngine.Service
+  syntax:
+    content: 'public class InventoryInfoManager : ConfigInfoManager<string, InventoryInfo>, IInfoManager, IDisposable'
+    content.vb: Public Class InventoryInfoManager Inherits ConfigInfoManager(Of String, InventoryInfo) Implements IInfoManager, IDisposable
+  inheritance:
+  - System.Object
+  - cfEngine.Info.InfoManager
+  - cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}
+  implements:
+  - cfEngine.Info.IInfoManager
+  - System.IDisposable
+  inheritedMembers:
+  - cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}._valueMap
+  - cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.ValueMap
+  - cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.GetAllValue
+  - cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.allValues
+  - cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.keyFn
+  - cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.LoadInfo
+  - cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.LoadInfoAsync(System.Threading.CancellationToken)
+  - cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.Dispose
+  - cfEngine.Info.InfoManager.GetAllValue
+  - cfEngine.Info.InfoManager.LoadInfo
+  - cfEngine.Info.InfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+  - cfEngine.Info.InfoManager.OnLoadCompleted
+  - cfEngine.Info.InfoManager.Dispose
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: cfEngine.Service.InventoryInfoManager.infoDirectory
+  commentId: P:cfEngine.Service.InventoryInfoManager.infoDirectory
+  id: infoDirectory
+  parent: cfEngine.Service.InventoryInfoManager
+  langs:
+  - csharp
+  - vb
+  name: infoDirectory
+  nameWithType: InventoryInfoManager.infoDirectory
+  fullName: cfEngine.Service.InventoryInfoManager.infoDirectory
+  type: Property
+  source:
+    id: infoDirectory
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryInfo.cs
+    startLine: 7
+  namespace: cfEngine.Service
+  example: []
+  syntax:
+    content: public override string infoDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property infoDirectory As String
+  overridden: cfEngine.Info.InfoManager.infoDirectory
+  overload: cfEngine.Service.InventoryInfoManager.infoDirectory*
+- uid: cfEngine.Service.InventoryInfoManager.keyFn
+  commentId: P:cfEngine.Service.InventoryInfoManager.keyFn
+  id: keyFn
+  parent: cfEngine.Service.InventoryInfoManager
+  langs:
+  - csharp
+  - vb
+  name: keyFn
+  nameWithType: InventoryInfoManager.keyFn
+  fullName: cfEngine.Service.InventoryInfoManager.keyFn
+  type: Property
+  source:
+    id: keyFn
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryInfo.cs
+    startLine: 8
+  namespace: cfEngine.Service
+  example: []
+  syntax:
+    content: protected override Func<InventoryInfo, string> keyFn { get; }
+    parameters: []
+    return:
+      type: System.Func{cfEngine.Service.InventoryInfo,System.String}
+    content.vb: Protected Overrides ReadOnly Property keyFn As Func(Of InventoryInfo, String)
+  overridden: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.keyFn
+  overload: cfEngine.Service.InventoryInfoManager.keyFn*
+- uid: cfEngine.Service.InventoryInfoManager.GetOrDefault(System.String)
+  commentId: M:cfEngine.Service.InventoryInfoManager.GetOrDefault(System.String)
+  id: GetOrDefault(System.String)
+  parent: cfEngine.Service.InventoryInfoManager
+  langs:
+  - csharp
+  - vb
+  name: GetOrDefault(string)
+  nameWithType: InventoryInfoManager.GetOrDefault(string)
+  fullName: cfEngine.Service.InventoryInfoManager.GetOrDefault(string)
+  type: Method
+  source:
+    id: GetOrDefault
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryInfo.cs
+    startLine: 10
+  namespace: cfEngine.Service
+  syntax:
+    content: public InventoryInfo GetOrDefault(string itemId)
+    parameters:
+    - id: itemId
+      type: System.String
+    return:
+      type: cfEngine.Service.InventoryInfo
+    content.vb: Public Function GetOrDefault(itemId As String) As InventoryInfo
+  overload: cfEngine.Service.InventoryInfoManager.GetOrDefault*
+  nameWithType.vb: InventoryInfoManager.GetOrDefault(String)
+  fullName.vb: cfEngine.Service.InventoryInfoManager.GetOrDefault(String)
+  name.vb: GetOrDefault(String)
+- uid: cfEngine.Service.InventoryInfoManager.#ctor(cfEngine.Info.IValueLoader{cfEngine.Service.InventoryInfo})
+  commentId: M:cfEngine.Service.InventoryInfoManager.#ctor(cfEngine.Info.IValueLoader{cfEngine.Service.InventoryInfo})
+  id: '#ctor(cfEngine.Info.IValueLoader{cfEngine.Service.InventoryInfo})'
+  parent: cfEngine.Service.InventoryInfoManager
+  langs:
+  - csharp
+  - vb
+  name: InventoryInfoManager(IValueLoader<InventoryInfo>)
+  nameWithType: InventoryInfoManager.InventoryInfoManager(IValueLoader<InventoryInfo>)
+  fullName: cfEngine.Service.InventoryInfoManager.InventoryInfoManager(cfEngine.Info.IValueLoader<cfEngine.Service.InventoryInfo>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryInfo.cs
+    startLine: 25
+  namespace: cfEngine.Service
+  syntax:
+    content: public InventoryInfoManager(IValueLoader<InventoryInfo> loader)
+    parameters:
+    - id: loader
+      type: cfEngine.Info.IValueLoader{cfEngine.Service.InventoryInfo}
+    content.vb: Public Sub New(loader As IValueLoader(Of InventoryInfo))
+  overload: cfEngine.Service.InventoryInfoManager.#ctor*
+  nameWithType.vb: InventoryInfoManager.New(IValueLoader(Of InventoryInfo))
+  fullName.vb: cfEngine.Service.InventoryInfoManager.New(cfEngine.Info.IValueLoader(Of cfEngine.Service.InventoryInfo))
+  name.vb: New(IValueLoader(Of InventoryInfo))
+references:
+- uid: cfEngine.Service
+  commentId: N:cfEngine.Service
+  href: cfEngine.html
+  name: cfEngine.Service
+  nameWithType: cfEngine.Service
+  fullName: cfEngine.Service
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: cfEngine.Info.InfoManager
+  commentId: T:cfEngine.Info.InfoManager
+  parent: cfEngine.Info
+  href: cfEngine.Info.InfoManager.html
+  name: InfoManager
+  nameWithType: InfoManager
+  fullName: cfEngine.Info.InfoManager
+- uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}
+  commentId: T:cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}
+  parent: cfEngine.Info
+  definition: cfEngine.Info.ConfigInfoManager`2
+  href: cfEngine.Info.ConfigInfoManager-2.html
+  name: ConfigInfoManager<string, InventoryInfo>
+  nameWithType: ConfigInfoManager<string, InventoryInfo>
+  fullName: cfEngine.Info.ConfigInfoManager<string, cfEngine.Service.InventoryInfo>
+  nameWithType.vb: ConfigInfoManager(Of String, InventoryInfo)
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of String, cfEngine.Service.InventoryInfo)
+  name.vb: ConfigInfoManager(Of String, InventoryInfo)
+  spec.csharp:
+  - uid: cfEngine.Info.ConfigInfoManager`2
+    name: ConfigInfoManager
+    href: cfEngine.Info.ConfigInfoManager-2.html
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Service.InventoryInfo
+    name: InventoryInfo
+    href: cfEngine.Service.InventoryInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Info.ConfigInfoManager`2
+    name: ConfigInfoManager
+    href: cfEngine.Info.ConfigInfoManager-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: cfEngine.Service.InventoryInfo
+    name: InventoryInfo
+    href: cfEngine.Service.InventoryInfo.html
+  - name: )
+- uid: cfEngine.Info.IInfoManager
+  commentId: T:cfEngine.Info.IInfoManager
+  parent: cfEngine.Info
+  href: cfEngine.Info.IInfoManager.html
+  name: IInfoManager
+  nameWithType: IInfoManager
+  fullName: cfEngine.Info.IInfoManager
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}._valueMap
+  commentId: F:cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}._valueMap
+  parent: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}
+  definition: cfEngine.Info.ConfigInfoManager`2._valueMap
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2__valueMap
+  name: _valueMap
+  nameWithType: ConfigInfoManager<string, InventoryInfo>._valueMap
+  fullName: cfEngine.Info.ConfigInfoManager<string, cfEngine.Service.InventoryInfo>._valueMap
+  nameWithType.vb: ConfigInfoManager(Of String, InventoryInfo)._valueMap
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of String, cfEngine.Service.InventoryInfo)._valueMap
+- uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.ValueMap
+  commentId: P:cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.ValueMap
+  parent: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}
+  definition: cfEngine.Info.ConfigInfoManager`2.ValueMap
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_ValueMap
+  name: ValueMap
+  nameWithType: ConfigInfoManager<string, InventoryInfo>.ValueMap
+  fullName: cfEngine.Info.ConfigInfoManager<string, cfEngine.Service.InventoryInfo>.ValueMap
+  nameWithType.vb: ConfigInfoManager(Of String, InventoryInfo).ValueMap
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of String, cfEngine.Service.InventoryInfo).ValueMap
+- uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.GetAllValue
+  commentId: M:cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.GetAllValue
+  parent: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}
+  definition: cfEngine.Info.ConfigInfoManager`2.GetAllValue
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_GetAllValue
+  name: GetAllValue()
+  nameWithType: ConfigInfoManager<string, InventoryInfo>.GetAllValue()
+  fullName: cfEngine.Info.ConfigInfoManager<string, cfEngine.Service.InventoryInfo>.GetAllValue()
+  nameWithType.vb: ConfigInfoManager(Of String, InventoryInfo).GetAllValue()
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of String, cfEngine.Service.InventoryInfo).GetAllValue()
+  spec.csharp:
+  - uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.GetAllValue
+    name: GetAllValue
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_GetAllValue
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.GetAllValue
+    name: GetAllValue
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_GetAllValue
+  - name: (
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.allValues
+  commentId: P:cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.allValues
+  parent: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}
+  definition: cfEngine.Info.ConfigInfoManager`2.allValues
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_allValues
+  name: allValues
+  nameWithType: ConfigInfoManager<string, InventoryInfo>.allValues
+  fullName: cfEngine.Info.ConfigInfoManager<string, cfEngine.Service.InventoryInfo>.allValues
+  nameWithType.vb: ConfigInfoManager(Of String, InventoryInfo).allValues
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of String, cfEngine.Service.InventoryInfo).allValues
+- uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.keyFn
+  commentId: P:cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.keyFn
+  parent: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}
+  definition: cfEngine.Info.ConfigInfoManager`2.keyFn
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_keyFn
+  name: keyFn
+  nameWithType: ConfigInfoManager<string, InventoryInfo>.keyFn
+  fullName: cfEngine.Info.ConfigInfoManager<string, cfEngine.Service.InventoryInfo>.keyFn
+  nameWithType.vb: ConfigInfoManager(Of String, InventoryInfo).keyFn
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of String, cfEngine.Service.InventoryInfo).keyFn
+- uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.LoadInfo
+  commentId: M:cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.LoadInfo
+  parent: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}
+  definition: cfEngine.Info.ConfigInfoManager`2.LoadInfo
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfo
+  name: LoadInfo()
+  nameWithType: ConfigInfoManager<string, InventoryInfo>.LoadInfo()
+  fullName: cfEngine.Info.ConfigInfoManager<string, cfEngine.Service.InventoryInfo>.LoadInfo()
+  nameWithType.vb: ConfigInfoManager(Of String, InventoryInfo).LoadInfo()
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of String, cfEngine.Service.InventoryInfo).LoadInfo()
+  spec.csharp:
+  - uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.LoadInfo
+    name: LoadInfo
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.LoadInfo
+    name: LoadInfo
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfo
+  - name: (
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.LoadInfoAsync(System.Threading.CancellationToken)
+  commentId: M:cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.LoadInfoAsync(System.Threading.CancellationToken)
+  parent: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}
+  definition: cfEngine.Info.ConfigInfoManager`2.LoadInfoAsync(System.Threading.CancellationToken)
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfoAsync_System_Threading_CancellationToken_
+  name: LoadInfoAsync(CancellationToken)
+  nameWithType: ConfigInfoManager<string, InventoryInfo>.LoadInfoAsync(CancellationToken)
+  fullName: cfEngine.Info.ConfigInfoManager<string, cfEngine.Service.InventoryInfo>.LoadInfoAsync(System.Threading.CancellationToken)
+  nameWithType.vb: ConfigInfoManager(Of String, InventoryInfo).LoadInfoAsync(CancellationToken)
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of String, cfEngine.Service.InventoryInfo).LoadInfoAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.LoadInfoAsync(System.Threading.CancellationToken)
+    name: LoadInfoAsync
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfoAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.LoadInfoAsync(System.Threading.CancellationToken)
+    name: LoadInfoAsync
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfoAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.Dispose
+  commentId: M:cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.Dispose
+  parent: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}
+  definition: cfEngine.Info.ConfigInfoManager`2.Dispose
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_Dispose
+  name: Dispose()
+  nameWithType: ConfigInfoManager<string, InventoryInfo>.Dispose()
+  fullName: cfEngine.Info.ConfigInfoManager<string, cfEngine.Service.InventoryInfo>.Dispose()
+  nameWithType.vb: ConfigInfoManager(Of String, InventoryInfo).Dispose()
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of String, cfEngine.Service.InventoryInfo).Dispose()
+  spec.csharp:
+  - uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.Dispose
+    name: Dispose
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.ConfigInfoManager{System.String,cfEngine.Service.InventoryInfo}.Dispose
+    name: Dispose
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_Dispose
+  - name: (
+  - name: )
+- uid: cfEngine.Info.InfoManager.GetAllValue
+  commentId: M:cfEngine.Info.InfoManager.GetAllValue
+  parent: cfEngine.Info.InfoManager
+  href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_GetAllValue
+  name: GetAllValue()
+  nameWithType: InfoManager.GetAllValue()
+  fullName: cfEngine.Info.InfoManager.GetAllValue()
+  spec.csharp:
+  - uid: cfEngine.Info.InfoManager.GetAllValue
+    name: GetAllValue
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_GetAllValue
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.InfoManager.GetAllValue
+    name: GetAllValue
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_GetAllValue
+  - name: (
+  - name: )
+- uid: cfEngine.Info.InfoManager.LoadInfo
+  commentId: M:cfEngine.Info.InfoManager.LoadInfo
+  parent: cfEngine.Info.InfoManager
+  href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_LoadInfo
+  name: LoadInfo()
+  nameWithType: InfoManager.LoadInfo()
+  fullName: cfEngine.Info.InfoManager.LoadInfo()
+  spec.csharp:
+  - uid: cfEngine.Info.InfoManager.LoadInfo
+    name: LoadInfo
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_LoadInfo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.InfoManager.LoadInfo
+    name: LoadInfo
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_LoadInfo
+  - name: (
+  - name: )
+- uid: cfEngine.Info.InfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+  commentId: M:cfEngine.Info.InfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+  parent: cfEngine.Info.InfoManager
+  isExternal: true
+  href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_LoadInfoAsync_System_Threading_CancellationToken_
+  name: LoadInfoAsync(CancellationToken)
+  nameWithType: InfoManager.LoadInfoAsync(CancellationToken)
+  fullName: cfEngine.Info.InfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: cfEngine.Info.InfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+    name: LoadInfoAsync
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_LoadInfoAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.InfoManager.LoadInfoAsync(System.Threading.CancellationToken)
+    name: LoadInfoAsync
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_LoadInfoAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: cfEngine.Info.InfoManager.OnLoadCompleted
+  commentId: M:cfEngine.Info.InfoManager.OnLoadCompleted
+  parent: cfEngine.Info.InfoManager
+  href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_OnLoadCompleted
+  name: OnLoadCompleted()
+  nameWithType: InfoManager.OnLoadCompleted()
+  fullName: cfEngine.Info.InfoManager.OnLoadCompleted()
+  spec.csharp:
+  - uid: cfEngine.Info.InfoManager.OnLoadCompleted
+    name: OnLoadCompleted
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_OnLoadCompleted
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.InfoManager.OnLoadCompleted
+    name: OnLoadCompleted
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_OnLoadCompleted
+  - name: (
+  - name: )
+- uid: cfEngine.Info.InfoManager.Dispose
+  commentId: M:cfEngine.Info.InfoManager.Dispose
+  parent: cfEngine.Info.InfoManager
+  href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_Dispose
+  name: Dispose()
+  nameWithType: InfoManager.Dispose()
+  fullName: cfEngine.Info.InfoManager.Dispose()
+  spec.csharp:
+  - uid: cfEngine.Info.InfoManager.Dispose
+    name: Dispose
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.InfoManager.Dispose
+    name: Dispose
+    href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_Dispose
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Info
+  commentId: N:cfEngine.Info
+  href: cfEngine.html
+  name: cfEngine.Info
+  nameWithType: cfEngine.Info
+  fullName: cfEngine.Info
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Info
+    name: Info
+    href: cfEngine.Info.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Info
+    name: Info
+    href: cfEngine.Info.html
+- uid: cfEngine.Info.ConfigInfoManager`2
+  commentId: T:cfEngine.Info.ConfigInfoManager`2
+  href: cfEngine.Info.ConfigInfoManager-2.html
+  name: ConfigInfoManager<TKey, TInfo>
+  nameWithType: ConfigInfoManager<TKey, TInfo>
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo)
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo)
+  name.vb: ConfigInfoManager(Of TKey, TInfo)
+  spec.csharp:
+  - uid: cfEngine.Info.ConfigInfoManager`2
+    name: ConfigInfoManager
+    href: cfEngine.Info.ConfigInfoManager-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TInfo
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Info.ConfigInfoManager`2
+    name: ConfigInfoManager
+    href: cfEngine.Info.ConfigInfoManager-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TInfo
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager`2._valueMap
+  commentId: F:cfEngine.Info.ConfigInfoManager`2._valueMap
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2__valueMap
+  name: _valueMap
+  nameWithType: ConfigInfoManager<TKey, TInfo>._valueMap
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>._valueMap
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo)._valueMap
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo)._valueMap
+- uid: cfEngine.Info.ConfigInfoManager`2.ValueMap
+  commentId: P:cfEngine.Info.ConfigInfoManager`2.ValueMap
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_ValueMap
+  name: ValueMap
+  nameWithType: ConfigInfoManager<TKey, TInfo>.ValueMap
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.ValueMap
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).ValueMap
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).ValueMap
+- uid: cfEngine.Info.ConfigInfoManager`2.GetAllValue
+  commentId: M:cfEngine.Info.ConfigInfoManager`2.GetAllValue
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_GetAllValue
+  name: GetAllValue()
+  nameWithType: ConfigInfoManager<TKey, TInfo>.GetAllValue()
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.GetAllValue()
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).GetAllValue()
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).GetAllValue()
+  spec.csharp:
+  - uid: cfEngine.Info.ConfigInfoManager`2.GetAllValue
+    name: GetAllValue
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_GetAllValue
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.ConfigInfoManager`2.GetAllValue
+    name: GetAllValue
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_GetAllValue
+  - name: (
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager`2.allValues
+  commentId: P:cfEngine.Info.ConfigInfoManager`2.allValues
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_allValues
+  name: allValues
+  nameWithType: ConfigInfoManager<TKey, TInfo>.allValues
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.allValues
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).allValues
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).allValues
+- uid: cfEngine.Info.ConfigInfoManager`2.keyFn
+  commentId: P:cfEngine.Info.ConfigInfoManager`2.keyFn
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_keyFn
+  name: keyFn
+  nameWithType: ConfigInfoManager<TKey, TInfo>.keyFn
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.keyFn
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).keyFn
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).keyFn
+- uid: cfEngine.Info.ConfigInfoManager`2.LoadInfo
+  commentId: M:cfEngine.Info.ConfigInfoManager`2.LoadInfo
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfo
+  name: LoadInfo()
+  nameWithType: ConfigInfoManager<TKey, TInfo>.LoadInfo()
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.LoadInfo()
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).LoadInfo()
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).LoadInfo()
+  spec.csharp:
+  - uid: cfEngine.Info.ConfigInfoManager`2.LoadInfo
+    name: LoadInfo
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfo
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.ConfigInfoManager`2.LoadInfo
+    name: LoadInfo
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfo
+  - name: (
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager`2.LoadInfoAsync(System.Threading.CancellationToken)
+  commentId: M:cfEngine.Info.ConfigInfoManager`2.LoadInfoAsync(System.Threading.CancellationToken)
+  isExternal: true
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfoAsync_System_Threading_CancellationToken_
+  name: LoadInfoAsync(CancellationToken)
+  nameWithType: ConfigInfoManager<TKey, TInfo>.LoadInfoAsync(CancellationToken)
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.LoadInfoAsync(System.Threading.CancellationToken)
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).LoadInfoAsync(CancellationToken)
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).LoadInfoAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: cfEngine.Info.ConfigInfoManager`2.LoadInfoAsync(System.Threading.CancellationToken)
+    name: LoadInfoAsync
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfoAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.ConfigInfoManager`2.LoadInfoAsync(System.Threading.CancellationToken)
+    name: LoadInfoAsync
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_LoadInfoAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: cfEngine.Info.ConfigInfoManager`2.Dispose
+  commentId: M:cfEngine.Info.ConfigInfoManager`2.Dispose
+  href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_Dispose
+  name: Dispose()
+  nameWithType: ConfigInfoManager<TKey, TInfo>.Dispose()
+  fullName: cfEngine.Info.ConfigInfoManager<TKey, TInfo>.Dispose()
+  nameWithType.vb: ConfigInfoManager(Of TKey, TInfo).Dispose()
+  fullName.vb: cfEngine.Info.ConfigInfoManager(Of TKey, TInfo).Dispose()
+  spec.csharp:
+  - uid: cfEngine.Info.ConfigInfoManager`2.Dispose
+    name: Dispose
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Info.ConfigInfoManager`2.Dispose
+    name: Dispose
+    href: cfEngine.Info.ConfigInfoManager-2.html#cfEngine_Info_ConfigInfoManager_2_Dispose
+  - name: (
+  - name: )
+- uid: cfEngine.Info.InfoManager.infoDirectory
+  commentId: P:cfEngine.Info.InfoManager.infoDirectory
+  parent: cfEngine.Info.InfoManager
+  href: cfEngine.Info.InfoManager.html#cfEngine_Info_InfoManager_infoDirectory
+  name: infoDirectory
+  nameWithType: InfoManager.infoDirectory
+  fullName: cfEngine.Info.InfoManager.infoDirectory
+- uid: cfEngine.Service.InventoryInfoManager.infoDirectory*
+  commentId: Overload:cfEngine.Service.InventoryInfoManager.infoDirectory
+  href: cfEngine.Service.InventoryInfoManager.html#cfEngine_Service_InventoryInfoManager_infoDirectory
+  name: infoDirectory
+  nameWithType: InventoryInfoManager.infoDirectory
+  fullName: cfEngine.Service.InventoryInfoManager.infoDirectory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: cfEngine.Service.InventoryInfoManager.keyFn*
+  commentId: Overload:cfEngine.Service.InventoryInfoManager.keyFn
+  href: cfEngine.Service.InventoryInfoManager.html#cfEngine_Service_InventoryInfoManager_keyFn
+  name: keyFn
+  nameWithType: InventoryInfoManager.keyFn
+  fullName: cfEngine.Service.InventoryInfoManager.keyFn
+- uid: System.Func{cfEngine.Service.InventoryInfo,System.String}
+  commentId: T:System.Func{cfEngine.Service.InventoryInfo,System.String}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<InventoryInfo, string>
+  nameWithType: Func<InventoryInfo, string>
+  fullName: System.Func<cfEngine.Service.InventoryInfo, string>
+  nameWithType.vb: Func(Of InventoryInfo, String)
+  fullName.vb: System.Func(Of cfEngine.Service.InventoryInfo, String)
+  name.vb: Func(Of InventoryInfo, String)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: cfEngine.Service.InventoryInfo
+    name: InventoryInfo
+    href: cfEngine.Service.InventoryInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: cfEngine.Service.InventoryInfo
+    name: InventoryInfo
+    href: cfEngine.Service.InventoryInfo.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: cfEngine.Service.InventoryInfoManager.GetOrDefault*
+  commentId: Overload:cfEngine.Service.InventoryInfoManager.GetOrDefault
+  href: cfEngine.Service.InventoryInfoManager.html#cfEngine_Service_InventoryInfoManager_GetOrDefault_System_String_
+  name: GetOrDefault
+  nameWithType: InventoryInfoManager.GetOrDefault
+  fullName: cfEngine.Service.InventoryInfoManager.GetOrDefault
+- uid: cfEngine.Service.InventoryInfo
+  commentId: T:cfEngine.Service.InventoryInfo
+  parent: cfEngine.Service
+  href: cfEngine.Service.InventoryInfo.html
+  name: InventoryInfo
+  nameWithType: InventoryInfo
+  fullName: cfEngine.Service.InventoryInfo
+- uid: cfEngine.Service.InventoryInfoManager.#ctor*
+  commentId: Overload:cfEngine.Service.InventoryInfoManager.#ctor
+  href: cfEngine.Service.InventoryInfoManager.html#cfEngine_Service_InventoryInfoManager__ctor_cfEngine_Info_IValueLoader_cfEngine_Service_InventoryInfo__
+  name: InventoryInfoManager
+  nameWithType: InventoryInfoManager.InventoryInfoManager
+  fullName: cfEngine.Service.InventoryInfoManager.InventoryInfoManager
+  nameWithType.vb: InventoryInfoManager.New
+  fullName.vb: cfEngine.Service.InventoryInfoManager.New
+  name.vb: New
+- uid: cfEngine.Info.IValueLoader{cfEngine.Service.InventoryInfo}
+  commentId: T:cfEngine.Info.IValueLoader{cfEngine.Service.InventoryInfo}
+  parent: cfEngine.Info
+  definition: cfEngine.Info.IValueLoader`1
+  href: cfEngine.Info.IValueLoader-1.html
+  name: IValueLoader<InventoryInfo>
+  nameWithType: IValueLoader<InventoryInfo>
+  fullName: cfEngine.Info.IValueLoader<cfEngine.Service.InventoryInfo>
+  nameWithType.vb: IValueLoader(Of InventoryInfo)
+  fullName.vb: cfEngine.Info.IValueLoader(Of cfEngine.Service.InventoryInfo)
+  name.vb: IValueLoader(Of InventoryInfo)
+  spec.csharp:
+  - uid: cfEngine.Info.IValueLoader`1
+    name: IValueLoader
+    href: cfEngine.Info.IValueLoader-1.html
+  - name: <
+  - uid: cfEngine.Service.InventoryInfo
+    name: InventoryInfo
+    href: cfEngine.Service.InventoryInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Info.IValueLoader`1
+    name: IValueLoader
+    href: cfEngine.Info.IValueLoader-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: cfEngine.Service.InventoryInfo
+    name: InventoryInfo
+    href: cfEngine.Service.InventoryInfo.html
+  - name: )
+- uid: cfEngine.Info.IValueLoader`1
+  commentId: T:cfEngine.Info.IValueLoader`1
+  href: cfEngine.Info.IValueLoader-1.html
+  name: IValueLoader<TInfo>
+  nameWithType: IValueLoader<TInfo>
+  fullName: cfEngine.Info.IValueLoader<TInfo>
+  nameWithType.vb: IValueLoader(Of TInfo)
+  fullName.vb: cfEngine.Info.IValueLoader(Of TInfo)
+  name.vb: IValueLoader(Of TInfo)
+  spec.csharp:
+  - uid: cfEngine.Info.IValueLoader`1
+    name: IValueLoader
+    href: cfEngine.Info.IValueLoader-1.html
+  - name: <
+  - name: TInfo
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Info.IValueLoader`1
+    name: IValueLoader
+    href: cfEngine.Info.IValueLoader-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInfo
+  - name: )

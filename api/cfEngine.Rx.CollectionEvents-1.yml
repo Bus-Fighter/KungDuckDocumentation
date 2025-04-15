@@ -1,0 +1,1652 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Rx.CollectionEvents`1
+  commentId: T:cfEngine.Rx.CollectionEvents`1
+  id: CollectionEvents`1
+  parent: cfEngine.Rx
+  children:
+  - cfEngine.Rx.CollectionEvents`1.#ctor(System.Object)
+  - cfEngine.Rx.CollectionEvents`1.Dispose
+  - cfEngine.Rx.CollectionEvents`1.OnAddRelay
+  - cfEngine.Rx.CollectionEvents`1.OnDisposeRelay
+  - cfEngine.Rx.CollectionEvents`1.OnRemoveRelay
+  - cfEngine.Rx.CollectionEvents`1.OnUpdateRelay
+  - cfEngine.Rx.CollectionEvents`1.SubscribeOnAdd(System.Action{`0})
+  - cfEngine.Rx.CollectionEvents`1.SubscribeOnDispose(System.Action)
+  - cfEngine.Rx.CollectionEvents`1.SubscribeOnRemove(System.Action{`0})
+  - cfEngine.Rx.CollectionEvents`1.SubscribeOnUpdate(System.Action{`0,`0})
+  langs:
+  - csharp
+  - vb
+  name: CollectionEvents<T>
+  nameWithType: CollectionEvents<T>
+  fullName: cfEngine.Rx.CollectionEvents<T>
+  type: Class
+  source:
+    id: CollectionEvents
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/CollectionEvents.cs
+    startLine: 13
+  namespace: cfEngine.Rx
+  syntax:
+    content: 'public class CollectionEvents<T> : ICollectionEvents<T>'
+    typeParameters:
+    - id: T
+    content.vb: Public Class CollectionEvents(Of T) Implements ICollectionEvents(Of T)
+  inheritance:
+  - System.Object
+  implements:
+  - cfEngine.Rx.ICollectionEvents{{T}}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - cfEngine.Rx.ICollectionEvents{`0}.cfEngine.Rx.CollectionEventExtension.OnChange``1(System.Action)
+  - cfEngine.Rx.ICollectionEvents{`0}.cfEngine.Rx.CollectionEventExtension.Subscribe``1(System.Action{{T}},System.Action{{T}},System.Action{{T},{T}},System.Action)
+  nameWithType.vb: CollectionEvents(Of T)
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T)
+  name.vb: CollectionEvents(Of T)
+- uid: cfEngine.Rx.CollectionEvents`1.OnAddRelay
+  commentId: F:cfEngine.Rx.CollectionEvents`1.OnAddRelay
+  id: OnAddRelay
+  parent: cfEngine.Rx.CollectionEvents`1
+  langs:
+  - csharp
+  - vb
+  name: OnAddRelay
+  nameWithType: CollectionEvents<T>.OnAddRelay
+  fullName: cfEngine.Rx.CollectionEvents<T>.OnAddRelay
+  type: Field
+  source:
+    id: OnAddRelay
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/CollectionEvents.cs
+    startLine: 15
+  namespace: cfEngine.Rx
+  syntax:
+    content: public readonly Relay<T> OnAddRelay
+    return:
+      type: cfEngine.Rx.Relay{{T}}
+    content.vb: Public ReadOnly OnAddRelay As Relay(Of T)
+  nameWithType.vb: CollectionEvents(Of T).OnAddRelay
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).OnAddRelay
+- uid: cfEngine.Rx.CollectionEvents`1.OnRemoveRelay
+  commentId: F:cfEngine.Rx.CollectionEvents`1.OnRemoveRelay
+  id: OnRemoveRelay
+  parent: cfEngine.Rx.CollectionEvents`1
+  langs:
+  - csharp
+  - vb
+  name: OnRemoveRelay
+  nameWithType: CollectionEvents<T>.OnRemoveRelay
+  fullName: cfEngine.Rx.CollectionEvents<T>.OnRemoveRelay
+  type: Field
+  source:
+    id: OnRemoveRelay
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/CollectionEvents.cs
+    startLine: 16
+  namespace: cfEngine.Rx
+  syntax:
+    content: public readonly Relay<T> OnRemoveRelay
+    return:
+      type: cfEngine.Rx.Relay{{T}}
+    content.vb: Public ReadOnly OnRemoveRelay As Relay(Of T)
+  nameWithType.vb: CollectionEvents(Of T).OnRemoveRelay
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).OnRemoveRelay
+- uid: cfEngine.Rx.CollectionEvents`1.OnUpdateRelay
+  commentId: F:cfEngine.Rx.CollectionEvents`1.OnUpdateRelay
+  id: OnUpdateRelay
+  parent: cfEngine.Rx.CollectionEvents`1
+  langs:
+  - csharp
+  - vb
+  name: OnUpdateRelay
+  nameWithType: CollectionEvents<T>.OnUpdateRelay
+  fullName: cfEngine.Rx.CollectionEvents<T>.OnUpdateRelay
+  type: Field
+  source:
+    id: OnUpdateRelay
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/CollectionEvents.cs
+    startLine: 17
+  namespace: cfEngine.Rx
+  syntax:
+    content: public readonly Relay<T, T> OnUpdateRelay
+    return:
+      type: cfEngine.Rx.Relay{{T},{T}}
+    content.vb: Public ReadOnly OnUpdateRelay As Relay(Of T, T)
+  nameWithType.vb: CollectionEvents(Of T).OnUpdateRelay
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).OnUpdateRelay
+- uid: cfEngine.Rx.CollectionEvents`1.OnDisposeRelay
+  commentId: F:cfEngine.Rx.CollectionEvents`1.OnDisposeRelay
+  id: OnDisposeRelay
+  parent: cfEngine.Rx.CollectionEvents`1
+  langs:
+  - csharp
+  - vb
+  name: OnDisposeRelay
+  nameWithType: CollectionEvents<T>.OnDisposeRelay
+  fullName: cfEngine.Rx.CollectionEvents<T>.OnDisposeRelay
+  type: Field
+  source:
+    id: OnDisposeRelay
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/CollectionEvents.cs
+    startLine: 18
+  namespace: cfEngine.Rx
+  syntax:
+    content: public readonly Relay OnDisposeRelay
+    return:
+      type: cfEngine.Rx.Relay
+    content.vb: Public ReadOnly OnDisposeRelay As Relay
+  nameWithType.vb: CollectionEvents(Of T).OnDisposeRelay
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).OnDisposeRelay
+- uid: cfEngine.Rx.CollectionEvents`1.#ctor(System.Object)
+  commentId: M:cfEngine.Rx.CollectionEvents`1.#ctor(System.Object)
+  id: '#ctor(System.Object)'
+  parent: cfEngine.Rx.CollectionEvents`1
+  langs:
+  - csharp
+  - vb
+  name: CollectionEvents(object)
+  nameWithType: CollectionEvents<T>.CollectionEvents(object)
+  fullName: cfEngine.Rx.CollectionEvents<T>.CollectionEvents(object)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/CollectionEvents.cs
+    startLine: 24
+  namespace: cfEngine.Rx
+  syntax:
+    content: public CollectionEvents(object owner)
+    parameters:
+    - id: owner
+      type: System.Object
+    content.vb: Public Sub New(owner As Object)
+  overload: cfEngine.Rx.CollectionEvents`1.#ctor*
+  nameWithType.vb: CollectionEvents(Of T).New(Object)
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).New(Object)
+  name.vb: New(Object)
+- uid: cfEngine.Rx.CollectionEvents`1.SubscribeOnAdd(System.Action{`0})
+  commentId: M:cfEngine.Rx.CollectionEvents`1.SubscribeOnAdd(System.Action{`0})
+  id: SubscribeOnAdd(System.Action{`0})
+  parent: cfEngine.Rx.CollectionEvents`1
+  langs:
+  - csharp
+  - vb
+  name: SubscribeOnAdd(Action<T>)
+  nameWithType: CollectionEvents<T>.SubscribeOnAdd(Action<T>)
+  fullName: cfEngine.Rx.CollectionEvents<T>.SubscribeOnAdd(System.Action<T>)
+  type: Method
+  source:
+    id: SubscribeOnAdd
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/CollectionEvents.cs
+    startLine: 34
+  namespace: cfEngine.Rx
+  example: []
+  syntax:
+    content: public Subscription SubscribeOnAdd(Action<T> onAdd)
+    parameters:
+    - id: onAdd
+      type: System.Action{{T}}
+    return:
+      type: cfEngine.Rx.Subscription
+    content.vb: Public Function SubscribeOnAdd(onAdd As Action(Of T)) As Subscription
+  overload: cfEngine.Rx.CollectionEvents`1.SubscribeOnAdd*
+  implements:
+  - cfEngine.Rx.ICollectionEvents{{T}}.SubscribeOnAdd(System.Action{{T}})
+  nameWithType.vb: CollectionEvents(Of T).SubscribeOnAdd(Action(Of T))
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).SubscribeOnAdd(System.Action(Of T))
+  name.vb: SubscribeOnAdd(Action(Of T))
+- uid: cfEngine.Rx.CollectionEvents`1.SubscribeOnRemove(System.Action{`0})
+  commentId: M:cfEngine.Rx.CollectionEvents`1.SubscribeOnRemove(System.Action{`0})
+  id: SubscribeOnRemove(System.Action{`0})
+  parent: cfEngine.Rx.CollectionEvents`1
+  langs:
+  - csharp
+  - vb
+  name: SubscribeOnRemove(Action<T>)
+  nameWithType: CollectionEvents<T>.SubscribeOnRemove(Action<T>)
+  fullName: cfEngine.Rx.CollectionEvents<T>.SubscribeOnRemove(System.Action<T>)
+  type: Method
+  source:
+    id: SubscribeOnRemove
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/CollectionEvents.cs
+    startLine: 43
+  namespace: cfEngine.Rx
+  example: []
+  syntax:
+    content: public Subscription SubscribeOnRemove(Action<T> onRemove)
+    parameters:
+    - id: onRemove
+      type: System.Action{{T}}
+    return:
+      type: cfEngine.Rx.Subscription
+    content.vb: Public Function SubscribeOnRemove(onRemove As Action(Of T)) As Subscription
+  overload: cfEngine.Rx.CollectionEvents`1.SubscribeOnRemove*
+  implements:
+  - cfEngine.Rx.ICollectionEvents{{T}}.SubscribeOnRemove(System.Action{{T}})
+  nameWithType.vb: CollectionEvents(Of T).SubscribeOnRemove(Action(Of T))
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).SubscribeOnRemove(System.Action(Of T))
+  name.vb: SubscribeOnRemove(Action(Of T))
+- uid: cfEngine.Rx.CollectionEvents`1.SubscribeOnUpdate(System.Action{`0,`0})
+  commentId: M:cfEngine.Rx.CollectionEvents`1.SubscribeOnUpdate(System.Action{`0,`0})
+  id: SubscribeOnUpdate(System.Action{`0,`0})
+  parent: cfEngine.Rx.CollectionEvents`1
+  langs:
+  - csharp
+  - vb
+  name: SubscribeOnUpdate(Action<T, T>)
+  nameWithType: CollectionEvents<T>.SubscribeOnUpdate(Action<T, T>)
+  fullName: cfEngine.Rx.CollectionEvents<T>.SubscribeOnUpdate(System.Action<T, T>)
+  type: Method
+  source:
+    id: SubscribeOnUpdate
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/CollectionEvents.cs
+    startLine: 52
+  namespace: cfEngine.Rx
+  example: []
+  syntax:
+    content: public Subscription SubscribeOnUpdate(Action<T, T> onUpdate)
+    parameters:
+    - id: onUpdate
+      type: System.Action{{T},{T}}
+    return:
+      type: cfEngine.Rx.Subscription
+    content.vb: Public Function SubscribeOnUpdate(onUpdate As Action(Of T, T)) As Subscription
+  overload: cfEngine.Rx.CollectionEvents`1.SubscribeOnUpdate*
+  implements:
+  - cfEngine.Rx.ICollectionEvents{{T}}.SubscribeOnUpdate(System.Action{{T},{T}})
+  nameWithType.vb: CollectionEvents(Of T).SubscribeOnUpdate(Action(Of T, T))
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).SubscribeOnUpdate(System.Action(Of T, T))
+  name.vb: SubscribeOnUpdate(Action(Of T, T))
+- uid: cfEngine.Rx.CollectionEvents`1.SubscribeOnDispose(System.Action)
+  commentId: M:cfEngine.Rx.CollectionEvents`1.SubscribeOnDispose(System.Action)
+  id: SubscribeOnDispose(System.Action)
+  parent: cfEngine.Rx.CollectionEvents`1
+  langs:
+  - csharp
+  - vb
+  name: SubscribeOnDispose(Action)
+  nameWithType: CollectionEvents<T>.SubscribeOnDispose(Action)
+  fullName: cfEngine.Rx.CollectionEvents<T>.SubscribeOnDispose(System.Action)
+  type: Method
+  source:
+    id: SubscribeOnDispose
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/CollectionEvents.cs
+    startLine: 61
+  namespace: cfEngine.Rx
+  example: []
+  syntax:
+    content: public Subscription SubscribeOnDispose(Action onDispose)
+    parameters:
+    - id: onDispose
+      type: System.Action
+    return:
+      type: cfEngine.Rx.Subscription
+    content.vb: Public Function SubscribeOnDispose(onDispose As Action) As Subscription
+  overload: cfEngine.Rx.CollectionEvents`1.SubscribeOnDispose*
+  implements:
+  - cfEngine.Rx.ICollectionEvents{{T}}.SubscribeOnDispose(System.Action)
+  nameWithType.vb: CollectionEvents(Of T).SubscribeOnDispose(Action)
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).SubscribeOnDispose(System.Action)
+- uid: cfEngine.Rx.CollectionEvents`1.Dispose
+  commentId: M:cfEngine.Rx.CollectionEvents`1.Dispose
+  id: Dispose
+  parent: cfEngine.Rx.CollectionEvents`1
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: CollectionEvents<T>.Dispose()
+  fullName: cfEngine.Rx.CollectionEvents<T>.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/reactive/CollectionEvents.cs
+    startLine: 70
+  namespace: cfEngine.Rx
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: cfEngine.Rx.CollectionEvents`1.Dispose*
+  implements:
+  - cfEngine.Rx.ICollectionEvents{{T}}.Dispose
+  nameWithType.vb: CollectionEvents(Of T).Dispose()
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).Dispose()
+references:
+- uid: cfEngine.Rx
+  commentId: N:cfEngine.Rx
+  href: cfEngine.html
+  name: cfEngine.Rx
+  nameWithType: cfEngine.Rx
+  fullName: cfEngine.Rx
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: cfEngine.Rx.ICollectionEvents{{T}}
+  commentId: T:cfEngine.Rx.ICollectionEvents{``0}
+  parent: cfEngine.Rx
+  definition: cfEngine.Rx.ICollectionEvents`1
+  href: cfEngine.Rx.ICollectionEvents-1.html
+  name: ICollectionEvents<T>
+  nameWithType: ICollectionEvents<T>
+  fullName: cfEngine.Rx.ICollectionEvents<T>
+  nameWithType.vb: ICollectionEvents(Of T)
+  fullName.vb: cfEngine.Rx.ICollectionEvents(Of T)
+  name.vb: ICollectionEvents(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.ICollectionEvents{`0}.cfEngine.Rx.CollectionEventExtension.OnChange``1(System.Action)
+  commentId: M:cfEngine.Rx.CollectionEventExtension.OnChange``1(cfEngine.Rx.ICollectionEvents{``0},System.Action)
+  parent: cfEngine.Rx.CollectionEventExtension
+  definition: cfEngine.Rx.CollectionEventExtension.OnChange``1(cfEngine.Rx.ICollectionEvents{``0},System.Action)
+  href: cfEngine.Rx.CollectionEventExtension.html#cfEngine_Rx_CollectionEventExtension_OnChange__1_cfEngine_Rx_ICollectionEvents___0__System_Action_
+  name: OnChange<T>(ICollectionEvents<T>, Action)
+  nameWithType: CollectionEventExtension.OnChange<T>(ICollectionEvents<T>, Action)
+  fullName: cfEngine.Rx.CollectionEventExtension.OnChange<T>(cfEngine.Rx.ICollectionEvents<T>, System.Action)
+  nameWithType.vb: CollectionEventExtension.OnChange(Of T)(ICollectionEvents(Of T), Action)
+  fullName.vb: cfEngine.Rx.CollectionEventExtension.OnChange(Of T)(cfEngine.Rx.ICollectionEvents(Of T), System.Action)
+  name.vb: OnChange(Of T)(ICollectionEvents(Of T), Action)
+  spec.csharp:
+  - uid: cfEngine.Rx.CollectionEventExtension.OnChange``1(cfEngine.Rx.ICollectionEvents{`0},System.Action)
+    name: OnChange
+    href: cfEngine.Rx.CollectionEventExtension.html#cfEngine_Rx_CollectionEventExtension_OnChange__1_cfEngine_Rx_ICollectionEvents___0__System_Action_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.CollectionEventExtension.OnChange``1(cfEngine.Rx.ICollectionEvents{`0},System.Action)
+    name: OnChange
+    href: cfEngine.Rx.CollectionEventExtension.html#cfEngine_Rx_CollectionEventExtension_OnChange__1_cfEngine_Rx_ICollectionEvents___0__System_Action_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+- uid: cfEngine.Rx.ICollectionEvents{`0}.cfEngine.Rx.CollectionEventExtension.Subscribe``1(System.Action{{T}},System.Action{{T}},System.Action{{T},{T}},System.Action)
+  commentId: M:cfEngine.Rx.CollectionEventExtension.Subscribe``1(cfEngine.Rx.ICollectionEvents{``0},System.Action{``0},System.Action{``0},System.Action{``0,``0},System.Action)
+  parent: cfEngine.Rx.CollectionEventExtension
+  definition: cfEngine.Rx.CollectionEventExtension.Subscribe``1(cfEngine.Rx.ICollectionEvents{``0},System.Action{``0},System.Action{``0},System.Action{``0,``0},System.Action)
+  href: cfEngine.Rx.CollectionEventExtension.html#cfEngine_Rx_CollectionEventExtension_Subscribe__1_cfEngine_Rx_ICollectionEvents___0__System_Action___0__System_Action___0__System_Action___0___0__System_Action_
+  name: Subscribe<T>(ICollectionEvents<T>, Action<T>, Action<T>, Action<T, T>, Action)
+  nameWithType: CollectionEventExtension.Subscribe<T>(ICollectionEvents<T>, Action<T>, Action<T>, Action<T, T>, Action)
+  fullName: cfEngine.Rx.CollectionEventExtension.Subscribe<T>(cfEngine.Rx.ICollectionEvents<T>, System.Action<T>, System.Action<T>, System.Action<T, T>, System.Action)
+  nameWithType.vb: CollectionEventExtension.Subscribe(Of T)(ICollectionEvents(Of T), Action(Of T), Action(Of T), Action(Of T, T), Action)
+  fullName.vb: cfEngine.Rx.CollectionEventExtension.Subscribe(Of T)(cfEngine.Rx.ICollectionEvents(Of T), System.Action(Of T), System.Action(Of T), System.Action(Of T, T), System.Action)
+  name.vb: Subscribe(Of T)(ICollectionEvents(Of T), Action(Of T), Action(Of T), Action(Of T, T), Action)
+  spec.csharp:
+  - uid: cfEngine.Rx.CollectionEventExtension.Subscribe``1(cfEngine.Rx.ICollectionEvents{`0},System.Action{`0},System.Action{`0},System.Action{`0,`0},System.Action)
+    name: Subscribe
+    href: cfEngine.Rx.CollectionEventExtension.html#cfEngine_Rx_CollectionEventExtension_Subscribe__1_cfEngine_Rx_ICollectionEvents___0__System_Action___0__System_Action___0__System_Action___0___0__System_Action_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.CollectionEventExtension.Subscribe``1(cfEngine.Rx.ICollectionEvents{`0},System.Action{`0},System.Action{`0},System.Action{`0,`0},System.Action)
+    name: Subscribe
+    href: cfEngine.Rx.CollectionEventExtension.html#cfEngine_Rx_CollectionEventExtension_Subscribe__1_cfEngine_Rx_ICollectionEvents___0__System_Action___0__System_Action___0__System_Action___0___0__System_Action_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Rx.ICollectionEvents`1
+  commentId: T:cfEngine.Rx.ICollectionEvents`1
+  href: cfEngine.Rx.ICollectionEvents-1.html
+  name: ICollectionEvents<T>
+  nameWithType: ICollectionEvents<T>
+  fullName: cfEngine.Rx.ICollectionEvents<T>
+  nameWithType.vb: ICollectionEvents(Of T)
+  fullName.vb: cfEngine.Rx.ICollectionEvents(Of T)
+  name.vb: ICollectionEvents(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.CollectionEventExtension.OnChange``1(cfEngine.Rx.ICollectionEvents{``0},System.Action)
+  commentId: M:cfEngine.Rx.CollectionEventExtension.OnChange``1(cfEngine.Rx.ICollectionEvents{``0},System.Action)
+  isExternal: true
+  href: cfEngine.Rx.CollectionEventExtension.html#cfEngine_Rx_CollectionEventExtension_OnChange__1_cfEngine_Rx_ICollectionEvents___0__System_Action_
+  name: OnChange<T>(ICollectionEvents<T>, Action)
+  nameWithType: CollectionEventExtension.OnChange<T>(ICollectionEvents<T>, Action)
+  fullName: cfEngine.Rx.CollectionEventExtension.OnChange<T>(cfEngine.Rx.ICollectionEvents<T>, System.Action)
+  nameWithType.vb: CollectionEventExtension.OnChange(Of T)(ICollectionEvents(Of T), Action)
+  fullName.vb: cfEngine.Rx.CollectionEventExtension.OnChange(Of T)(cfEngine.Rx.ICollectionEvents(Of T), System.Action)
+  name.vb: OnChange(Of T)(ICollectionEvents(Of T), Action)
+  spec.csharp:
+  - uid: cfEngine.Rx.CollectionEventExtension.OnChange``1(cfEngine.Rx.ICollectionEvents{``0},System.Action)
+    name: OnChange
+    href: cfEngine.Rx.CollectionEventExtension.html#cfEngine_Rx_CollectionEventExtension_OnChange__1_cfEngine_Rx_ICollectionEvents___0__System_Action_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.CollectionEventExtension.OnChange``1(cfEngine.Rx.ICollectionEvents{``0},System.Action)
+    name: OnChange
+    href: cfEngine.Rx.CollectionEventExtension.html#cfEngine_Rx_CollectionEventExtension_OnChange__1_cfEngine_Rx_ICollectionEvents___0__System_Action_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+- uid: cfEngine.Rx.CollectionEventExtension
+  commentId: T:cfEngine.Rx.CollectionEventExtension
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.CollectionEventExtension.html
+  name: CollectionEventExtension
+  nameWithType: CollectionEventExtension
+  fullName: cfEngine.Rx.CollectionEventExtension
+- uid: cfEngine.Rx.CollectionEventExtension.Subscribe``1(cfEngine.Rx.ICollectionEvents{``0},System.Action{``0},System.Action{``0},System.Action{``0,``0},System.Action)
+  commentId: M:cfEngine.Rx.CollectionEventExtension.Subscribe``1(cfEngine.Rx.ICollectionEvents{``0},System.Action{``0},System.Action{``0},System.Action{``0,``0},System.Action)
+  isExternal: true
+  href: cfEngine.Rx.CollectionEventExtension.html#cfEngine_Rx_CollectionEventExtension_Subscribe__1_cfEngine_Rx_ICollectionEvents___0__System_Action___0__System_Action___0__System_Action___0___0__System_Action_
+  name: Subscribe<T>(ICollectionEvents<T>, Action<T>, Action<T>, Action<T, T>, Action)
+  nameWithType: CollectionEventExtension.Subscribe<T>(ICollectionEvents<T>, Action<T>, Action<T>, Action<T, T>, Action)
+  fullName: cfEngine.Rx.CollectionEventExtension.Subscribe<T>(cfEngine.Rx.ICollectionEvents<T>, System.Action<T>, System.Action<T>, System.Action<T, T>, System.Action)
+  nameWithType.vb: CollectionEventExtension.Subscribe(Of T)(ICollectionEvents(Of T), Action(Of T), Action(Of T), Action(Of T, T), Action)
+  fullName.vb: cfEngine.Rx.CollectionEventExtension.Subscribe(Of T)(cfEngine.Rx.ICollectionEvents(Of T), System.Action(Of T), System.Action(Of T), System.Action(Of T, T), System.Action)
+  name.vb: Subscribe(Of T)(ICollectionEvents(Of T), Action(Of T), Action(Of T), Action(Of T, T), Action)
+  spec.csharp:
+  - uid: cfEngine.Rx.CollectionEventExtension.Subscribe``1(cfEngine.Rx.ICollectionEvents{``0},System.Action{``0},System.Action{``0},System.Action{``0,``0},System.Action)
+    name: Subscribe
+    href: cfEngine.Rx.CollectionEventExtension.html#cfEngine_Rx_CollectionEventExtension_Subscribe__1_cfEngine_Rx_ICollectionEvents___0__System_Action___0__System_Action___0__System_Action___0___0__System_Action_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.CollectionEventExtension.Subscribe``1(cfEngine.Rx.ICollectionEvents{``0},System.Action{``0},System.Action{``0},System.Action{``0,``0},System.Action)
+    name: Subscribe
+    href: cfEngine.Rx.CollectionEventExtension.html#cfEngine_Rx_CollectionEventExtension_Subscribe__1_cfEngine_Rx_ICollectionEvents___0__System_Action___0__System_Action___0__System_Action___0___0__System_Action_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: cfEngine.Rx.ICollectionEvents`1
+    name: ICollectionEvents
+    href: cfEngine.Rx.ICollectionEvents-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+- uid: cfEngine.Rx.Relay{{T}}
+  commentId: T:cfEngine.Rx.Relay{`0}
+  parent: cfEngine.Rx
+  definition: cfEngine.Rx.Relay`1
+  href: cfEngine.Rx.Relay-1.html
+  name: Relay<T>
+  nameWithType: Relay<T>
+  fullName: cfEngine.Rx.Relay<T>
+  nameWithType.vb: Relay(Of T)
+  fullName.vb: cfEngine.Rx.Relay(Of T)
+  name.vb: Relay(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.Relay`1
+    name: Relay
+    href: cfEngine.Rx.Relay-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.Relay`1
+    name: Relay
+    href: cfEngine.Rx.Relay-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.Relay`1
+  commentId: T:cfEngine.Rx.Relay`1
+  href: cfEngine.Rx.Relay-1.html
+  name: Relay<T>
+  nameWithType: Relay<T>
+  fullName: cfEngine.Rx.Relay<T>
+  nameWithType.vb: Relay(Of T)
+  fullName.vb: cfEngine.Rx.Relay(Of T)
+  name.vb: Relay(Of T)
+  spec.csharp:
+  - uid: cfEngine.Rx.Relay`1
+    name: Relay
+    href: cfEngine.Rx.Relay-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.Relay`1
+    name: Relay
+    href: cfEngine.Rx.Relay-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.Relay{{T},{T}}
+  commentId: T:cfEngine.Rx.Relay{`0,`0}
+  parent: cfEngine.Rx
+  definition: cfEngine.Rx.Relay`2
+  href: cfEngine.Rx.Relay-2.html
+  name: Relay<T, T>
+  nameWithType: Relay<T, T>
+  fullName: cfEngine.Rx.Relay<T, T>
+  nameWithType.vb: Relay(Of T, T)
+  fullName.vb: cfEngine.Rx.Relay(Of T, T)
+  name.vb: Relay(Of T, T)
+  spec.csharp:
+  - uid: cfEngine.Rx.Relay`2
+    name: Relay
+    href: cfEngine.Rx.Relay-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.Relay`2
+    name: Relay
+    href: cfEngine.Rx.Relay-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.Relay`2
+  commentId: T:cfEngine.Rx.Relay`2
+  href: cfEngine.Rx.Relay-2.html
+  name: Relay<T1, T2>
+  nameWithType: Relay<T1, T2>
+  fullName: cfEngine.Rx.Relay<T1, T2>
+  nameWithType.vb: Relay(Of T1, T2)
+  fullName.vb: cfEngine.Rx.Relay(Of T1, T2)
+  name.vb: Relay(Of T1, T2)
+  spec.csharp:
+  - uid: cfEngine.Rx.Relay`2
+    name: Relay
+    href: cfEngine.Rx.Relay-2.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.Relay`2
+    name: Relay
+    href: cfEngine.Rx.Relay-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: cfEngine.Rx.Relay
+  commentId: T:cfEngine.Rx.Relay
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.Relay.html
+  name: Relay
+  nameWithType: Relay
+  fullName: cfEngine.Rx.Relay
+- uid: cfEngine.Rx.CollectionEvents`1.#ctor*
+  commentId: Overload:cfEngine.Rx.CollectionEvents`1.#ctor
+  href: cfEngine.Rx.CollectionEvents-1.html#cfEngine_Rx_CollectionEvents_1__ctor_System_Object_
+  name: CollectionEvents
+  nameWithType: CollectionEvents<T>.CollectionEvents
+  fullName: cfEngine.Rx.CollectionEvents<T>.CollectionEvents
+  nameWithType.vb: CollectionEvents(Of T).New
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).New
+  name.vb: New
+- uid: cfEngine.Rx.CollectionEvents`1.SubscribeOnAdd*
+  commentId: Overload:cfEngine.Rx.CollectionEvents`1.SubscribeOnAdd
+  href: cfEngine.Rx.CollectionEvents-1.html#cfEngine_Rx_CollectionEvents_1_SubscribeOnAdd_System_Action__0__
+  name: SubscribeOnAdd
+  nameWithType: CollectionEvents<T>.SubscribeOnAdd
+  fullName: cfEngine.Rx.CollectionEvents<T>.SubscribeOnAdd
+  nameWithType.vb: CollectionEvents(Of T).SubscribeOnAdd
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).SubscribeOnAdd
+- uid: cfEngine.Rx.ICollectionEvents{{T}}.SubscribeOnAdd(System.Action{{T}})
+  commentId: M:cfEngine.Rx.ICollectionEvents{`0}.SubscribeOnAdd(System.Action{`0})
+  parent: cfEngine.Rx.ICollectionEvents{{T}}
+  definition: cfEngine.Rx.ICollectionEvents`1.SubscribeOnAdd(System.Action{`0})
+  href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnAdd_System_Action__0__
+  name: SubscribeOnAdd(Action<T>)
+  nameWithType: ICollectionEvents<T>.SubscribeOnAdd(Action<T>)
+  fullName: cfEngine.Rx.ICollectionEvents<T>.SubscribeOnAdd(System.Action<T>)
+  nameWithType.vb: ICollectionEvents(Of T).SubscribeOnAdd(Action(Of T))
+  fullName.vb: cfEngine.Rx.ICollectionEvents(Of T).SubscribeOnAdd(System.Action(Of T))
+  name.vb: SubscribeOnAdd(Action(Of T))
+  spec.csharp:
+  - uid: cfEngine.Rx.ICollectionEvents{`0}.SubscribeOnAdd(System.Action{`0})
+    name: SubscribeOnAdd
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnAdd_System_Action__0__
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.ICollectionEvents{`0}.SubscribeOnAdd(System.Action{`0})
+    name: SubscribeOnAdd
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnAdd_System_Action__0__
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.Action{{T}}
+  commentId: T:System.Action{`0}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.Subscription
+  commentId: T:cfEngine.Rx.Subscription
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.Subscription.html
+  name: Subscription
+  nameWithType: Subscription
+  fullName: cfEngine.Rx.Subscription
+- uid: cfEngine.Rx.ICollectionEvents`1.SubscribeOnAdd(System.Action{`0})
+  commentId: M:cfEngine.Rx.ICollectionEvents`1.SubscribeOnAdd(System.Action{`0})
+  isExternal: true
+  href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnAdd_System_Action__0__
+  name: SubscribeOnAdd(Action<T>)
+  nameWithType: ICollectionEvents<T>.SubscribeOnAdd(Action<T>)
+  fullName: cfEngine.Rx.ICollectionEvents<T>.SubscribeOnAdd(System.Action<T>)
+  nameWithType.vb: ICollectionEvents(Of T).SubscribeOnAdd(Action(Of T))
+  fullName.vb: cfEngine.Rx.ICollectionEvents(Of T).SubscribeOnAdd(System.Action(Of T))
+  name.vb: SubscribeOnAdd(Action(Of T))
+  spec.csharp:
+  - uid: cfEngine.Rx.ICollectionEvents`1.SubscribeOnAdd(System.Action{`0})
+    name: SubscribeOnAdd
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnAdd_System_Action__0__
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.ICollectionEvents`1.SubscribeOnAdd(System.Action{`0})
+    name: SubscribeOnAdd
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnAdd_System_Action__0__
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.CollectionEvents`1.SubscribeOnRemove*
+  commentId: Overload:cfEngine.Rx.CollectionEvents`1.SubscribeOnRemove
+  href: cfEngine.Rx.CollectionEvents-1.html#cfEngine_Rx_CollectionEvents_1_SubscribeOnRemove_System_Action__0__
+  name: SubscribeOnRemove
+  nameWithType: CollectionEvents<T>.SubscribeOnRemove
+  fullName: cfEngine.Rx.CollectionEvents<T>.SubscribeOnRemove
+  nameWithType.vb: CollectionEvents(Of T).SubscribeOnRemove
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).SubscribeOnRemove
+- uid: cfEngine.Rx.ICollectionEvents{{T}}.SubscribeOnRemove(System.Action{{T}})
+  commentId: M:cfEngine.Rx.ICollectionEvents{`0}.SubscribeOnRemove(System.Action{`0})
+  parent: cfEngine.Rx.ICollectionEvents{{T}}
+  definition: cfEngine.Rx.ICollectionEvents`1.SubscribeOnRemove(System.Action{`0})
+  href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnRemove_System_Action__0__
+  name: SubscribeOnRemove(Action<T>)
+  nameWithType: ICollectionEvents<T>.SubscribeOnRemove(Action<T>)
+  fullName: cfEngine.Rx.ICollectionEvents<T>.SubscribeOnRemove(System.Action<T>)
+  nameWithType.vb: ICollectionEvents(Of T).SubscribeOnRemove(Action(Of T))
+  fullName.vb: cfEngine.Rx.ICollectionEvents(Of T).SubscribeOnRemove(System.Action(Of T))
+  name.vb: SubscribeOnRemove(Action(Of T))
+  spec.csharp:
+  - uid: cfEngine.Rx.ICollectionEvents{`0}.SubscribeOnRemove(System.Action{`0})
+    name: SubscribeOnRemove
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnRemove_System_Action__0__
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.ICollectionEvents{`0}.SubscribeOnRemove(System.Action{`0})
+    name: SubscribeOnRemove
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnRemove_System_Action__0__
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.ICollectionEvents`1.SubscribeOnRemove(System.Action{`0})
+  commentId: M:cfEngine.Rx.ICollectionEvents`1.SubscribeOnRemove(System.Action{`0})
+  isExternal: true
+  href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnRemove_System_Action__0__
+  name: SubscribeOnRemove(Action<T>)
+  nameWithType: ICollectionEvents<T>.SubscribeOnRemove(Action<T>)
+  fullName: cfEngine.Rx.ICollectionEvents<T>.SubscribeOnRemove(System.Action<T>)
+  nameWithType.vb: ICollectionEvents(Of T).SubscribeOnRemove(Action(Of T))
+  fullName.vb: cfEngine.Rx.ICollectionEvents(Of T).SubscribeOnRemove(System.Action(Of T))
+  name.vb: SubscribeOnRemove(Action(Of T))
+  spec.csharp:
+  - uid: cfEngine.Rx.ICollectionEvents`1.SubscribeOnRemove(System.Action{`0})
+    name: SubscribeOnRemove
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnRemove_System_Action__0__
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.ICollectionEvents`1.SubscribeOnRemove(System.Action{`0})
+    name: SubscribeOnRemove
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnRemove_System_Action__0__
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.CollectionEvents`1.SubscribeOnUpdate*
+  commentId: Overload:cfEngine.Rx.CollectionEvents`1.SubscribeOnUpdate
+  href: cfEngine.Rx.CollectionEvents-1.html#cfEngine_Rx_CollectionEvents_1_SubscribeOnUpdate_System_Action__0__0__
+  name: SubscribeOnUpdate
+  nameWithType: CollectionEvents<T>.SubscribeOnUpdate
+  fullName: cfEngine.Rx.CollectionEvents<T>.SubscribeOnUpdate
+  nameWithType.vb: CollectionEvents(Of T).SubscribeOnUpdate
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).SubscribeOnUpdate
+- uid: cfEngine.Rx.ICollectionEvents{{T}}.SubscribeOnUpdate(System.Action{{T},{T}})
+  commentId: M:cfEngine.Rx.ICollectionEvents{`0}.SubscribeOnUpdate(System.Action{`0,`0})
+  parent: cfEngine.Rx.ICollectionEvents{{T}}
+  definition: cfEngine.Rx.ICollectionEvents`1.SubscribeOnUpdate(System.Action{`0,`0})
+  href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnUpdate_System_Action__0__0__
+  name: SubscribeOnUpdate(Action<T, T>)
+  nameWithType: ICollectionEvents<T>.SubscribeOnUpdate(Action<T, T>)
+  fullName: cfEngine.Rx.ICollectionEvents<T>.SubscribeOnUpdate(System.Action<T, T>)
+  nameWithType.vb: ICollectionEvents(Of T).SubscribeOnUpdate(Action(Of T, T))
+  fullName.vb: cfEngine.Rx.ICollectionEvents(Of T).SubscribeOnUpdate(System.Action(Of T, T))
+  name.vb: SubscribeOnUpdate(Action(Of T, T))
+  spec.csharp:
+  - uid: cfEngine.Rx.ICollectionEvents{`0}.SubscribeOnUpdate(System.Action{`0,`0})
+    name: SubscribeOnUpdate
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnUpdate_System_Action__0__0__
+  - name: (
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.ICollectionEvents{`0}.SubscribeOnUpdate(System.Action{`0,`0})
+    name: SubscribeOnUpdate
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnUpdate_System_Action__0__0__
+  - name: (
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.Action{{T},{T}}
+  commentId: T:System.Action{``0,``0}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<T, T>
+  nameWithType: Action<T, T>
+  fullName: System.Action<T, T>
+  nameWithType.vb: Action(Of T, T)
+  fullName.vb: System.Action(Of T, T)
+  name.vb: Action(Of T, T)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx.ICollectionEvents`1.SubscribeOnUpdate(System.Action{`0,`0})
+  commentId: M:cfEngine.Rx.ICollectionEvents`1.SubscribeOnUpdate(System.Action{`0,`0})
+  isExternal: true
+  href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnUpdate_System_Action__0__0__
+  name: SubscribeOnUpdate(Action<T, T>)
+  nameWithType: ICollectionEvents<T>.SubscribeOnUpdate(Action<T, T>)
+  fullName: cfEngine.Rx.ICollectionEvents<T>.SubscribeOnUpdate(System.Action<T, T>)
+  nameWithType.vb: ICollectionEvents(Of T).SubscribeOnUpdate(Action(Of T, T))
+  fullName.vb: cfEngine.Rx.ICollectionEvents(Of T).SubscribeOnUpdate(System.Action(Of T, T))
+  name.vb: SubscribeOnUpdate(Action(Of T, T))
+  spec.csharp:
+  - uid: cfEngine.Rx.ICollectionEvents`1.SubscribeOnUpdate(System.Action{`0,`0})
+    name: SubscribeOnUpdate
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnUpdate_System_Action__0__0__
+  - name: (
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.ICollectionEvents`1.SubscribeOnUpdate(System.Action{`0,`0})
+    name: SubscribeOnUpdate
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnUpdate_System_Action__0__0__
+  - name: (
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.Action`2
+  commentId: T:System.Action`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: cfEngine.Rx.CollectionEvents`1.SubscribeOnDispose*
+  commentId: Overload:cfEngine.Rx.CollectionEvents`1.SubscribeOnDispose
+  href: cfEngine.Rx.CollectionEvents-1.html#cfEngine_Rx_CollectionEvents_1_SubscribeOnDispose_System_Action_
+  name: SubscribeOnDispose
+  nameWithType: CollectionEvents<T>.SubscribeOnDispose
+  fullName: cfEngine.Rx.CollectionEvents<T>.SubscribeOnDispose
+  nameWithType.vb: CollectionEvents(Of T).SubscribeOnDispose
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).SubscribeOnDispose
+- uid: cfEngine.Rx.ICollectionEvents{{T}}.SubscribeOnDispose(System.Action)
+  commentId: M:cfEngine.Rx.ICollectionEvents{`0}.SubscribeOnDispose(System.Action)
+  parent: cfEngine.Rx.ICollectionEvents{{T}}
+  definition: cfEngine.Rx.ICollectionEvents`1.SubscribeOnDispose(System.Action)
+  href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnDispose_System_Action_
+  name: SubscribeOnDispose(Action)
+  nameWithType: ICollectionEvents<T>.SubscribeOnDispose(Action)
+  fullName: cfEngine.Rx.ICollectionEvents<T>.SubscribeOnDispose(System.Action)
+  nameWithType.vb: ICollectionEvents(Of T).SubscribeOnDispose(Action)
+  fullName.vb: cfEngine.Rx.ICollectionEvents(Of T).SubscribeOnDispose(System.Action)
+  spec.csharp:
+  - uid: cfEngine.Rx.ICollectionEvents{`0}.SubscribeOnDispose(System.Action)
+    name: SubscribeOnDispose
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnDispose_System_Action_
+  - name: (
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.ICollectionEvents{`0}.SubscribeOnDispose(System.Action)
+    name: SubscribeOnDispose
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnDispose_System_Action_
+  - name: (
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: cfEngine.Rx.ICollectionEvents`1.SubscribeOnDispose(System.Action)
+  commentId: M:cfEngine.Rx.ICollectionEvents`1.SubscribeOnDispose(System.Action)
+  isExternal: true
+  href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnDispose_System_Action_
+  name: SubscribeOnDispose(Action)
+  nameWithType: ICollectionEvents<T>.SubscribeOnDispose(Action)
+  fullName: cfEngine.Rx.ICollectionEvents<T>.SubscribeOnDispose(System.Action)
+  nameWithType.vb: ICollectionEvents(Of T).SubscribeOnDispose(Action)
+  fullName.vb: cfEngine.Rx.ICollectionEvents(Of T).SubscribeOnDispose(System.Action)
+  spec.csharp:
+  - uid: cfEngine.Rx.ICollectionEvents`1.SubscribeOnDispose(System.Action)
+    name: SubscribeOnDispose
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnDispose_System_Action_
+  - name: (
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.ICollectionEvents`1.SubscribeOnDispose(System.Action)
+    name: SubscribeOnDispose
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_SubscribeOnDispose_System_Action_
+  - name: (
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+- uid: cfEngine.Rx.CollectionEvents`1.Dispose*
+  commentId: Overload:cfEngine.Rx.CollectionEvents`1.Dispose
+  href: cfEngine.Rx.CollectionEvents-1.html#cfEngine_Rx_CollectionEvents_1_Dispose
+  name: Dispose
+  nameWithType: CollectionEvents<T>.Dispose
+  fullName: cfEngine.Rx.CollectionEvents<T>.Dispose
+  nameWithType.vb: CollectionEvents(Of T).Dispose
+  fullName.vb: cfEngine.Rx.CollectionEvents(Of T).Dispose
+- uid: cfEngine.Rx.ICollectionEvents{{T}}.Dispose
+  commentId: M:cfEngine.Rx.ICollectionEvents{`0}.Dispose
+  parent: cfEngine.Rx.ICollectionEvents{{T}}
+  definition: cfEngine.Rx.ICollectionEvents`1.Dispose
+  href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_Dispose
+  name: Dispose()
+  nameWithType: ICollectionEvents<T>.Dispose()
+  fullName: cfEngine.Rx.ICollectionEvents<T>.Dispose()
+  nameWithType.vb: ICollectionEvents(Of T).Dispose()
+  fullName.vb: cfEngine.Rx.ICollectionEvents(Of T).Dispose()
+  spec.csharp:
+  - uid: cfEngine.Rx.ICollectionEvents{`0}.Dispose
+    name: Dispose
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.ICollectionEvents{`0}.Dispose
+    name: Dispose
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_Dispose
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.ICollectionEvents`1.Dispose
+  commentId: M:cfEngine.Rx.ICollectionEvents`1.Dispose
+  href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_Dispose
+  name: Dispose()
+  nameWithType: ICollectionEvents<T>.Dispose()
+  fullName: cfEngine.Rx.ICollectionEvents<T>.Dispose()
+  nameWithType.vb: ICollectionEvents(Of T).Dispose()
+  fullName.vb: cfEngine.Rx.ICollectionEvents(Of T).Dispose()
+  spec.csharp:
+  - uid: cfEngine.Rx.ICollectionEvents`1.Dispose
+    name: Dispose
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.ICollectionEvents`1.Dispose
+    name: Dispose
+    href: cfEngine.Rx.ICollectionEvents-1.html#cfEngine_Rx_ICollectionEvents_1_Dispose
+  - name: (
+  - name: )

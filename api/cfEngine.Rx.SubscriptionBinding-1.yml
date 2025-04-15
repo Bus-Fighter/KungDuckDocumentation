@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Rx.SubscriptionBinding`1
+  commentId: T:cfEngine.Rx.SubscriptionBinding`1
+  id: SubscriptionBinding`1
+  parent: cfEngine.Rx
+  children:
+  - cfEngine.Rx.SubscriptionBinding`1.#ctor(`0,cfEngine.Rx.RelayBase{`0})
+  - cfEngine.Rx.SubscriptionBinding`1.IsListener(`0)
+  - cfEngine.Rx.SubscriptionBinding`1.Listener
+  - cfEngine.Rx.SubscriptionBinding`1.Unsubscribe
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionBinding<TDelegate>
+  nameWithType: SubscriptionBinding<TDelegate>
+  fullName: cfEngine.Rx.SubscriptionBinding<TDelegate>
+  type: Class
+  source:
+    id: SubscriptionBinding
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/Relay.cs
+    startLine: 31
+  namespace: cfEngine.Rx
+  syntax:
+    content: 'public class SubscriptionBinding<TDelegate> : Subscription where TDelegate : class'
+    typeParameters:
+    - id: TDelegate
+    content.vb: Public Class SubscriptionBinding(Of TDelegate As Class) Inherits Subscription
+  inheritance:
+  - System.Object
+  - cfEngine.Rx.Subscription
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - cfEngine.Rx.Subscription.cfEngine.Rx.SubscriptionHandleExtension.UnsubscribeIfNotNull
+  nameWithType.vb: SubscriptionBinding(Of TDelegate)
+  fullName.vb: cfEngine.Rx.SubscriptionBinding(Of TDelegate)
+  name.vb: SubscriptionBinding(Of TDelegate)
+- uid: cfEngine.Rx.SubscriptionBinding`1.Listener
+  commentId: F:cfEngine.Rx.SubscriptionBinding`1.Listener
+  id: Listener
+  parent: cfEngine.Rx.SubscriptionBinding`1
+  langs:
+  - csharp
+  - vb
+  name: Listener
+  nameWithType: SubscriptionBinding<TDelegate>.Listener
+  fullName: cfEngine.Rx.SubscriptionBinding<TDelegate>.Listener
+  type: Field
+  source:
+    id: Listener
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/Relay.cs
+    startLine: 33
+  namespace: cfEngine.Rx
+  syntax:
+    content: public readonly TDelegate Listener
+    return:
+      type: '{TDelegate}'
+    content.vb: Public ReadOnly Listener As TDelegate
+  nameWithType.vb: SubscriptionBinding(Of TDelegate).Listener
+  fullName.vb: cfEngine.Rx.SubscriptionBinding(Of TDelegate).Listener
+- uid: cfEngine.Rx.SubscriptionBinding`1.#ctor(`0,cfEngine.Rx.RelayBase{`0})
+  commentId: M:cfEngine.Rx.SubscriptionBinding`1.#ctor(`0,cfEngine.Rx.RelayBase{`0})
+  id: '#ctor(`0,cfEngine.Rx.RelayBase{`0})'
+  parent: cfEngine.Rx.SubscriptionBinding`1
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionBinding(TDelegate, RelayBase<TDelegate>)
+  nameWithType: SubscriptionBinding<TDelegate>.SubscriptionBinding(TDelegate, RelayBase<TDelegate>)
+  fullName: cfEngine.Rx.SubscriptionBinding<TDelegate>.SubscriptionBinding(TDelegate, cfEngine.Rx.RelayBase<TDelegate>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/Relay.cs
+    startLine: 35
+  namespace: cfEngine.Rx
+  syntax:
+    content: public SubscriptionBinding(TDelegate listener, RelayBase<TDelegate> relay)
+    parameters:
+    - id: listener
+      type: '{TDelegate}'
+    - id: relay
+      type: cfEngine.Rx.RelayBase{{TDelegate}}
+    content.vb: Public Sub New(listener As TDelegate, relay As RelayBase(Of TDelegate))
+  overload: cfEngine.Rx.SubscriptionBinding`1.#ctor*
+  nameWithType.vb: SubscriptionBinding(Of TDelegate).New(TDelegate, RelayBase(Of TDelegate))
+  fullName.vb: cfEngine.Rx.SubscriptionBinding(Of TDelegate).New(TDelegate, cfEngine.Rx.RelayBase(Of TDelegate))
+  name.vb: New(TDelegate, RelayBase(Of TDelegate))
+- uid: cfEngine.Rx.SubscriptionBinding`1.IsListener(`0)
+  commentId: M:cfEngine.Rx.SubscriptionBinding`1.IsListener(`0)
+  id: IsListener(`0)
+  parent: cfEngine.Rx.SubscriptionBinding`1
+  langs:
+  - csharp
+  - vb
+  name: IsListener(TDelegate)
+  nameWithType: SubscriptionBinding<TDelegate>.IsListener(TDelegate)
+  fullName: cfEngine.Rx.SubscriptionBinding<TDelegate>.IsListener(TDelegate)
+  type: Method
+  source:
+    id: IsListener
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/Relay.cs
+    startLine: 41
+  namespace: cfEngine.Rx
+  syntax:
+    content: public bool IsListener(TDelegate d)
+    parameters:
+    - id: d
+      type: '{TDelegate}'
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsListener(d As TDelegate) As Boolean
+  overload: cfEngine.Rx.SubscriptionBinding`1.IsListener*
+  nameWithType.vb: SubscriptionBinding(Of TDelegate).IsListener(TDelegate)
+  fullName.vb: cfEngine.Rx.SubscriptionBinding(Of TDelegate).IsListener(TDelegate)
+- uid: cfEngine.Rx.SubscriptionBinding`1.Unsubscribe
+  commentId: M:cfEngine.Rx.SubscriptionBinding`1.Unsubscribe
+  id: Unsubscribe
+  parent: cfEngine.Rx.SubscriptionBinding`1
+  langs:
+  - csharp
+  - vb
+  name: Unsubscribe()
+  nameWithType: SubscriptionBinding<TDelegate>.Unsubscribe()
+  fullName: cfEngine.Rx.SubscriptionBinding<TDelegate>.Unsubscribe()
+  type: Method
+  source:
+    id: Unsubscribe
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/Relay.cs
+    startLine: 46
+  namespace: cfEngine.Rx
+  example: []
+  syntax:
+    content: public override void Unsubscribe()
+    content.vb: Public Overrides Sub Unsubscribe()
+  overridden: cfEngine.Rx.Subscription.Unsubscribe
+  overload: cfEngine.Rx.SubscriptionBinding`1.Unsubscribe*
+  nameWithType.vb: SubscriptionBinding(Of TDelegate).Unsubscribe()
+  fullName.vb: cfEngine.Rx.SubscriptionBinding(Of TDelegate).Unsubscribe()
+references:
+- uid: cfEngine.Rx
+  commentId: N:cfEngine.Rx
+  href: cfEngine.html
+  name: cfEngine.Rx
+  nameWithType: cfEngine.Rx
+  fullName: cfEngine.Rx
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: cfEngine.Rx.Subscription
+  commentId: T:cfEngine.Rx.Subscription
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.Subscription.html
+  name: Subscription
+  nameWithType: Subscription
+  fullName: cfEngine.Rx.Subscription
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.Subscription.cfEngine.Rx.SubscriptionHandleExtension.UnsubscribeIfNotNull
+  commentId: M:cfEngine.Rx.SubscriptionHandleExtension.UnsubscribeIfNotNull(cfEngine.Rx.Subscription)
+  parent: cfEngine.Rx.SubscriptionHandleExtension
+  definition: cfEngine.Rx.SubscriptionHandleExtension.UnsubscribeIfNotNull(cfEngine.Rx.Subscription)
+  href: cfEngine.Rx.SubscriptionHandleExtension.html#cfEngine_Rx_SubscriptionHandleExtension_UnsubscribeIfNotNull_cfEngine_Rx_Subscription_
+  name: UnsubscribeIfNotNull(Subscription)
+  nameWithType: SubscriptionHandleExtension.UnsubscribeIfNotNull(Subscription)
+  fullName: cfEngine.Rx.SubscriptionHandleExtension.UnsubscribeIfNotNull(cfEngine.Rx.Subscription)
+  spec.csharp:
+  - uid: cfEngine.Rx.SubscriptionHandleExtension.UnsubscribeIfNotNull(cfEngine.Rx.Subscription)
+    name: UnsubscribeIfNotNull
+    href: cfEngine.Rx.SubscriptionHandleExtension.html#cfEngine_Rx_SubscriptionHandleExtension_UnsubscribeIfNotNull_cfEngine_Rx_Subscription_
+  - name: (
+  - uid: cfEngine.Rx.Subscription
+    name: Subscription
+    href: cfEngine.Rx.Subscription.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.SubscriptionHandleExtension.UnsubscribeIfNotNull(cfEngine.Rx.Subscription)
+    name: UnsubscribeIfNotNull
+    href: cfEngine.Rx.SubscriptionHandleExtension.html#cfEngine_Rx_SubscriptionHandleExtension_UnsubscribeIfNotNull_cfEngine_Rx_Subscription_
+  - name: (
+  - uid: cfEngine.Rx.Subscription
+    name: Subscription
+    href: cfEngine.Rx.Subscription.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Rx.SubscriptionHandleExtension.UnsubscribeIfNotNull(cfEngine.Rx.Subscription)
+  commentId: M:cfEngine.Rx.SubscriptionHandleExtension.UnsubscribeIfNotNull(cfEngine.Rx.Subscription)
+  href: cfEngine.Rx.SubscriptionHandleExtension.html#cfEngine_Rx_SubscriptionHandleExtension_UnsubscribeIfNotNull_cfEngine_Rx_Subscription_
+  name: UnsubscribeIfNotNull(Subscription)
+  nameWithType: SubscriptionHandleExtension.UnsubscribeIfNotNull(Subscription)
+  fullName: cfEngine.Rx.SubscriptionHandleExtension.UnsubscribeIfNotNull(cfEngine.Rx.Subscription)
+  spec.csharp:
+  - uid: cfEngine.Rx.SubscriptionHandleExtension.UnsubscribeIfNotNull(cfEngine.Rx.Subscription)
+    name: UnsubscribeIfNotNull
+    href: cfEngine.Rx.SubscriptionHandleExtension.html#cfEngine_Rx_SubscriptionHandleExtension_UnsubscribeIfNotNull_cfEngine_Rx_Subscription_
+  - name: (
+  - uid: cfEngine.Rx.Subscription
+    name: Subscription
+    href: cfEngine.Rx.Subscription.html
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.SubscriptionHandleExtension.UnsubscribeIfNotNull(cfEngine.Rx.Subscription)
+    name: UnsubscribeIfNotNull
+    href: cfEngine.Rx.SubscriptionHandleExtension.html#cfEngine_Rx_SubscriptionHandleExtension_UnsubscribeIfNotNull_cfEngine_Rx_Subscription_
+  - name: (
+  - uid: cfEngine.Rx.Subscription
+    name: Subscription
+    href: cfEngine.Rx.Subscription.html
+  - name: )
+- uid: cfEngine.Rx.SubscriptionHandleExtension
+  commentId: T:cfEngine.Rx.SubscriptionHandleExtension
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.SubscriptionHandleExtension.html
+  name: SubscriptionHandleExtension
+  nameWithType: SubscriptionHandleExtension
+  fullName: cfEngine.Rx.SubscriptionHandleExtension
+- uid: '{TDelegate}'
+  commentId: '!:TDelegate'
+  definition: TDelegate
+  name: TDelegate
+  nameWithType: TDelegate
+  fullName: TDelegate
+- uid: TDelegate
+  name: TDelegate
+  nameWithType: TDelegate
+  fullName: TDelegate
+- uid: cfEngine.Rx.SubscriptionBinding`1.#ctor*
+  commentId: Overload:cfEngine.Rx.SubscriptionBinding`1.#ctor
+  href: cfEngine.Rx.SubscriptionBinding-1.html#cfEngine_Rx_SubscriptionBinding_1__ctor__0_cfEngine_Rx_RelayBase__0__
+  name: SubscriptionBinding
+  nameWithType: SubscriptionBinding<TDelegate>.SubscriptionBinding
+  fullName: cfEngine.Rx.SubscriptionBinding<TDelegate>.SubscriptionBinding
+  nameWithType.vb: SubscriptionBinding(Of TDelegate).New
+  fullName.vb: cfEngine.Rx.SubscriptionBinding(Of TDelegate).New
+  name.vb: New
+- uid: cfEngine.Rx.RelayBase{{TDelegate}}
+  commentId: T:cfEngine.Rx.RelayBase{`0}
+  parent: cfEngine.Rx
+  definition: cfEngine.Rx.RelayBase`1
+  href: cfEngine.Rx.RelayBase-1.html
+  name: RelayBase<TDelegate>
+  nameWithType: RelayBase<TDelegate>
+  fullName: cfEngine.Rx.RelayBase<TDelegate>
+  nameWithType.vb: RelayBase(Of TDelegate)
+  fullName.vb: cfEngine.Rx.RelayBase(Of TDelegate)
+  name.vb: RelayBase(Of TDelegate)
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase`1
+    name: RelayBase
+    href: cfEngine.Rx.RelayBase-1.html
+  - name: <
+  - name: TDelegate
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase`1
+    name: RelayBase
+    href: cfEngine.Rx.RelayBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
+  - name: )
+- uid: cfEngine.Rx.RelayBase`1
+  commentId: T:cfEngine.Rx.RelayBase`1
+  href: cfEngine.Rx.RelayBase-1.html
+  name: RelayBase<TDelegate>
+  nameWithType: RelayBase<TDelegate>
+  fullName: cfEngine.Rx.RelayBase<TDelegate>
+  nameWithType.vb: RelayBase(Of TDelegate)
+  fullName.vb: cfEngine.Rx.RelayBase(Of TDelegate)
+  name.vb: RelayBase(Of TDelegate)
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase`1
+    name: RelayBase
+    href: cfEngine.Rx.RelayBase-1.html
+  - name: <
+  - name: TDelegate
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase`1
+    name: RelayBase
+    href: cfEngine.Rx.RelayBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
+  - name: )
+- uid: cfEngine.Rx.SubscriptionBinding`1.IsListener*
+  commentId: Overload:cfEngine.Rx.SubscriptionBinding`1.IsListener
+  href: cfEngine.Rx.SubscriptionBinding-1.html#cfEngine_Rx_SubscriptionBinding_1_IsListener__0_
+  name: IsListener
+  nameWithType: SubscriptionBinding<TDelegate>.IsListener
+  fullName: cfEngine.Rx.SubscriptionBinding<TDelegate>.IsListener
+  nameWithType.vb: SubscriptionBinding(Of TDelegate).IsListener
+  fullName.vb: cfEngine.Rx.SubscriptionBinding(Of TDelegate).IsListener
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: cfEngine.Rx.Subscription.Unsubscribe
+  commentId: M:cfEngine.Rx.Subscription.Unsubscribe
+  parent: cfEngine.Rx.Subscription
+  href: cfEngine.Rx.Subscription.html#cfEngine_Rx_Subscription_Unsubscribe
+  name: Unsubscribe()
+  nameWithType: Subscription.Unsubscribe()
+  fullName: cfEngine.Rx.Subscription.Unsubscribe()
+  spec.csharp:
+  - uid: cfEngine.Rx.Subscription.Unsubscribe
+    name: Unsubscribe
+    href: cfEngine.Rx.Subscription.html#cfEngine_Rx_Subscription_Unsubscribe
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.Subscription.Unsubscribe
+    name: Unsubscribe
+    href: cfEngine.Rx.Subscription.html#cfEngine_Rx_Subscription_Unsubscribe
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.SubscriptionBinding`1.Unsubscribe*
+  commentId: Overload:cfEngine.Rx.SubscriptionBinding`1.Unsubscribe
+  href: cfEngine.Rx.SubscriptionBinding-1.html#cfEngine_Rx_SubscriptionBinding_1_Unsubscribe
+  name: Unsubscribe
+  nameWithType: SubscriptionBinding<TDelegate>.Unsubscribe
+  fullName: cfEngine.Rx.SubscriptionBinding<TDelegate>.Unsubscribe
+  nameWithType.vb: SubscriptionBinding(Of TDelegate).Unsubscribe
+  fullName.vb: cfEngine.Rx.SubscriptionBinding(Of TDelegate).Unsubscribe

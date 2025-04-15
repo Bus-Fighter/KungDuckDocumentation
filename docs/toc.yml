@@ -1,0 +1,6 @@
+- name: Getting Started
+  href: getting-started.md
+- name: Folder Structure
+  href: folder-structure.md
+- name: GDrive Mirror Guide
+  href: gdrivemirror-get-started.md

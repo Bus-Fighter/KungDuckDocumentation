@@ -1,0 +1,937 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Core.GameExtension
+  commentId: T:cfEngine.Core.GameExtension
+  id: GameExtension
+  parent: cfEngine.Core
+  children:
+  - cfEngine.Core.GameExtension.GetAsset``1(cfEngine.Core.Game)
+  - cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+  - cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+  - cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+  - cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+  - cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+  - cfEngine.Core.GameExtension.WithAsset``1(cfEngine.Core.Game,cfEngine.Asset.AssetManager{``0})
+  - cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game,cfEngine.Service.Auth.IAuthService)
+  - cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game,cfEngine.Info.InfoLayer)
+  - cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game,cfEngine.Service.Inventory.IInventoryService)
+  - cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game,cfEngine.Pooling.PoolManager)
+  - cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game,cfEngine.Core.UserDataManager)
+  langs:
+  - csharp
+  - vb
+  name: GameExtension
+  nameWithType: GameExtension
+  fullName: cfEngine.Core.GameExtension
+  type: Class
+  source:
+    id: GameExtension
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryService.cs
+    startLine: 24
+  namespace: cfEngine.Core
+  syntax:
+    content: public static class GameExtension
+    content.vb: Public Module GameExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: cfEngine.Core.GameExtension.WithAsset``1(cfEngine.Core.Game,cfEngine.Asset.AssetManager{``0})
+  commentId: M:cfEngine.Core.GameExtension.WithAsset``1(cfEngine.Core.Game,cfEngine.Asset.AssetManager{``0})
+  id: WithAsset``1(cfEngine.Core.Game,cfEngine.Asset.AssetManager{``0})
+  isExtensionMethod: true
+  parent: cfEngine.Core.GameExtension
+  langs:
+  - csharp
+  - vb
+  name: WithAsset<T>(Game, AssetManager<T>)
+  nameWithType: GameExtension.WithAsset<T>(Game, AssetManager<T>)
+  fullName: cfEngine.Core.GameExtension.WithAsset<T>(cfEngine.Core.Game, cfEngine.Asset.AssetManager<T>)
+  type: Method
+  source:
+    id: WithAsset
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/asset/AssetManager.cs
+    startLine: 17
+  namespace: cfEngine.Core
+  syntax:
+    content: 'public static Game WithAsset<T>(this Game game, AssetManager<T> service) where T : class'
+    parameters:
+    - id: game
+      type: cfEngine.Core.Game
+    - id: service
+      type: cfEngine.Asset.AssetManager{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: cfEngine.Core.Game
+    content.vb: Public Shared Function WithAsset(Of T As Class)(game As Game, service As AssetManager(Of T)) As Game
+  overload: cfEngine.Core.GameExtension.WithAsset*
+  nameWithType.vb: GameExtension.WithAsset(Of T)(Game, AssetManager(Of T))
+  fullName.vb: cfEngine.Core.GameExtension.WithAsset(Of T)(cfEngine.Core.Game, cfEngine.Asset.AssetManager(Of T))
+  name.vb: WithAsset(Of T)(Game, AssetManager(Of T))
+- uid: cfEngine.Core.GameExtension.GetAsset``1(cfEngine.Core.Game)
+  commentId: M:cfEngine.Core.GameExtension.GetAsset``1(cfEngine.Core.Game)
+  id: GetAsset``1(cfEngine.Core.Game)
+  isExtensionMethod: true
+  parent: cfEngine.Core.GameExtension
+  langs:
+  - csharp
+  - vb
+  name: GetAsset<T>(Game)
+  nameWithType: GameExtension.GetAsset<T>(Game)
+  fullName: cfEngine.Core.GameExtension.GetAsset<T>(cfEngine.Core.Game)
+  type: Method
+  source:
+    id: GetAsset
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/asset/AssetManager.cs
+    startLine: 23
+  namespace: cfEngine.Core
+  syntax:
+    content: 'public static AssetManager<T> GetAsset<T>(this Game game) where T : class'
+    parameters:
+    - id: game
+      type: cfEngine.Core.Game
+    typeParameters:
+    - id: T
+    return:
+      type: cfEngine.Asset.AssetManager{{T}}
+    content.vb: Public Shared Function GetAsset(Of T As Class)(game As Game) As AssetManager(Of T)
+  overload: cfEngine.Core.GameExtension.GetAsset*
+  nameWithType.vb: GameExtension.GetAsset(Of T)(Game)
+  fullName.vb: cfEngine.Core.GameExtension.GetAsset(Of T)(cfEngine.Core.Game)
+  name.vb: GetAsset(Of T)(Game)
+- uid: cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game,cfEngine.Core.UserDataManager)
+  commentId: M:cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game,cfEngine.Core.UserDataManager)
+  id: WithUserData(cfEngine.Core.Game,cfEngine.Core.UserDataManager)
+  isExtensionMethod: true
+  parent: cfEngine.Core.GameExtension
+  langs:
+  - csharp
+  - vb
+  name: WithUserData(Game, UserDataManager)
+  nameWithType: GameExtension.WithUserData(Game, UserDataManager)
+  fullName: cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game, cfEngine.Core.UserDataManager)
+  type: Method
+  source:
+    id: WithUserData
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/core/UserDataManager.cs
+    startLine: 24
+  namespace: cfEngine.Core
+  syntax:
+    content: public static Game WithUserData(this Game game, UserDataManager service)
+    parameters:
+    - id: game
+      type: cfEngine.Core.Game
+    - id: service
+      type: cfEngine.Core.UserDataManager
+    return:
+      type: cfEngine.Core.Game
+    content.vb: Public Shared Function WithUserData(game As Game, service As UserDataManager) As Game
+  overload: cfEngine.Core.GameExtension.WithUserData*
+- uid: cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+  commentId: M:cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+  id: GetUserData(cfEngine.Core.Game)
+  isExtensionMethod: true
+  parent: cfEngine.Core.GameExtension
+  langs:
+  - csharp
+  - vb
+  name: GetUserData(Game)
+  nameWithType: GameExtension.GetUserData(Game)
+  fullName: cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)
+  type: Method
+  source:
+    id: GetUserData
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/core/UserDataManager.cs
+    startLine: 30
+  namespace: cfEngine.Core
+  syntax:
+    content: public static UserDataManager GetUserData(this Game game)
+    parameters:
+    - id: game
+      type: cfEngine.Core.Game
+    return:
+      type: cfEngine.Core.UserDataManager
+    content.vb: Public Shared Function GetUserData(game As Game) As UserDataManager
+  overload: cfEngine.Core.GameExtension.GetUserData*
+- uid: cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game,cfEngine.Info.InfoLayer)
+  commentId: M:cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game,cfEngine.Info.InfoLayer)
+  id: WithInfo(cfEngine.Core.Game,cfEngine.Info.InfoLayer)
+  isExtensionMethod: true
+  parent: cfEngine.Core.GameExtension
+  langs:
+  - csharp
+  - vb
+  name: WithInfo(Game, InfoLayer)
+  nameWithType: GameExtension.WithInfo(Game, InfoLayer)
+  fullName: cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game, cfEngine.Info.InfoLayer)
+  type: Method
+  source:
+    id: WithInfo
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/InfoLayer.cs
+    startLine: 17
+  namespace: cfEngine.Core
+  syntax:
+    content: public static Game WithInfo(this Game game, InfoLayer service)
+    parameters:
+    - id: game
+      type: cfEngine.Core.Game
+    - id: service
+      type: cfEngine.Info.InfoLayer
+    return:
+      type: cfEngine.Core.Game
+    content.vb: Public Shared Function WithInfo(game As Game, service As InfoLayer) As Game
+  overload: cfEngine.Core.GameExtension.WithInfo*
+- uid: cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+  commentId: M:cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+  id: GetInfo(cfEngine.Core.Game)
+  isExtensionMethod: true
+  parent: cfEngine.Core.GameExtension
+  langs:
+  - csharp
+  - vb
+  name: GetInfo(Game)
+  nameWithType: GameExtension.GetInfo(Game)
+  fullName: cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)
+  type: Method
+  source:
+    id: GetInfo
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/InfoLayer.cs
+    startLine: 23
+  namespace: cfEngine.Core
+  syntax:
+    content: public static InfoLayer GetInfo(this Game game)
+    parameters:
+    - id: game
+      type: cfEngine.Core.Game
+    return:
+      type: cfEngine.Info.InfoLayer
+    content.vb: Public Shared Function GetInfo(game As Game) As InfoLayer
+  overload: cfEngine.Core.GameExtension.GetInfo*
+- uid: cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game,cfEngine.Pooling.PoolManager)
+  commentId: M:cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game,cfEngine.Pooling.PoolManager)
+  id: WithPoolManager(cfEngine.Core.Game,cfEngine.Pooling.PoolManager)
+  isExtensionMethod: true
+  parent: cfEngine.Core.GameExtension
+  langs:
+  - csharp
+  - vb
+  name: WithPoolManager(Game, PoolManager)
+  nameWithType: GameExtension.WithPoolManager(Game, PoolManager)
+  fullName: cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game, cfEngine.Pooling.PoolManager)
+  type: Method
+  source:
+    id: WithPoolManager
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/pooling/PoolManager.cs
+    startLine: 16
+  namespace: cfEngine.Core
+  syntax:
+    content: public static Game WithPoolManager(this Game game, PoolManager service)
+    parameters:
+    - id: game
+      type: cfEngine.Core.Game
+    - id: service
+      type: cfEngine.Pooling.PoolManager
+    return:
+      type: cfEngine.Core.Game
+    content.vb: Public Shared Function WithPoolManager(game As Game, service As PoolManager) As Game
+  overload: cfEngine.Core.GameExtension.WithPoolManager*
+- uid: cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+  commentId: M:cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+  id: GetPoolManager(cfEngine.Core.Game)
+  isExtensionMethod: true
+  parent: cfEngine.Core.GameExtension
+  langs:
+  - csharp
+  - vb
+  name: GetPoolManager(Game)
+  nameWithType: GameExtension.GetPoolManager(Game)
+  fullName: cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)
+  type: Method
+  source:
+    id: GetPoolManager
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/pooling/PoolManager.cs
+    startLine: 22
+  namespace: cfEngine.Core
+  syntax:
+    content: public static PoolManager GetPoolManager(this Game game)
+    parameters:
+    - id: game
+      type: cfEngine.Core.Game
+    return:
+      type: cfEngine.Pooling.PoolManager
+    content.vb: Public Shared Function GetPoolManager(game As Game) As PoolManager
+  overload: cfEngine.Core.GameExtension.GetPoolManager*
+- uid: cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game,cfEngine.Service.Auth.IAuthService)
+  commentId: M:cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game,cfEngine.Service.Auth.IAuthService)
+  id: WithAuthService(cfEngine.Core.Game,cfEngine.Service.Auth.IAuthService)
+  isExtensionMethod: true
+  parent: cfEngine.Core.GameExtension
+  langs:
+  - csharp
+  - vb
+  name: WithAuthService(Game, IAuthService)
+  nameWithType: GameExtension.WithAuthService(Game, IAuthService)
+  fullName: cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game, cfEngine.Service.Auth.IAuthService)
+  type: Method
+  source:
+    id: WithAuthService
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 15
+  namespace: cfEngine.Core
+  syntax:
+    content: public static Game WithAuthService(this Game game, IAuthService service)
+    parameters:
+    - id: game
+      type: cfEngine.Core.Game
+    - id: service
+      type: cfEngine.Service.Auth.IAuthService
+    return:
+      type: cfEngine.Core.Game
+    content.vb: Public Shared Function WithAuthService(game As Game, service As IAuthService) As Game
+  overload: cfEngine.Core.GameExtension.WithAuthService*
+- uid: cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+  commentId: M:cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+  id: GetAuth(cfEngine.Core.Game)
+  isExtensionMethod: true
+  parent: cfEngine.Core.GameExtension
+  langs:
+  - csharp
+  - vb
+  name: GetAuth(Game)
+  nameWithType: GameExtension.GetAuth(Game)
+  fullName: cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)
+  type: Method
+  source:
+    id: GetAuth
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/auth/AuthService.cs
+    startLine: 20
+  namespace: cfEngine.Core
+  syntax:
+    content: public static IAuthService GetAuth(this Game game)
+    parameters:
+    - id: game
+      type: cfEngine.Core.Game
+    return:
+      type: cfEngine.Service.Auth.IAuthService
+    content.vb: Public Shared Function GetAuth(game As Game) As IAuthService
+  overload: cfEngine.Core.GameExtension.GetAuth*
+- uid: cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game,cfEngine.Service.Inventory.IInventoryService)
+  commentId: M:cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game,cfEngine.Service.Inventory.IInventoryService)
+  id: WithInventory(cfEngine.Core.Game,cfEngine.Service.Inventory.IInventoryService)
+  isExtensionMethod: true
+  parent: cfEngine.Core.GameExtension
+  langs:
+  - csharp
+  - vb
+  name: WithInventory(Game, IInventoryService)
+  nameWithType: GameExtension.WithInventory(Game, IInventoryService)
+  fullName: cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game, cfEngine.Service.Inventory.IInventoryService)
+  type: Method
+  source:
+    id: WithInventory
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryService.cs
+    startLine: 26
+  namespace: cfEngine.Core
+  syntax:
+    content: public static Game WithInventory(this Game game, IInventoryService service)
+    parameters:
+    - id: game
+      type: cfEngine.Core.Game
+    - id: service
+      type: cfEngine.Service.Inventory.IInventoryService
+    return:
+      type: cfEngine.Core.Game
+    content.vb: Public Shared Function WithInventory(game As Game, service As IInventoryService) As Game
+  overload: cfEngine.Core.GameExtension.WithInventory*
+- uid: cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+  commentId: M:cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+  id: GetInventory(cfEngine.Core.Game)
+  isExtensionMethod: true
+  parent: cfEngine.Core.GameExtension
+  langs:
+  - csharp
+  - vb
+  name: GetInventory(Game)
+  nameWithType: GameExtension.GetInventory(Game)
+  fullName: cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)
+  type: Method
+  source:
+    id: GetInventory
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/service/inventory/InventoryService.cs
+    startLine: 32
+  namespace: cfEngine.Core
+  syntax:
+    content: public static InventoryService GetInventory(this Game game)
+    parameters:
+    - id: game
+      type: cfEngine.Core.Game
+    return:
+      type: cfEngine.Service.Inventory.InventoryService
+    content.vb: Public Shared Function GetInventory(game As Game) As InventoryService
+  overload: cfEngine.Core.GameExtension.GetInventory*
+references:
+- uid: cfEngine.Core
+  commentId: N:cfEngine.Core
+  href: cfEngine.html
+  name: cfEngine.Core
+  nameWithType: cfEngine.Core
+  fullName: cfEngine.Core
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Core
+    name: Core
+    href: cfEngine.Core.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Core
+    name: Core
+    href: cfEngine.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Core.GameExtension.WithAsset*
+  commentId: Overload:cfEngine.Core.GameExtension.WithAsset
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAsset__1_cfEngine_Core_Game_cfEngine_Asset_AssetManager___0__
+  name: WithAsset
+  nameWithType: GameExtension.WithAsset
+  fullName: cfEngine.Core.GameExtension.WithAsset
+- uid: cfEngine.Core.Game
+  commentId: T:cfEngine.Core.Game
+  parent: cfEngine.Core
+  href: cfEngine.Core.Game.html
+  name: Game
+  nameWithType: Game
+  fullName: cfEngine.Core.Game
+- uid: cfEngine.Asset.AssetManager{{T}}
+  commentId: T:cfEngine.Asset.AssetManager{``0}
+  parent: cfEngine.Asset
+  definition: cfEngine.Asset.AssetManager`1
+  href: cfEngine.Asset.AssetManager-1.html
+  name: AssetManager<T>
+  nameWithType: AssetManager<T>
+  fullName: cfEngine.Asset.AssetManager<T>
+  nameWithType.vb: AssetManager(Of T)
+  fullName.vb: cfEngine.Asset.AssetManager(Of T)
+  name.vb: AssetManager(Of T)
+  spec.csharp:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Asset.AssetManager`1
+  commentId: T:cfEngine.Asset.AssetManager`1
+  href: cfEngine.Asset.AssetManager-1.html
+  name: AssetManager<TBaseObject>
+  nameWithType: AssetManager<TBaseObject>
+  fullName: cfEngine.Asset.AssetManager<TBaseObject>
+  nameWithType.vb: AssetManager(Of TBaseObject)
+  fullName.vb: cfEngine.Asset.AssetManager(Of TBaseObject)
+  name.vb: AssetManager(Of TBaseObject)
+  spec.csharp:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: <
+  - name: TBaseObject
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TBaseObject
+  - name: )
+- uid: cfEngine.Asset
+  commentId: N:cfEngine.Asset
+  href: cfEngine.html
+  name: cfEngine.Asset
+  nameWithType: cfEngine.Asset
+  fullName: cfEngine.Asset
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Asset
+    name: Asset
+    href: cfEngine.Asset.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Asset
+    name: Asset
+    href: cfEngine.Asset.html
+- uid: cfEngine.Core.GameExtension.GetAsset*
+  commentId: Overload:cfEngine.Core.GameExtension.GetAsset
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAsset__1_cfEngine_Core_Game_
+  name: GetAsset
+  nameWithType: GameExtension.GetAsset
+  fullName: cfEngine.Core.GameExtension.GetAsset
+- uid: cfEngine.Core.GameExtension.WithUserData*
+  commentId: Overload:cfEngine.Core.GameExtension.WithUserData
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithUserData_cfEngine_Core_Game_cfEngine_Core_UserDataManager_
+  name: WithUserData
+  nameWithType: GameExtension.WithUserData
+  fullName: cfEngine.Core.GameExtension.WithUserData
+- uid: cfEngine.Core.UserDataManager
+  commentId: T:cfEngine.Core.UserDataManager
+  parent: cfEngine.Core
+  href: cfEngine.Core.UserDataManager.html
+  name: UserDataManager
+  nameWithType: UserDataManager
+  fullName: cfEngine.Core.UserDataManager
+- uid: cfEngine.Core.GameExtension.GetUserData*
+  commentId: Overload:cfEngine.Core.GameExtension.GetUserData
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetUserData_cfEngine_Core_Game_
+  name: GetUserData
+  nameWithType: GameExtension.GetUserData
+  fullName: cfEngine.Core.GameExtension.GetUserData
+- uid: cfEngine.Core.GameExtension.WithInfo*
+  commentId: Overload:cfEngine.Core.GameExtension.WithInfo
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInfo_cfEngine_Core_Game_cfEngine_Info_InfoLayer_
+  name: WithInfo
+  nameWithType: GameExtension.WithInfo
+  fullName: cfEngine.Core.GameExtension.WithInfo
+- uid: cfEngine.Info.InfoLayer
+  commentId: T:cfEngine.Info.InfoLayer
+  parent: cfEngine.Info
+  href: cfEngine.Info.InfoLayer.html
+  name: InfoLayer
+  nameWithType: InfoLayer
+  fullName: cfEngine.Info.InfoLayer
+- uid: cfEngine.Info
+  commentId: N:cfEngine.Info
+  href: cfEngine.html
+  name: cfEngine.Info
+  nameWithType: cfEngine.Info
+  fullName: cfEngine.Info
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Info
+    name: Info
+    href: cfEngine.Info.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Info
+    name: Info
+    href: cfEngine.Info.html
+- uid: cfEngine.Core.GameExtension.GetInfo*
+  commentId: Overload:cfEngine.Core.GameExtension.GetInfo
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInfo_cfEngine_Core_Game_
+  name: GetInfo
+  nameWithType: GameExtension.GetInfo
+  fullName: cfEngine.Core.GameExtension.GetInfo
+- uid: cfEngine.Core.GameExtension.WithPoolManager*
+  commentId: Overload:cfEngine.Core.GameExtension.WithPoolManager
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithPoolManager_cfEngine_Core_Game_cfEngine_Pooling_PoolManager_
+  name: WithPoolManager
+  nameWithType: GameExtension.WithPoolManager
+  fullName: cfEngine.Core.GameExtension.WithPoolManager
+- uid: cfEngine.Pooling.PoolManager
+  commentId: T:cfEngine.Pooling.PoolManager
+  parent: cfEngine.Pooling
+  href: cfEngine.Pooling.PoolManager.html
+  name: PoolManager
+  nameWithType: PoolManager
+  fullName: cfEngine.Pooling.PoolManager
+- uid: cfEngine.Pooling
+  commentId: N:cfEngine.Pooling
+  href: cfEngine.html
+  name: cfEngine.Pooling
+  nameWithType: cfEngine.Pooling
+  fullName: cfEngine.Pooling
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Pooling
+    name: Pooling
+    href: cfEngine.Pooling.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Pooling
+    name: Pooling
+    href: cfEngine.Pooling.html
+- uid: cfEngine.Core.GameExtension.GetPoolManager*
+  commentId: Overload:cfEngine.Core.GameExtension.GetPoolManager
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetPoolManager_cfEngine_Core_Game_
+  name: GetPoolManager
+  nameWithType: GameExtension.GetPoolManager
+  fullName: cfEngine.Core.GameExtension.GetPoolManager
+- uid: cfEngine.Core.GameExtension.WithAuthService*
+  commentId: Overload:cfEngine.Core.GameExtension.WithAuthService
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithAuthService_cfEngine_Core_Game_cfEngine_Service_Auth_IAuthService_
+  name: WithAuthService
+  nameWithType: GameExtension.WithAuthService
+  fullName: cfEngine.Core.GameExtension.WithAuthService
+- uid: cfEngine.Service.Auth.IAuthService
+  commentId: T:cfEngine.Service.Auth.IAuthService
+  parent: cfEngine.Service.Auth
+  href: cfEngine.Service.Auth.IAuthService.html
+  name: IAuthService
+  nameWithType: IAuthService
+  fullName: cfEngine.Service.Auth.IAuthService
+- uid: cfEngine.Service.Auth
+  commentId: N:cfEngine.Service.Auth
+  href: cfEngine.html
+  name: cfEngine.Service.Auth
+  nameWithType: cfEngine.Service.Auth
+  fullName: cfEngine.Service.Auth
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Auth
+    name: Auth
+    href: cfEngine.Service.Auth.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Auth
+    name: Auth
+    href: cfEngine.Service.Auth.html
+- uid: cfEngine.Core.GameExtension.GetAuth*
+  commentId: Overload:cfEngine.Core.GameExtension.GetAuth
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetAuth_cfEngine_Core_Game_
+  name: GetAuth
+  nameWithType: GameExtension.GetAuth
+  fullName: cfEngine.Core.GameExtension.GetAuth
+- uid: cfEngine.Core.GameExtension.WithInventory*
+  commentId: Overload:cfEngine.Core.GameExtension.WithInventory
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithInventory_cfEngine_Core_Game_cfEngine_Service_Inventory_IInventoryService_
+  name: WithInventory
+  nameWithType: GameExtension.WithInventory
+  fullName: cfEngine.Core.GameExtension.WithInventory
+- uid: cfEngine.Service.Inventory.IInventoryService
+  commentId: T:cfEngine.Service.Inventory.IInventoryService
+  parent: cfEngine.Service.Inventory
+  href: cfEngine.Service.Inventory.IInventoryService.html
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: cfEngine.Service.Inventory.IInventoryService
+- uid: cfEngine.Service.Inventory
+  commentId: N:cfEngine.Service.Inventory
+  href: cfEngine.html
+  name: cfEngine.Service.Inventory
+  nameWithType: cfEngine.Service.Inventory
+  fullName: cfEngine.Service.Inventory
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Inventory
+    name: Inventory
+    href: cfEngine.Service.Inventory.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Service
+    name: Service
+    href: cfEngine.Service.html
+  - name: .
+  - uid: cfEngine.Service.Inventory
+    name: Inventory
+    href: cfEngine.Service.Inventory.html
+- uid: cfEngine.Core.GameExtension.GetInventory*
+  commentId: Overload:cfEngine.Core.GameExtension.GetInventory
+  href: cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetInventory_cfEngine_Core_Game_
+  name: GetInventory
+  nameWithType: GameExtension.GetInventory
+  fullName: cfEngine.Core.GameExtension.GetInventory
+- uid: cfEngine.Service.Inventory.InventoryService
+  commentId: T:cfEngine.Service.Inventory.InventoryService
+  parent: cfEngine.Service.Inventory
+  href: cfEngine.Service.Inventory.InventoryService.html
+  name: InventoryService
+  nameWithType: InventoryService
+  fullName: cfEngine.Service.Inventory.InventoryService

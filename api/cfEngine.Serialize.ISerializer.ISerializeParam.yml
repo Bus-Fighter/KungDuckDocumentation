@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Serialize.ISerializer.ISerializeParam
+  commentId: T:cfEngine.Serialize.ISerializer.ISerializeParam
+  id: ISerializer.ISerializeParam
+  parent: cfEngine.Serialize
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ISerializer.ISerializeParam
+  nameWithType: ISerializer.ISerializeParam
+  fullName: cfEngine.Serialize.ISerializer.ISerializeParam
+  type: Interface
+  source:
+    id: ISerializeParam
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/serialize/Serializer.cs
+    startLine: 7
+  namespace: cfEngine.Serialize
+  syntax:
+    content: public interface ISerializer.ISerializeParam
+    content.vb: Public Interface ISerializer.ISerializeParam
+references:
+- uid: cfEngine.Serialize
+  commentId: N:cfEngine.Serialize
+  href: cfEngine.html
+  name: cfEngine.Serialize
+  nameWithType: cfEngine.Serialize
+  fullName: cfEngine.Serialize
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Serialize
+    name: Serialize
+    href: cfEngine.Serialize.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Serialize
+    name: Serialize
+    href: cfEngine.Serialize.html

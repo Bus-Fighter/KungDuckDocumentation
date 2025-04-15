@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Pooling
+  commentId: N:cfEngine.Pooling
+  id: cfEngine.Pooling
+  children:
+  - cfEngine.Pooling.IObjectPool
+  - cfEngine.Pooling.ListPool`1
+  - cfEngine.Pooling.ObjectPool`1
+  - cfEngine.Pooling.ObjectPool`1.Handle
+  - cfEngine.Pooling.PoolManager
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.Pooling
+  nameWithType: cfEngine.Pooling
+  fullName: cfEngine.Pooling
+  type: Namespace
+references:
+- uid: cfEngine.Pooling.ListPool`1
+  commentId: T:cfEngine.Pooling.ListPool`1
+  parent: cfEngine.Pooling
+  href: cfEngine.Pooling.ListPool-1.html
+  name: ListPool<T>
+  nameWithType: ListPool<T>
+  fullName: cfEngine.Pooling.ListPool<T>
+  nameWithType.vb: ListPool(Of T)
+  fullName.vb: cfEngine.Pooling.ListPool(Of T)
+  name.vb: ListPool(Of T)
+  spec.csharp:
+  - uid: cfEngine.Pooling.ListPool`1
+    name: ListPool
+    href: cfEngine.Pooling.ListPool-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Pooling.ListPool`1
+    name: ListPool
+    href: cfEngine.Pooling.ListPool-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Pooling.IObjectPool
+  commentId: T:cfEngine.Pooling.IObjectPool
+  parent: cfEngine.Pooling
+  href: cfEngine.Pooling.IObjectPool.html
+  name: IObjectPool
+  nameWithType: IObjectPool
+  fullName: cfEngine.Pooling.IObjectPool
+- uid: cfEngine.Pooling.ObjectPool`1
+  commentId: T:cfEngine.Pooling.ObjectPool`1
+  href: cfEngine.Pooling.ObjectPool-1.html
+  name: ObjectPool<T>
+  nameWithType: ObjectPool<T>
+  fullName: cfEngine.Pooling.ObjectPool<T>
+  nameWithType.vb: ObjectPool(Of T)
+  fullName.vb: cfEngine.Pooling.ObjectPool(Of T)
+  name.vb: ObjectPool(Of T)
+  spec.csharp:
+  - uid: cfEngine.Pooling.ObjectPool`1
+    name: ObjectPool
+    href: cfEngine.Pooling.ObjectPool-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Pooling.ObjectPool`1
+    name: ObjectPool
+    href: cfEngine.Pooling.ObjectPool-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Pooling.ObjectPool`1.Handle
+  commentId: T:cfEngine.Pooling.ObjectPool`1.Handle
+  parent: cfEngine.Pooling
+  href: cfEngine.Pooling.ObjectPool-1.html
+  name: ObjectPool<T>.Handle
+  nameWithType: ObjectPool<T>.Handle
+  fullName: cfEngine.Pooling.ObjectPool<T>.Handle
+  nameWithType.vb: ObjectPool(Of T).Handle
+  fullName.vb: cfEngine.Pooling.ObjectPool(Of T).Handle
+  name.vb: ObjectPool(Of T).Handle
+  spec.csharp:
+  - uid: cfEngine.Pooling.ObjectPool`1
+    name: ObjectPool
+    href: cfEngine.Pooling.ObjectPool-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: .
+  - uid: cfEngine.Pooling.ObjectPool`1.Handle
+    name: Handle
+    href: cfEngine.Pooling.ObjectPool-1.Handle.html
+  spec.vb:
+  - uid: cfEngine.Pooling.ObjectPool`1
+    name: ObjectPool
+    href: cfEngine.Pooling.ObjectPool-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: .
+  - uid: cfEngine.Pooling.ObjectPool`1.Handle
+    name: Handle
+    href: cfEngine.Pooling.ObjectPool-1.Handle.html
+- uid: cfEngine.Pooling.PoolManager
+  commentId: T:cfEngine.Pooling.PoolManager
+  parent: cfEngine.Pooling
+  href: cfEngine.Pooling.PoolManager.html
+  name: PoolManager
+  nameWithType: PoolManager
+  fullName: cfEngine.Pooling.PoolManager
+- uid: cfEngine.Pooling
+  commentId: N:cfEngine.Pooling
+  href: cfEngine.html
+  name: cfEngine.Pooling
+  nameWithType: cfEngine.Pooling
+  fullName: cfEngine.Pooling
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Pooling
+    name: Pooling
+    href: cfEngine.Pooling.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Pooling
+    name: Pooling
+    href: cfEngine.Pooling.html

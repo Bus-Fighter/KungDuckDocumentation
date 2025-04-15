@@ -1,0 +1,346 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.IPropertySource
+  commentId: T:cfUnityEngine.IPropertySource
+  id: IPropertySource
+  parent: cfUnityEngine
+  children:
+  - cfUnityEngine.IPropertySource.onPropertyBoolChanged
+  - cfUnityEngine.IPropertySource.onPropertyChanged
+  - cfUnityEngine.IPropertySource.onPropertyFloatChanged
+  - cfUnityEngine.IPropertySource.onPropertyIntChanged
+  langs:
+  - csharp
+  - vb
+  name: IPropertySource
+  nameWithType: IPropertySource
+  fullName: cfUnityEngine.IPropertySource
+  type: Interface
+  source:
+    id: IPropertySource
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/binder/PropertySource.cs
+    startLine: 5
+  namespace: cfUnityEngine
+  syntax:
+    content: public interface IPropertySource
+    content.vb: Public Interface IPropertySource
+- uid: cfUnityEngine.IPropertySource.onPropertyChanged
+  commentId: E:cfUnityEngine.IPropertySource.onPropertyChanged
+  id: onPropertyChanged
+  parent: cfUnityEngine.IPropertySource
+  langs:
+  - csharp
+  - vb
+  name: onPropertyChanged
+  nameWithType: IPropertySource.onPropertyChanged
+  fullName: cfUnityEngine.IPropertySource.onPropertyChanged
+  type: Event
+  source:
+    id: onPropertyChanged
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/binder/PropertySource.cs
+    startLine: 7
+  namespace: cfUnityEngine
+  syntax:
+    content: event Action<string, object> onPropertyChanged
+    return:
+      type: System.Action{System.String,System.Object}
+    content.vb: Event onPropertyChanged As Action(Of String, Object)
+- uid: cfUnityEngine.IPropertySource.onPropertyIntChanged
+  commentId: E:cfUnityEngine.IPropertySource.onPropertyIntChanged
+  id: onPropertyIntChanged
+  parent: cfUnityEngine.IPropertySource
+  langs:
+  - csharp
+  - vb
+  name: onPropertyIntChanged
+  nameWithType: IPropertySource.onPropertyIntChanged
+  fullName: cfUnityEngine.IPropertySource.onPropertyIntChanged
+  type: Event
+  source:
+    id: onPropertyIntChanged
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/binder/PropertySource.cs
+    startLine: 8
+  namespace: cfUnityEngine
+  syntax:
+    content: event Action<string, int> onPropertyIntChanged
+    return:
+      type: System.Action{System.String,System.Int32}
+    content.vb: Event onPropertyIntChanged As Action(Of String, Integer)
+- uid: cfUnityEngine.IPropertySource.onPropertyFloatChanged
+  commentId: E:cfUnityEngine.IPropertySource.onPropertyFloatChanged
+  id: onPropertyFloatChanged
+  parent: cfUnityEngine.IPropertySource
+  langs:
+  - csharp
+  - vb
+  name: onPropertyFloatChanged
+  nameWithType: IPropertySource.onPropertyFloatChanged
+  fullName: cfUnityEngine.IPropertySource.onPropertyFloatChanged
+  type: Event
+  source:
+    id: onPropertyFloatChanged
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/binder/PropertySource.cs
+    startLine: 9
+  namespace: cfUnityEngine
+  syntax:
+    content: event Action<string, float> onPropertyFloatChanged
+    return:
+      type: System.Action{System.String,System.Single}
+    content.vb: Event onPropertyFloatChanged As Action(Of String, Single)
+- uid: cfUnityEngine.IPropertySource.onPropertyBoolChanged
+  commentId: E:cfUnityEngine.IPropertySource.onPropertyBoolChanged
+  id: onPropertyBoolChanged
+  parent: cfUnityEngine.IPropertySource
+  langs:
+  - csharp
+  - vb
+  name: onPropertyBoolChanged
+  nameWithType: IPropertySource.onPropertyBoolChanged
+  fullName: cfUnityEngine.IPropertySource.onPropertyBoolChanged
+  type: Event
+  source:
+    id: onPropertyBoolChanged
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/binder/PropertySource.cs
+    startLine: 10
+  namespace: cfUnityEngine
+  syntax:
+    content: event Action<string, bool> onPropertyBoolChanged
+    return:
+      type: System.Action{System.String,System.Boolean}
+    content.vb: Event onPropertyBoolChanged As Action(Of String, Boolean)
+references:
+- uid: cfUnityEngine
+  commentId: N:cfUnityEngine
+  href: cfUnityEngine.html
+  name: cfUnityEngine
+  nameWithType: cfUnityEngine
+  fullName: cfUnityEngine
+- uid: System.Action{System.String,System.Object}
+  commentId: T:System.Action{System.String,System.Object}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<string, object>
+  nameWithType: Action<string, object>
+  fullName: System.Action<string, object>
+  nameWithType.vb: Action(Of String, Object)
+  fullName.vb: System.Action(Of String, Object)
+  name.vb: Action(Of String, Object)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Action`2
+  commentId: T:System.Action`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Action{System.String,System.Int32}
+  commentId: T:System.Action{System.String,System.Int32}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<string, int>
+  nameWithType: Action<string, int>
+  fullName: System.Action<string, int>
+  nameWithType.vb: Action(Of String, Integer)
+  fullName.vb: System.Action(Of String, Integer)
+  name.vb: Action(Of String, Integer)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Action{System.String,System.Single}
+  commentId: T:System.Action{System.String,System.Single}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<string, float>
+  nameWithType: Action<string, float>
+  fullName: System.Action<string, float>
+  nameWithType.vb: Action(Of String, Single)
+  fullName.vb: System.Action(Of String, Single)
+  name.vb: Action(Of String, Single)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: System.Action{System.String,System.Boolean}
+  commentId: T:System.Action{System.String,System.Boolean}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<string, bool>
+  nameWithType: Action<string, bool>
+  fullName: System.Action<string, bool>
+  nameWithType.vb: Action(Of String, Boolean)
+  fullName.vb: System.Action(Of String, Boolean)
+  name.vb: Action(Of String, Boolean)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )

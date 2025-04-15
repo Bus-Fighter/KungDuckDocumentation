@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.UI.UGUI
+  commentId: N:cfUnityEngine.UI.UGUI
+  id: cfUnityEngine.UI.UGUI
+  children:
+  - cfUnityEngine.UI.UGUI.ActiveInactiveResolver
+  - cfUnityEngine.UI.UGUI.UGUIRoot
+  - cfUnityEngine.UI.UGUI.UIPanel
+  - cfUnityEngine.UI.UGUI.UIPanel.Builder`1
+  - cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  langs:
+  - csharp
+  - vb
+  name: cfUnityEngine.UI.UGUI
+  nameWithType: cfUnityEngine.UI.UGUI
+  fullName: cfUnityEngine.UI.UGUI
+  type: Namespace
+references:
+- uid: cfUnityEngine.UI.UGUI.UGUIRoot
+  commentId: T:cfUnityEngine.UI.UGUI.UGUIRoot
+  href: cfUnityEngine.UI.UGUI.UGUIRoot.html
+  name: UGUIRoot
+  nameWithType: UGUIRoot
+  fullName: cfUnityEngine.UI.UGUI.UGUIRoot
+- uid: cfUnityEngine.UI.UGUI.UIPanel
+  commentId: T:cfUnityEngine.UI.UGUI.UIPanel
+  href: cfUnityEngine.UI.UGUI.UIPanel.html
+  name: UIPanel
+  nameWithType: UIPanel
+  fullName: cfUnityEngine.UI.UGUI.UIPanel
+- uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  commentId: T:cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  parent: cfUnityEngine.UI.UGUI
+  href: cfUnityEngine.UI.UGUI.UIPanel.html
+  name: UIPanel.IBuilder
+  nameWithType: UIPanel.IBuilder
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  spec.csharp:
+  - uid: cfUnityEngine.UI.UGUI.UIPanel
+    name: UIPanel
+    href: cfUnityEngine.UI.UGUI.UIPanel.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+    name: IBuilder
+    href: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.html
+  spec.vb:
+  - uid: cfUnityEngine.UI.UGUI.UIPanel
+    name: UIPanel
+    href: cfUnityEngine.UI.UGUI.UIPanel.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+    name: IBuilder
+    href: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.html
+- uid: cfUnityEngine.UI.UGUI.UIPanel.Builder`1
+  commentId: T:cfUnityEngine.UI.UGUI.UIPanel.Builder`1
+  parent: cfUnityEngine.UI.UGUI
+  href: cfUnityEngine.UI.UGUI.UIPanel.html
+  name: UIPanel.Builder<T>
+  nameWithType: UIPanel.Builder<T>
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.Builder<T>
+  nameWithType.vb: UIPanel.Builder(Of T)
+  fullName.vb: cfUnityEngine.UI.UGUI.UIPanel.Builder(Of T)
+  name.vb: UIPanel.Builder(Of T)
+  spec.csharp:
+  - uid: cfUnityEngine.UI.UGUI.UIPanel
+    name: UIPanel
+    href: cfUnityEngine.UI.UGUI.UIPanel.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI.UIPanel.Builder`1
+    name: Builder
+    href: cfUnityEngine.UI.UGUI.UIPanel.Builder-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.UI.UGUI.UIPanel
+    name: UIPanel
+    href: cfUnityEngine.UI.UGUI.UIPanel.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI.UIPanel.Builder`1
+    name: Builder
+    href: cfUnityEngine.UI.UGUI.UIPanel.Builder-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfUnityEngine.UI.UGUI.ActiveInactiveResolver
+  commentId: T:cfUnityEngine.UI.UGUI.ActiveInactiveResolver
+  href: cfUnityEngine.UI.UGUI.ActiveInactiveResolver.html
+  name: ActiveInactiveResolver
+  nameWithType: ActiveInactiveResolver
+  fullName: cfUnityEngine.UI.UGUI.ActiveInactiveResolver
+- uid: cfUnityEngine.UI.UGUI
+  commentId: N:cfUnityEngine.UI.UGUI
+  href: cfUnityEngine.html
+  name: cfUnityEngine.UI.UGUI
+  nameWithType: cfUnityEngine.UI.UGUI
+  fullName: cfUnityEngine.UI.UGUI
+  spec.csharp:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI
+    name: UGUI
+    href: cfUnityEngine.UI.UGUI.html
+  spec.vb:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI
+    name: UGUI
+    href: cfUnityEngine.UI.UGUI.html

@@ -1,0 +1,465 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Info.IValueLoader`1
+  commentId: T:cfEngine.Info.IValueLoader`1
+  id: IValueLoader`1
+  parent: cfEngine.Info
+  children:
+  - cfEngine.Info.IValueLoader`1.Load(System.Collections.Generic.List{`0}@)
+  - cfEngine.Info.IValueLoader`1.LoadAsync(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IValueLoader<TInfo>
+  nameWithType: IValueLoader<TInfo>
+  fullName: cfEngine.Info.IValueLoader<TInfo>
+  type: Interface
+  source:
+    id: IValueLoader
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/IValueLoader.cs
+    startLine: 13
+  namespace: cfEngine.Info
+  syntax:
+    content: public interface IValueLoader<TInfo>
+    typeParameters:
+    - id: TInfo
+    content.vb: Public Interface IValueLoader(Of TInfo)
+  nameWithType.vb: IValueLoader(Of TInfo)
+  fullName.vb: cfEngine.Info.IValueLoader(Of TInfo)
+  name.vb: IValueLoader(Of TInfo)
+- uid: cfEngine.Info.IValueLoader`1.Load(System.Collections.Generic.List{`0}@)
+  commentId: M:cfEngine.Info.IValueLoader`1.Load(System.Collections.Generic.List{`0}@)
+  id: Load(System.Collections.Generic.List{`0}@)
+  parent: cfEngine.Info.IValueLoader`1
+  langs:
+  - csharp
+  - vb
+  name: Load(out List<TInfo>)
+  nameWithType: IValueLoader<TInfo>.Load(out List<TInfo>)
+  fullName: cfEngine.Info.IValueLoader<TInfo>.Load(out System.Collections.Generic.List<TInfo>)
+  type: Method
+  source:
+    id: Load
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/IValueLoader.cs
+    startLine: 15
+  namespace: cfEngine.Info
+  syntax:
+    content: ObjectPool<List<TInfo>>.Handle Load(out List<TInfo> values)
+    parameters:
+    - id: values
+      type: System.Collections.Generic.List{{TInfo}}
+    return:
+      type: cfEngine.Pooling.ObjectPool{System.Collections.Generic.List{{TInfo}}}.Handle
+    content.vb: Function Load(values As List(Of TInfo)) As ObjectPool(Of List(Of TInfo)).Handle
+  overload: cfEngine.Info.IValueLoader`1.Load*
+  nameWithType.vb: IValueLoader(Of TInfo).Load(List(Of TInfo))
+  fullName.vb: cfEngine.Info.IValueLoader(Of TInfo).Load(System.Collections.Generic.List(Of TInfo))
+  name.vb: Load(List(Of TInfo))
+- uid: cfEngine.Info.IValueLoader`1.LoadAsync(System.Threading.CancellationToken)
+  commentId: M:cfEngine.Info.IValueLoader`1.LoadAsync(System.Threading.CancellationToken)
+  id: LoadAsync(System.Threading.CancellationToken)
+  parent: cfEngine.Info.IValueLoader`1
+  langs:
+  - csharp
+  - vb
+  name: LoadAsync(CancellationToken)
+  nameWithType: IValueLoader<TInfo>.LoadAsync(CancellationToken)
+  fullName: cfEngine.Info.IValueLoader<TInfo>.LoadAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: LoadAsync
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/info/IValueLoader.cs
+    startLine: 16
+  namespace: cfEngine.Info
+  syntax:
+    content: Task<List<TInfo>> LoadAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{{TInfo}}}
+    content.vb: Function LoadAsync(cancellationToken As CancellationToken) As Task(Of List(Of TInfo))
+  overload: cfEngine.Info.IValueLoader`1.LoadAsync*
+  nameWithType.vb: IValueLoader(Of TInfo).LoadAsync(CancellationToken)
+  fullName.vb: cfEngine.Info.IValueLoader(Of TInfo).LoadAsync(System.Threading.CancellationToken)
+references:
+- uid: cfEngine.Info
+  commentId: N:cfEngine.Info
+  href: cfEngine.html
+  name: cfEngine.Info
+  nameWithType: cfEngine.Info
+  fullName: cfEngine.Info
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Info
+    name: Info
+    href: cfEngine.Info.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Info
+    name: Info
+    href: cfEngine.Info.html
+- uid: cfEngine.Info.IValueLoader`1.Load*
+  commentId: Overload:cfEngine.Info.IValueLoader`1.Load
+  href: cfEngine.Info.IValueLoader-1.html#cfEngine_Info_IValueLoader_1_Load_System_Collections_Generic_List__0___
+  name: Load
+  nameWithType: IValueLoader<TInfo>.Load
+  fullName: cfEngine.Info.IValueLoader<TInfo>.Load
+  nameWithType.vb: IValueLoader(Of TInfo).Load
+  fullName.vb: cfEngine.Info.IValueLoader(Of TInfo).Load
+- uid: System.Collections.Generic.List{{TInfo}}
+  commentId: T:System.Collections.Generic.List{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<TInfo>
+  nameWithType: List<TInfo>
+  fullName: System.Collections.Generic.List<TInfo>
+  nameWithType.vb: List(Of TInfo)
+  fullName.vb: System.Collections.Generic.List(Of TInfo)
+  name.vb: List(Of TInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: TInfo
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInfo
+  - name: )
+- uid: cfEngine.Pooling.ObjectPool{System.Collections.Generic.List{{TInfo}}}.Handle
+  commentId: T:cfEngine.Pooling.ObjectPool{System.Collections.Generic.List{`0}}.Handle
+  parent: cfEngine.Pooling
+  definition: cfEngine.Pooling.ObjectPool`1.Handle
+  href: cfEngine.Pooling.ObjectPool-1.html
+  name: ObjectPool<List<TInfo>>.Handle
+  nameWithType: ObjectPool<List<TInfo>>.Handle
+  fullName: cfEngine.Pooling.ObjectPool<System.Collections.Generic.List<TInfo>>.Handle
+  nameWithType.vb: ObjectPool(Of List(Of TInfo)).Handle
+  fullName.vb: cfEngine.Pooling.ObjectPool(Of System.Collections.Generic.List(Of TInfo)).Handle
+  name.vb: ObjectPool(Of List(Of TInfo)).Handle
+  spec.csharp:
+  - uid: cfEngine.Pooling.ObjectPool`1
+    name: ObjectPool
+    href: cfEngine.Pooling.ObjectPool-1.html
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: TInfo
+  - name: '>'
+  - name: '>'
+  - name: .
+  - uid: cfEngine.Pooling.ObjectPool{System.Collections.Generic.List{`0}}.Handle
+    name: Handle
+    href: cfEngine.Pooling.ObjectPool-1.Handle.html
+  spec.vb:
+  - uid: cfEngine.Pooling.ObjectPool`1
+    name: ObjectPool
+    href: cfEngine.Pooling.ObjectPool-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInfo
+  - name: )
+  - name: )
+  - name: .
+  - uid: cfEngine.Pooling.ObjectPool{System.Collections.Generic.List{`0}}.Handle
+    name: Handle
+    href: cfEngine.Pooling.ObjectPool-1.Handle.html
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: cfEngine.Pooling.ObjectPool`1.Handle
+  commentId: T:cfEngine.Pooling.ObjectPool`1.Handle
+  parent: cfEngine.Pooling
+  href: cfEngine.Pooling.ObjectPool-1.html
+  name: ObjectPool<T>.Handle
+  nameWithType: ObjectPool<T>.Handle
+  fullName: cfEngine.Pooling.ObjectPool<T>.Handle
+  nameWithType.vb: ObjectPool(Of T).Handle
+  fullName.vb: cfEngine.Pooling.ObjectPool(Of T).Handle
+  name.vb: ObjectPool(Of T).Handle
+  spec.csharp:
+  - uid: cfEngine.Pooling.ObjectPool`1
+    name: ObjectPool
+    href: cfEngine.Pooling.ObjectPool-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: .
+  - uid: cfEngine.Pooling.ObjectPool`1.Handle
+    name: Handle
+    href: cfEngine.Pooling.ObjectPool-1.Handle.html
+  spec.vb:
+  - uid: cfEngine.Pooling.ObjectPool`1
+    name: ObjectPool
+    href: cfEngine.Pooling.ObjectPool-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: .
+  - uid: cfEngine.Pooling.ObjectPool`1.Handle
+    name: Handle
+    href: cfEngine.Pooling.ObjectPool-1.Handle.html
+- uid: cfEngine.Pooling
+  commentId: N:cfEngine.Pooling
+  href: cfEngine.html
+  name: cfEngine.Pooling
+  nameWithType: cfEngine.Pooling
+  fullName: cfEngine.Pooling
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Pooling
+    name: Pooling
+    href: cfEngine.Pooling.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Pooling
+    name: Pooling
+    href: cfEngine.Pooling.html
+- uid: cfEngine.Info.IValueLoader`1.LoadAsync*
+  commentId: Overload:cfEngine.Info.IValueLoader`1.LoadAsync
+  href: cfEngine.Info.IValueLoader-1.html#cfEngine_Info_IValueLoader_1_LoadAsync_System_Threading_CancellationToken_
+  name: LoadAsync
+  nameWithType: IValueLoader<TInfo>.LoadAsync
+  fullName: cfEngine.Info.IValueLoader<TInfo>.LoadAsync
+  nameWithType.vb: IValueLoader(Of TInfo).LoadAsync
+  fullName.vb: cfEngine.Info.IValueLoader(Of TInfo).LoadAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{{TInfo}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{`0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<TInfo>>
+  nameWithType: Task<List<TInfo>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<TInfo>>
+  nameWithType.vb: Task(Of List(Of TInfo))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of TInfo))
+  name.vb: Task(Of List(Of TInfo))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: TInfo
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TInfo
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

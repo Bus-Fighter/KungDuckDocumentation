@@ -1,0 +1,446 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  commentId: T:cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  id: UIPanel.IBuilder
+  parent: cfUnityEngine.UI.UGUI
+  children:
+  - cfUnityEngine.UI.UGUI.UIPanel.IBuilder.GetDataSource
+  - cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Instantiate
+  - cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Preload
+  - cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetAssetLoader(cfEngine.Asset.AssetManager{UnityEngine.Object})
+  - cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetPath(System.String)
+  langs:
+  - csharp
+  - vb
+  name: UIPanel.IBuilder
+  nameWithType: UIPanel.IBuilder
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  type: Interface
+  source:
+    id: IBuilder
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/core/UIPanel.Builder.cs
+    startLine: 12
+  namespace: cfUnityEngine.UI.UGUI
+  syntax:
+    content: public interface UIPanel.IBuilder
+    content.vb: Public Interface UIPanel.IBuilder
+- uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetPath(System.String)
+  commentId: M:cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetPath(System.String)
+  id: SetPath(System.String)
+  parent: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  langs:
+  - csharp
+  - vb
+  name: SetPath(string)
+  nameWithType: UIPanel.IBuilder.SetPath(string)
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetPath(string)
+  type: Method
+  source:
+    id: SetPath
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/core/UIPanel.Builder.cs
+    startLine: 14
+  namespace: cfUnityEngine.UI.UGUI
+  syntax:
+    content: UIPanel.IBuilder SetPath(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+    content.vb: Function SetPath(path As String) As UIPanel.IBuilder
+  overload: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetPath*
+  nameWithType.vb: UIPanel.IBuilder.SetPath(String)
+  fullName.vb: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetPath(String)
+  name.vb: SetPath(String)
+- uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetAssetLoader(cfEngine.Asset.AssetManager{UnityEngine.Object})
+  commentId: M:cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetAssetLoader(cfEngine.Asset.AssetManager{UnityEngine.Object})
+  id: SetAssetLoader(cfEngine.Asset.AssetManager{UnityEngine.Object})
+  parent: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  langs:
+  - csharp
+  - vb
+  name: SetAssetLoader(AssetManager<Object>)
+  nameWithType: UIPanel.IBuilder.SetAssetLoader(AssetManager<Object>)
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetAssetLoader(cfEngine.Asset.AssetManager<UnityEngine.Object>)
+  type: Method
+  source:
+    id: SetAssetLoader
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/core/UIPanel.Builder.cs
+    startLine: 15
+  namespace: cfUnityEngine.UI.UGUI
+  syntax:
+    content: UIPanel.IBuilder SetAssetLoader(AssetManager<Object> assetLoader)
+    parameters:
+    - id: assetLoader
+      type: cfEngine.Asset.AssetManager{UnityEngine.Object}
+    return:
+      type: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+    content.vb: Function SetAssetLoader(assetLoader As AssetManager(Of [Object])) As UIPanel.IBuilder
+  overload: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetAssetLoader*
+  nameWithType.vb: UIPanel.IBuilder.SetAssetLoader(AssetManager(Of Object))
+  fullName.vb: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetAssetLoader(cfEngine.Asset.AssetManager(Of UnityEngine.Object))
+  name.vb: SetAssetLoader(AssetManager(Of Object))
+- uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Preload
+  commentId: M:cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Preload
+  id: Preload
+  parent: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  langs:
+  - csharp
+  - vb
+  name: Preload()
+  nameWithType: UIPanel.IBuilder.Preload()
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Preload()
+  type: Method
+  source:
+    id: Preload
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/core/UIPanel.Builder.cs
+    startLine: 16
+  namespace: cfUnityEngine.UI.UGUI
+  syntax:
+    content: Task Preload()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function Preload() As Task
+  overload: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Preload*
+- uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Instantiate
+  commentId: M:cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Instantiate
+  id: Instantiate
+  parent: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  langs:
+  - csharp
+  - vb
+  name: Instantiate()
+  nameWithType: UIPanel.IBuilder.Instantiate()
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Instantiate()
+  type: Method
+  source:
+    id: Instantiate
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/core/UIPanel.Builder.cs
+    startLine: 17
+  namespace: cfUnityEngine.UI.UGUI
+  syntax:
+    content: Task<GameObject> Instantiate()
+    return:
+      type: System.Threading.Tasks.Task{UnityEngine.GameObject}
+    content.vb: Function Instantiate() As Task(Of GameObject)
+  overload: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Instantiate*
+- uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.GetDataSource
+  commentId: M:cfUnityEngine.UI.UGUI.UIPanel.IBuilder.GetDataSource
+  id: GetDataSource
+  parent: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  langs:
+  - csharp
+  - vb
+  name: GetDataSource()
+  nameWithType: UIPanel.IBuilder.GetDataSource()
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.GetDataSource()
+  type: Method
+  source:
+    id: GetDataSource
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/ugui/core/UIPanel.Builder.cs
+    startLine: 18
+  namespace: cfUnityEngine.UI.UGUI
+  syntax:
+    content: object GetDataSource()
+    return:
+      type: System.Object
+    content.vb: Function GetDataSource() As Object
+  overload: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.GetDataSource*
+references:
+- uid: cfUnityEngine.UI.UGUI
+  commentId: N:cfUnityEngine.UI.UGUI
+  href: cfUnityEngine.html
+  name: cfUnityEngine.UI.UGUI
+  nameWithType: cfUnityEngine.UI.UGUI
+  fullName: cfUnityEngine.UI.UGUI
+  spec.csharp:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI
+    name: UGUI
+    href: cfUnityEngine.UI.UGUI.html
+  spec.vb:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.UI
+    name: UI
+    href: cfUnityEngine.UI.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI
+    name: UGUI
+    href: cfUnityEngine.UI.UGUI.html
+- uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetPath*
+  commentId: Overload:cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetPath
+  href: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.html#cfUnityEngine_UI_UGUI_UIPanel_IBuilder_SetPath_System_String_
+  name: SetPath
+  nameWithType: UIPanel.IBuilder.SetPath
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  commentId: T:cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  parent: cfUnityEngine.UI.UGUI
+  href: cfUnityEngine.UI.UGUI.UIPanel.html
+  name: UIPanel.IBuilder
+  nameWithType: UIPanel.IBuilder
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+  spec.csharp:
+  - uid: cfUnityEngine.UI.UGUI.UIPanel
+    name: UIPanel
+    href: cfUnityEngine.UI.UGUI.UIPanel.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+    name: IBuilder
+    href: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.html
+  spec.vb:
+  - uid: cfUnityEngine.UI.UGUI.UIPanel
+    name: UIPanel
+    href: cfUnityEngine.UI.UGUI.UIPanel.html
+  - name: .
+  - uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder
+    name: IBuilder
+    href: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetAssetLoader*
+  commentId: Overload:cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetAssetLoader
+  href: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.html#cfUnityEngine_UI_UGUI_UIPanel_IBuilder_SetAssetLoader_cfEngine_Asset_AssetManager_UnityEngine_Object__
+  name: SetAssetLoader
+  nameWithType: UIPanel.IBuilder.SetAssetLoader
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.SetAssetLoader
+- uid: cfEngine.Asset.AssetManager{UnityEngine.Object}
+  commentId: T:cfEngine.Asset.AssetManager{UnityEngine.Object}
+  parent: cfEngine.Asset
+  definition: cfEngine.Asset.AssetManager`1
+  href: cfEngine.Asset.AssetManager-1.html
+  name: AssetManager<Object>
+  nameWithType: AssetManager<Object>
+  fullName: cfEngine.Asset.AssetManager<UnityEngine.Object>
+  nameWithType.vb: AssetManager(Of Object)
+  fullName.vb: cfEngine.Asset.AssetManager(Of UnityEngine.Object)
+  name.vb: AssetManager(Of Object)
+  spec.csharp:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: <
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: cfEngine.Asset.AssetManager`1
+  commentId: T:cfEngine.Asset.AssetManager`1
+  href: cfEngine.Asset.AssetManager-1.html
+  name: AssetManager<TBaseObject>
+  nameWithType: AssetManager<TBaseObject>
+  fullName: cfEngine.Asset.AssetManager<TBaseObject>
+  nameWithType.vb: AssetManager(Of TBaseObject)
+  fullName.vb: cfEngine.Asset.AssetManager(Of TBaseObject)
+  name.vb: AssetManager(Of TBaseObject)
+  spec.csharp:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: <
+  - name: TBaseObject
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TBaseObject
+  - name: )
+- uid: cfEngine.Asset
+  commentId: N:cfEngine.Asset
+  href: cfEngine.html
+  name: cfEngine.Asset
+  nameWithType: cfEngine.Asset
+  fullName: cfEngine.Asset
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Asset
+    name: Asset
+    href: cfEngine.Asset.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Asset
+    name: Asset
+    href: cfEngine.Asset.html
+- uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Preload*
+  commentId: Overload:cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Preload
+  href: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.html#cfUnityEngine_UI_UGUI_UIPanel_IBuilder_Preload
+  name: Preload
+  nameWithType: UIPanel.IBuilder.Preload
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Preload
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Instantiate*
+  commentId: Overload:cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Instantiate
+  href: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.html#cfUnityEngine_UI_UGUI_UIPanel_IBuilder_Instantiate
+  name: Instantiate
+  nameWithType: UIPanel.IBuilder.Instantiate
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.Instantiate
+- uid: System.Threading.Tasks.Task{UnityEngine.GameObject}
+  commentId: T:System.Threading.Tasks.Task{UnityEngine.GameObject}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<GameObject>
+  nameWithType: Task<GameObject>
+  fullName: System.Threading.Tasks.Task<UnityEngine.GameObject>
+  nameWithType.vb: Task(Of GameObject)
+  fullName.vb: System.Threading.Tasks.Task(Of UnityEngine.GameObject)
+  name.vb: Task(Of GameObject)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    isExternal: true
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.GetDataSource*
+  commentId: Overload:cfUnityEngine.UI.UGUI.UIPanel.IBuilder.GetDataSource
+  href: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.html#cfUnityEngine_UI_UGUI_UIPanel_IBuilder_GetDataSource
+  name: GetDataSource
+  nameWithType: UIPanel.IBuilder.GetDataSource
+  fullName: cfUnityEngine.UI.UGUI.UIPanel.IBuilder.GetDataSource
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object

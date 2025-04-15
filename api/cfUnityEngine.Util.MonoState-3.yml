@@ -1,0 +1,817 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.Util.MonoState`3
+  commentId: T:cfUnityEngine.Util.MonoState`3
+  id: MonoState`3
+  parent: cfUnityEngine.Util
+  children:
+  - cfUnityEngine.Util.MonoState`3.CanUpdate
+  - cfUnityEngine.Util.MonoState`3.Id
+  - cfUnityEngine.Util.MonoState`3.IsReady
+  - cfUnityEngine.Util.MonoState`3.OnEndContext
+  - cfUnityEngine.Util.MonoState`3.StartContext(cfEngine.Util.StateParam)
+  - cfUnityEngine.Util.MonoState`3.StateMachine
+  - cfUnityEngine.Util.MonoState`3.Whitelist
+  - cfUnityEngine.Util.MonoState`3._Awake
+  - cfUnityEngine.Util.MonoState`3._Start
+  - cfUnityEngine.Util.MonoState`3._Update
+  langs:
+  - csharp
+  - vb
+  name: MonoState<TStateId, TState, TStateMachine>
+  nameWithType: MonoState<TStateId, TState, TStateMachine>
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>
+  type: Class
+  source:
+    id: MonoState
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/state/MonoState.cs
+    startLine: 6
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: 'public abstract class MonoState<TStateId, TState, TStateMachine> : MonoBehaviour where TState : MonoState<TStateId, TState, TStateMachine> where TStateMachine : MonoStateMachine<TStateId, TState, TStateMachine>'
+    typeParameters:
+    - id: TStateId
+    - id: TState
+    - id: TStateMachine
+    content.vb: Public MustInherit Class MonoState(Of TStateId, TState As MonoState(Of TStateId, TState, TStateMachine), TStateMachine As MonoStateMachine(Of TStateId, TState, TStateMachine)) Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine)
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine)
+  name.vb: MonoState(Of TStateId, TState, TStateMachine)
+- uid: cfUnityEngine.Util.MonoState`3.Id
+  commentId: P:cfUnityEngine.Util.MonoState`3.Id
+  id: Id
+  parent: cfUnityEngine.Util.MonoState`3
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.Id
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.Id
+  type: Property
+  source:
+    id: Id
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/state/MonoState.cs
+    startLine: 10
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: public abstract TStateId Id { get; }
+    parameters: []
+    return:
+      type: '{TStateId}'
+    content.vb: Public MustOverride ReadOnly Property Id As TStateId
+  overload: cfUnityEngine.Util.MonoState`3.Id*
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).Id
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).Id
+- uid: cfUnityEngine.Util.MonoState`3.Whitelist
+  commentId: P:cfUnityEngine.Util.MonoState`3.Whitelist
+  id: Whitelist
+  parent: cfUnityEngine.Util.MonoState`3
+  langs:
+  - csharp
+  - vb
+  name: Whitelist
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.Whitelist
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.Whitelist
+  type: Property
+  source:
+    id: Whitelist
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/state/MonoState.cs
+    startLine: 11
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: public virtual HashSet<TStateId> Whitelist { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.HashSet{{TStateId}}
+    content.vb: Public Overridable ReadOnly Property Whitelist As HashSet(Of TStateId)
+  overload: cfUnityEngine.Util.MonoState`3.Whitelist*
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).Whitelist
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).Whitelist
+- uid: cfUnityEngine.Util.MonoState`3.StateMachine
+  commentId: P:cfUnityEngine.Util.MonoState`3.StateMachine
+  id: StateMachine
+  parent: cfUnityEngine.Util.MonoState`3
+  langs:
+  - csharp
+  - vb
+  name: StateMachine
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.StateMachine
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.StateMachine
+  type: Property
+  source:
+    id: StateMachine
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/state/MonoState.cs
+    startLine: 13
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: public TStateMachine StateMachine { get; }
+    parameters: []
+    return:
+      type: '{TStateMachine}'
+    content.vb: Public Property StateMachine As TStateMachine
+  overload: cfUnityEngine.Util.MonoState`3.StateMachine*
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).StateMachine
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).StateMachine
+- uid: cfUnityEngine.Util.MonoState`3._Awake
+  commentId: M:cfUnityEngine.Util.MonoState`3._Awake
+  id: _Awake
+  parent: cfUnityEngine.Util.MonoState`3
+  langs:
+  - csharp
+  - vb
+  name: _Awake()
+  nameWithType: MonoState<TStateId, TState, TStateMachine>._Awake()
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>._Awake()
+  type: Method
+  source:
+    id: _Awake
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/state/MonoState.cs
+    startLine: 21
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: public virtual void _Awake()
+    content.vb: Public Overridable Sub _Awake()
+  overload: cfUnityEngine.Util.MonoState`3._Awake*
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine)._Awake()
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine)._Awake()
+- uid: cfUnityEngine.Util.MonoState`3._Start
+  commentId: M:cfUnityEngine.Util.MonoState`3._Start
+  id: _Start
+  parent: cfUnityEngine.Util.MonoState`3
+  langs:
+  - csharp
+  - vb
+  name: _Start()
+  nameWithType: MonoState<TStateId, TState, TStateMachine>._Start()
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>._Start()
+  type: Method
+  source:
+    id: _Start
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/state/MonoState.cs
+    startLine: 23
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: public virtual void _Start()
+    content.vb: Public Overridable Sub _Start()
+  overload: cfUnityEngine.Util.MonoState`3._Start*
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine)._Start()
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine)._Start()
+- uid: cfUnityEngine.Util.MonoState`3._Update
+  commentId: M:cfUnityEngine.Util.MonoState`3._Update
+  id: _Update
+  parent: cfUnityEngine.Util.MonoState`3
+  langs:
+  - csharp
+  - vb
+  name: _Update()
+  nameWithType: MonoState<TStateId, TState, TStateMachine>._Update()
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>._Update()
+  type: Method
+  source:
+    id: _Update
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/state/MonoState.cs
+    startLine: 25
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: public virtual void _Update()
+    content.vb: Public Overridable Sub _Update()
+  overload: cfUnityEngine.Util.MonoState`3._Update*
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine)._Update()
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine)._Update()
+- uid: cfUnityEngine.Util.MonoState`3.IsReady
+  commentId: M:cfUnityEngine.Util.MonoState`3.IsReady
+  id: IsReady
+  parent: cfUnityEngine.Util.MonoState`3
+  langs:
+  - csharp
+  - vb
+  name: IsReady()
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.IsReady()
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.IsReady()
+  type: Method
+  source:
+    id: IsReady
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/state/MonoState.cs
+    startLine: 27
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: public virtual bool IsReady()
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function IsReady() As Boolean
+  overload: cfUnityEngine.Util.MonoState`3.IsReady*
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).IsReady()
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).IsReady()
+- uid: cfUnityEngine.Util.MonoState`3.CanUpdate
+  commentId: M:cfUnityEngine.Util.MonoState`3.CanUpdate
+  id: CanUpdate
+  parent: cfUnityEngine.Util.MonoState`3
+  langs:
+  - csharp
+  - vb
+  name: CanUpdate()
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.CanUpdate()
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.CanUpdate()
+  type: Method
+  source:
+    id: CanUpdate
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/state/MonoState.cs
+    startLine: 28
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: public virtual bool CanUpdate()
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function CanUpdate() As Boolean
+  overload: cfUnityEngine.Util.MonoState`3.CanUpdate*
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).CanUpdate()
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).CanUpdate()
+- uid: cfUnityEngine.Util.MonoState`3.StartContext(cfEngine.Util.StateParam)
+  commentId: M:cfUnityEngine.Util.MonoState`3.StartContext(cfEngine.Util.StateParam)
+  id: StartContext(cfEngine.Util.StateParam)
+  parent: cfUnityEngine.Util.MonoState`3
+  langs:
+  - csharp
+  - vb
+  name: StartContext(StateParam)
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.StartContext(StateParam)
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.StartContext(cfEngine.Util.StateParam)
+  type: Method
+  source:
+    id: StartContext
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/state/MonoState.cs
+    startLine: 30
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: protected abstract void StartContext(StateParam param)
+    parameters:
+    - id: param
+      type: cfEngine.Util.StateParam
+    content.vb: Protected MustOverride Sub StartContext(param As StateParam)
+  overload: cfUnityEngine.Util.MonoState`3.StartContext*
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).StartContext(StateParam)
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).StartContext(cfEngine.Util.StateParam)
+- uid: cfUnityEngine.Util.MonoState`3.OnEndContext
+  commentId: M:cfUnityEngine.Util.MonoState`3.OnEndContext
+  id: OnEndContext
+  parent: cfUnityEngine.Util.MonoState`3
+  langs:
+  - csharp
+  - vb
+  name: OnEndContext()
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.OnEndContext()
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.OnEndContext()
+  type: Method
+  source:
+    id: OnEndContext
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/util/state/MonoState.cs
+    startLine: 32
+  namespace: cfUnityEngine.Util
+  syntax:
+    content: protected virtual void OnEndContext()
+    content.vb: Protected Overridable Sub OnEndContext()
+  overload: cfUnityEngine.Util.MonoState`3.OnEndContext*
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).OnEndContext()
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).OnEndContext()
+references:
+- uid: cfUnityEngine.Util
+  commentId: N:cfUnityEngine.Util
+  href: cfUnityEngine.html
+  name: cfUnityEngine.Util
+  nameWithType: cfUnityEngine.Util
+  fullName: cfUnityEngine.Util
+  spec.csharp:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.Util
+    name: Util
+    href: cfUnityEngine.Util.html
+  spec.vb:
+  - uid: cfUnityEngine
+    name: cfUnityEngine
+    href: cfUnityEngine.html
+  - name: .
+  - uid: cfUnityEngine.Util
+    name: Util
+    href: cfUnityEngine.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: cfUnityEngine.Util.MonoState`3.Id*
+  commentId: Overload:cfUnityEngine.Util.MonoState`3.Id
+  href: cfUnityEngine.Util.MonoState-3.html#cfUnityEngine_Util_MonoState_3_Id
+  name: Id
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.Id
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.Id
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).Id
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).Id
+- uid: '{TStateId}'
+  commentId: '!:TStateId'
+  definition: TStateId
+  name: TStateId
+  nameWithType: TStateId
+  fullName: TStateId
+- uid: TStateId
+  name: TStateId
+  nameWithType: TStateId
+  fullName: TStateId
+- uid: cfUnityEngine.Util.MonoState`3.Whitelist*
+  commentId: Overload:cfUnityEngine.Util.MonoState`3.Whitelist
+  href: cfUnityEngine.Util.MonoState-3.html#cfUnityEngine_Util_MonoState_3_Whitelist
+  name: Whitelist
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.Whitelist
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.Whitelist
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).Whitelist
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).Whitelist
+- uid: System.Collections.Generic.HashSet{{TStateId}}
+  commentId: T:System.Collections.Generic.HashSet{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.HashSet`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<TStateId>
+  nameWithType: HashSet<TStateId>
+  fullName: System.Collections.Generic.HashSet<TStateId>
+  nameWithType.vb: HashSet(Of TStateId)
+  fullName.vb: System.Collections.Generic.HashSet(Of TStateId)
+  name.vb: HashSet(Of TStateId)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - name: TStateId
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TStateId
+  - name: )
+- uid: System.Collections.Generic.HashSet`1
+  commentId: T:System.Collections.Generic.HashSet`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<T>
+  nameWithType: HashSet<T>
+  fullName: System.Collections.Generic.HashSet<T>
+  nameWithType.vb: HashSet(Of T)
+  fullName.vb: System.Collections.Generic.HashSet(Of T)
+  name.vb: HashSet(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: cfUnityEngine.Util.MonoState`3.StateMachine*
+  commentId: Overload:cfUnityEngine.Util.MonoState`3.StateMachine
+  href: cfUnityEngine.Util.MonoState-3.html#cfUnityEngine_Util_MonoState_3_StateMachine
+  name: StateMachine
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.StateMachine
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.StateMachine
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).StateMachine
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).StateMachine
+- uid: '{TStateMachine}'
+  commentId: '!:TStateMachine'
+  definition: TStateMachine
+  name: TStateMachine
+  nameWithType: TStateMachine
+  fullName: TStateMachine
+- uid: TStateMachine
+  name: TStateMachine
+  nameWithType: TStateMachine
+  fullName: TStateMachine
+- uid: cfUnityEngine.Util.MonoState`3._Awake*
+  commentId: Overload:cfUnityEngine.Util.MonoState`3._Awake
+  href: cfUnityEngine.Util.MonoState-3.html#cfUnityEngine_Util_MonoState_3__Awake
+  name: _Awake
+  nameWithType: MonoState<TStateId, TState, TStateMachine>._Awake
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>._Awake
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine)._Awake
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine)._Awake
+- uid: cfUnityEngine.Util.MonoState`3._Start*
+  commentId: Overload:cfUnityEngine.Util.MonoState`3._Start
+  href: cfUnityEngine.Util.MonoState-3.html#cfUnityEngine_Util_MonoState_3__Start
+  name: _Start
+  nameWithType: MonoState<TStateId, TState, TStateMachine>._Start
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>._Start
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine)._Start
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine)._Start
+- uid: cfUnityEngine.Util.MonoState`3._Update*
+  commentId: Overload:cfUnityEngine.Util.MonoState`3._Update
+  href: cfUnityEngine.Util.MonoState-3.html#cfUnityEngine_Util_MonoState_3__Update
+  name: _Update
+  nameWithType: MonoState<TStateId, TState, TStateMachine>._Update
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>._Update
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine)._Update
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine)._Update
+- uid: cfUnityEngine.Util.MonoState`3.IsReady*
+  commentId: Overload:cfUnityEngine.Util.MonoState`3.IsReady
+  href: cfUnityEngine.Util.MonoState-3.html#cfUnityEngine_Util_MonoState_3_IsReady
+  name: IsReady
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.IsReady
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.IsReady
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).IsReady
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).IsReady
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: cfUnityEngine.Util.MonoState`3.CanUpdate*
+  commentId: Overload:cfUnityEngine.Util.MonoState`3.CanUpdate
+  href: cfUnityEngine.Util.MonoState-3.html#cfUnityEngine_Util_MonoState_3_CanUpdate
+  name: CanUpdate
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.CanUpdate
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.CanUpdate
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).CanUpdate
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).CanUpdate
+- uid: cfUnityEngine.Util.MonoState`3.StartContext*
+  commentId: Overload:cfUnityEngine.Util.MonoState`3.StartContext
+  href: cfUnityEngine.Util.MonoState-3.html#cfUnityEngine_Util_MonoState_3_StartContext_cfEngine_Util_StateParam_
+  name: StartContext
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.StartContext
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.StartContext
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).StartContext
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).StartContext
+- uid: cfEngine.Util.StateParam
+  commentId: T:cfEngine.Util.StateParam
+  parent: cfEngine.Util
+  href: cfEngine.Util.StateParam.html
+  name: StateParam
+  nameWithType: StateParam
+  fullName: cfEngine.Util.StateParam
+- uid: cfEngine.Util
+  commentId: N:cfEngine.Util
+  href: cfEngine.html
+  name: cfEngine.Util
+  nameWithType: cfEngine.Util
+  fullName: cfEngine.Util
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Util
+    name: Util
+    href: cfEngine.Util.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Util
+    name: Util
+    href: cfEngine.Util.html
+- uid: cfUnityEngine.Util.MonoState`3.OnEndContext*
+  commentId: Overload:cfUnityEngine.Util.MonoState`3.OnEndContext
+  href: cfUnityEngine.Util.MonoState-3.html#cfUnityEngine_Util_MonoState_3_OnEndContext
+  name: OnEndContext
+  nameWithType: MonoState<TStateId, TState, TStateMachine>.OnEndContext
+  fullName: cfUnityEngine.Util.MonoState<TStateId, TState, TStateMachine>.OnEndContext
+  nameWithType.vb: MonoState(Of TStateId, TState, TStateMachine).OnEndContext
+  fullName.vb: cfUnityEngine.Util.MonoState(Of TStateId, TState, TStateMachine).OnEndContext

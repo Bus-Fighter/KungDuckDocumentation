@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Asset
+  commentId: N:cfEngine.Asset
+  id: cfEngine.Asset
+  children:
+  - cfEngine.Asset.AssetHandle
+  - cfEngine.Asset.AssetHandle`1
+  - cfEngine.Asset.AssetManager`1
+  - cfEngine.Asset.ResourceAssetManager
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.Asset
+  nameWithType: cfEngine.Asset
+  fullName: cfEngine.Asset
+  type: Namespace
+references:
+- uid: cfEngine.Asset.AssetHandle
+  commentId: T:cfEngine.Asset.AssetHandle
+  parent: cfEngine.Asset
+  href: cfEngine.Asset.AssetHandle.html
+  name: AssetHandle
+  nameWithType: AssetHandle
+  fullName: cfEngine.Asset.AssetHandle
+- uid: cfEngine.Asset.AssetHandle`1
+  commentId: T:cfEngine.Asset.AssetHandle`1
+  href: cfEngine.Asset.AssetHandle-1.html
+  name: AssetHandle<T>
+  nameWithType: AssetHandle<T>
+  fullName: cfEngine.Asset.AssetHandle<T>
+  nameWithType.vb: AssetHandle(Of T)
+  fullName.vb: cfEngine.Asset.AssetHandle(Of T)
+  name.vb: AssetHandle(Of T)
+  spec.csharp:
+  - uid: cfEngine.Asset.AssetHandle`1
+    name: AssetHandle
+    href: cfEngine.Asset.AssetHandle-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Asset.AssetHandle`1
+    name: AssetHandle
+    href: cfEngine.Asset.AssetHandle-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Asset.AssetManager`1
+  commentId: T:cfEngine.Asset.AssetManager`1
+  href: cfEngine.Asset.AssetManager-1.html
+  name: AssetManager<TBaseObject>
+  nameWithType: AssetManager<TBaseObject>
+  fullName: cfEngine.Asset.AssetManager<TBaseObject>
+  nameWithType.vb: AssetManager(Of TBaseObject)
+  fullName.vb: cfEngine.Asset.AssetManager(Of TBaseObject)
+  name.vb: AssetManager(Of TBaseObject)
+  spec.csharp:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: <
+  - name: TBaseObject
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Asset.AssetManager`1
+    name: AssetManager
+    href: cfEngine.Asset.AssetManager-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TBaseObject
+  - name: )
+- uid: cfEngine.Asset.ResourceAssetManager
+  commentId: T:cfEngine.Asset.ResourceAssetManager
+  href: cfEngine.Asset.ResourceAssetManager.html
+  name: ResourceAssetManager
+  nameWithType: ResourceAssetManager
+  fullName: cfEngine.Asset.ResourceAssetManager
+- uid: cfEngine.Asset
+  commentId: N:cfEngine.Asset
+  href: cfEngine.html
+  name: cfEngine.Asset
+  nameWithType: cfEngine.Asset
+  fullName: cfEngine.Asset
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Asset
+    name: Asset
+    href: cfEngine.Asset.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Asset
+    name: Asset
+    href: cfEngine.Asset.html

@@ -1,0 +1,437 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Util.IStateMachine`1
+  commentId: T:cfEngine.Util.IStateMachine`1
+  id: IStateMachine`1
+  parent: cfEngine.Util
+  children:
+  - cfEngine.Util.IStateMachine`1.CanGoToState(`0)
+  - cfEngine.Util.IStateMachine`1.CurrentStateId
+  - cfEngine.Util.IStateMachine`1.ForceGoToState(`0,cfEngine.Util.StateParam@)
+  - cfEngine.Util.IStateMachine`1.LastStateId
+  - cfEngine.Util.IStateMachine`1.SubscribeAfterStateChange(System.Action{cfEngine.Util.StateChangeRecord{`0}})
+  - cfEngine.Util.IStateMachine`1.SubscribeBeforeStateChange(System.Action{cfEngine.Util.StateChangeRecord{`0}})
+  - cfEngine.Util.IStateMachine`1.TryGoToState(`0,cfEngine.Util.StateParam@)
+  langs:
+  - csharp
+  - vb
+  name: IStateMachine<TStateId>
+  nameWithType: IStateMachine<TStateId>
+  fullName: cfEngine.Util.IStateMachine<TStateId>
+  type: Interface
+  source:
+    id: IStateMachine
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/StateMachine.cs
+    startLine: 14
+  namespace: cfEngine.Util
+  syntax:
+    content: public interface IStateMachine<TStateId>
+    typeParameters:
+    - id: TStateId
+    content.vb: Public Interface IStateMachine(Of TStateId)
+  nameWithType.vb: IStateMachine(Of TStateId)
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId)
+  name.vb: IStateMachine(Of TStateId)
+- uid: cfEngine.Util.IStateMachine`1.LastStateId
+  commentId: P:cfEngine.Util.IStateMachine`1.LastStateId
+  id: LastStateId
+  parent: cfEngine.Util.IStateMachine`1
+  langs:
+  - csharp
+  - vb
+  name: LastStateId
+  nameWithType: IStateMachine<TStateId>.LastStateId
+  fullName: cfEngine.Util.IStateMachine<TStateId>.LastStateId
+  type: Property
+  source:
+    id: LastStateId
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/StateMachine.cs
+    startLine: 16
+  namespace: cfEngine.Util
+  syntax:
+    content: TStateId LastStateId { get; }
+    parameters: []
+    return:
+      type: '{TStateId}'
+    content.vb: ReadOnly Property LastStateId As TStateId
+  overload: cfEngine.Util.IStateMachine`1.LastStateId*
+  nameWithType.vb: IStateMachine(Of TStateId).LastStateId
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).LastStateId
+- uid: cfEngine.Util.IStateMachine`1.CurrentStateId
+  commentId: P:cfEngine.Util.IStateMachine`1.CurrentStateId
+  id: CurrentStateId
+  parent: cfEngine.Util.IStateMachine`1
+  langs:
+  - csharp
+  - vb
+  name: CurrentStateId
+  nameWithType: IStateMachine<TStateId>.CurrentStateId
+  fullName: cfEngine.Util.IStateMachine<TStateId>.CurrentStateId
+  type: Property
+  source:
+    id: CurrentStateId
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/StateMachine.cs
+    startLine: 17
+  namespace: cfEngine.Util
+  syntax:
+    content: TStateId CurrentStateId { get; }
+    parameters: []
+    return:
+      type: '{TStateId}'
+    content.vb: ReadOnly Property CurrentStateId As TStateId
+  overload: cfEngine.Util.IStateMachine`1.CurrentStateId*
+  nameWithType.vb: IStateMachine(Of TStateId).CurrentStateId
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).CurrentStateId
+- uid: cfEngine.Util.IStateMachine`1.CanGoToState(`0)
+  commentId: M:cfEngine.Util.IStateMachine`1.CanGoToState(`0)
+  id: CanGoToState(`0)
+  parent: cfEngine.Util.IStateMachine`1
+  langs:
+  - csharp
+  - vb
+  name: CanGoToState(TStateId)
+  nameWithType: IStateMachine<TStateId>.CanGoToState(TStateId)
+  fullName: cfEngine.Util.IStateMachine<TStateId>.CanGoToState(TStateId)
+  type: Method
+  source:
+    id: CanGoToState
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/StateMachine.cs
+    startLine: 18
+  namespace: cfEngine.Util
+  syntax:
+    content: bool CanGoToState(TStateId id)
+    parameters:
+    - id: id
+      type: '{TStateId}'
+    return:
+      type: System.Boolean
+    content.vb: Function CanGoToState(id As TStateId) As Boolean
+  overload: cfEngine.Util.IStateMachine`1.CanGoToState*
+  nameWithType.vb: IStateMachine(Of TStateId).CanGoToState(TStateId)
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).CanGoToState(TStateId)
+- uid: cfEngine.Util.IStateMachine`1.TryGoToState(`0,cfEngine.Util.StateParam@)
+  commentId: M:cfEngine.Util.IStateMachine`1.TryGoToState(`0,cfEngine.Util.StateParam@)
+  id: TryGoToState(`0,cfEngine.Util.StateParam@)
+  parent: cfEngine.Util.IStateMachine`1
+  langs:
+  - csharp
+  - vb
+  name: TryGoToState(TStateId, in StateParam)
+  nameWithType: IStateMachine<TStateId>.TryGoToState(TStateId, in StateParam)
+  fullName: cfEngine.Util.IStateMachine<TStateId>.TryGoToState(TStateId, in cfEngine.Util.StateParam)
+  type: Method
+  source:
+    id: TryGoToState
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/StateMachine.cs
+    startLine: 19
+  namespace: cfEngine.Util
+  syntax:
+    content: bool TryGoToState(TStateId nextStateId, in StateParam param = null)
+    parameters:
+    - id: nextStateId
+      type: '{TStateId}'
+    - id: param
+      type: cfEngine.Util.StateParam
+    return:
+      type: System.Boolean
+    content.vb: Function TryGoToState(nextStateId As TStateId, param As StateParam = Nothing) As Boolean
+  overload: cfEngine.Util.IStateMachine`1.TryGoToState*
+  nameWithType.vb: IStateMachine(Of TStateId).TryGoToState(TStateId, StateParam)
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).TryGoToState(TStateId, cfEngine.Util.StateParam)
+  name.vb: TryGoToState(TStateId, StateParam)
+- uid: cfEngine.Util.IStateMachine`1.ForceGoToState(`0,cfEngine.Util.StateParam@)
+  commentId: M:cfEngine.Util.IStateMachine`1.ForceGoToState(`0,cfEngine.Util.StateParam@)
+  id: ForceGoToState(`0,cfEngine.Util.StateParam@)
+  parent: cfEngine.Util.IStateMachine`1
+  langs:
+  - csharp
+  - vb
+  name: ForceGoToState(TStateId, in StateParam)
+  nameWithType: IStateMachine<TStateId>.ForceGoToState(TStateId, in StateParam)
+  fullName: cfEngine.Util.IStateMachine<TStateId>.ForceGoToState(TStateId, in cfEngine.Util.StateParam)
+  type: Method
+  source:
+    id: ForceGoToState
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/StateMachine.cs
+    startLine: 20
+  namespace: cfEngine.Util
+  syntax:
+    content: void ForceGoToState(TStateId nextStateId, in StateParam param = null)
+    parameters:
+    - id: nextStateId
+      type: '{TStateId}'
+    - id: param
+      type: cfEngine.Util.StateParam
+    content.vb: Sub ForceGoToState(nextStateId As TStateId, param As StateParam = Nothing)
+  overload: cfEngine.Util.IStateMachine`1.ForceGoToState*
+  nameWithType.vb: IStateMachine(Of TStateId).ForceGoToState(TStateId, StateParam)
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).ForceGoToState(TStateId, cfEngine.Util.StateParam)
+  name.vb: ForceGoToState(TStateId, StateParam)
+- uid: cfEngine.Util.IStateMachine`1.SubscribeBeforeStateChange(System.Action{cfEngine.Util.StateChangeRecord{`0}})
+  commentId: M:cfEngine.Util.IStateMachine`1.SubscribeBeforeStateChange(System.Action{cfEngine.Util.StateChangeRecord{`0}})
+  id: SubscribeBeforeStateChange(System.Action{cfEngine.Util.StateChangeRecord{`0}})
+  parent: cfEngine.Util.IStateMachine`1
+  langs:
+  - csharp
+  - vb
+  name: SubscribeBeforeStateChange(Action<StateChangeRecord<TStateId>>)
+  nameWithType: IStateMachine<TStateId>.SubscribeBeforeStateChange(Action<StateChangeRecord<TStateId>>)
+  fullName: cfEngine.Util.IStateMachine<TStateId>.SubscribeBeforeStateChange(System.Action<cfEngine.Util.StateChangeRecord<TStateId>>)
+  type: Method
+  source:
+    id: SubscribeBeforeStateChange
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/StateMachine.cs
+    startLine: 21
+  namespace: cfEngine.Util
+  syntax:
+    content: Subscription SubscribeBeforeStateChange(Action<StateChangeRecord<TStateId>> listener)
+    parameters:
+    - id: listener
+      type: System.Action{cfEngine.Util.StateChangeRecord{{TStateId}}}
+    return:
+      type: cfEngine.Rx.Subscription
+    content.vb: Function SubscribeBeforeStateChange(listener As Action(Of StateChangeRecord(Of TStateId))) As Subscription
+  overload: cfEngine.Util.IStateMachine`1.SubscribeBeforeStateChange*
+  nameWithType.vb: IStateMachine(Of TStateId).SubscribeBeforeStateChange(Action(Of StateChangeRecord(Of TStateId)))
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).SubscribeBeforeStateChange(System.Action(Of cfEngine.Util.StateChangeRecord(Of TStateId)))
+  name.vb: SubscribeBeforeStateChange(Action(Of StateChangeRecord(Of TStateId)))
+- uid: cfEngine.Util.IStateMachine`1.SubscribeAfterStateChange(System.Action{cfEngine.Util.StateChangeRecord{`0}})
+  commentId: M:cfEngine.Util.IStateMachine`1.SubscribeAfterStateChange(System.Action{cfEngine.Util.StateChangeRecord{`0}})
+  id: SubscribeAfterStateChange(System.Action{cfEngine.Util.StateChangeRecord{`0}})
+  parent: cfEngine.Util.IStateMachine`1
+  langs:
+  - csharp
+  - vb
+  name: SubscribeAfterStateChange(Action<StateChangeRecord<TStateId>>)
+  nameWithType: IStateMachine<TStateId>.SubscribeAfterStateChange(Action<StateChangeRecord<TStateId>>)
+  fullName: cfEngine.Util.IStateMachine<TStateId>.SubscribeAfterStateChange(System.Action<cfEngine.Util.StateChangeRecord<TStateId>>)
+  type: Method
+  source:
+    id: SubscribeAfterStateChange
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/StateMachine.cs
+    startLine: 22
+  namespace: cfEngine.Util
+  syntax:
+    content: Subscription SubscribeAfterStateChange(Action<StateChangeRecord<TStateId>> listener)
+    parameters:
+    - id: listener
+      type: System.Action{cfEngine.Util.StateChangeRecord{{TStateId}}}
+    return:
+      type: cfEngine.Rx.Subscription
+    content.vb: Function SubscribeAfterStateChange(listener As Action(Of StateChangeRecord(Of TStateId))) As Subscription
+  overload: cfEngine.Util.IStateMachine`1.SubscribeAfterStateChange*
+  nameWithType.vb: IStateMachine(Of TStateId).SubscribeAfterStateChange(Action(Of StateChangeRecord(Of TStateId)))
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).SubscribeAfterStateChange(System.Action(Of cfEngine.Util.StateChangeRecord(Of TStateId)))
+  name.vb: SubscribeAfterStateChange(Action(Of StateChangeRecord(Of TStateId)))
+references:
+- uid: cfEngine.Util
+  commentId: N:cfEngine.Util
+  href: cfEngine.html
+  name: cfEngine.Util
+  nameWithType: cfEngine.Util
+  fullName: cfEngine.Util
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Util
+    name: Util
+    href: cfEngine.Util.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Util
+    name: Util
+    href: cfEngine.Util.html
+- uid: cfEngine.Util.IStateMachine`1.LastStateId*
+  commentId: Overload:cfEngine.Util.IStateMachine`1.LastStateId
+  href: cfEngine.Util.IStateMachine-1.html#cfEngine_Util_IStateMachine_1_LastStateId
+  name: LastStateId
+  nameWithType: IStateMachine<TStateId>.LastStateId
+  fullName: cfEngine.Util.IStateMachine<TStateId>.LastStateId
+  nameWithType.vb: IStateMachine(Of TStateId).LastStateId
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).LastStateId
+- uid: '{TStateId}'
+  commentId: '!:TStateId'
+  definition: TStateId
+  name: TStateId
+  nameWithType: TStateId
+  fullName: TStateId
+- uid: TStateId
+  name: TStateId
+  nameWithType: TStateId
+  fullName: TStateId
+- uid: cfEngine.Util.IStateMachine`1.CurrentStateId*
+  commentId: Overload:cfEngine.Util.IStateMachine`1.CurrentStateId
+  href: cfEngine.Util.IStateMachine-1.html#cfEngine_Util_IStateMachine_1_CurrentStateId
+  name: CurrentStateId
+  nameWithType: IStateMachine<TStateId>.CurrentStateId
+  fullName: cfEngine.Util.IStateMachine<TStateId>.CurrentStateId
+  nameWithType.vb: IStateMachine(Of TStateId).CurrentStateId
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).CurrentStateId
+- uid: cfEngine.Util.IStateMachine`1.CanGoToState*
+  commentId: Overload:cfEngine.Util.IStateMachine`1.CanGoToState
+  href: cfEngine.Util.IStateMachine-1.html#cfEngine_Util_IStateMachine_1_CanGoToState__0_
+  name: CanGoToState
+  nameWithType: IStateMachine<TStateId>.CanGoToState
+  fullName: cfEngine.Util.IStateMachine<TStateId>.CanGoToState
+  nameWithType.vb: IStateMachine(Of TStateId).CanGoToState
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).CanGoToState
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Util.IStateMachine`1.TryGoToState*
+  commentId: Overload:cfEngine.Util.IStateMachine`1.TryGoToState
+  href: cfEngine.Util.IStateMachine-1.html#cfEngine_Util_IStateMachine_1_TryGoToState__0_cfEngine_Util_StateParam__
+  name: TryGoToState
+  nameWithType: IStateMachine<TStateId>.TryGoToState
+  fullName: cfEngine.Util.IStateMachine<TStateId>.TryGoToState
+  nameWithType.vb: IStateMachine(Of TStateId).TryGoToState
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).TryGoToState
+- uid: cfEngine.Util.StateParam
+  commentId: T:cfEngine.Util.StateParam
+  parent: cfEngine.Util
+  href: cfEngine.Util.StateParam.html
+  name: StateParam
+  nameWithType: StateParam
+  fullName: cfEngine.Util.StateParam
+- uid: cfEngine.Util.IStateMachine`1.ForceGoToState*
+  commentId: Overload:cfEngine.Util.IStateMachine`1.ForceGoToState
+  href: cfEngine.Util.IStateMachine-1.html#cfEngine_Util_IStateMachine_1_ForceGoToState__0_cfEngine_Util_StateParam__
+  name: ForceGoToState
+  nameWithType: IStateMachine<TStateId>.ForceGoToState
+  fullName: cfEngine.Util.IStateMachine<TStateId>.ForceGoToState
+  nameWithType.vb: IStateMachine(Of TStateId).ForceGoToState
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).ForceGoToState
+- uid: cfEngine.Util.IStateMachine`1.SubscribeBeforeStateChange*
+  commentId: Overload:cfEngine.Util.IStateMachine`1.SubscribeBeforeStateChange
+  href: cfEngine.Util.IStateMachine-1.html#cfEngine_Util_IStateMachine_1_SubscribeBeforeStateChange_System_Action_cfEngine_Util_StateChangeRecord__0___
+  name: SubscribeBeforeStateChange
+  nameWithType: IStateMachine<TStateId>.SubscribeBeforeStateChange
+  fullName: cfEngine.Util.IStateMachine<TStateId>.SubscribeBeforeStateChange
+  nameWithType.vb: IStateMachine(Of TStateId).SubscribeBeforeStateChange
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).SubscribeBeforeStateChange
+- uid: System.Action{cfEngine.Util.StateChangeRecord{{TStateId}}}
+  commentId: T:System.Action{cfEngine.Util.StateChangeRecord{`0}}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<StateChangeRecord<TStateId>>
+  nameWithType: Action<StateChangeRecord<TStateId>>
+  fullName: System.Action<cfEngine.Util.StateChangeRecord<TStateId>>
+  nameWithType.vb: Action(Of StateChangeRecord(Of TStateId))
+  fullName.vb: System.Action(Of cfEngine.Util.StateChangeRecord(Of TStateId))
+  name.vb: Action(Of StateChangeRecord(Of TStateId))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: cfEngine.Util.StateChangeRecord`1
+    name: StateChangeRecord
+    href: cfEngine.Util.StateChangeRecord-1.html
+  - name: <
+  - name: TStateId
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: cfEngine.Util.StateChangeRecord`1
+    name: StateChangeRecord
+    href: cfEngine.Util.StateChangeRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TStateId
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.Subscription
+  commentId: T:cfEngine.Rx.Subscription
+  parent: cfEngine.Rx
+  href: cfEngine.Rx.Subscription.html
+  name: Subscription
+  nameWithType: Subscription
+  fullName: cfEngine.Rx.Subscription
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Rx
+  commentId: N:cfEngine.Rx
+  href: cfEngine.html
+  name: cfEngine.Rx
+  nameWithType: cfEngine.Rx
+  fullName: cfEngine.Rx
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html
+- uid: cfEngine.Util.IStateMachine`1.SubscribeAfterStateChange*
+  commentId: Overload:cfEngine.Util.IStateMachine`1.SubscribeAfterStateChange
+  href: cfEngine.Util.IStateMachine-1.html#cfEngine_Util_IStateMachine_1_SubscribeAfterStateChange_System_Action_cfEngine_Util_StateChangeRecord__0___
+  name: SubscribeAfterStateChange
+  nameWithType: IStateMachine<TStateId>.SubscribeAfterStateChange
+  fullName: cfEngine.Util.IStateMachine<TStateId>.SubscribeAfterStateChange
+  nameWithType.vb: IStateMachine(Of TStateId).SubscribeAfterStateChange
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId).SubscribeAfterStateChange

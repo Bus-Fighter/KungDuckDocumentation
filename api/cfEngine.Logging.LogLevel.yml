@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Logging.LogLevel
+  commentId: T:cfEngine.Logging.LogLevel
+  id: LogLevel
+  parent: cfEngine.Logging
+  children:
+  - cfEngine.Logging.LogLevel.Debug
+  - cfEngine.Logging.LogLevel.Error
+  - cfEngine.Logging.LogLevel.Info
+  - cfEngine.Logging.LogLevel.Verbose
+  - cfEngine.Logging.LogLevel.Warn
+  langs:
+  - csharp
+  - vb
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: cfEngine.Logging.LogLevel
+  type: Enum
+  source:
+    id: LogLevel
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/log/ILogger.cs
+    startLine: 15
+  namespace: cfEngine.Logging
+  syntax:
+    content: public enum LogLevel
+    content.vb: Public Enum LogLevel
+  extensionMethods:
+  - System.Enum.cfEngine.Extension.EnumExtension.hasFlag(System.Enum)
+- uid: cfEngine.Logging.LogLevel.Error
+  commentId: F:cfEngine.Logging.LogLevel.Error
+  id: Error
+  parent: cfEngine.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: LogLevel.Error
+  fullName: cfEngine.Logging.LogLevel.Error
+  type: Field
+  source:
+    id: Error
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/log/ILogger.cs
+    startLine: 17
+  namespace: cfEngine.Logging
+  syntax:
+    content: Error = 3
+    return:
+      type: cfEngine.Logging.LogLevel
+- uid: cfEngine.Logging.LogLevel.Warn
+  commentId: F:cfEngine.Logging.LogLevel.Warn
+  id: Warn
+  parent: cfEngine.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Warn
+  nameWithType: LogLevel.Warn
+  fullName: cfEngine.Logging.LogLevel.Warn
+  type: Field
+  source:
+    id: Warn
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/log/ILogger.cs
+    startLine: 18
+  namespace: cfEngine.Logging
+  syntax:
+    content: Warn = 7
+    return:
+      type: cfEngine.Logging.LogLevel
+- uid: cfEngine.Logging.LogLevel.Info
+  commentId: F:cfEngine.Logging.LogLevel.Info
+  id: Info
+  parent: cfEngine.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: LogLevel.Info
+  fullName: cfEngine.Logging.LogLevel.Info
+  type: Field
+  source:
+    id: Info
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/log/ILogger.cs
+    startLine: 19
+  namespace: cfEngine.Logging
+  syntax:
+    content: Info = 15
+    return:
+      type: cfEngine.Logging.LogLevel
+- uid: cfEngine.Logging.LogLevel.Verbose
+  commentId: F:cfEngine.Logging.LogLevel.Verbose
+  id: Verbose
+  parent: cfEngine.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Verbose
+  nameWithType: LogLevel.Verbose
+  fullName: cfEngine.Logging.LogLevel.Verbose
+  type: Field
+  source:
+    id: Verbose
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/log/ILogger.cs
+    startLine: 20
+  namespace: cfEngine.Logging
+  syntax:
+    content: Verbose = 15
+    return:
+      type: cfEngine.Logging.LogLevel
+- uid: cfEngine.Logging.LogLevel.Debug
+  commentId: F:cfEngine.Logging.LogLevel.Debug
+  id: Debug
+  parent: cfEngine.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Debug
+  nameWithType: LogLevel.Debug
+  fullName: cfEngine.Logging.LogLevel.Debug
+  type: Field
+  source:
+    id: Debug
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/log/ILogger.cs
+    startLine: 21
+  namespace: cfEngine.Logging
+  syntax:
+    content: Debug = 63
+    return:
+      type: cfEngine.Logging.LogLevel
+references:
+- uid: cfEngine.Logging
+  commentId: N:cfEngine.Logging
+  href: cfEngine.html
+  name: cfEngine.Logging
+  nameWithType: cfEngine.Logging
+  fullName: cfEngine.Logging
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Logging
+    name: Logging
+    href: cfEngine.Logging.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Logging
+    name: Logging
+    href: cfEngine.Logging.html
+- uid: System.Enum.cfEngine.Extension.EnumExtension.hasFlag(System.Enum)
+  commentId: M:cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+  parent: cfEngine.Extension.EnumExtension
+  definition: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+  href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  name: hasFlag(Enum, Enum)
+  nameWithType: EnumExtension.hasFlag(Enum, Enum)
+  fullName: cfEngine.Extension.EnumExtension.hasFlag(System.Enum, System.Enum)
+  spec.csharp:
+  - uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+    name: hasFlag
+    href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+    name: hasFlag
+    href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+  commentId: M:cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+  isExternal: true
+  href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  name: hasFlag(Enum, Enum)
+  nameWithType: EnumExtension.hasFlag(Enum, Enum)
+  fullName: cfEngine.Extension.EnumExtension.hasFlag(System.Enum, System.Enum)
+  spec.csharp:
+  - uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+    name: hasFlag
+    href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+    name: hasFlag
+    href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: cfEngine.Extension.EnumExtension
+  commentId: T:cfEngine.Extension.EnumExtension
+  parent: cfEngine.Extension
+  href: cfEngine.Extension.EnumExtension.html
+  name: EnumExtension
+  nameWithType: EnumExtension
+  fullName: cfEngine.Extension.EnumExtension
+- uid: cfEngine.Extension
+  commentId: N:cfEngine.Extension
+  href: cfEngine.html
+  name: cfEngine.Extension
+  nameWithType: cfEngine.Extension
+  fullName: cfEngine.Extension
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Extension
+    name: Extension
+    href: cfEngine.Extension.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Extension
+    name: Extension
+    href: cfEngine.Extension.html
+- uid: cfEngine.Logging.LogLevel
+  commentId: T:cfEngine.Logging.LogLevel
+  parent: cfEngine.Logging
+  href: cfEngine.Logging.LogLevel.html
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: cfEngine.Logging.LogLevel

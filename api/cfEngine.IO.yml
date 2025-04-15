@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.IO
+  commentId: N:cfEngine.IO
+  id: cfEngine.IO
+  children:
+  - cfEngine.IO.IStorage
+  - cfEngine.IO.LocalFileStorage
+  - cfEngine.IO.Storage
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.IO
+  nameWithType: cfEngine.IO
+  fullName: cfEngine.IO
+  type: Namespace
+references:
+- uid: cfEngine.IO.LocalFileStorage
+  commentId: T:cfEngine.IO.LocalFileStorage
+  href: cfEngine.IO.LocalFileStorage.html
+  name: LocalFileStorage
+  nameWithType: LocalFileStorage
+  fullName: cfEngine.IO.LocalFileStorage
+- uid: cfEngine.IO.IStorage
+  commentId: T:cfEngine.IO.IStorage
+  parent: cfEngine.IO
+  href: cfEngine.IO.IStorage.html
+  name: IStorage
+  nameWithType: IStorage
+  fullName: cfEngine.IO.IStorage
+- uid: cfEngine.IO.Storage
+  commentId: T:cfEngine.IO.Storage
+  parent: cfEngine.IO
+  href: cfEngine.IO.Storage.html
+  name: Storage
+  nameWithType: Storage
+  fullName: cfEngine.IO.Storage
+- uid: cfEngine.IO
+  commentId: N:cfEngine.IO
+  href: cfEngine.html
+  name: cfEngine.IO
+  nameWithType: cfEngine.IO
+  fullName: cfEngine.IO
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.IO
+    name: IO
+    href: cfEngine.IO.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.IO
+    name: IO
+    href: cfEngine.IO.html

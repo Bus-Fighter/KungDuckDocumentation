@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Util
+  commentId: N:cfEngine.Util
+  id: cfEngine.Util
+  children:
+  - cfEngine.Util.IStateMachine`1
+  - cfEngine.Util.SanityCheck
+  - cfEngine.Util.SanityCheckException
+  - cfEngine.Util.StateChangeRecord`1
+  - cfEngine.Util.StateExecutionException`1
+  - cfEngine.Util.StateMachine`3
+  - cfEngine.Util.StateParam
+  - cfEngine.Util.State`3
+  - cfEngine.Util.TypeExtension
+  - cfEngine.Util.ValidationState
+  - cfEngine.Util.Validation`1
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.Util
+  nameWithType: cfEngine.Util
+  fullName: cfEngine.Util
+  type: Namespace
+references:
+- uid: cfEngine.Util.State`3
+  commentId: T:cfEngine.Util.State`3
+  href: cfEngine.Util.State-3.html
+  name: State<TStateId, TState, TStateMachine>
+  nameWithType: State<TStateId, TState, TStateMachine>
+  fullName: cfEngine.Util.State<TStateId, TState, TStateMachine>
+  nameWithType.vb: State(Of TStateId, TState, TStateMachine)
+  fullName.vb: cfEngine.Util.State(Of TStateId, TState, TStateMachine)
+  name.vb: State(Of TStateId, TState, TStateMachine)
+  spec.csharp:
+  - uid: cfEngine.Util.State`3
+    name: State
+    href: cfEngine.Util.State-3.html
+  - name: <
+  - name: TStateId
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: ','
+  - name: " "
+  - name: TStateMachine
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Util.State`3
+    name: State
+    href: cfEngine.Util.State-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TStateId
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: ','
+  - name: " "
+  - name: TStateMachine
+  - name: )
+- uid: cfEngine.Util.StateChangeRecord`1
+  commentId: T:cfEngine.Util.StateChangeRecord`1
+  href: cfEngine.Util.StateChangeRecord-1.html
+  name: StateChangeRecord<TStateId>
+  nameWithType: StateChangeRecord<TStateId>
+  fullName: cfEngine.Util.StateChangeRecord<TStateId>
+  nameWithType.vb: StateChangeRecord(Of TStateId)
+  fullName.vb: cfEngine.Util.StateChangeRecord(Of TStateId)
+  name.vb: StateChangeRecord(Of TStateId)
+  spec.csharp:
+  - uid: cfEngine.Util.StateChangeRecord`1
+    name: StateChangeRecord
+    href: cfEngine.Util.StateChangeRecord-1.html
+  - name: <
+  - name: TStateId
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Util.StateChangeRecord`1
+    name: StateChangeRecord
+    href: cfEngine.Util.StateChangeRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TStateId
+  - name: )
+- uid: cfEngine.Util.IStateMachine`1
+  commentId: T:cfEngine.Util.IStateMachine`1
+  href: cfEngine.Util.IStateMachine-1.html
+  name: IStateMachine<TStateId>
+  nameWithType: IStateMachine<TStateId>
+  fullName: cfEngine.Util.IStateMachine<TStateId>
+  nameWithType.vb: IStateMachine(Of TStateId)
+  fullName.vb: cfEngine.Util.IStateMachine(Of TStateId)
+  name.vb: IStateMachine(Of TStateId)
+  spec.csharp:
+  - uid: cfEngine.Util.IStateMachine`1
+    name: IStateMachine
+    href: cfEngine.Util.IStateMachine-1.html
+  - name: <
+  - name: TStateId
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Util.IStateMachine`1
+    name: IStateMachine
+    href: cfEngine.Util.IStateMachine-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TStateId
+  - name: )
+- uid: cfEngine.Util.StateExecutionException`1
+  commentId: T:cfEngine.Util.StateExecutionException`1
+  href: cfEngine.Util.StateExecutionException-1.html
+  name: StateExecutionException<TStateId>
+  nameWithType: StateExecutionException<TStateId>
+  fullName: cfEngine.Util.StateExecutionException<TStateId>
+  nameWithType.vb: StateExecutionException(Of TStateId)
+  fullName.vb: cfEngine.Util.StateExecutionException(Of TStateId)
+  name.vb: StateExecutionException(Of TStateId)
+  spec.csharp:
+  - uid: cfEngine.Util.StateExecutionException`1
+    name: StateExecutionException
+    href: cfEngine.Util.StateExecutionException-1.html
+  - name: <
+  - name: TStateId
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Util.StateExecutionException`1
+    name: StateExecutionException
+    href: cfEngine.Util.StateExecutionException-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TStateId
+  - name: )
+- uid: cfEngine.Util.StateParam
+  commentId: T:cfEngine.Util.StateParam
+  parent: cfEngine.Util
+  href: cfEngine.Util.StateParam.html
+  name: StateParam
+  nameWithType: StateParam
+  fullName: cfEngine.Util.StateParam
+- uid: cfEngine.Util.StateMachine`3
+  commentId: T:cfEngine.Util.StateMachine`3
+  href: cfEngine.Util.StateMachine-3.html
+  name: StateMachine<TStateId, TState, TStateMachine>
+  nameWithType: StateMachine<TStateId, TState, TStateMachine>
+  fullName: cfEngine.Util.StateMachine<TStateId, TState, TStateMachine>
+  nameWithType.vb: StateMachine(Of TStateId, TState, TStateMachine)
+  fullName.vb: cfEngine.Util.StateMachine(Of TStateId, TState, TStateMachine)
+  name.vb: StateMachine(Of TStateId, TState, TStateMachine)
+  spec.csharp:
+  - uid: cfEngine.Util.StateMachine`3
+    name: StateMachine
+    href: cfEngine.Util.StateMachine-3.html
+  - name: <
+  - name: TStateId
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: ','
+  - name: " "
+  - name: TStateMachine
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Util.StateMachine`3
+    name: StateMachine
+    href: cfEngine.Util.StateMachine-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TStateId
+  - name: ','
+  - name: " "
+  - name: TState
+  - name: ','
+  - name: " "
+  - name: TStateMachine
+  - name: )
+- uid: cfEngine.Util.TypeExtension
+  commentId: T:cfEngine.Util.TypeExtension
+  href: cfEngine.Util.TypeExtension.html
+  name: TypeExtension
+  nameWithType: TypeExtension
+  fullName: cfEngine.Util.TypeExtension
+- uid: cfEngine.Util.ValidationState
+  commentId: T:cfEngine.Util.ValidationState
+  parent: cfEngine.Util
+  href: cfEngine.Util.ValidationState.html
+  name: ValidationState
+  nameWithType: ValidationState
+  fullName: cfEngine.Util.ValidationState
+- uid: cfEngine.Util.Validation`1
+  commentId: T:cfEngine.Util.Validation`1
+  parent: cfEngine.Util
+  href: cfEngine.Util.Validation-1.html
+  name: Validation<T>
+  nameWithType: Validation<T>
+  fullName: cfEngine.Util.Validation<T>
+  nameWithType.vb: Validation(Of T)
+  fullName.vb: cfEngine.Util.Validation(Of T)
+  name.vb: Validation(Of T)
+  spec.csharp:
+  - uid: cfEngine.Util.Validation`1
+    name: Validation
+    href: cfEngine.Util.Validation-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Util.Validation`1
+    name: Validation
+    href: cfEngine.Util.Validation-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.Util.SanityCheck
+  commentId: T:cfEngine.Util.SanityCheck
+  href: cfEngine.Util.SanityCheck.html
+  name: SanityCheck
+  nameWithType: SanityCheck
+  fullName: cfEngine.Util.SanityCheck
+- uid: cfEngine.Util.SanityCheckException
+  commentId: T:cfEngine.Util.SanityCheckException
+  href: cfEngine.Util.SanityCheckException.html
+  name: SanityCheckException
+  nameWithType: SanityCheckException
+  fullName: cfEngine.Util.SanityCheckException
+- uid: cfEngine.Util
+  commentId: N:cfEngine.Util
+  href: cfEngine.html
+  name: cfEngine.Util
+  nameWithType: cfEngine.Util
+  fullName: cfEngine.Util
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Util
+    name: Util
+    href: cfEngine.Util.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Util
+    name: Util
+    href: cfEngine.Util.html

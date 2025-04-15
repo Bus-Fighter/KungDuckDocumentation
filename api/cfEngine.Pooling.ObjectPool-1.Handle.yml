@@ -1,0 +1,512 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Pooling.ObjectPool`1.Handle
+  commentId: T:cfEngine.Pooling.ObjectPool`1.Handle
+  id: ObjectPool`1.Handle
+  parent: cfEngine.Pooling
+  children:
+  - cfEngine.Pooling.ObjectPool`1.Handle.#ctor(System.Action{`0},`0)
+  - cfEngine.Pooling.ObjectPool`1.Handle.Dispose
+  - cfEngine.Pooling.ObjectPool`1.Handle.Empty
+  langs:
+  - csharp
+  - vb
+  name: ObjectPool<T>.Handle
+  nameWithType: ObjectPool<T>.Handle
+  fullName: cfEngine.Pooling.ObjectPool<T>.Handle
+  type: Struct
+  source:
+    id: Handle
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/pooling/ObjectPool.cs
+    startLine: 12
+  namespace: cfEngine.Pooling
+  syntax:
+    content: 'public struct ObjectPool<T>.Handle : IDisposable'
+    content.vb: Public Structure ObjectPool(Of T).Handle Implements IDisposable
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  nameWithType.vb: ObjectPool(Of T).Handle
+  fullName.vb: cfEngine.Pooling.ObjectPool(Of T).Handle
+  name.vb: ObjectPool(Of T).Handle
+- uid: cfEngine.Pooling.ObjectPool`1.Handle.Empty
+  commentId: P:cfEngine.Pooling.ObjectPool`1.Handle.Empty
+  id: Empty
+  parent: cfEngine.Pooling.ObjectPool`1.Handle
+  langs:
+  - csharp
+  - vb
+  name: Empty
+  nameWithType: ObjectPool<T>.Handle.Empty
+  fullName: cfEngine.Pooling.ObjectPool<T>.Handle.Empty
+  type: Property
+  source:
+    id: Empty
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/pooling/ObjectPool.cs
+    startLine: 14
+  namespace: cfEngine.Pooling
+  syntax:
+    content: public static ObjectPool<T>.Handle Empty { get; }
+    parameters: []
+    return:
+      type: cfEngine.Pooling.ObjectPool`1.Handle
+    content.vb: Public Shared ReadOnly Property Empty As ObjectPool(Of T).Handle
+  overload: cfEngine.Pooling.ObjectPool`1.Handle.Empty*
+  nameWithType.vb: ObjectPool(Of T).Handle.Empty
+  fullName.vb: cfEngine.Pooling.ObjectPool(Of T).Handle.Empty
+- uid: cfEngine.Pooling.ObjectPool`1.Handle.#ctor(System.Action{`0},`0)
+  commentId: M:cfEngine.Pooling.ObjectPool`1.Handle.#ctor(System.Action{`0},`0)
+  id: '#ctor(System.Action{`0},`0)'
+  parent: cfEngine.Pooling.ObjectPool`1.Handle
+  langs:
+  - csharp
+  - vb
+  name: Handle(Action<T>, T)
+  nameWithType: ObjectPool<T>.Handle.Handle(Action<T>, T)
+  fullName: cfEngine.Pooling.ObjectPool<T>.Handle.Handle(System.Action<T>, T)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/pooling/ObjectPool.cs
+    startLine: 18
+  namespace: cfEngine.Pooling
+  syntax:
+    content: public Handle(Action<T> releaseAction, T obj)
+    parameters:
+    - id: releaseAction
+      type: System.Action{{T}}
+    - id: obj
+      type: '{T}'
+    content.vb: Public Sub New(releaseAction As Action(Of T), obj As T)
+  overload: cfEngine.Pooling.ObjectPool`1.Handle.#ctor*
+  nameWithType.vb: ObjectPool(Of T).Handle.New(Action(Of T), T)
+  fullName.vb: cfEngine.Pooling.ObjectPool(Of T).Handle.New(System.Action(Of T), T)
+  name.vb: New(Action(Of T), T)
+- uid: cfEngine.Pooling.ObjectPool`1.Handle.Dispose
+  commentId: M:cfEngine.Pooling.ObjectPool`1.Handle.Dispose
+  id: Dispose
+  parent: cfEngine.Pooling.ObjectPool`1.Handle
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ObjectPool<T>.Handle.Dispose()
+  fullName: cfEngine.Pooling.ObjectPool<T>.Handle.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/pooling/ObjectPool.cs
+    startLine: 23
+  namespace: cfEngine.Pooling
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: cfEngine.Pooling.ObjectPool`1.Handle.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  nameWithType.vb: ObjectPool(Of T).Handle.Dispose()
+  fullName.vb: cfEngine.Pooling.ObjectPool(Of T).Handle.Dispose()
+references:
+- uid: cfEngine.Pooling
+  commentId: N:cfEngine.Pooling
+  href: cfEngine.html
+  name: cfEngine.Pooling
+  nameWithType: cfEngine.Pooling
+  fullName: cfEngine.Pooling
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Pooling
+    name: Pooling
+    href: cfEngine.Pooling.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Pooling
+    name: Pooling
+    href: cfEngine.Pooling.html
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: cfEngine.Pooling.ObjectPool`1.Handle.Empty*
+  commentId: Overload:cfEngine.Pooling.ObjectPool`1.Handle.Empty
+  href: cfEngine.Pooling.ObjectPool-1.Handle.html#cfEngine_Pooling_ObjectPool_1_Handle_Empty
+  name: Empty
+  nameWithType: ObjectPool<T>.Handle.Empty
+  fullName: cfEngine.Pooling.ObjectPool<T>.Handle.Empty
+  nameWithType.vb: ObjectPool(Of T).Handle.Empty
+  fullName.vb: cfEngine.Pooling.ObjectPool(Of T).Handle.Empty
+- uid: cfEngine.Pooling.ObjectPool`1.Handle
+  commentId: T:cfEngine.Pooling.ObjectPool`1.Handle
+  parent: cfEngine.Pooling
+  href: cfEngine.Pooling.ObjectPool-1.html
+  name: ObjectPool<T>.Handle
+  nameWithType: ObjectPool<T>.Handle
+  fullName: cfEngine.Pooling.ObjectPool<T>.Handle
+  nameWithType.vb: ObjectPool(Of T).Handle
+  fullName.vb: cfEngine.Pooling.ObjectPool(Of T).Handle
+  name.vb: ObjectPool(Of T).Handle
+  spec.csharp:
+  - uid: cfEngine.Pooling.ObjectPool`1
+    name: ObjectPool
+    href: cfEngine.Pooling.ObjectPool-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: .
+  - uid: cfEngine.Pooling.ObjectPool`1.Handle
+    name: Handle
+    href: cfEngine.Pooling.ObjectPool-1.Handle.html
+  spec.vb:
+  - uid: cfEngine.Pooling.ObjectPool`1
+    name: ObjectPool
+    href: cfEngine.Pooling.ObjectPool-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: .
+  - uid: cfEngine.Pooling.ObjectPool`1.Handle
+    name: Handle
+    href: cfEngine.Pooling.ObjectPool-1.Handle.html
+- uid: cfEngine.Pooling.ObjectPool`1.Handle.#ctor*
+  commentId: Overload:cfEngine.Pooling.ObjectPool`1.Handle.#ctor
+  href: cfEngine.Pooling.ObjectPool-1.Handle.html#cfEngine_Pooling_ObjectPool_1_Handle__ctor_System_Action__0___0_
+  name: Handle
+  nameWithType: ObjectPool<T>.Handle.Handle
+  fullName: cfEngine.Pooling.ObjectPool<T>.Handle.Handle
+  nameWithType.vb: ObjectPool(Of T).Handle.New
+  fullName.vb: cfEngine.Pooling.ObjectPool(Of T).Handle.New
+  name.vb: New
+- uid: System.Action{{T}}
+  commentId: T:System.Action{`0}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: cfEngine.Pooling.ObjectPool`1.Handle.Dispose*
+  commentId: Overload:cfEngine.Pooling.ObjectPool`1.Handle.Dispose
+  href: cfEngine.Pooling.ObjectPool-1.Handle.html#cfEngine_Pooling_ObjectPool_1_Handle_Dispose
+  name: Dispose
+  nameWithType: ObjectPool<T>.Handle.Dispose
+  fullName: cfEngine.Pooling.ObjectPool<T>.Handle.Dispose
+  nameWithType.vb: ObjectPool(Of T).Handle.Dispose
+  fullName.vb: cfEngine.Pooling.ObjectPool(Of T).Handle.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

@@ -1,0 +1,149 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.DataStructure
+  commentId: N:cfEngine.DataStructure
+  id: cfEngine.DataStructure
+  children:
+  - cfEngine.DataStructure.MemoryDictionary`2
+  - cfEngine.DataStructure.ReadOnlyMemoryComparer`1
+  - cfEngine.DataStructure.WeakReferenceListPool`1
+  - cfEngine.DataStructure.WeakReferenceList`1
+  langs:
+  - csharp
+  - vb
+  name: cfEngine.DataStructure
+  nameWithType: cfEngine.DataStructure
+  fullName: cfEngine.DataStructure
+  type: Namespace
+references:
+- uid: cfEngine.DataStructure.ReadOnlyMemoryComparer`1
+  commentId: T:cfEngine.DataStructure.ReadOnlyMemoryComparer`1
+  parent: cfEngine.DataStructure
+  href: cfEngine.DataStructure.ReadOnlyMemoryComparer-1.html
+  name: ReadOnlyMemoryComparer<T>
+  nameWithType: ReadOnlyMemoryComparer<T>
+  fullName: cfEngine.DataStructure.ReadOnlyMemoryComparer<T>
+  nameWithType.vb: ReadOnlyMemoryComparer(Of T)
+  fullName.vb: cfEngine.DataStructure.ReadOnlyMemoryComparer(Of T)
+  name.vb: ReadOnlyMemoryComparer(Of T)
+  spec.csharp:
+  - uid: cfEngine.DataStructure.ReadOnlyMemoryComparer`1
+    name: ReadOnlyMemoryComparer
+    href: cfEngine.DataStructure.ReadOnlyMemoryComparer-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.DataStructure.ReadOnlyMemoryComparer`1
+    name: ReadOnlyMemoryComparer
+    href: cfEngine.DataStructure.ReadOnlyMemoryComparer-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.DataStructure.MemoryDictionary`2
+  commentId: T:cfEngine.DataStructure.MemoryDictionary`2
+  parent: cfEngine.DataStructure
+  href: cfEngine.DataStructure.MemoryDictionary-2.html
+  name: MemoryDictionary<TMemoryKey, TValue>
+  nameWithType: MemoryDictionary<TMemoryKey, TValue>
+  fullName: cfEngine.DataStructure.MemoryDictionary<TMemoryKey, TValue>
+  nameWithType.vb: MemoryDictionary(Of TMemoryKey, TValue)
+  fullName.vb: cfEngine.DataStructure.MemoryDictionary(Of TMemoryKey, TValue)
+  name.vb: MemoryDictionary(Of TMemoryKey, TValue)
+  spec.csharp:
+  - uid: cfEngine.DataStructure.MemoryDictionary`2
+    name: MemoryDictionary
+    href: cfEngine.DataStructure.MemoryDictionary-2.html
+  - name: <
+  - name: TMemoryKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.DataStructure.MemoryDictionary`2
+    name: MemoryDictionary
+    href: cfEngine.DataStructure.MemoryDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TMemoryKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: cfEngine.DataStructure.WeakReferenceListPool`1
+  commentId: T:cfEngine.DataStructure.WeakReferenceListPool`1
+  href: cfEngine.DataStructure.WeakReferenceListPool-1.html
+  name: WeakReferenceListPool<T>
+  nameWithType: WeakReferenceListPool<T>
+  fullName: cfEngine.DataStructure.WeakReferenceListPool<T>
+  nameWithType.vb: WeakReferenceListPool(Of T)
+  fullName.vb: cfEngine.DataStructure.WeakReferenceListPool(Of T)
+  name.vb: WeakReferenceListPool(Of T)
+  spec.csharp:
+  - uid: cfEngine.DataStructure.WeakReferenceListPool`1
+    name: WeakReferenceListPool
+    href: cfEngine.DataStructure.WeakReferenceListPool-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.DataStructure.WeakReferenceListPool`1
+    name: WeakReferenceListPool
+    href: cfEngine.DataStructure.WeakReferenceListPool-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.DataStructure.WeakReferenceList`1
+  commentId: T:cfEngine.DataStructure.WeakReferenceList`1
+  parent: cfEngine.DataStructure
+  href: cfEngine.DataStructure.WeakReferenceList-1.html
+  name: WeakReferenceList<T>
+  nameWithType: WeakReferenceList<T>
+  fullName: cfEngine.DataStructure.WeakReferenceList<T>
+  nameWithType.vb: WeakReferenceList(Of T)
+  fullName.vb: cfEngine.DataStructure.WeakReferenceList(Of T)
+  name.vb: WeakReferenceList(Of T)
+  spec.csharp:
+  - uid: cfEngine.DataStructure.WeakReferenceList`1
+    name: WeakReferenceList
+    href: cfEngine.DataStructure.WeakReferenceList-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.DataStructure.WeakReferenceList`1
+    name: WeakReferenceList
+    href: cfEngine.DataStructure.WeakReferenceList-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: cfEngine.DataStructure
+  commentId: N:cfEngine.DataStructure
+  href: cfEngine.html
+  name: cfEngine.DataStructure
+  nameWithType: cfEngine.DataStructure
+  fullName: cfEngine.DataStructure
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.DataStructure
+    name: DataStructure
+    href: cfEngine.DataStructure.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.DataStructure
+    name: DataStructure
+    href: cfEngine.DataStructure.html

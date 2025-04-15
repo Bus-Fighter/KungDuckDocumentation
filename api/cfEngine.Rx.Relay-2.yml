@@ -1,0 +1,1009 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Rx.Relay`2
+  commentId: T:cfEngine.Rx.Relay`2
+  id: Relay`2
+  parent: cfEngine.Rx
+  children:
+  - cfEngine.Rx.Relay`2.#ctor(System.Object,System.Int32)
+  - cfEngine.Rx.Relay`2.Dispatch(`0,`1)
+  langs:
+  - csharp
+  - vb
+  name: Relay<T1, T2>
+  nameWithType: Relay<T1, T2>
+  fullName: cfEngine.Rx.Relay<T1, T2>
+  type: Class
+  source:
+    id: Relay
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/Relay.cs
+    startLine: 243
+  namespace: cfEngine.Rx
+  syntax:
+    content: 'public class Relay<T1, T2> : RelayBase<Action<T1, T2>>, IRelay<Action<T1, T2>>'
+    typeParameters:
+    - id: T1
+    - id: T2
+    content.vb: Public Class Relay(Of T1, T2) Inherits RelayBase(Of Action(Of T1, T2)) Implements IRelay(Of Action(Of T1, T2))
+  inheritance:
+  - System.Object
+  - cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}
+  implements:
+  - cfEngine.Rx.IRelay{System.Action{{T1},{T2}}}
+  inheritedMembers:
+  - cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}._subscriptionRefList
+  - cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}._cap
+  - cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}._count
+  - cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}.listenerCount
+  - cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}.AddListener(System.Action{{T1},{T2}})
+  - cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}.RemoveListener(System.Action{{T1},{T2}})
+  - cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}.RemoveAll
+  - cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}.Contains(System.Action{{T1},{T2}})
+  - cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}.Expand(System.WeakReference{cfEngine.Rx.SubscriptionBinding{System.Action{{T1},{T2}}}}[]@)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: Relay(Of T1, T2)
+  fullName.vb: cfEngine.Rx.Relay(Of T1, T2)
+  name.vb: Relay(Of T1, T2)
+- uid: cfEngine.Rx.Relay`2.#ctor(System.Object,System.Int32)
+  commentId: M:cfEngine.Rx.Relay`2.#ctor(System.Object,System.Int32)
+  id: '#ctor(System.Object,System.Int32)'
+  parent: cfEngine.Rx.Relay`2
+  langs:
+  - csharp
+  - vb
+  name: Relay(object, int)
+  nameWithType: Relay<T1, T2>.Relay(object, int)
+  fullName: cfEngine.Rx.Relay<T1, T2>.Relay(object, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/Relay.cs
+    startLine: 245
+  namespace: cfEngine.Rx
+  syntax:
+    content: public Relay(object owner, int defaultSize = 1)
+    parameters:
+    - id: owner
+      type: System.Object
+    - id: defaultSize
+      type: System.Int32
+    content.vb: Public Sub New(owner As Object, defaultSize As Integer = 1)
+  overload: cfEngine.Rx.Relay`2.#ctor*
+  nameWithType.vb: Relay(Of T1, T2).New(Object, Integer)
+  fullName.vb: cfEngine.Rx.Relay(Of T1, T2).New(Object, Integer)
+  name.vb: New(Object, Integer)
+- uid: cfEngine.Rx.Relay`2.Dispatch(`0,`1)
+  commentId: M:cfEngine.Rx.Relay`2.Dispatch(`0,`1)
+  id: Dispatch(`0,`1)
+  parent: cfEngine.Rx.Relay`2
+  langs:
+  - csharp
+  - vb
+  name: Dispatch(T1, T2)
+  nameWithType: Relay<T1, T2>.Dispatch(T1, T2)
+  fullName: cfEngine.Rx.Relay<T1, T2>.Dispatch(T1, T2)
+  type: Method
+  source:
+    id: Dispatch
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/Relay.cs
+    startLine: 248
+  namespace: cfEngine.Rx
+  syntax:
+    content: public void Dispatch(T1 value1, T2 value2)
+    parameters:
+    - id: value1
+      type: '{T1}'
+    - id: value2
+      type: '{T2}'
+    content.vb: Public Sub Dispatch(value1 As T1, value2 As T2)
+  overload: cfEngine.Rx.Relay`2.Dispatch*
+  nameWithType.vb: Relay(Of T1, T2).Dispatch(T1, T2)
+  fullName.vb: cfEngine.Rx.Relay(Of T1, T2).Dispatch(T1, T2)
+references:
+- uid: cfEngine.Rx
+  commentId: N:cfEngine.Rx
+  href: cfEngine.html
+  name: cfEngine.Rx
+  nameWithType: cfEngine.Rx
+  fullName: cfEngine.Rx
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Rx
+    name: Rx
+    href: cfEngine.Rx.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}
+  commentId: T:cfEngine.Rx.RelayBase{System.Action{`0,`1}}
+  parent: cfEngine.Rx
+  definition: cfEngine.Rx.RelayBase`1
+  href: cfEngine.Rx.RelayBase-1.html
+  name: RelayBase<Action<T1, T2>>
+  nameWithType: RelayBase<Action<T1, T2>>
+  fullName: cfEngine.Rx.RelayBase<System.Action<T1, T2>>
+  nameWithType.vb: RelayBase(Of Action(Of T1, T2))
+  fullName.vb: cfEngine.Rx.RelayBase(Of System.Action(Of T1, T2))
+  name.vb: RelayBase(Of Action(Of T1, T2))
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase`1
+    name: RelayBase
+    href: cfEngine.Rx.RelayBase-1.html
+  - name: <
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase`1
+    name: RelayBase
+    href: cfEngine.Rx.RelayBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.IRelay{System.Action{{T1},{T2}}}
+  commentId: T:cfEngine.Rx.IRelay{System.Action{`0,`1}}
+  parent: cfEngine.Rx
+  definition: cfEngine.Rx.IRelay`1
+  href: cfEngine.Rx.IRelay-1.html
+  name: IRelay<Action<T1, T2>>
+  nameWithType: IRelay<Action<T1, T2>>
+  fullName: cfEngine.Rx.IRelay<System.Action<T1, T2>>
+  nameWithType.vb: IRelay(Of Action(Of T1, T2))
+  fullName.vb: cfEngine.Rx.IRelay(Of System.Action(Of T1, T2))
+  name.vb: IRelay(Of Action(Of T1, T2))
+  spec.csharp:
+  - uid: cfEngine.Rx.IRelay`1
+    name: IRelay
+    href: cfEngine.Rx.IRelay-1.html
+  - name: <
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.IRelay`1
+    name: IRelay
+    href: cfEngine.Rx.IRelay-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}._subscriptionRefList
+  commentId: F:cfEngine.Rx.RelayBase{System.Action{`0,`1}}._subscriptionRefList
+  parent: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}
+  definition: cfEngine.Rx.RelayBase`1._subscriptionRefList
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1__subscriptionRefList
+  name: _subscriptionRefList
+  nameWithType: RelayBase<Action<T1, T2>>._subscriptionRefList
+  fullName: cfEngine.Rx.RelayBase<System.Action<T1, T2>>._subscriptionRefList
+  nameWithType.vb: RelayBase(Of Action(Of T1, T2))._subscriptionRefList
+  fullName.vb: cfEngine.Rx.RelayBase(Of System.Action(Of T1, T2))._subscriptionRefList
+- uid: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}._cap
+  commentId: F:cfEngine.Rx.RelayBase{System.Action{`0,`1}}._cap
+  parent: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}
+  definition: cfEngine.Rx.RelayBase`1._cap
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1__cap
+  name: _cap
+  nameWithType: RelayBase<Action<T1, T2>>._cap
+  fullName: cfEngine.Rx.RelayBase<System.Action<T1, T2>>._cap
+  nameWithType.vb: RelayBase(Of Action(Of T1, T2))._cap
+  fullName.vb: cfEngine.Rx.RelayBase(Of System.Action(Of T1, T2))._cap
+- uid: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}._count
+  commentId: F:cfEngine.Rx.RelayBase{System.Action{`0,`1}}._count
+  parent: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}
+  definition: cfEngine.Rx.RelayBase`1._count
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1__count
+  name: _count
+  nameWithType: RelayBase<Action<T1, T2>>._count
+  fullName: cfEngine.Rx.RelayBase<System.Action<T1, T2>>._count
+  nameWithType.vb: RelayBase(Of Action(Of T1, T2))._count
+  fullName.vb: cfEngine.Rx.RelayBase(Of System.Action(Of T1, T2))._count
+- uid: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}.listenerCount
+  commentId: P:cfEngine.Rx.RelayBase{System.Action{`0,`1}}.listenerCount
+  parent: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}
+  definition: cfEngine.Rx.RelayBase`1.listenerCount
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_listenerCount
+  name: listenerCount
+  nameWithType: RelayBase<Action<T1, T2>>.listenerCount
+  fullName: cfEngine.Rx.RelayBase<System.Action<T1, T2>>.listenerCount
+  nameWithType.vb: RelayBase(Of Action(Of T1, T2)).listenerCount
+  fullName.vb: cfEngine.Rx.RelayBase(Of System.Action(Of T1, T2)).listenerCount
+- uid: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}.AddListener(System.Action{{T1},{T2}})
+  commentId: M:cfEngine.Rx.RelayBase{System.Action{`0,`1}}.AddListener(System.Action{`0,`1})
+  parent: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}
+  definition: cfEngine.Rx.RelayBase`1.AddListener(`0)
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_AddListener__0_
+  name: AddListener(Action<T1, T2>)
+  nameWithType: RelayBase<Action<T1, T2>>.AddListener(Action<T1, T2>)
+  fullName: cfEngine.Rx.RelayBase<System.Action<T1, T2>>.AddListener(System.Action<T1, T2>)
+  nameWithType.vb: RelayBase(Of Action(Of T1, T2)).AddListener(Action(Of T1, T2))
+  fullName.vb: cfEngine.Rx.RelayBase(Of System.Action(Of T1, T2)).AddListener(System.Action(Of T1, T2))
+  name.vb: AddListener(Action(Of T1, T2))
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase{System.Action{`0,`1}}.AddListener(System.Action{`0,`1})
+    name: AddListener
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_AddListener__0_
+  - name: (
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase{System.Action{`0,`1}}.AddListener(System.Action{`0,`1})
+    name: AddListener
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_AddListener__0_
+  - name: (
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}.RemoveListener(System.Action{{T1},{T2}})
+  commentId: M:cfEngine.Rx.RelayBase{System.Action{`0,`1}}.RemoveListener(System.Action{`0,`1})
+  parent: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}
+  definition: cfEngine.Rx.RelayBase`1.RemoveListener(`0)
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_RemoveListener__0_
+  name: RemoveListener(Action<T1, T2>)
+  nameWithType: RelayBase<Action<T1, T2>>.RemoveListener(Action<T1, T2>)
+  fullName: cfEngine.Rx.RelayBase<System.Action<T1, T2>>.RemoveListener(System.Action<T1, T2>)
+  nameWithType.vb: RelayBase(Of Action(Of T1, T2)).RemoveListener(Action(Of T1, T2))
+  fullName.vb: cfEngine.Rx.RelayBase(Of System.Action(Of T1, T2)).RemoveListener(System.Action(Of T1, T2))
+  name.vb: RemoveListener(Action(Of T1, T2))
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase{System.Action{`0,`1}}.RemoveListener(System.Action{`0,`1})
+    name: RemoveListener
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_RemoveListener__0_
+  - name: (
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase{System.Action{`0,`1}}.RemoveListener(System.Action{`0,`1})
+    name: RemoveListener
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_RemoveListener__0_
+  - name: (
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}.RemoveAll
+  commentId: M:cfEngine.Rx.RelayBase{System.Action{`0,`1}}.RemoveAll
+  parent: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}
+  definition: cfEngine.Rx.RelayBase`1.RemoveAll
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_RemoveAll
+  name: RemoveAll()
+  nameWithType: RelayBase<Action<T1, T2>>.RemoveAll()
+  fullName: cfEngine.Rx.RelayBase<System.Action<T1, T2>>.RemoveAll()
+  nameWithType.vb: RelayBase(Of Action(Of T1, T2)).RemoveAll()
+  fullName.vb: cfEngine.Rx.RelayBase(Of System.Action(Of T1, T2)).RemoveAll()
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase{System.Action{`0,`1}}.RemoveAll
+    name: RemoveAll
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_RemoveAll
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase{System.Action{`0,`1}}.RemoveAll
+    name: RemoveAll
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_RemoveAll
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}.Contains(System.Action{{T1},{T2}})
+  commentId: M:cfEngine.Rx.RelayBase{System.Action{`0,`1}}.Contains(System.Action{`0,`1})
+  parent: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}
+  definition: cfEngine.Rx.RelayBase`1.Contains(`0)
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_Contains__0_
+  name: Contains(Action<T1, T2>)
+  nameWithType: RelayBase<Action<T1, T2>>.Contains(Action<T1, T2>)
+  fullName: cfEngine.Rx.RelayBase<System.Action<T1, T2>>.Contains(System.Action<T1, T2>)
+  nameWithType.vb: RelayBase(Of Action(Of T1, T2)).Contains(Action(Of T1, T2))
+  fullName.vb: cfEngine.Rx.RelayBase(Of System.Action(Of T1, T2)).Contains(System.Action(Of T1, T2))
+  name.vb: Contains(Action(Of T1, T2))
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase{System.Action{`0,`1}}.Contains(System.Action{`0,`1})
+    name: Contains
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_Contains__0_
+  - name: (
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase{System.Action{`0,`1}}.Contains(System.Action{`0,`1})
+    name: Contains
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_Contains__0_
+  - name: (
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}.Expand(System.WeakReference{cfEngine.Rx.SubscriptionBinding{System.Action{{T1},{T2}}}}[]@)
+  commentId: M:cfEngine.Rx.RelayBase{System.Action{`0,`1}}.Expand(System.WeakReference{cfEngine.Rx.SubscriptionBinding{System.Action{`0,`1}}}[]@)
+  parent: cfEngine.Rx.RelayBase{System.Action{{T1},{T2}}}
+  definition: cfEngine.Rx.RelayBase`1.Expand(System.WeakReference{cfEngine.Rx.SubscriptionBinding{`0}}[]@)
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_Expand_System_WeakReference_cfEngine_Rx_SubscriptionBinding__0______
+  name: Expand(ref WeakReference<SubscriptionBinding<Action<T1, T2>>>[])
+  nameWithType: RelayBase<Action<T1, T2>>.Expand(ref WeakReference<SubscriptionBinding<Action<T1, T2>>>[])
+  fullName: cfEngine.Rx.RelayBase<System.Action<T1, T2>>.Expand(ref System.WeakReference<cfEngine.Rx.SubscriptionBinding<System.Action<T1, T2>>>[])
+  nameWithType.vb: RelayBase(Of Action(Of T1, T2)).Expand(WeakReference(Of SubscriptionBinding(Of Action(Of T1, T2)))())
+  fullName.vb: cfEngine.Rx.RelayBase(Of System.Action(Of T1, T2)).Expand(System.WeakReference(Of cfEngine.Rx.SubscriptionBinding(Of System.Action(Of T1, T2)))())
+  name.vb: Expand(WeakReference(Of SubscriptionBinding(Of Action(Of T1, T2)))())
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase{System.Action{`0,`1}}.Expand(System.WeakReference{cfEngine.Rx.SubscriptionBinding{System.Action{`0,`1}}}[]@)
+    name: Expand
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_Expand_System_WeakReference_cfEngine_Rx_SubscriptionBinding__0______
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: System.WeakReference`1
+    name: WeakReference
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.weakreference-1
+  - name: <
+  - uid: cfEngine.Rx.SubscriptionBinding`1
+    name: SubscriptionBinding
+    href: cfEngine.Rx.SubscriptionBinding-1.html
+  - name: <
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase{System.Action{`0,`1}}.Expand(System.WeakReference{cfEngine.Rx.SubscriptionBinding{System.Action{`0,`1}}}[]@)
+    name: Expand
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_Expand_System_WeakReference_cfEngine_Rx_SubscriptionBinding__0______
+  - name: (
+  - uid: System.WeakReference`1
+    name: WeakReference
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.weakreference-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: cfEngine.Rx.SubscriptionBinding`1
+    name: SubscriptionBinding
+    href: cfEngine.Rx.SubscriptionBinding-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  - name: )
+  - name: )
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: cfEngine.Rx.RelayBase`1
+  commentId: T:cfEngine.Rx.RelayBase`1
+  href: cfEngine.Rx.RelayBase-1.html
+  name: RelayBase<TDelegate>
+  nameWithType: RelayBase<TDelegate>
+  fullName: cfEngine.Rx.RelayBase<TDelegate>
+  nameWithType.vb: RelayBase(Of TDelegate)
+  fullName.vb: cfEngine.Rx.RelayBase(Of TDelegate)
+  name.vb: RelayBase(Of TDelegate)
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase`1
+    name: RelayBase
+    href: cfEngine.Rx.RelayBase-1.html
+  - name: <
+  - name: TDelegate
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase`1
+    name: RelayBase
+    href: cfEngine.Rx.RelayBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
+  - name: )
+- uid: cfEngine.Rx.IRelay`1
+  commentId: T:cfEngine.Rx.IRelay`1
+  href: cfEngine.Rx.IRelay-1.html
+  name: IRelay<TDelegate>
+  nameWithType: IRelay<TDelegate>
+  fullName: cfEngine.Rx.IRelay<TDelegate>
+  nameWithType.vb: IRelay(Of TDelegate)
+  fullName.vb: cfEngine.Rx.IRelay(Of TDelegate)
+  name.vb: IRelay(Of TDelegate)
+  spec.csharp:
+  - uid: cfEngine.Rx.IRelay`1
+    name: IRelay
+    href: cfEngine.Rx.IRelay-1.html
+  - name: <
+  - name: TDelegate
+  - name: '>'
+  spec.vb:
+  - uid: cfEngine.Rx.IRelay`1
+    name: IRelay
+    href: cfEngine.Rx.IRelay-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
+  - name: )
+- uid: cfEngine.Rx.RelayBase`1._subscriptionRefList
+  commentId: F:cfEngine.Rx.RelayBase`1._subscriptionRefList
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1__subscriptionRefList
+  name: _subscriptionRefList
+  nameWithType: RelayBase<TDelegate>._subscriptionRefList
+  fullName: cfEngine.Rx.RelayBase<TDelegate>._subscriptionRefList
+  nameWithType.vb: RelayBase(Of TDelegate)._subscriptionRefList
+  fullName.vb: cfEngine.Rx.RelayBase(Of TDelegate)._subscriptionRefList
+- uid: cfEngine.Rx.RelayBase`1._cap
+  commentId: F:cfEngine.Rx.RelayBase`1._cap
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1__cap
+  name: _cap
+  nameWithType: RelayBase<TDelegate>._cap
+  fullName: cfEngine.Rx.RelayBase<TDelegate>._cap
+  nameWithType.vb: RelayBase(Of TDelegate)._cap
+  fullName.vb: cfEngine.Rx.RelayBase(Of TDelegate)._cap
+- uid: cfEngine.Rx.RelayBase`1._count
+  commentId: F:cfEngine.Rx.RelayBase`1._count
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1__count
+  name: _count
+  nameWithType: RelayBase<TDelegate>._count
+  fullName: cfEngine.Rx.RelayBase<TDelegate>._count
+  nameWithType.vb: RelayBase(Of TDelegate)._count
+  fullName.vb: cfEngine.Rx.RelayBase(Of TDelegate)._count
+- uid: cfEngine.Rx.RelayBase`1.listenerCount
+  commentId: P:cfEngine.Rx.RelayBase`1.listenerCount
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_listenerCount
+  name: listenerCount
+  nameWithType: RelayBase<TDelegate>.listenerCount
+  fullName: cfEngine.Rx.RelayBase<TDelegate>.listenerCount
+  nameWithType.vb: RelayBase(Of TDelegate).listenerCount
+  fullName.vb: cfEngine.Rx.RelayBase(Of TDelegate).listenerCount
+- uid: cfEngine.Rx.RelayBase`1.AddListener(`0)
+  commentId: M:cfEngine.Rx.RelayBase`1.AddListener(`0)
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_AddListener__0_
+  name: AddListener(TDelegate)
+  nameWithType: RelayBase<TDelegate>.AddListener(TDelegate)
+  fullName: cfEngine.Rx.RelayBase<TDelegate>.AddListener(TDelegate)
+  nameWithType.vb: RelayBase(Of TDelegate).AddListener(TDelegate)
+  fullName.vb: cfEngine.Rx.RelayBase(Of TDelegate).AddListener(TDelegate)
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase`1.AddListener(`0)
+    name: AddListener
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_AddListener__0_
+  - name: (
+  - name: TDelegate
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase`1.AddListener(`0)
+    name: AddListener
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_AddListener__0_
+  - name: (
+  - name: TDelegate
+  - name: )
+- uid: cfEngine.Rx.RelayBase`1.RemoveListener(`0)
+  commentId: M:cfEngine.Rx.RelayBase`1.RemoveListener(`0)
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_RemoveListener__0_
+  name: RemoveListener(TDelegate)
+  nameWithType: RelayBase<TDelegate>.RemoveListener(TDelegate)
+  fullName: cfEngine.Rx.RelayBase<TDelegate>.RemoveListener(TDelegate)
+  nameWithType.vb: RelayBase(Of TDelegate).RemoveListener(TDelegate)
+  fullName.vb: cfEngine.Rx.RelayBase(Of TDelegate).RemoveListener(TDelegate)
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase`1.RemoveListener(`0)
+    name: RemoveListener
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_RemoveListener__0_
+  - name: (
+  - name: TDelegate
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase`1.RemoveListener(`0)
+    name: RemoveListener
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_RemoveListener__0_
+  - name: (
+  - name: TDelegate
+  - name: )
+- uid: cfEngine.Rx.RelayBase`1.RemoveAll
+  commentId: M:cfEngine.Rx.RelayBase`1.RemoveAll
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_RemoveAll
+  name: RemoveAll()
+  nameWithType: RelayBase<TDelegate>.RemoveAll()
+  fullName: cfEngine.Rx.RelayBase<TDelegate>.RemoveAll()
+  nameWithType.vb: RelayBase(Of TDelegate).RemoveAll()
+  fullName.vb: cfEngine.Rx.RelayBase(Of TDelegate).RemoveAll()
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase`1.RemoveAll
+    name: RemoveAll
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_RemoveAll
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase`1.RemoveAll
+    name: RemoveAll
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_RemoveAll
+  - name: (
+  - name: )
+- uid: cfEngine.Rx.RelayBase`1.Contains(`0)
+  commentId: M:cfEngine.Rx.RelayBase`1.Contains(`0)
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_Contains__0_
+  name: Contains(TDelegate)
+  nameWithType: RelayBase<TDelegate>.Contains(TDelegate)
+  fullName: cfEngine.Rx.RelayBase<TDelegate>.Contains(TDelegate)
+  nameWithType.vb: RelayBase(Of TDelegate).Contains(TDelegate)
+  fullName.vb: cfEngine.Rx.RelayBase(Of TDelegate).Contains(TDelegate)
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase`1.Contains(`0)
+    name: Contains
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_Contains__0_
+  - name: (
+  - name: TDelegate
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase`1.Contains(`0)
+    name: Contains
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_Contains__0_
+  - name: (
+  - name: TDelegate
+  - name: )
+- uid: cfEngine.Rx.RelayBase`1.Expand(System.WeakReference{cfEngine.Rx.SubscriptionBinding{`0}}[]@)
+  commentId: M:cfEngine.Rx.RelayBase`1.Expand(System.WeakReference{cfEngine.Rx.SubscriptionBinding{`0}}[]@)
+  isExternal: true
+  href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_Expand_System_WeakReference_cfEngine_Rx_SubscriptionBinding__0______
+  name: Expand(ref WeakReference<SubscriptionBinding<TDelegate>>[])
+  nameWithType: RelayBase<TDelegate>.Expand(ref WeakReference<SubscriptionBinding<TDelegate>>[])
+  fullName: cfEngine.Rx.RelayBase<TDelegate>.Expand(ref System.WeakReference<cfEngine.Rx.SubscriptionBinding<TDelegate>>[])
+  nameWithType.vb: RelayBase(Of TDelegate).Expand(WeakReference(Of SubscriptionBinding(Of TDelegate))())
+  fullName.vb: cfEngine.Rx.RelayBase(Of TDelegate).Expand(System.WeakReference(Of cfEngine.Rx.SubscriptionBinding(Of TDelegate))())
+  name.vb: Expand(WeakReference(Of SubscriptionBinding(Of TDelegate))())
+  spec.csharp:
+  - uid: cfEngine.Rx.RelayBase`1.Expand(System.WeakReference{cfEngine.Rx.SubscriptionBinding{`0}}[]@)
+    name: Expand
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_Expand_System_WeakReference_cfEngine_Rx_SubscriptionBinding__0______
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: System.WeakReference`1
+    name: WeakReference
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.weakreference-1
+  - name: <
+  - uid: cfEngine.Rx.SubscriptionBinding`1
+    name: SubscriptionBinding
+    href: cfEngine.Rx.SubscriptionBinding-1.html
+  - name: <
+  - name: TDelegate
+  - name: '>'
+  - name: '>'
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Rx.RelayBase`1.Expand(System.WeakReference{cfEngine.Rx.SubscriptionBinding{`0}}[]@)
+    name: Expand
+    href: cfEngine.Rx.RelayBase-1.html#cfEngine_Rx_RelayBase_1_Expand_System_WeakReference_cfEngine_Rx_SubscriptionBinding__0______
+  - name: (
+  - uid: System.WeakReference`1
+    name: WeakReference
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.weakreference-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: cfEngine.Rx.SubscriptionBinding`1
+    name: SubscriptionBinding
+    href: cfEngine.Rx.SubscriptionBinding-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
+  - name: )
+  - name: )
+  - name: (
+  - name: )
+  - name: )
+- uid: cfEngine.Rx.Relay`2.#ctor*
+  commentId: Overload:cfEngine.Rx.Relay`2.#ctor
+  href: cfEngine.Rx.Relay-2.html#cfEngine_Rx_Relay_2__ctor_System_Object_System_Int32_
+  name: Relay
+  nameWithType: Relay<T1, T2>.Relay
+  fullName: cfEngine.Rx.Relay<T1, T2>.Relay
+  nameWithType.vb: Relay(Of T1, T2).New
+  fullName.vb: cfEngine.Rx.Relay(Of T1, T2).New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: cfEngine.Rx.Relay`2.Dispatch*
+  commentId: Overload:cfEngine.Rx.Relay`2.Dispatch
+  href: cfEngine.Rx.Relay-2.html#cfEngine_Rx_Relay_2_Dispatch__0__1_
+  name: Dispatch
+  nameWithType: Relay<T1, T2>.Dispatch
+  fullName: cfEngine.Rx.Relay<T1, T2>.Dispatch
+  nameWithType.vb: Relay(Of T1, T2).Dispatch
+  fullName.vb: cfEngine.Rx.Relay(Of T1, T2).Dispatch
+- uid: '{T1}'
+  commentId: '!:T1'
+  definition: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: '{T2}'
+  commentId: '!:T2'
+  definition: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2
+- uid: T1
+  commentId: '!:T1'
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: T2
+  commentId: '!:T2'
+  name: T2
+  nameWithType: T2
+  fullName: T2

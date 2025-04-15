@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfEngine.Util.ValidationState
+  commentId: T:cfEngine.Util.ValidationState
+  id: ValidationState
+  parent: cfEngine.Util
+  children:
+  - cfEngine.Util.ValidationState.Failure
+  - cfEngine.Util.ValidationState.Success
+  langs:
+  - csharp
+  - vb
+  name: ValidationState
+  nameWithType: ValidationState
+  fullName: cfEngine.Util.ValidationState
+  type: Enum
+  source:
+    id: ValidationState
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/Validation.cs
+    startLine: 4
+  namespace: cfEngine.Util
+  syntax:
+    content: 'public enum ValidationState : byte'
+    content.vb: Public Enum ValidationState As Byte
+  extensionMethods:
+  - System.Enum.cfEngine.Extension.EnumExtension.hasFlag(System.Enum)
+- uid: cfEngine.Util.ValidationState.Success
+  commentId: F:cfEngine.Util.ValidationState.Success
+  id: Success
+  parent: cfEngine.Util.ValidationState
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: ValidationState.Success
+  fullName: cfEngine.Util.ValidationState.Success
+  type: Field
+  source:
+    id: Success
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/Validation.cs
+    startLine: 6
+  namespace: cfEngine.Util
+  syntax:
+    content: Success = 0
+    return:
+      type: cfEngine.Util.ValidationState
+- uid: cfEngine.Util.ValidationState.Failure
+  commentId: F:cfEngine.Util.ValidationState.Failure
+  id: Failure
+  parent: cfEngine.Util.ValidationState
+  langs:
+  - csharp
+  - vb
+  name: Failure
+  nameWithType: ValidationState.Failure
+  fullName: cfEngine.Util.ValidationState.Failure
+  type: Field
+  source:
+    id: Failure
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfEngine/util/Validation.cs
+    startLine: 7
+  namespace: cfEngine.Util
+  syntax:
+    content: Failure = 1
+    return:
+      type: cfEngine.Util.ValidationState
+references:
+- uid: cfEngine.Util
+  commentId: N:cfEngine.Util
+  href: cfEngine.html
+  name: cfEngine.Util
+  nameWithType: cfEngine.Util
+  fullName: cfEngine.Util
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Util
+    name: Util
+    href: cfEngine.Util.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Util
+    name: Util
+    href: cfEngine.Util.html
+- uid: System.Enum.cfEngine.Extension.EnumExtension.hasFlag(System.Enum)
+  commentId: M:cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+  parent: cfEngine.Extension.EnumExtension
+  definition: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+  href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  name: hasFlag(Enum, Enum)
+  nameWithType: EnumExtension.hasFlag(Enum, Enum)
+  fullName: cfEngine.Extension.EnumExtension.hasFlag(System.Enum, System.Enum)
+  spec.csharp:
+  - uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+    name: hasFlag
+    href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+    name: hasFlag
+    href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+  commentId: M:cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+  isExternal: true
+  href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  name: hasFlag(Enum, Enum)
+  nameWithType: EnumExtension.hasFlag(Enum, Enum)
+  fullName: cfEngine.Extension.EnumExtension.hasFlag(System.Enum, System.Enum)
+  spec.csharp:
+  - uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+    name: hasFlag
+    href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: cfEngine.Extension.EnumExtension.hasFlag(System.Enum,System.Enum)
+    name: hasFlag
+    href: cfEngine.Extension.EnumExtension.html#cfEngine_Extension_EnumExtension_hasFlag_System_Enum_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: ','
+  - name: " "
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: cfEngine.Extension.EnumExtension
+  commentId: T:cfEngine.Extension.EnumExtension
+  parent: cfEngine.Extension
+  href: cfEngine.Extension.EnumExtension.html
+  name: EnumExtension
+  nameWithType: EnumExtension
+  fullName: cfEngine.Extension.EnumExtension
+- uid: cfEngine.Extension
+  commentId: N:cfEngine.Extension
+  href: cfEngine.html
+  name: cfEngine.Extension
+  nameWithType: cfEngine.Extension
+  fullName: cfEngine.Extension
+  spec.csharp:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Extension
+    name: Extension
+    href: cfEngine.Extension.html
+  spec.vb:
+  - uid: cfEngine
+    name: cfEngine
+    href: cfEngine.html
+  - name: .
+  - uid: cfEngine.Extension
+    name: Extension
+    href: cfEngine.Extension.html
+- uid: cfEngine.Util.ValidationState
+  commentId: T:cfEngine.Util.ValidationState
+  parent: cfEngine.Util
+  href: cfEngine.Util.ValidationState.html
+  name: ValidationState
+  nameWithType: ValidationState
+  fullName: cfEngine.Util.ValidationState

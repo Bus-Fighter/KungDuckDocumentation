@@ -1,0 +1,875 @@
+### YamlMime:ManagedReference
+items:
+- uid: cfUnityEngine.PropertyFloatBinder
+  commentId: T:cfUnityEngine.PropertyFloatBinder
+  id: PropertyFloatBinder
+  parent: cfUnityEngine
+  children:
+  - cfUnityEngine.PropertyFloatBinder.AddObservers(cfUnityEngine.IPropertySource)
+  - cfUnityEngine.PropertyFloatBinder.RemoveObservers(cfUnityEngine.IPropertySource)
+  langs:
+  - csharp
+  - vb
+  name: PropertyFloatBinder
+  nameWithType: PropertyFloatBinder
+  fullName: cfUnityEngine.PropertyFloatBinder
+  type: Class
+  source:
+    id: PropertyFloatBinder
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/binder/PropertyFloatBinder.cs
+    startLine: 2
+  namespace: cfUnityEngine
+  syntax:
+    content: 'public class PropertyFloatBinder : PropertyBinderBase<PropertyFloatResolver, float>, IPropertyBinder'
+    content.vb: Public Class PropertyFloatBinder Inherits PropertyBinderBase(Of PropertyFloatResolver, Single) Implements IPropertyBinder
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}
+  implements:
+  - cfUnityEngine.IPropertyBinder
+  inheritedMembers:
+  - cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.resolvers
+  - cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.BindSource(cfUnityEngine.IPropertySource)
+  - cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.OnSourcePropertyChanged(System.String,System.Single)
+  - cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.Resolve``2(System.Collections.Generic.IReadOnlyList{{TResolver}},System.String,{TValue})
+  - cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.AddObservers(cfUnityEngine.IPropertySource)
+  - cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.RemoveObservers(cfUnityEngine.IPropertySource)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: cfUnityEngine.PropertyFloatBinder.AddObservers(cfUnityEngine.IPropertySource)
+  commentId: M:cfUnityEngine.PropertyFloatBinder.AddObservers(cfUnityEngine.IPropertySource)
+  id: AddObservers(cfUnityEngine.IPropertySource)
+  parent: cfUnityEngine.PropertyFloatBinder
+  langs:
+  - csharp
+  - vb
+  name: AddObservers(IPropertySource)
+  nameWithType: PropertyFloatBinder.AddObservers(IPropertySource)
+  fullName: cfUnityEngine.PropertyFloatBinder.AddObservers(cfUnityEngine.IPropertySource)
+  type: Method
+  source:
+    id: AddObservers
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/binder/PropertyFloatBinder.cs
+    startLine: 4
+  namespace: cfUnityEngine
+  example: []
+  syntax:
+    content: protected override void AddObservers(IPropertySource source)
+    parameters:
+    - id: source
+      type: cfUnityEngine.IPropertySource
+    content.vb: Protected Overrides Sub AddObservers(source As IPropertySource)
+  overridden: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.AddObservers(cfUnityEngine.IPropertySource)
+  overload: cfUnityEngine.PropertyFloatBinder.AddObservers*
+- uid: cfUnityEngine.PropertyFloatBinder.RemoveObservers(cfUnityEngine.IPropertySource)
+  commentId: M:cfUnityEngine.PropertyFloatBinder.RemoveObservers(cfUnityEngine.IPropertySource)
+  id: RemoveObservers(cfUnityEngine.IPropertySource)
+  parent: cfUnityEngine.PropertyFloatBinder
+  langs:
+  - csharp
+  - vb
+  name: RemoveObservers(IPropertySource)
+  nameWithType: PropertyFloatBinder.RemoveObservers(IPropertySource)
+  fullName: cfUnityEngine.PropertyFloatBinder.RemoveObservers(cfUnityEngine.IPropertySource)
+  type: Method
+  source:
+    id: RemoveObservers
+    path: D:/Drive/Unity/KungDuckSimulator/Assets/Modules/cfUnityEngine/ui/binder/PropertyFloatBinder.cs
+    startLine: 9
+  namespace: cfUnityEngine
+  example: []
+  syntax:
+    content: protected override void RemoveObservers(IPropertySource source)
+    parameters:
+    - id: source
+      type: cfUnityEngine.IPropertySource
+    content.vb: Protected Overrides Sub RemoveObservers(source As IPropertySource)
+  overridden: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.RemoveObservers(cfUnityEngine.IPropertySource)
+  overload: cfUnityEngine.PropertyFloatBinder.RemoveObservers*
+references:
+- uid: cfUnityEngine
+  commentId: N:cfUnityEngine
+  href: cfUnityEngine.html
+  name: cfUnityEngine
+  nameWithType: cfUnityEngine
+  fullName: cfUnityEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}
+  commentId: T:cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}
+  parent: cfUnityEngine
+  definition: cfUnityEngine.PropertyBinderBase`2
+  href: cfUnityEngine.PropertyBinderBase-2.html
+  name: PropertyBinderBase<PropertyFloatResolver, float>
+  nameWithType: PropertyBinderBase<PropertyFloatResolver, float>
+  fullName: cfUnityEngine.PropertyBinderBase<cfUnityEngine.PropertyFloatResolver, float>
+  nameWithType.vb: PropertyBinderBase(Of PropertyFloatResolver, Single)
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of cfUnityEngine.PropertyFloatResolver, Single)
+  name.vb: PropertyBinderBase(Of PropertyFloatResolver, Single)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyBinderBase`2
+    name: PropertyBinderBase
+    href: cfUnityEngine.PropertyBinderBase-2.html
+  - name: <
+  - uid: cfUnityEngine.PropertyFloatResolver
+    name: PropertyFloatResolver
+    href: cfUnityEngine.PropertyFloatResolver.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.PropertyBinderBase`2
+    name: PropertyBinderBase
+    href: cfUnityEngine.PropertyBinderBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: cfUnityEngine.PropertyFloatResolver
+    name: PropertyFloatResolver
+    href: cfUnityEngine.PropertyFloatResolver.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: cfUnityEngine.IPropertyBinder
+  commentId: T:cfUnityEngine.IPropertyBinder
+  parent: cfUnityEngine
+  href: cfUnityEngine.IPropertyBinder.html
+  name: IPropertyBinder
+  nameWithType: IPropertyBinder
+  fullName: cfUnityEngine.IPropertyBinder
+- uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.resolvers
+  commentId: F:cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.resolvers
+  parent: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}
+  definition: cfUnityEngine.PropertyBinderBase`2.resolvers
+  href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_resolvers
+  name: resolvers
+  nameWithType: PropertyBinderBase<PropertyFloatResolver, float>.resolvers
+  fullName: cfUnityEngine.PropertyBinderBase<cfUnityEngine.PropertyFloatResolver, float>.resolvers
+  nameWithType.vb: PropertyBinderBase(Of PropertyFloatResolver, Single).resolvers
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of cfUnityEngine.PropertyFloatResolver, Single).resolvers
+- uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.BindSource(cfUnityEngine.IPropertySource)
+  commentId: M:cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.BindSource(cfUnityEngine.IPropertySource)
+  parent: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}
+  definition: cfUnityEngine.PropertyBinderBase`2.BindSource(cfUnityEngine.IPropertySource)
+  href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_BindSource_cfUnityEngine_IPropertySource_
+  name: BindSource(IPropertySource)
+  nameWithType: PropertyBinderBase<PropertyFloatResolver, float>.BindSource(IPropertySource)
+  fullName: cfUnityEngine.PropertyBinderBase<cfUnityEngine.PropertyFloatResolver, float>.BindSource(cfUnityEngine.IPropertySource)
+  nameWithType.vb: PropertyBinderBase(Of PropertyFloatResolver, Single).BindSource(IPropertySource)
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of cfUnityEngine.PropertyFloatResolver, Single).BindSource(cfUnityEngine.IPropertySource)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.BindSource(cfUnityEngine.IPropertySource)
+    name: BindSource
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_BindSource_cfUnityEngine_IPropertySource_
+  - name: (
+  - uid: cfUnityEngine.IPropertySource
+    name: IPropertySource
+    href: cfUnityEngine.IPropertySource.html
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.BindSource(cfUnityEngine.IPropertySource)
+    name: BindSource
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_BindSource_cfUnityEngine_IPropertySource_
+  - name: (
+  - uid: cfUnityEngine.IPropertySource
+    name: IPropertySource
+    href: cfUnityEngine.IPropertySource.html
+  - name: )
+- uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.OnSourcePropertyChanged(System.String,System.Single)
+  commentId: M:cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.OnSourcePropertyChanged(System.String,System.Single)
+  parent: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}
+  definition: cfUnityEngine.PropertyBinderBase`2.OnSourcePropertyChanged(System.String,`1)
+  href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_OnSourcePropertyChanged_System_String__1_
+  name: OnSourcePropertyChanged(string, float)
+  nameWithType: PropertyBinderBase<PropertyFloatResolver, float>.OnSourcePropertyChanged(string, float)
+  fullName: cfUnityEngine.PropertyBinderBase<cfUnityEngine.PropertyFloatResolver, float>.OnSourcePropertyChanged(string, float)
+  nameWithType.vb: PropertyBinderBase(Of PropertyFloatResolver, Single).OnSourcePropertyChanged(String, Single)
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of cfUnityEngine.PropertyFloatResolver, Single).OnSourcePropertyChanged(String, Single)
+  name.vb: OnSourcePropertyChanged(String, Single)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.OnSourcePropertyChanged(System.String,System.Single)
+    name: OnSourcePropertyChanged
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_OnSourcePropertyChanged_System_String__1_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.OnSourcePropertyChanged(System.String,System.Single)
+    name: OnSourcePropertyChanged
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_OnSourcePropertyChanged_System_String__1_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.Resolve``2(System.Collections.Generic.IReadOnlyList{{TResolver}},System.String,{TValue})
+  commentId: M:cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.Resolve``2(System.Collections.Generic.IReadOnlyList{``0},System.String,``1)
+  parent: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}
+  definition: cfUnityEngine.PropertyBinderBase`2.Resolve``2(System.Collections.Generic.IReadOnlyList{``0},System.String,``1)
+  href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_Resolve__2_System_Collections_Generic_IReadOnlyList___0__System_String___1_
+  name: Resolve<TResolver, TValue>(IReadOnlyList<TResolver>, string, TValue)
+  nameWithType: PropertyBinderBase<PropertyFloatResolver, float>.Resolve<TResolver, TValue>(IReadOnlyList<TResolver>, string, TValue)
+  fullName: cfUnityEngine.PropertyBinderBase<cfUnityEngine.PropertyFloatResolver, float>.Resolve<TResolver, TValue>(System.Collections.Generic.IReadOnlyList<TResolver>, string, TValue)
+  nameWithType.vb: PropertyBinderBase(Of PropertyFloatResolver, Single).Resolve(Of TResolver, TValue)(IReadOnlyList(Of TResolver), String, TValue)
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of cfUnityEngine.PropertyFloatResolver, Single).Resolve(Of TResolver, TValue)(System.Collections.Generic.IReadOnlyList(Of TResolver), String, TValue)
+  name.vb: Resolve(Of TResolver, TValue)(IReadOnlyList(Of TResolver), String, TValue)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.Resolve``2(System.Collections.Generic.IReadOnlyList{``0},System.String,``1)
+    name: Resolve
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_Resolve__2_System_Collections_Generic_IReadOnlyList___0__System_String___1_
+  - name: <
+  - name: TResolver
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: TResolver
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.Resolve``2(System.Collections.Generic.IReadOnlyList{``0},System.String,``1)
+    name: Resolve
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_Resolve__2_System_Collections_Generic_IReadOnlyList___0__System_String___1_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResolver
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResolver
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.AddObservers(cfUnityEngine.IPropertySource)
+  commentId: M:cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.AddObservers(cfUnityEngine.IPropertySource)
+  parent: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}
+  definition: cfUnityEngine.PropertyBinderBase`2.AddObservers(cfUnityEngine.IPropertySource)
+  href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_AddObservers_cfUnityEngine_IPropertySource_
+  name: AddObservers(IPropertySource)
+  nameWithType: PropertyBinderBase<PropertyFloatResolver, float>.AddObservers(IPropertySource)
+  fullName: cfUnityEngine.PropertyBinderBase<cfUnityEngine.PropertyFloatResolver, float>.AddObservers(cfUnityEngine.IPropertySource)
+  nameWithType.vb: PropertyBinderBase(Of PropertyFloatResolver, Single).AddObservers(IPropertySource)
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of cfUnityEngine.PropertyFloatResolver, Single).AddObservers(cfUnityEngine.IPropertySource)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.AddObservers(cfUnityEngine.IPropertySource)
+    name: AddObservers
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_AddObservers_cfUnityEngine_IPropertySource_
+  - name: (
+  - uid: cfUnityEngine.IPropertySource
+    name: IPropertySource
+    href: cfUnityEngine.IPropertySource.html
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.AddObservers(cfUnityEngine.IPropertySource)
+    name: AddObservers
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_AddObservers_cfUnityEngine_IPropertySource_
+  - name: (
+  - uid: cfUnityEngine.IPropertySource
+    name: IPropertySource
+    href: cfUnityEngine.IPropertySource.html
+  - name: )
+- uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.RemoveObservers(cfUnityEngine.IPropertySource)
+  commentId: M:cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.RemoveObservers(cfUnityEngine.IPropertySource)
+  parent: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}
+  definition: cfUnityEngine.PropertyBinderBase`2.RemoveObservers(cfUnityEngine.IPropertySource)
+  href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_RemoveObservers_cfUnityEngine_IPropertySource_
+  name: RemoveObservers(IPropertySource)
+  nameWithType: PropertyBinderBase<PropertyFloatResolver, float>.RemoveObservers(IPropertySource)
+  fullName: cfUnityEngine.PropertyBinderBase<cfUnityEngine.PropertyFloatResolver, float>.RemoveObservers(cfUnityEngine.IPropertySource)
+  nameWithType.vb: PropertyBinderBase(Of PropertyFloatResolver, Single).RemoveObservers(IPropertySource)
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of cfUnityEngine.PropertyFloatResolver, Single).RemoveObservers(cfUnityEngine.IPropertySource)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.RemoveObservers(cfUnityEngine.IPropertySource)
+    name: RemoveObservers
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_RemoveObservers_cfUnityEngine_IPropertySource_
+  - name: (
+  - uid: cfUnityEngine.IPropertySource
+    name: IPropertySource
+    href: cfUnityEngine.IPropertySource.html
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyBinderBase{cfUnityEngine.PropertyFloatResolver,System.Single}.RemoveObservers(cfUnityEngine.IPropertySource)
+    name: RemoveObservers
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_RemoveObservers_cfUnityEngine_IPropertySource_
+  - name: (
+  - uid: cfUnityEngine.IPropertySource
+    name: IPropertySource
+    href: cfUnityEngine.IPropertySource.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: cfUnityEngine.PropertyBinderBase`2
+  commentId: T:cfUnityEngine.PropertyBinderBase`2
+  href: cfUnityEngine.PropertyBinderBase-2.html
+  name: PropertyBinderBase<T, TValueType>
+  nameWithType: PropertyBinderBase<T, TValueType>
+  fullName: cfUnityEngine.PropertyBinderBase<T, TValueType>
+  nameWithType.vb: PropertyBinderBase(Of T, TValueType)
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of T, TValueType)
+  name.vb: PropertyBinderBase(Of T, TValueType)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyBinderBase`2
+    name: PropertyBinderBase
+    href: cfUnityEngine.PropertyBinderBase-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TValueType
+  - name: '>'
+  spec.vb:
+  - uid: cfUnityEngine.PropertyBinderBase`2
+    name: PropertyBinderBase
+    href: cfUnityEngine.PropertyBinderBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TValueType
+  - name: )
+- uid: cfUnityEngine.PropertyBinderBase`2.resolvers
+  commentId: F:cfUnityEngine.PropertyBinderBase`2.resolvers
+  href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_resolvers
+  name: resolvers
+  nameWithType: PropertyBinderBase<T, TValueType>.resolvers
+  fullName: cfUnityEngine.PropertyBinderBase<T, TValueType>.resolvers
+  nameWithType.vb: PropertyBinderBase(Of T, TValueType).resolvers
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of T, TValueType).resolvers
+- uid: cfUnityEngine.PropertyBinderBase`2.BindSource(cfUnityEngine.IPropertySource)
+  commentId: M:cfUnityEngine.PropertyBinderBase`2.BindSource(cfUnityEngine.IPropertySource)
+  href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_BindSource_cfUnityEngine_IPropertySource_
+  name: BindSource(IPropertySource)
+  nameWithType: PropertyBinderBase<T, TValueType>.BindSource(IPropertySource)
+  fullName: cfUnityEngine.PropertyBinderBase<T, TValueType>.BindSource(cfUnityEngine.IPropertySource)
+  nameWithType.vb: PropertyBinderBase(Of T, TValueType).BindSource(IPropertySource)
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of T, TValueType).BindSource(cfUnityEngine.IPropertySource)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyBinderBase`2.BindSource(cfUnityEngine.IPropertySource)
+    name: BindSource
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_BindSource_cfUnityEngine_IPropertySource_
+  - name: (
+  - uid: cfUnityEngine.IPropertySource
+    name: IPropertySource
+    href: cfUnityEngine.IPropertySource.html
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyBinderBase`2.BindSource(cfUnityEngine.IPropertySource)
+    name: BindSource
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_BindSource_cfUnityEngine_IPropertySource_
+  - name: (
+  - uid: cfUnityEngine.IPropertySource
+    name: IPropertySource
+    href: cfUnityEngine.IPropertySource.html
+  - name: )
+- uid: cfUnityEngine.PropertyBinderBase`2.OnSourcePropertyChanged(System.String,`1)
+  commentId: M:cfUnityEngine.PropertyBinderBase`2.OnSourcePropertyChanged(System.String,`1)
+  isExternal: true
+  href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_OnSourcePropertyChanged_System_String__1_
+  name: OnSourcePropertyChanged(string, TValueType)
+  nameWithType: PropertyBinderBase<T, TValueType>.OnSourcePropertyChanged(string, TValueType)
+  fullName: cfUnityEngine.PropertyBinderBase<T, TValueType>.OnSourcePropertyChanged(string, TValueType)
+  nameWithType.vb: PropertyBinderBase(Of T, TValueType).OnSourcePropertyChanged(String, TValueType)
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of T, TValueType).OnSourcePropertyChanged(String, TValueType)
+  name.vb: OnSourcePropertyChanged(String, TValueType)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyBinderBase`2.OnSourcePropertyChanged(System.String,`1)
+    name: OnSourcePropertyChanged
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_OnSourcePropertyChanged_System_String__1_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TValueType
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyBinderBase`2.OnSourcePropertyChanged(System.String,`1)
+    name: OnSourcePropertyChanged
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_OnSourcePropertyChanged_System_String__1_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TValueType
+  - name: )
+- uid: cfUnityEngine.PropertyBinderBase`2.Resolve``2(System.Collections.Generic.IReadOnlyList{``0},System.String,``1)
+  commentId: M:cfUnityEngine.PropertyBinderBase`2.Resolve``2(System.Collections.Generic.IReadOnlyList{``0},System.String,``1)
+  isExternal: true
+  href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_Resolve__2_System_Collections_Generic_IReadOnlyList___0__System_String___1_
+  name: Resolve<TResolver, TValue>(IReadOnlyList<TResolver>, string, TValue)
+  nameWithType: PropertyBinderBase<T, TValueType>.Resolve<TResolver, TValue>(IReadOnlyList<TResolver>, string, TValue)
+  fullName: cfUnityEngine.PropertyBinderBase<T, TValueType>.Resolve<TResolver, TValue>(System.Collections.Generic.IReadOnlyList<TResolver>, string, TValue)
+  nameWithType.vb: PropertyBinderBase(Of T, TValueType).Resolve(Of TResolver, TValue)(IReadOnlyList(Of TResolver), String, TValue)
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of T, TValueType).Resolve(Of TResolver, TValue)(System.Collections.Generic.IReadOnlyList(Of TResolver), String, TValue)
+  name.vb: Resolve(Of TResolver, TValue)(IReadOnlyList(Of TResolver), String, TValue)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyBinderBase`2.Resolve``2(System.Collections.Generic.IReadOnlyList{``0},System.String,``1)
+    name: Resolve
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_Resolve__2_System_Collections_Generic_IReadOnlyList___0__System_String___1_
+  - name: <
+  - name: TResolver
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: (
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: TResolver
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyBinderBase`2.Resolve``2(System.Collections.Generic.IReadOnlyList{``0},System.String,``1)
+    name: Resolve
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_Resolve__2_System_Collections_Generic_IReadOnlyList___0__System_String___1_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResolver
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResolver
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: cfUnityEngine.PropertyBinderBase`2.AddObservers(cfUnityEngine.IPropertySource)
+  commentId: M:cfUnityEngine.PropertyBinderBase`2.AddObservers(cfUnityEngine.IPropertySource)
+  href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_AddObservers_cfUnityEngine_IPropertySource_
+  name: AddObservers(IPropertySource)
+  nameWithType: PropertyBinderBase<T, TValueType>.AddObservers(IPropertySource)
+  fullName: cfUnityEngine.PropertyBinderBase<T, TValueType>.AddObservers(cfUnityEngine.IPropertySource)
+  nameWithType.vb: PropertyBinderBase(Of T, TValueType).AddObservers(IPropertySource)
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of T, TValueType).AddObservers(cfUnityEngine.IPropertySource)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyBinderBase`2.AddObservers(cfUnityEngine.IPropertySource)
+    name: AddObservers
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_AddObservers_cfUnityEngine_IPropertySource_
+  - name: (
+  - uid: cfUnityEngine.IPropertySource
+    name: IPropertySource
+    href: cfUnityEngine.IPropertySource.html
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyBinderBase`2.AddObservers(cfUnityEngine.IPropertySource)
+    name: AddObservers
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_AddObservers_cfUnityEngine_IPropertySource_
+  - name: (
+  - uid: cfUnityEngine.IPropertySource
+    name: IPropertySource
+    href: cfUnityEngine.IPropertySource.html
+  - name: )
+- uid: cfUnityEngine.PropertyBinderBase`2.RemoveObservers(cfUnityEngine.IPropertySource)
+  commentId: M:cfUnityEngine.PropertyBinderBase`2.RemoveObservers(cfUnityEngine.IPropertySource)
+  href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_RemoveObservers_cfUnityEngine_IPropertySource_
+  name: RemoveObservers(IPropertySource)
+  nameWithType: PropertyBinderBase<T, TValueType>.RemoveObservers(IPropertySource)
+  fullName: cfUnityEngine.PropertyBinderBase<T, TValueType>.RemoveObservers(cfUnityEngine.IPropertySource)
+  nameWithType.vb: PropertyBinderBase(Of T, TValueType).RemoveObservers(IPropertySource)
+  fullName.vb: cfUnityEngine.PropertyBinderBase(Of T, TValueType).RemoveObservers(cfUnityEngine.IPropertySource)
+  spec.csharp:
+  - uid: cfUnityEngine.PropertyBinderBase`2.RemoveObservers(cfUnityEngine.IPropertySource)
+    name: RemoveObservers
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_RemoveObservers_cfUnityEngine_IPropertySource_
+  - name: (
+  - uid: cfUnityEngine.IPropertySource
+    name: IPropertySource
+    href: cfUnityEngine.IPropertySource.html
+  - name: )
+  spec.vb:
+  - uid: cfUnityEngine.PropertyBinderBase`2.RemoveObservers(cfUnityEngine.IPropertySource)
+    name: RemoveObservers
+    href: cfUnityEngine.PropertyBinderBase-2.html#cfUnityEngine_PropertyBinderBase_2_RemoveObservers_cfUnityEngine_IPropertySource_
+  - name: (
+  - uid: cfUnityEngine.IPropertySource
+    name: IPropertySource
+    href: cfUnityEngine.IPropertySource.html
+  - name: )
+- uid: cfUnityEngine.PropertyFloatBinder.AddObservers*
+  commentId: Overload:cfUnityEngine.PropertyFloatBinder.AddObservers
+  href: cfUnityEngine.PropertyFloatBinder.html#cfUnityEngine_PropertyFloatBinder_AddObservers_cfUnityEngine_IPropertySource_
+  name: AddObservers
+  nameWithType: PropertyFloatBinder.AddObservers
+  fullName: cfUnityEngine.PropertyFloatBinder.AddObservers
+- uid: cfUnityEngine.IPropertySource
+  commentId: T:cfUnityEngine.IPropertySource
+  parent: cfUnityEngine
+  href: cfUnityEngine.IPropertySource.html
+  name: IPropertySource
+  nameWithType: IPropertySource
+  fullName: cfUnityEngine.IPropertySource
+- uid: cfUnityEngine.PropertyFloatBinder.RemoveObservers*
+  commentId: Overload:cfUnityEngine.PropertyFloatBinder.RemoveObservers
+  href: cfUnityEngine.PropertyFloatBinder.html#cfUnityEngine_PropertyFloatBinder_RemoveObservers_cfUnityEngine_IPropertySource_
+  name: RemoveObservers
+  nameWithType: PropertyFloatBinder.RemoveObservers
+  fullName: cfUnityEngine.PropertyFloatBinder.RemoveObservers
